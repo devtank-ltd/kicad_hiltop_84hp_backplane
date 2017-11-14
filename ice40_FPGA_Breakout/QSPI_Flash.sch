@@ -1,9 +1,9 @@
 EESchema Schematic File Version 2
+LIBS:Devtank
 LIBS:power
 LIBS:device
 LIBS:switches
 LIBS:relays
-LIBS:motors
 LIBS:transistors
 LIBS:conn
 LIBS:linear
@@ -31,16 +31,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:DevtankProject-cache
+LIBS:ice40-hx8K_breakout_brd-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
-Title "Project X"
+Sheet 1 7
+Title ""
 Date ""
-Rev "Draft"
-Comp "Devtank Ltd"
+Rev ""
+Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
