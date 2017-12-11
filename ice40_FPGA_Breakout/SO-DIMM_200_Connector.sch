@@ -127,10 +127,6 @@ F 3 "" H 11350 2950 60  0001 C CNN
 	1    11200 2950
 	0    1    1    0   
 $EndComp
-Text HLabel 10850 1300 1    60   Input ~ 0
-LVPECLK+
-Text HLabel 10750 1300 1    60   Input ~ 0
-LVPECLK-
 $Comp
 L C 10uF
 U 1 1 5A418459
@@ -385,9 +381,7 @@ F 3 "" H 11050 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	800  4200 800  4300
-Wire Wire Line
-	800  4300 800  4600
+	800  4200 800  4600
 Wire Wire Line
 	10950 4450 10950 4200
 Wire Wire Line
@@ -439,9 +433,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 4450 2300 4200
 Wire Wire Line
-	1500 4200 1500 4300
-Wire Wire Line
-	1500 4300 1500 4600
+	1500 4200 1500 4600
 Wire Wire Line
 	2600 1500 2600 1700
 Wire Wire Line
@@ -499,23 +491,13 @@ Wire Wire Line
 Wire Wire Line
 	10950 1500 10950 1700
 Wire Wire Line
-	1800 4200 1800 4300
-Wire Wire Line
-	1800 4300 1800 4600
+	1800 4200 1800 4600
 Wire Wire Line
 	10850 1700 10850 1300
 Wire Wire Line
 	10750 1700 10750 1300
 Wire Wire Line
-	1750 5400 1950 5400
-Wire Wire Line
-	1950 5400 2200 5400
-Wire Wire Line
-	2200 5400 2450 5400
-Wire Wire Line
-	2450 5400 2700 5400
-Wire Wire Line
-	2700 5400 2800 5400
+	1750 5400 2800 5400
 Wire Wire Line
 	2700 5400 2700 5450
 Wire Wire Line
@@ -530,13 +512,7 @@ Connection ~ 1950 5400
 Wire Wire Line
 	1950 5750 1950 5800
 Wire Wire Line
-	1950 5800 2200 5800
-Wire Wire Line
-	2200 5800 2450 5800
-Wire Wire Line
-	2450 5800 2700 5800
-Wire Wire Line
-	2700 5800 2850 5800
+	1950 5800 2850 5800
 Wire Wire Line
 	2700 5750 2700 5800
 Connection ~ 2700 5800
@@ -549,15 +525,7 @@ Connection ~ 2200 5800
 Wire Wire Line
 	2700 5950 2700 6000
 Wire Wire Line
-	1750 5950 1950 5950
-Wire Wire Line
-	1950 5950 2200 5950
-Wire Wire Line
-	2200 5950 2450 5950
-Wire Wire Line
-	2450 5950 2700 5950
-Wire Wire Line
-	2700 5950 2800 5950
+	1750 5950 2800 5950
 Wire Wire Line
 	1950 6000 1950 5950
 Connection ~ 1950 5950
@@ -570,13 +538,7 @@ Connection ~ 2450 5950
 Wire Wire Line
 	1950 6300 1950 6350
 Wire Wire Line
-	1950 6350 2200 6350
-Wire Wire Line
-	2200 6350 2450 6350
-Wire Wire Line
-	2450 6350 2700 6350
-Wire Wire Line
-	2700 6350 2850 6350
+	1950 6350 2850 6350
 Wire Wire Line
 	2700 6300 2700 6350
 Connection ~ 2700 6350
@@ -589,15 +551,7 @@ Connection ~ 2200 6350
 Wire Wire Line
 	2700 6500 2700 6550
 Wire Wire Line
-	1750 6500 1950 6500
-Wire Wire Line
-	1950 6500 2200 6500
-Wire Wire Line
-	2200 6500 2450 6500
-Wire Wire Line
-	2450 6500 2700 6500
-Wire Wire Line
-	2700 6500 2800 6500
+	1750 6500 2800 6500
 Wire Wire Line
 	1950 6550 1950 6500
 Connection ~ 1950 6500
@@ -610,13 +564,7 @@ Connection ~ 2450 6500
 Wire Wire Line
 	1950 6850 1950 6900
 Wire Wire Line
-	1950 6900 2200 6900
-Wire Wire Line
-	2200 6900 2450 6900
-Wire Wire Line
-	2450 6900 2700 6900
-Wire Wire Line
-	2700 6900 2850 6900
+	1950 6900 2850 6900
 Wire Wire Line
 	2700 6850 2700 6900
 Connection ~ 2700 6900
@@ -629,15 +577,7 @@ Connection ~ 2200 6900
 Wire Wire Line
 	2700 7100 2700 7150
 Wire Wire Line
-	1750 7100 1950 7100
-Wire Wire Line
-	1950 7100 2200 7100
-Wire Wire Line
-	2200 7100 2450 7100
-Wire Wire Line
-	2450 7100 2700 7100
-Wire Wire Line
-	2700 7100 2800 7100
+	1750 7100 2800 7100
 Wire Wire Line
 	1950 7150 1950 7100
 Connection ~ 1950 7100
@@ -650,13 +590,7 @@ Connection ~ 2450 7100
 Wire Wire Line
 	1950 7450 1950 7500
 Wire Wire Line
-	1950 7500 2200 7500
-Wire Wire Line
-	2200 7500 2450 7500
-Wire Wire Line
-	2450 7500 2700 7500
-Wire Wire Line
-	2700 7500 2850 7500
+	1950 7500 2850 7500
 Wire Wire Line
 	2700 7450 2700 7500
 Connection ~ 2700 7500
@@ -673,17 +607,13 @@ Wire Wire Line
 Wire Wire Line
 	1700 1500 1700 1700
 Wire Wire Line
-	1500 1350 1500 1600
-Wire Wire Line
-	1500 1600 1500 1700
+	1500 1350 1500 1700
 Wire Wire Line
 	1400 1500 1400 1700
 Wire Wire Line
 	1300 1700 1300 1350
 Wire Wire Line
-	800  1350 800  1600
-Wire Wire Line
-	800  1600 800  1700
+	800  1350 800  1700
 Connection ~ 2700 5400
 Connection ~ 2700 7100
 Connection ~ 2700 5950
@@ -691,11 +621,7 @@ Connection ~ 2700 6500
 Wire Wire Line
 	900  4200 900  4300
 Wire Wire Line
-	800  4300 900  4300
-Wire Wire Line
-	900  4300 1100 4300
-Wire Wire Line
-	1100 4300 1200 4300
+	800  4300 1200 4300
 Connection ~ 800  4300
 Wire Wire Line
 	1100 4300 1100 4200
@@ -716,71 +642,7 @@ Connection ~ 1800 4300
 Wire Wire Line
 	2000 4450 2000 4200
 Wire Wire Line
-	1000 4450 1400 4450
-Wire Wire Line
-	1400 4450 1700 4450
-Wire Wire Line
-	1700 4450 2000 4450
-Wire Wire Line
-	2000 4450 2300 4450
-Wire Wire Line
-	2300 4450 2600 4450
-Wire Wire Line
-	2600 4450 2900 4450
-Wire Wire Line
-	2900 4450 3200 4450
-Wire Wire Line
-	3200 4450 3500 4450
-Wire Wire Line
-	3500 4450 3800 4450
-Wire Wire Line
-	3800 4450 4100 4450
-Wire Wire Line
-	4100 4450 4400 4450
-Wire Wire Line
-	4400 4450 4700 4450
-Wire Wire Line
-	4700 4450 5000 4450
-Wire Wire Line
-	5000 4450 5300 4450
-Wire Wire Line
-	5300 4450 5600 4450
-Wire Wire Line
-	5600 4450 5900 4450
-Wire Wire Line
-	5900 4450 6200 4450
-Wire Wire Line
-	6200 4450 6500 4450
-Wire Wire Line
-	6500 4450 6800 4450
-Wire Wire Line
-	6800 4450 7100 4450
-Wire Wire Line
-	7100 4450 7400 4450
-Wire Wire Line
-	7400 4450 7700 4450
-Wire Wire Line
-	7700 4450 8000 4450
-Wire Wire Line
-	8000 4450 8300 4450
-Wire Wire Line
-	8300 4450 8600 4450
-Wire Wire Line
-	8600 4450 9150 4450
-Wire Wire Line
-	9150 4450 9450 4450
-Wire Wire Line
-	9450 4450 9750 4450
-Wire Wire Line
-	9750 4450 10050 4450
-Wire Wire Line
-	10050 4450 10350 4450
-Wire Wire Line
-	10350 4450 10650 4450
-Wire Wire Line
-	10650 4450 10950 4450
-Wire Wire Line
-	10950 4450 11050 4450
+	1000 4450 11050 4450
 Wire Wire Line
 	1400 4200 1400 4450
 Wire Wire Line
@@ -824,82 +686,14 @@ Wire Wire Line
 	10350 4200 10350 4450
 Connection ~ 10350 4450
 Wire Wire Line
-	1000 1500 1400 1500
-Wire Wire Line
-	1400 1500 1700 1500
-Wire Wire Line
-	1700 1500 2000 1500
-Wire Wire Line
-	2000 1500 2300 1500
-Wire Wire Line
-	2300 1500 2600 1500
-Wire Wire Line
-	2600 1500 2900 1500
-Wire Wire Line
-	2900 1500 3200 1500
-Wire Wire Line
-	3200 1500 3500 1500
-Wire Wire Line
-	3500 1500 3800 1500
-Wire Wire Line
-	3800 1500 4100 1500
-Wire Wire Line
-	4100 1500 4400 1500
-Wire Wire Line
-	4400 1500 4700 1500
-Wire Wire Line
-	4700 1500 5000 1500
-Wire Wire Line
-	5000 1500 5300 1500
-Wire Wire Line
-	5300 1500 5600 1500
-Wire Wire Line
-	5600 1500 5900 1500
-Wire Wire Line
-	5900 1500 6200 1500
-Wire Wire Line
-	6200 1500 6500 1500
-Wire Wire Line
-	6500 1500 6800 1500
-Wire Wire Line
-	6800 1500 7100 1500
-Wire Wire Line
-	7100 1500 7400 1500
-Wire Wire Line
-	7400 1500 7700 1500
-Wire Wire Line
-	7700 1500 8000 1500
-Wire Wire Line
-	8000 1500 8300 1500
-Wire Wire Line
-	8300 1500 8600 1500
-Wire Wire Line
-	8600 1500 9150 1500
-Wire Wire Line
-	9150 1500 9450 1500
-Wire Wire Line
-	9450 1500 9750 1500
-Wire Wire Line
-	9750 1500 10050 1500
-Wire Wire Line
-	10050 1500 10350 1500
-Wire Wire Line
-	10350 1500 10650 1500
-Wire Wire Line
-	10650 1500 10950 1500
-Wire Wire Line
-	10950 1500 11100 1500
+	1000 1500 11100 1500
 Connection ~ 10650 1500
 Connection ~ 10350 1500
 Connection ~ 10050 1500
 Wire Wire Line
 	900  1600 900  1700
 Wire Wire Line
-	800  1600 900  1600
-Wire Wire Line
-	900  1600 1100 1600
-Wire Wire Line
-	1100 1600 1200 1600
+	800  1600 1200 1600
 Connection ~ 800  1600
 Connection ~ 1400 1500
 Wire Wire Line
@@ -958,9 +752,7 @@ Wire Wire Line
 	1600 1600 1500 1600
 Connection ~ 1500 1600
 Wire Wire Line
-	1800 1350 1800 1600
-Wire Wire Line
-	1800 1600 1800 1700
+	1800 1350 1800 1700
 Wire Wire Line
 	1900 1700 1900 1600
 Wire Wire Line
@@ -983,9 +775,9 @@ Text GLabel 1500 1350 1    39   Input ~ 0
 Text GLabel 1800 1350 1    39   Input ~ 0
 1V2_EXT_IN
 Text GLabel 2200 1350 1    39   Input ~ 0
-USB_D+
+EXT_USB_D+
 Text GLabel 2100 1350 1    39   Input ~ 0
-USB_D-
+EXT_USB_D-
 Wire Wire Line
 	1000 4200 1000 4450
 Connection ~ 1400 4450
@@ -1045,4 +837,102 @@ Wire Wire Line
 	1350 6500 1450 6500
 Wire Wire Line
 	1350 7100 1450 7100
+Text GLabel 10750 1300 1    39   Input ~ 0
+LVPECLK-
+Text GLabel 10850 1300 1    39   Input ~ 0
+LVPECLK+
+Text GLabel 2100 4650 3    39   Input ~ 0
+EXT_SPI_MISO
+Text GLabel 2200 4650 3    39   Input ~ 0
+EXT_SPI_MOSI
+Text GLabel 2400 4650 3    39   Input ~ 0
+EXT_SPI_SS
+Text GLabel 2300 4650 3    39   Input ~ 0
+EXT_SPI_SCK
+Text GLabel 2500 4650 3    39   Input ~ 0
+EXT_RESET
+Text GLabel 7050 6050 3    28   Input ~ 0
+LVDS_1_D-
+Text GLabel 7100 6050 3    28   Input ~ 0
+LVDS_1_D+
+Text GLabel 7250 6050 3    28   Input ~ 0
+LVDS_2_D-
+Text GLabel 7450 6050 3    28   Input ~ 0
+LVDS_3_D-
+Text GLabel 7650 6050 3    28   Input ~ 0
+LVDS_4_D-
+Text GLabel 7850 6050 3    28   Input ~ 0
+LVDS_5_D-
+Text GLabel 8050 6050 3    28   Input ~ 0
+LVDS_6_D-
+Text GLabel 8250 6050 3    28   Input ~ 0
+LVDS_7_D-
+Text GLabel 8450 6050 3    28   Input ~ 0
+LVDS_8_D-
+Text GLabel 8650 6050 3    28   Input ~ 0
+LVDS_9_D-
+Text GLabel 8850 6050 3    28   Input ~ 0
+LVDS_10_D-
+Text GLabel 9050 6050 3    28   Input ~ 0
+LVDS_11_D-
+Text GLabel 9250 6050 3    28   Input ~ 0
+LVDS_12_D-
+Text GLabel 9300 6050 3    28   Input ~ 0
+LVDS_12_D+
+Text GLabel 9100 6050 3    28   Input ~ 0
+LVDS_11_D+
+Text GLabel 8900 6050 3    28   Input ~ 0
+LVDS_10_D+
+Text GLabel 8700 6050 3    28   Input ~ 0
+LVDS_9_D+
+Text GLabel 8500 6050 3    28   Input ~ 0
+LVDS_8_D+
+Text GLabel 8300 6050 3    28   Input ~ 0
+LVDS_7_D+
+Text GLabel 8100 6050 3    28   Input ~ 0
+LVDS_6_D+
+Text GLabel 7900 6050 3    28   Input ~ 0
+LVDS_5_D+
+Text GLabel 7700 6050 3    28   Input ~ 0
+LVDS_4_D+
+Text GLabel 7500 6050 3    28   Input ~ 0
+LVDS_3_D+
+Text GLabel 7300 6050 3    28   Input ~ 0
+LVDS_2_D+
+Text GLabel 9650 6050 3    28   Input ~ 0
+LVDS_13_D-
+Text GLabel 9700 6050 3    28   Input ~ 0
+LVDS_13_D+
+Text GLabel 9450 6050 3    28   Input ~ 0
+LVPECLK+
+Text GLabel 9500 6050 3    28   Input ~ 0
+LVPECLK-
+Text GLabel 11100 6050 3    28   Input ~ 0
+LVDS_14_D-
+Text GLabel 10900 6050 3    28   Input ~ 0
+LVDS_15_D-
+Text GLabel 10700 6050 3    28   Input ~ 0
+LVDS_16_D-
+Text GLabel 10500 6050 3    28   Input ~ 0
+LVDS_17_D-
+Text GLabel 10300 6050 3    28   Input ~ 0
+LVDS_18_D-
+Text GLabel 10100 6050 3    28   Input ~ 0
+LVDS_19_D-
+Text GLabel 10050 6050 3    28   Input ~ 0
+LVDS_19_D+
+Text GLabel 9900 6050 3    28   Input ~ 0
+LVDS_20_D-
+Text GLabel 9850 6050 3    28   Input ~ 0
+LVDS_20_D+
+Text GLabel 11050 6050 3    28   Input ~ 0
+LVDS_14_D+
+Text GLabel 10850 6050 3    28   Input ~ 0
+LVDS_15_D+
+Text GLabel 10650 6050 3    28   Input ~ 0
+LVDS_16_D+
+Text GLabel 10450 6050 3    28   Input ~ 0
+LVDS_17_D+
+Text GLabel 10250 6050 3    28   Input ~ 0
+LVDS_18_D+
 $EndSCHEMATC
