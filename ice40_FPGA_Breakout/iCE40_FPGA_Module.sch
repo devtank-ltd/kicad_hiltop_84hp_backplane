@@ -128,10 +128,10 @@ F 3 "" H 2950 600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L GND #PWR02
 U 1 1 5A263712
 P 4800 4150
-F 0 "#PWR01" H 4800 3900 50  0001 C CNN
+F 0 "#PWR02" H 4800 3900 50  0001 C CNN
 F 1 "GND" H 4800 4000 50  0000 C CNN
 F 2 "" H 4800 4150 50  0001 C CNN
 F 3 "" H 4800 4150 50  0001 C CNN
@@ -955,10 +955,10 @@ F 3 "" H 8200 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR03
 U 1 1 5A3E2FC7
 P 7450 6300
-F 0 "#PWR?" H 7450 6050 50  0001 C CNN
+F 0 "#PWR03" H 7450 6050 50  0001 C CNN
 F 1 "GND" H 7450 6150 50  0000 C CNN
 F 2 "" H 7450 6300 50  0001 C CNN
 F 3 "" H 7450 6300 50  0001 C CNN
@@ -966,10 +966,10 @@ F 3 "" H 7450 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR04
 U 1 1 5A3E512A
 P 7400 5400
-F 0 "#PWR?" H 7400 5150 50  0001 C CNN
+F 0 "#PWR04" H 7400 5150 50  0001 C CNN
 F 1 "GND" H 7400 5250 50  0000 C CNN
 F 2 "" H 7400 5400 50  0001 C CNN
 F 3 "" H 7400 5400 50  0001 C CNN
@@ -980,10 +980,6 @@ Text GLabel 8700 4850 2    39   Input ~ 0
 FPGA_VCCPLL1
 Text GLabel 8700 5750 2    39   Input ~ 0
 FPGA_VCCPLL0
-Text GLabel 2450 1250 0    39   Input ~ 0
-FPGA_VCCPLL0
-Text GLabel 2450 1350 0    39   Input ~ 0
-FPGA_VCCPLL1
 Text GLabel 8400 5350 2    39   Input ~ 0
 FPGA_GNDPLL1
 Text GLabel 8400 6250 2    39   Input ~ 0
@@ -1010,10 +1006,6 @@ F 3 "" H 7650 5350 50  0001 C CNN
 	1    7650 5350
 	0    1    1    0   
 $EndComp
-Text GLabel 4900 2950 2    39   Input ~ 0
-FPGA_GNDPLL0
-Text GLabel 4900 3050 2    39   Input ~ 0
-FPGA_GNDPLL1
 $Comp
 L iCE40HX8_CT256 U?
 U 4 1 5A3F0EED
@@ -1030,7 +1022,7 @@ L R R?
 U 1 1 5A3F1D93
 P 5250 6350
 F 0 "R?" V 5250 6100 50  0000 C CNN
-F 1 "10k" V 5250 6350 50  0000 C CNN
+F 1 "10K" V 5250 6350 50  0000 C CNN
 F 2 "" V 5180 6350 50  0001 C CNN
 F 3 "" H 5250 6350 50  0001 C CNN
 	1    5250 6350
@@ -1052,7 +1044,7 @@ L R R?
 U 1 1 5A3F4250
 P 5150 6350
 F 0 "R?" V 5150 6100 50  0000 C CNN
-F 1 "VAR" V 5150 6350 50  0000 C CNN
+F 1 "10K" V 5150 6350 50  0000 C CNN
 F 2 "" V 5080 6350 50  0001 C CNN
 F 3 "" H 5150 6350 50  0001 C CNN
 	1    5150 6350
@@ -1249,14 +1241,6 @@ F 3 "" H 10600 4400 50  0001 C CNN
 	1    10600 4400
 	1    0    0    -1  
 $EndComp
-Text GLabel 9900 4150 0    39   Input ~ 0
-3V3_REF_IN
-Text GLabel 9900 4800 0    39   Input ~ 0
-3V3_REF_IN
-Text GLabel 9900 5350 0    39   Input ~ 0
-3V3_REF_IN
-Text GLabel 9900 5900 0    39   Input ~ 0
-3V3_REF_IN
 Text GLabel 10700 4150 2    39   Input ~ 0
 VCCIO_0_IN
 Text GLabel 10700 4800 2    39   Input ~ 0
@@ -1266,10 +1250,10 @@ VCCIO_2_IN
 Text GLabel 10700 5900 2    39   Input ~ 0
 VCCIO_3_IN
 $Comp
-L GND #PWR?
+L GND #PWR05
 U 1 1 5A407417
 P 10900 6300
-F 0 "#PWR?" H 10900 6050 50  0001 C CNN
+F 0 "#PWR05" H 10900 6050 50  0001 C CNN
 F 1 "GND" H 11000 6300 50  0000 C CNN
 F 2 "" H 10900 6300 50  0001 C CNN
 F 3 "" H 10900 6300 50  0001 C CNN
@@ -1277,10 +1261,10 @@ F 3 "" H 10900 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR06
 U 1 1 5A40791C
 P 10900 5200
-F 0 "#PWR?" H 10900 4950 50  0001 C CNN
+F 0 "#PWR06" H 10900 4950 50  0001 C CNN
 F 1 "GND" H 11000 5200 50  0000 C CNN
 F 2 "" H 10900 5200 50  0001 C CNN
 F 3 "" H 10900 5200 50  0001 C CNN
@@ -1288,10 +1272,10 @@ F 3 "" H 10900 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR07
 U 1 1 5A407BD5
 P 10900 4600
-F 0 "#PWR?" H 10900 4350 50  0001 C CNN
+F 0 "#PWR07" H 10900 4350 50  0001 C CNN
 F 1 "GND" H 11000 4600 50  0000 C CNN
 F 2 "" H 10900 4600 50  0001 C CNN
 F 3 "" H 10900 4600 50  0001 C CNN
@@ -1299,10 +1283,10 @@ F 3 "" H 10900 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR08
 U 1 1 5A407D06
 P 10900 5750
-F 0 "#PWR?" H 10900 5500 50  0001 C CNN
+F 0 "#PWR08" H 10900 5500 50  0001 C CNN
 F 1 "GND" H 11000 5750 50  0000 C CNN
 F 2 "" H 10900 5750 50  0001 C CNN
 F 3 "" H 10900 5750 50  0001 C CNN
@@ -1362,7 +1346,7 @@ Wire Wire Line
 	4600 1750 4800 1750
 Connection ~ 4800 1750
 Wire Wire Line
-	2450 900  2750 900 
+	2000 900  2750 900 
 Wire Wire Line
 	2600 2050 2750 2050
 Wire Wire Line
@@ -1679,7 +1663,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 3850 6200 3950
 Wire Wire Line
-	6250 3950 6050 3950
+	6050 3950 6250 3950
 Wire Wire Line
 	6600 3950 6600 4000
 Wire Wire Line
@@ -1982,96 +1966,8 @@ Text GLabel 2450 3150 0    39   Input ~ 0
 VCCIO_2_IN
 Text GLabel 2450 3550 0    39   Input ~ 0
 VCCIO_3_IN
-Text GLabel 2450 900  0    39   Input ~ 0
-2V5_EXT_IN
-Text GLabel 2450 1550 0    39   Input ~ 0
-1V2_EXT_IN
 Text GLabel 5400 6150 2    39   Input ~ 0
 3V3_EXT_IN
-Text GLabel 6050 800  0    28   Input ~ 0
-LVDS_1_D-
-Text GLabel 6050 850  0    28   Input ~ 0
-LVDS_1_D+
-Text GLabel 6050 1000 0    28   Input ~ 0
-LVDS_2_D-
-Text GLabel 6050 1200 0    28   Input ~ 0
-LVDS_3_D-
-Text GLabel 6050 1400 0    28   Input ~ 0
-LVDS_4_D-
-Text GLabel 6050 1600 0    28   Input ~ 0
-LVDS_5_D-
-Text GLabel 6050 1900 0    28   Input ~ 0
-LVDS_6_D-
-Text GLabel 6050 2100 0    28   Input ~ 0
-LVDS_7_D-
-Text GLabel 6050 2300 0    28   Input ~ 0
-LVDS_8_D-
-Text GLabel 6050 2500 0    28   Input ~ 0
-LVDS_9_D-
-Text GLabel 6050 2700 0    28   Input ~ 0
-LVDS_10_D-
-Text GLabel 6050 3000 0    28   Input ~ 0
-LVDS_11_D-
-Text GLabel 6050 3200 0    28   Input ~ 0
-LVDS_12_D-
-Text GLabel 6050 3250 0    28   Input ~ 0
-LVDS_12_D+
-Text GLabel 6050 3050 0    28   Input ~ 0
-LVDS_11_D+
-Text GLabel 6050 2750 0    28   Input ~ 0
-LVDS_10_D+
-Text GLabel 6050 2550 0    28   Input ~ 0
-LVDS_9_D+
-Text GLabel 6050 2350 0    28   Input ~ 0
-LVDS_8_D+
-Text GLabel 6050 2150 0    28   Input ~ 0
-LVDS_7_D+
-Text GLabel 6050 1950 0    28   Input ~ 0
-LVDS_6_D+
-Text GLabel 6050 1650 0    28   Input ~ 0
-LVDS_5_D+
-Text GLabel 6050 1450 0    28   Input ~ 0
-LVDS_4_D+
-Text GLabel 6050 1250 0    28   Input ~ 0
-LVDS_3_D+
-Text GLabel 6050 1050 0    28   Input ~ 0
-LVDS_2_D+
-Text GLabel 6050 3950 0    28   Input ~ 0
-LVDS_13_D-
-Text GLabel 6050 4000 0    28   Input ~ 0
-LVDS_13_D+
-Text GLabel 10100 800  2    28   Input ~ 0
-LVDS_14_D-
-Text GLabel 10100 1000 2    28   Input ~ 0
-LVDS_15_D-
-Text GLabel 10100 1200 2    28   Input ~ 0
-LVDS_16_D-
-Text GLabel 10100 1400 2    28   Input ~ 0
-LVDS_17_D-
-Text GLabel 10100 1600 2    28   Input ~ 0
-LVDS_18_D-
-Text GLabel 10100 1900 2    28   Input ~ 0
-LVDS_19_D-
-Text GLabel 10100 1950 2    28   Input ~ 0
-LVDS_19_D+
-Text GLabel 10100 2100 2    28   Input ~ 0
-LVDS_20_D-
-Text GLabel 10100 2150 2    28   Input ~ 0
-LVDS_20_D+
-Text GLabel 10100 850  2    28   Input ~ 0
-LVDS_14_D+
-Text GLabel 10100 1050 2    28   Input ~ 0
-LVDS_15_D+
-Text GLabel 10100 1250 2    28   Input ~ 0
-LVDS_16_D+
-Text GLabel 10100 1450 2    28   Input ~ 0
-LVDS_17_D+
-Text GLabel 10100 1650 2    28   Input ~ 0
-LVDS_18_D+
-Text GLabel 6050 3500 0    28   Input ~ 0
-LVPECLK+
-Text GLabel 6050 3550 0    28   Input ~ 0
-LVPECLK-
 $Comp
 L R R?
 U 1 1 5A2CA1DE
@@ -2127,16 +2023,10 @@ Wire Wire Line
 	5850 6500 5850 6600
 Connection ~ 5850 6600
 Wire Wire Line
-	5900 6950 5850 6950
+	5850 6950 5900 6950
 Wire Wire Line
-	5850 6950 5850 6700
+	5850 6700 5850 6950
 Connection ~ 5850 6700
-Text GLabel 5950 6600 2    39   Input ~ 0
-FTDI_AD6_GPIO6
-Text GLabel 5950 6700 2    39   Input ~ 0
-FTDI_AD7_GPIO7
-Text GLabel 5950 6800 2    39   Input ~ 0
-EXT_RESET
 Wire Wire Line
 	5950 6800 5850 6800
 Connection ~ 5850 6800
@@ -2157,22 +2047,169 @@ Connection ~ 5150 6700
 Wire Wire Line
 	5150 7050 5150 7100
 $Comp
-L GND #PWR?
+L GND #PWR09
 U 1 1 5A2D5A99
 P 5150 7100
-F 0 "#PWR?" H 5150 6850 50  0001 C CNN
+F 0 "#PWR09" H 5150 6850 50  0001 C CNN
 F 1 "GND" H 5150 6950 50  0000 C CNN
 F 2 "" H 5150 7100 50  0001 C CNN
 F 3 "" H 5150 7100 50  0001 C CNN
 	1    5150 7100
 	1    0    0    -1  
 $EndComp
-Text GLabel 1450 4800 0    39   Input ~ 0
-FTDI_B0_TXD
-Text GLabel 1450 4700 0    39   Input ~ 0
-FTDI_B1_RXD
-Text GLabel 1450 4600 0    39   Input ~ 0
-FTDI_B2_~RTS
-Text GLabel 1450 4500 0    39   Input ~ 0
-FTDI_B3_~CTS
+Text HLabel 2000 900  0    39   Input ~ 0
+2V5_IN
+Text HLabel 2450 1550 0    39   Input ~ 0
+1V2_IN
+Text HLabel 1950 4500 0    39   Input ~ 0
+FTDI_BD3_~CTS
+Text HLabel 1950 4600 0    39   Input ~ 0
+FTDI_BD2_~RTS
+Text HLabel 1950 4700 0    39   Input ~ 0
+FTDI_BD1_RXD
+Text HLabel 1950 4800 0    39   Input ~ 0
+FTDI_BD0_TXD
+Text HLabel 5950 6600 2    39   Input ~ 0
+FPGA_CDONE
+Text HLabel 5950 6700 2    39   Input ~ 0
+FPGA_CRST
+Text HLabel 6350 6800 2    39   Input ~ 0
+EXT_RESET
+Text HLabel 5800 6150 2    39   Input ~ 0
+3V3_IN
+Text HLabel 6950 4850 0    39   Input ~ 0
+1V2_IN
+Text HLabel 6950 5750 0    39   Input ~ 0
+1V2_IN
+Text GLabel 2450 1350 0    39   Input ~ 0
+FPGA_VCCPLL1
+Text GLabel 2450 1250 0    39   Input ~ 0
+FPGA_VCCPLL0
+Text GLabel 4900 3050 2    39   Input ~ 0
+FPGA_GNDPLL1
+Text GLabel 4900 2950 2    39   Input ~ 0
+FPGA_GNDPLL0
+$Comp
+L R R?
+U 1 1 5A35F5A8
+P 6100 6800
+F 0 "R?" V 6050 6950 50  0000 C CNN
+F 1 "0" V 6100 6800 50  0000 C CNN
+F 2 "" V 6030 6800 50  0001 C CNN
+F 3 "" H 6100 6800 50  0001 C CNN
+	1    6100 6800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6250 6800 6350 6800
+Text HLabel 6050 800  0    39   Input ~ 0
+LVDS_D1-
+Text HLabel 6050 1000 0    39   Input ~ 0
+LVDS_D2-
+Text HLabel 6050 1200 0    39   Input ~ 0
+LVDS_D3-
+Text HLabel 6050 1400 0    39   Input ~ 0
+LVDS_D4-
+Text HLabel 6050 1600 0    39   Input ~ 0
+LVDS_D5-
+Text HLabel 6050 1900 0    39   Input ~ 0
+LVDS_D6-
+Text HLabel 6050 2100 0    39   Input ~ 0
+LVDS_D7-
+Text HLabel 6050 2300 0    39   Input ~ 0
+LVDS_D8-
+Text HLabel 6050 2500 0    39   Input ~ 0
+LVDS_D9-
+Text HLabel 6050 2700 0    39   Input ~ 0
+LVDS_D10-
+Text HLabel 6050 3000 0    39   Input ~ 0
+LVDS_D11-
+Text HLabel 6050 3200 0    39   Input ~ 0
+LVDS_D12-
+Text HLabel 6050 3250 0    39   Input ~ 0
+LVDS_D12+
+Text HLabel 6050 3050 0    39   Input ~ 0
+LVDS_D11+
+Text HLabel 6050 2750 0    39   Input ~ 0
+LVDS_D10+
+Text HLabel 6050 2550 0    39   Input ~ 0
+LVDS_D9+
+Text HLabel 6050 2350 0    39   Input ~ 0
+LVDS_D8+
+Text HLabel 6050 2150 0    39   Input ~ 0
+LVDS_D7+
+Text HLabel 6050 1950 0    39   Input ~ 0
+LVDS_D6+
+Text HLabel 6050 1650 0    39   Input ~ 0
+LVDS_D5+
+Text HLabel 6050 1450 0    39   Input ~ 0
+LVDS_D4+
+Text HLabel 6050 1250 0    39   Input ~ 0
+LVDS_D3+
+Text HLabel 6050 1050 0    39   Input ~ 0
+LVDS_D2+
+Text HLabel 6050 850  0    39   Input ~ 0
+LVDS_D1+
+Text HLabel 6050 3500 0    39   Input ~ 0
+LVPECLK+
+Text HLabel 6050 3550 0    39   Input ~ 0
+LVDSCLK-
+Connection ~ 6200 3950
+Text HLabel 6050 3950 0    39   Input ~ 0
+LVDS_D13-
+Text HLabel 6050 4000 0    39   Input ~ 0
+LVDS_D13+
+Text HLabel 10100 800  2    39   Input ~ 0
+LVDS_D14-
+Text HLabel 10100 850  2    39   Input ~ 0
+LVDS_D14+
+Text HLabel 10100 1000 2    39   Input ~ 0
+LVDS_D15-
+Text HLabel 10100 1050 2    39   Input ~ 0
+LVDS_D15+
+Text HLabel 10100 1200 2    39   Input ~ 0
+LVDS_D16-
+Text HLabel 10100 1250 2    39   Input ~ 0
+LVDS_D16+
+Text HLabel 10100 1400 2    39   Input ~ 0
+LVDS_D17-
+Text HLabel 10100 1450 2    39   Input ~ 0
+LVDS_D17+
+Text HLabel 10100 1600 2    39   Input ~ 0
+LVDS_D18-
+Text HLabel 10100 1650 2    39   Input ~ 0
+LVDS_D18+
+Text HLabel 10100 1900 2    39   Input ~ 0
+LVDS_D19-
+Text HLabel 10100 1950 2    39   Input ~ 0
+LVDS_D19+
+Text HLabel 10100 2100 2    39   Input ~ 0
+LVDS_D20-
+Text HLabel 10100 2150 2    39   Input ~ 0
+LVDS_D20+
+Text HLabel 9900 4800 0    39   Input ~ 0
+VCCIO_1_REFIN
+Text HLabel 9900 5350 0    39   Input ~ 0
+VCCIO_2_REFIN
+Text HLabel 9900 5900 0    39   Input ~ 0
+VCCIO_3_REFIN
+Text HLabel 9900 4150 0    39   Input ~ 0
+VCCIO_0_REFIN
+$Comp
+L GND #PWR010
+U 1 1 5A39D4DE
+P 2150 1000
+F 0 "#PWR010" H 2150 750 50  0001 C CNN
+F 1 "GND" H 2150 850 50  0000 C CNN
+F 2 "" H 2150 1000 50  0001 C CNN
+F 3 "" H 2150 1000 50  0001 C CNN
+	1    2150 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 1000 2150 950 
+Wire Wire Line
+	2150 950  2000 950 
+Text HLabel 2000 950  0    39   Input Italic 8
+GND
 $EndSCHEMATC

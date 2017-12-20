@@ -106,7 +106,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -171,13 +171,11 @@ F 3 "" H 2050 2600 50  0001 C CNN
 	1    2050 2600
 	1    0    0    -1  
 $EndComp
-Text GLabel 1950 2250 0    39   Input ~ 0
-3V3_EXT_IN
 $Comp
-L GND #PWR?
+L GND #PWR033
 U 1 1 5A30306B
 P 2300 3100
-F 0 "#PWR?" H 2300 2850 50  0001 C CNN
+F 0 "#PWR033" H 2300 2850 50  0001 C CNN
 F 1 "GND" H 2450 3050 50  0000 C CNN
 F 2 "" H 2300 3100 50  0001 C CNN
 F 3 "" H 2300 3100 50  0001 C CNN
@@ -185,18 +183,16 @@ F 3 "" H 2300 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR034
 U 1 1 5A303071
 P 3150 3050
-F 0 "#PWR?" H 3150 2800 50  0001 C CNN
+F 0 "#PWR034" H 3150 2800 50  0001 C CNN
 F 1 "GND" H 3300 3000 50  0000 C CNN
 F 2 "" H 3150 3050 50  0001 C CNN
 F 3 "" H 3150 3050 50  0001 C CNN
 	1    3150 3050
 	1    0    0    -1  
 $EndComp
-Text GLabel 3600 2250 2    39   Input ~ 0
-CMOS_CLK1
 Wire Wire Line
 	2600 2250 2600 2450
 Wire Wire Line
@@ -240,8 +236,6 @@ Connection ~ 3150 3000
 Wire Wire Line
 	2600 2850 1950 2850
 Connection ~ 2600 2850
-Text GLabel 1950 2850 0    39   Input ~ 0
-CRYSTAL1_EN
 $Comp
 L R R?
 U 1 1 5A303092
@@ -286,13 +280,11 @@ F 3 "" H 2050 1450 50  0001 C CNN
 	1    2050 1450
 	1    0    0    -1  
 $EndComp
-Text GLabel 1950 1100 0    39   Input ~ 0
-3V3_EXT_IN
 $Comp
-L GND #PWR?
+L GND #PWR035
 U 1 1 5A3030AF
 P 2300 1950
-F 0 "#PWR?" H 2300 1700 50  0001 C CNN
+F 0 "#PWR035" H 2300 1700 50  0001 C CNN
 F 1 "GND" H 2450 1900 50  0000 C CNN
 F 2 "" H 2300 1950 50  0001 C CNN
 F 3 "" H 2300 1950 50  0001 C CNN
@@ -300,22 +292,20 @@ F 3 "" H 2300 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR036
 U 1 1 5A3030B5
 P 3150 1900
-F 0 "#PWR?" H 3150 1650 50  0001 C CNN
+F 0 "#PWR036" H 3150 1650 50  0001 C CNN
 F 1 "GND" H 3300 1850 50  0000 C CNN
 F 2 "" H 3150 1900 50  0001 C CNN
 F 3 "" H 3150 1900 50  0001 C CNN
 	1    3150 1900
 	1    0    0    -1  
 $EndComp
-Text GLabel 3600 1100 2    39   Input ~ 0
-CMOS_CLK2
 Wire Wire Line
 	2600 1100 2600 1300
 Wire Wire Line
-	1950 1100 2850 1100
+	1800 1100 2850 1100
 Wire Wire Line
 	2850 1100 2850 1150
 Wire Wire Line
@@ -355,8 +345,6 @@ Connection ~ 3150 1850
 Wire Wire Line
 	2600 1700 1950 1700
 Connection ~ 2600 1700
-Text GLabel 1950 1700 0    39   Input ~ 0
-CRYSTAL2_EN
 $Comp
 L OSC_4-SMD X?
 U 1 1 5A3030D6
@@ -412,8 +400,6 @@ F 3 "" H 2500 4450 50  0001 C CNN
 	1    2500 4450
 	1    0    0    -1  
 $EndComp
-Text GLabel 3350 3950 2    39   Input ~ 0
-3V3_EXT_IN
 Wire Wire Line
 	2650 4250 2900 4250
 Wire Wire Line
@@ -576,36 +562,6 @@ Wire Wire Line
 	2350 5250 2150 5250
 Wire Wire Line
 	2350 5450 2150 5450
-Text GLabel 2150 4250 0    39   Input ~ 0
-LED1
-Text GLabel 2150 4450 0    39   Input ~ 0
-LED2
-Text GLabel 2150 4650 0    39   Input ~ 0
-LED3
-Text GLabel 2150 4850 0    39   Input ~ 0
-LED4
-Text GLabel 2150 5050 0    39   Input ~ 0
-LED5
-Text GLabel 2150 5250 0    39   Input ~ 0
-LED6
-Text GLabel 2150 5450 0    39   Input ~ 0
-LED7
-Text GLabel 7900 2650 0    39   Input ~ 0
-FTDI_AD3_SS
-Text GLabel 7900 2250 0    39   Input ~ 0
-FTDI_AD0_SCK
-Text GLabel 7900 1850 0    39   Input ~ 0
-FTDI_AD1_MOSI
-Text GLabel 7900 1500 0    39   Input ~ 0
-FTDI_AD2_MISO
-Text GLabel 7900 1950 0    39   Input ~ 0
-EXT_SPI_MOSI
-Text GLabel 7900 1600 0    39   Input ~ 0
-EXT_SPI_MISO
-Text GLabel 7900 2350 0    39   Input ~ 0
-EXT_SPI_SCK
-Text GLabel 7900 2750 0    39   Input ~ 0
-EXT_SPI_SS
 $Comp
 L 4POS_JUMPER J?
 U 1 1 5A304A10
@@ -650,18 +606,6 @@ F 3 "" H 8300 2500 39  0001 C CNN
 	1    8300 2500
 	1    0    0    -1  
 $EndComp
-Text GLabel 8700 1500 2    39   Input ~ 0
-s_FLASH_MOSI
-Text GLabel 8700 1850 2    39   Input ~ 0
-s_FLASH_MISO
-Text GLabel 8700 2350 2    39   Input ~ 0
-iCE_SPI_SCK
-Text GLabel 8700 2750 2    39   Input ~ 0
-iCE_SPI_SS
-Text GLabel 8700 2250 2    39   Input ~ 0
-s_FLASH_SCK
-Text GLabel 8700 2650 2    39   Input ~ 0
-s_FLASH_SCK
 Wire Wire Line
 	7900 2650 8050 2650
 Wire Wire Line
@@ -678,10 +622,6 @@ Wire Wire Line
 	8550 2250 8700 2250
 Wire Wire Line
 	8550 2650 8700 2650
-Text GLabel 8700 1600 2    39   Input ~ 0
-iCE_SPI_DATA1
-Text GLabel 8700 1950 2    39   Input ~ 0
-iCE_SPI_DATA2
 Wire Wire Line
 	7900 1600 8050 1600
 Wire Wire Line
@@ -717,16 +657,95 @@ Wire Wire Line
 	8550 3250 8700 3250
 Wire Wire Line
 	8050 3250 7900 3250
-Text GLabel 7900 3150 0    39   Input ~ 0
-iCE_SPI_SDO
-Text GLabel 7900 3250 0    39   Input ~ 0
-iCE_SPI_DATA2
-Text GLabel 8700 3150 2    39   Input ~ 0
-iCE_SPI_DATA1
-Text GLabel 8700 3250 2    39   Input ~ 0
-iCE_SPI_SDI
 Text Notes 8950 2950 2    60   ~ 0
 Switch iCE Master to Slave\n
 Text Notes 7750 1300 0    60   ~ 0
 Config 1 "="\nFTDI SPI --->FLASH SPI\nEXT SPI ---> iCE SPI\n\nConfig 2 "||"\nFTDI SPI ---> EXT SPI\nFLASH SPI ---> iCE SPI
+Text HLabel 1800 1100 0    39   Input Italic 8
+3V3_IN
+Text HLabel 1950 1700 0    39   Input Italic 8
+XTAL2_EN
+Text HLabel 1950 2850 0    39   Input Italic 8
+XTAL1_EN
+Text HLabel 1950 2250 0    39   Input Italic 8
+3V3_IN
+Text HLabel 2150 4250 0    39   Input Italic 8
+LED1
+Text HLabel 2150 4450 0    39   Input Italic 8
+LED2
+Text HLabel 2150 4650 0    39   Input Italic 8
+LED3
+Text HLabel 2150 4850 0    39   Input Italic 8
+LED4
+Text HLabel 2150 5050 0    39   Input Italic 8
+LED5
+Text HLabel 2150 5250 0    39   Input Italic 8
+LED6
+Text HLabel 2150 5450 0    39   Input Italic 8
+LED7
+Text HLabel 7900 1500 0    39   Input Italic 8
+FTDI_AD2_MISO
+Text HLabel 7900 1600 0    39   Input Italic 8
+EXT_SPI_MISO
+Text HLabel 7900 1850 0    39   Input Italic 8
+FTDI_AD1_MOSI
+Text HLabel 7900 1950 0    39   Input Italic 8
+EXT_SPI_MOSI
+Text HLabel 7900 2250 0    39   Input Italic 8
+FTDI_AD0_SCK
+Text HLabel 7900 2350 0    39   Input Italic 8
+EXT_SPI_SCK
+Text HLabel 7900 2650 0    39   Input Italic 8
+FTDI_AD3_SS
+Text HLabel 7900 2750 0    39   Input Italic 8
+EXT_SPI_SS
+Text HLabel 7900 3150 0    39   Input Italic 8
+iCE_SPI_SDO
+Text HLabel 8700 1500 2    39   Input Italic 8
+s_FLASH_MOSI
+Text HLabel 8700 1850 2    39   Input Italic 8
+s_FLASH_MISO
+Text HLabel 8700 2250 2    39   Input Italic 8
+s_FLASH_SCK
+Text HLabel 8700 2350 2    39   Input Italic 8
+iCE_SPI_SCK
+Text HLabel 8700 2750 2    39   Input Italic 8
+iCE_SPI_SS
+Text HLabel 8700 3250 2    39   Input Italic 8
+iCE_SPI_SDI
+Text HLabel 3350 3950 2    39   Input Italic 8
+3V3_IN
+Text HLabel 3600 1100 2    39   Input Italic 8
+CMOS_CLK2
+Text HLabel 3600 2250 2    39   Input Italic 8
+CMOS_CLK1
+Text Notes 2950 3950 2    39   Italic 8
+LED 1-7 PULL DOWN
+Text HLabel 8700 2650 2    39   Input Italic 8
+s_FLASH_SS
+Text GLabel 8700 1600 2    39   Input Italic 8
+iCE_SPI_DATA1
+Text GLabel 8700 1950 2    39   Input Italic 8
+iCE_SPI_DATA2
+Text GLabel 8700 3150 2    39   Input Italic 8
+iCE_SPI_DATA1
+Text GLabel 7900 3250 0    39   Input Italic 8
+iCE_SPI_DATA2
+Text HLabel 1700 1200 0    39   Input Italic 8
+GND
+$Comp
+L GND #PWR037
+U 1 1 5A406131
+P 1800 1250
+F 0 "#PWR037" H 1800 1000 50  0001 C CNN
+F 1 "GND" H 1950 1200 50  0000 C CNN
+F 2 "" H 1800 1250 50  0001 C CNN
+F 3 "" H 1800 1250 50  0001 C CNN
+	1    1800 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1200 1800 1200
+Wire Wire Line
+	1800 1200 1800 1250
 $EndSCHEMATC

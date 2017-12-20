@@ -106,7 +106,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -311,19 +311,11 @@ Text GLabel 1350 5950 0    39   Input ~ 0
 1V8EXT_IN
 Text GLabel 1350 6500 0    39   Input ~ 0
 2V5_EXT_IN
-Text GLabel 2800 6500 2    39   Input ~ 0
-2V5_REF
-Text GLabel 2800 5950 2    39   Input ~ 0
-1V8_REF
-Text GLabel 2800 5400 2    39   Input ~ 0
-1V2_REF
-Text GLabel 2800 7100 2    39   Input ~ 0
-3V3_REF
 $Comp
-L GND #PWR?
+L GND #PWR038
 U 1 1 5A41B6AD
 P 2850 5800
-F 0 "#PWR?" H 2850 5550 50  0001 C CNN
+F 0 "#PWR038" H 2850 5550 50  0001 C CNN
 F 1 "GND" H 2950 5800 50  0000 C CNN
 F 2 "" H 2850 5800 50  0001 C CNN
 F 3 "" H 2850 5800 50  0001 C CNN
@@ -331,10 +323,10 @@ F 3 "" H 2850 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR039
 U 1 1 5A41B7D9
 P 2850 6350
-F 0 "#PWR?" H 2850 6100 50  0001 C CNN
+F 0 "#PWR039" H 2850 6100 50  0001 C CNN
 F 1 "GND" H 2950 6350 50  0000 C CNN
 F 2 "" H 2850 6350 50  0001 C CNN
 F 3 "" H 2850 6350 50  0001 C CNN
@@ -342,10 +334,10 @@ F 3 "" H 2850 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR040
 U 1 1 5A41B927
 P 2850 7500
-F 0 "#PWR?" H 2850 7250 50  0001 C CNN
+F 0 "#PWR040" H 2850 7250 50  0001 C CNN
 F 1 "GND" H 2950 7500 50  0000 C CNN
 F 2 "" H 2850 7500 50  0001 C CNN
 F 3 "" H 2850 7500 50  0001 C CNN
@@ -353,27 +345,21 @@ F 3 "" H 2850 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR041
 U 1 1 5A41B976
 P 2850 6900
-F 0 "#PWR?" H 2850 6650 50  0001 C CNN
+F 0 "#PWR041" H 2850 6650 50  0001 C CNN
 F 1 "GND" H 2950 6900 50  0000 C CNN
 F 2 "" H 2850 6900 50  0001 C CNN
 F 3 "" H 2850 6900 50  0001 C CNN
 	1    2850 6900
 	1    0    0    -1  
 $EndComp
-Text GLabel 800  4600 3    39   Input ~ 0
-3V3_EXT_IN
-Text GLabel 1500 4600 3    39   Input ~ 0
-1V8_EXT_IN
-Text GLabel 1800 4600 3    39   Input ~ 0
-1V2_EXT_IN
 $Comp
-L GND #PWR?
+L GND #PWR042
 U 1 1 5A41CA24
 P 11050 4500
-F 0 "#PWR?" H 11050 4250 50  0001 C CNN
+F 0 "#PWR042" H 11050 4250 50  0001 C CNN
 F 1 "GND" H 11050 4350 50  0000 C CNN
 F 2 "" H 11050 4500 50  0001 C CNN
 F 3 "" H 11050 4500 50  0001 C CNN
@@ -729,10 +715,10 @@ Wire Wire Line
 	11100 1500 11100 1550
 Connection ~ 10950 1500
 $Comp
-L GND #PWR?
+L GND #PWR043
 U 1 1 5A421824
 P 11100 1550
-F 0 "#PWR?" H 11100 1300 50  0001 C CNN
+F 0 "#PWR043" H 11100 1300 50  0001 C CNN
 F 1 "GND" H 11100 1400 50  0000 C CNN
 F 2 "" H 11100 1550 50  0001 C CNN
 F 3 "" H 11100 1550 50  0001 C CNN
@@ -764,27 +750,13 @@ Wire Wire Line
 	2200 1700 2200 1350
 Wire Wire Line
 	1100 1700 1100 1600
-Text GLabel 800  1350 1    39   Input ~ 0
-3V3_EXT_IN
 Wire Wire Line
 	1000 1700 1000 1500
-Text GLabel 1300 1350 1    39   Input ~ 0
-2V5_EXT_IN
-Text GLabel 1500 1350 1    39   Input ~ 0
-1V8_EXT_IN
-Text GLabel 1800 1350 1    39   Input ~ 0
-1V2_EXT_IN
-Text GLabel 2200 1350 1    39   Input ~ 0
-EXT_USB_D+
-Text GLabel 2100 1350 1    39   Input ~ 0
-EXT_USB_D-
 Wire Wire Line
 	1000 4200 1000 4450
 Connection ~ 1400 4450
 Wire Wire Line
 	1300 4200 1300 4600
-Text GLabel 1300 4600 3    39   Input ~ 0
-2V5_EXT_IN
 $Comp
 L Ferrite_Bead L?
 U 1 1 5A42412E
@@ -837,102 +809,126 @@ Wire Wire Line
 	1350 6500 1450 6500
 Wire Wire Line
 	1350 7100 1450 7100
-Text GLabel 10750 1300 1    39   Input ~ 0
+Text HLabel 2800 7100 2    39   Input ~ 0
+3V3_EXT_OUT
+Text HLabel 2800 6500 2    39   Input ~ 0
+2V5_EXT_OUT
+Text HLabel 2800 5950 2    39   Input ~ 0
+1V8_EXT_OUT
+Text HLabel 2800 5400 2    39   Input ~ 0
+1V2_EXT_OUT
+Text HLabel 2100 1350 1    39   Input ~ 0
+EXT_USB_D-
+Text HLabel 2200 1350 1    39   Input ~ 0
+EXT_USB_D+
+Text HLabel 10750 1300 1    39   Input ~ 0
 LVPECLK-
-Text GLabel 10850 1300 1    39   Input ~ 0
+Text HLabel 10850 1300 1    39   Input ~ 0
 LVPECLK+
-Text GLabel 2100 4650 3    39   Input ~ 0
-EXT_SPI_MISO
-Text GLabel 2200 4650 3    39   Input ~ 0
+Text GLabel 1800 4600 3    39   Input ~ 0
+1V2_EXT_IN
+Text GLabel 1500 4600 3    39   Input ~ 0
+1V8_EXT_IN
+Text GLabel 1300 4600 3    39   Input ~ 0
+2V5_EXT_IN
+Text GLabel 800  4600 3    39   Input ~ 0
+3V3_EXT_IN
+Text GLabel 1800 1350 1    39   Input ~ 0
+1V2_EXT_IN
+Text GLabel 1500 1350 1    39   Input ~ 0
+1V8_EXT_IN
+Text GLabel 1300 1350 1    39   Input ~ 0
+2V5_EXT_IN
+Text GLabel 800  1350 1    39   Input ~ 0
+3V3_EXT_IN
+Text HLabel 7050 5800 3    39   Input ~ 0
+DP1-
+Text HLabel 7100 5800 3    39   Input ~ 0
+DP1+
+Text HLabel 7250 5800 3    39   Input ~ 0
+DP2-
+Text HLabel 7450 5800 3    39   Input ~ 0
+DP3-
+Text HLabel 7650 5800 3    39   Input ~ 0
+DP4-
+Text HLabel 7850 5800 3    39   Input ~ 0
+DP5-
+Text HLabel 8050 5800 3    39   Input ~ 0
+DP6-
+Text HLabel 8250 5800 3    39   Input ~ 0
+DP7-
+Text HLabel 8450 5800 3    39   Input ~ 0
+DP8-
+Text HLabel 8650 5800 3    39   Input ~ 0
+DP9-
+Text HLabel 8850 5800 3    39   Input ~ 0
+DP10-
+Text HLabel 9050 5800 3    39   Input ~ 0
+DP11-
+Text HLabel 9250 5800 3    39   Input ~ 0
+DP12-
+Text HLabel 9450 5800 3    39   Input ~ 0
+DP13-
+Text HLabel 9650 5800 3    39   Input ~ 0
+DP14-
+Text HLabel 9850 5800 3    39   Input ~ 0
+DP15-
+Text HLabel 10050 5800 3    39   Input ~ 0
+DP16-
+Text HLabel 10250 5800 3    39   Input ~ 0
+DP17-
+Text HLabel 10450 5800 3    39   Input ~ 0
+DP18-
+Text HLabel 10650 5800 3    39   Input ~ 0
+DP19-
+Text HLabel 10850 5800 3    39   Input ~ 0
+DP20-
+Text HLabel 7300 5800 3    39   Input ~ 0
+DP2+
+Text HLabel 7500 5800 3    39   Input ~ 0
+DP3+
+Text HLabel 7700 5800 3    39   Input ~ 0
+DP4+
+Text HLabel 7900 5800 3    39   Input ~ 0
+DP5+
+Text HLabel 8100 5800 3    39   Input ~ 0
+DP6+
+Text HLabel 8300 5800 3    39   Input ~ 0
+DP7+
+Text HLabel 8500 5800 3    39   Input ~ 0
+DP8+
+Text HLabel 8700 5800 3    39   Input ~ 0
+DP9+
+Text HLabel 8900 5800 3    39   Input ~ 0
+DP10+
+Text HLabel 9100 5800 3    39   Input ~ 0
+DP11+
+Text HLabel 9300 5800 3    39   Input ~ 0
+DP12+
+Text HLabel 9500 5800 3    39   Input ~ 0
+DP13+
+Text HLabel 9700 5800 3    39   Input ~ 0
+DP14+
+Text HLabel 9900 5800 3    39   Input ~ 0
+DP15+
+Text HLabel 10100 5800 3    39   Input ~ 0
+DP16+
+Text HLabel 10300 5800 3    39   Input ~ 0
+DP17+
+Text HLabel 10500 5800 3    39   Input ~ 0
+DP18+
+Text HLabel 10700 5800 3    39   Input ~ 0
+DP19+
+Text HLabel 10900 5800 3    39   Input ~ 0
+DP20+
+Text HLabel 6450 5850 3    39   Input ~ 0
+ET_SPI_MISO
+Text HLabel 6550 5850 3    39   Input ~ 0
 EXT_SPI_MOSI
-Text GLabel 2400 4650 3    39   Input ~ 0
-EXT_SPI_SS
-Text GLabel 2300 4650 3    39   Input ~ 0
+Text HLabel 6650 5850 3    39   Input ~ 0
 EXT_SPI_SCK
-Text GLabel 2500 4650 3    39   Input ~ 0
+Text HLabel 6750 5850 3    39   Input ~ 0
+EXT_SPI_SS
+Text HLabel 6850 5850 3    39   Input ~ 0
 EXT_RESET
-Text GLabel 7050 6050 3    28   Input ~ 0
-LVDS_1_D-
-Text GLabel 7100 6050 3    28   Input ~ 0
-LVDS_1_D+
-Text GLabel 7250 6050 3    28   Input ~ 0
-LVDS_2_D-
-Text GLabel 7450 6050 3    28   Input ~ 0
-LVDS_3_D-
-Text GLabel 7650 6050 3    28   Input ~ 0
-LVDS_4_D-
-Text GLabel 7850 6050 3    28   Input ~ 0
-LVDS_5_D-
-Text GLabel 8050 6050 3    28   Input ~ 0
-LVDS_6_D-
-Text GLabel 8250 6050 3    28   Input ~ 0
-LVDS_7_D-
-Text GLabel 8450 6050 3    28   Input ~ 0
-LVDS_8_D-
-Text GLabel 8650 6050 3    28   Input ~ 0
-LVDS_9_D-
-Text GLabel 8850 6050 3    28   Input ~ 0
-LVDS_10_D-
-Text GLabel 9050 6050 3    28   Input ~ 0
-LVDS_11_D-
-Text GLabel 9250 6050 3    28   Input ~ 0
-LVDS_12_D-
-Text GLabel 9300 6050 3    28   Input ~ 0
-LVDS_12_D+
-Text GLabel 9100 6050 3    28   Input ~ 0
-LVDS_11_D+
-Text GLabel 8900 6050 3    28   Input ~ 0
-LVDS_10_D+
-Text GLabel 8700 6050 3    28   Input ~ 0
-LVDS_9_D+
-Text GLabel 8500 6050 3    28   Input ~ 0
-LVDS_8_D+
-Text GLabel 8300 6050 3    28   Input ~ 0
-LVDS_7_D+
-Text GLabel 8100 6050 3    28   Input ~ 0
-LVDS_6_D+
-Text GLabel 7900 6050 3    28   Input ~ 0
-LVDS_5_D+
-Text GLabel 7700 6050 3    28   Input ~ 0
-LVDS_4_D+
-Text GLabel 7500 6050 3    28   Input ~ 0
-LVDS_3_D+
-Text GLabel 7300 6050 3    28   Input ~ 0
-LVDS_2_D+
-Text GLabel 9650 6050 3    28   Input ~ 0
-LVDS_13_D-
-Text GLabel 9700 6050 3    28   Input ~ 0
-LVDS_13_D+
-Text GLabel 9450 6050 3    28   Input ~ 0
-LVPECLK+
-Text GLabel 9500 6050 3    28   Input ~ 0
-LVPECLK-
-Text GLabel 11100 6050 3    28   Input ~ 0
-LVDS_14_D-
-Text GLabel 10900 6050 3    28   Input ~ 0
-LVDS_15_D-
-Text GLabel 10700 6050 3    28   Input ~ 0
-LVDS_16_D-
-Text GLabel 10500 6050 3    28   Input ~ 0
-LVDS_17_D-
-Text GLabel 10300 6050 3    28   Input ~ 0
-LVDS_18_D-
-Text GLabel 10100 6050 3    28   Input ~ 0
-LVDS_19_D-
-Text GLabel 10050 6050 3    28   Input ~ 0
-LVDS_19_D+
-Text GLabel 9900 6050 3    28   Input ~ 0
-LVDS_20_D-
-Text GLabel 9850 6050 3    28   Input ~ 0
-LVDS_20_D+
-Text GLabel 11050 6050 3    28   Input ~ 0
-LVDS_14_D+
-Text GLabel 10850 6050 3    28   Input ~ 0
-LVDS_15_D+
-Text GLabel 10650 6050 3    28   Input ~ 0
-LVDS_16_D+
-Text GLabel 10450 6050 3    28   Input ~ 0
-LVDS_17_D+
-Text GLabel 10250 6050 3    28   Input ~ 0
-LVDS_18_D+
 $EndSCHEMATC

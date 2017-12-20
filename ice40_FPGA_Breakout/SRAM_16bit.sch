@@ -207,10 +207,10 @@ F 3 "" H 9950 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR011
 U 1 1 5A3F82B7
 P 9950 3750
-F 0 "#PWR?" H 9950 3500 50  0001 C CNN
+F 0 "#PWR011" H 9950 3500 50  0001 C CNN
 F 1 "GND" H 9950 3600 50  0000 C CNN
 F 2 "" H 9950 3750 50  0001 C CNN
 F 3 "" H 9950 3750 50  0001 C CNN
@@ -316,17 +316,11 @@ F 3 "" H 9700 1050 50  0001 C CNN
 	1    9700 1050
 	-1   0    0    -1  
 $EndComp
-Text GLabel 7900 800  0    39   Input ~ 0
-3V3_EXT_IN
-Text GLabel 10150 1550 2    39   Input ~ 0
-FLASH_EXT_~WP
-Text GLabel 10150 1650 2    39   Input ~ 0
-FLASH_EXT_~HOLD
 $Comp
-L GND #PWR?
+L GND #PWR012
 U 1 1 5A2D962F
 P 9150 2000
-F 0 "#PWR?" H 9150 1750 50  0001 C CNN
+F 0 "#PWR012" H 9150 1750 50  0001 C CNN
 F 1 "GND" H 9150 1850 50  0000 C CNN
 F 2 "" H 9150 2000 50  0001 C CNN
 F 3 "" H 9150 2000 50  0001 C CNN
@@ -334,10 +328,10 @@ F 3 "" H 9150 2000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR013
 U 1 1 5A2D9808
 P 8700 1250
-F 0 "#PWR?" H 8700 1000 50  0001 C CNN
+F 0 "#PWR013" H 8700 1000 50  0001 C CNN
 F 1 "GND" H 8700 1100 50  0000 C CNN
 F 2 "" H 8700 1250 50  0001 C CNN
 F 3 "" H 8700 1250 50  0001 C CNN
@@ -367,10 +361,10 @@ F 3 "" H 7700 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR014
 U 1 1 5A2DC454
 P 7700 3850
-F 0 "#PWR?" H 7700 3600 50  0001 C CNN
+F 0 "#PWR014" H 7700 3600 50  0001 C CNN
 F 1 "GND" H 7850 3800 50  0000 C CNN
 F 2 "" H 7700 3850 50  0001 C CNN
 F 3 "" H 7700 3850 50  0001 C CNN
@@ -389,36 +383,16 @@ F 3 "" H 8500 2000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR015
 U 1 1 5A2DC8C5
 P 8500 2200
-F 0 "#PWR?" H 8500 1950 50  0001 C CNN
+F 0 "#PWR015" H 8500 1950 50  0001 C CNN
 F 1 "GND" H 8500 2050 50  0000 C CNN
 F 2 "" H 8500 2200 50  0001 C CNN
 F 3 "" H 8500 2200 50  0001 C CNN
 	1    8500 2200
 	-1   0    0    -1  
 $EndComp
-Text GLabel 1850 3600 0    39   Input ~ 0
-CMOS_CLK1
-Text GLabel 10650 2550 2    39   Input ~ 0
-3V3_EXT_IN
-Text GLabel 7450 3200 0    39   Input ~ 0
-iCE_SPI_SDO
-Text GLabel 7450 3300 0    39   Input ~ 0
-iCE_SPI_SDI
-Text GLabel 7450 3400 0    39   Input ~ 0
-iCE_SPI_SCK
-Text GLabel 10150 3200 2    39   Input ~ 0
-iCE_SPI_SS
-Text GLabel 8000 1550 0    39   Input ~ 0
-s_FLASH_SCK
-Text GLabel 8000 1650 0    39   Input ~ 0
-s_FLASH_MOSI
-Text GLabel 8000 1750 0    39   Input ~ 0
-s_FLASH_MISO
-Text GLabel 10150 1750 2    39   Input ~ 0
-s_FLASH_SS
 Wire Wire Line
 	9800 3300 10100 3300
 Wire Wire Line
@@ -498,7 +472,7 @@ Connection ~ 10000 1750
 Wire Wire Line
 	10000 800  10000 900 
 Wire Wire Line
-	7900 800  10000 800 
+	7750 800  10000 800 
 Wire Wire Line
 	9850 800  9850 900 
 Wire Wire Line
@@ -547,10 +521,10 @@ Wire Wire Line
 Wire Wire Line
 	7450 3200 7950 3200
 $Comp
-L GND #PWR?
+L GND #PWR016
 U 1 1 5A2E5ABD
 P 10750 3000
-F 0 "#PWR?" H 10750 2750 50  0001 C CNN
+F 0 "#PWR016" H 10750 2750 50  0001 C CNN
 F 1 "GND" H 10750 2850 50  0000 C CNN
 F 2 "" H 10750 3000 50  0001 C CNN
 F 3 "" H 10750 3000 50  0001 C CNN
@@ -559,8 +533,6 @@ F 3 "" H 10750 3000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10750 2950 10750 3000
-Text GLabel 1850 7350 0    39   Input ~ 0
-CMOS_CLK1
 Wire Wire Line
 	1850 7350 2000 7350
 Wire Wire Line
@@ -601,10 +573,10 @@ F 3 "" H 9350 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR017
 U 1 1 5A2FB32F
 P 9350 1200
-F 0 "#PWR?" H 9350 950 50  0001 C CNN
+F 0 "#PWR017" H 9350 950 50  0001 C CNN
 F 1 "GND" H 9250 1200 50  0000 C CNN
 F 2 "" H 9350 1200 50  0001 C CNN
 F 3 "" H 9350 1200 50  0001 C CNN
@@ -616,18 +588,75 @@ Wire Wire Line
 Wire Wire Line
 	9350 850  9350 800 
 Connection ~ 9350 800 
-Text GLabel 1000 4450 0    39   Input ~ 0
+Text HLabel 7750 800  0    39   Input Italic 8
+3V3_IN
+Text HLabel 8000 1550 0    39   Input Italic 8
+FLASH_SCK
+Text HLabel 8000 1650 0    39   Input Italic 8
+FLASH_MOSI
+Text HLabel 8000 1750 0    39   Input Italic 8
+FLASH_MISO
+Text HLabel 10150 1750 2    39   Input Italic 8
+FLASH_SS
+Text HLabel 10650 2550 2    39   Input Italic 8
+3V3_IN
+Text HLabel 7450 3200 0    39   Input Italic 8
+FPGA_SDO
+Text HLabel 7450 3300 0    39   Input Italic 8
+FPGA_SDI
+Text HLabel 7450 3400 0    39   Input Italic 8
+FGPA_SCK
+Text HLabel 10150 3200 2    39   Input Italic 8
+FPGA_SS
+Text Notes 10900 3300 2    39   Italic 8
+iCE SPI SS
+Text HLabel 1850 3600 0    39   Input Italic 8
+CMOS_CLK1
+Text HLabel 1850 7350 0    39   Input Italic 8
+CMOS_CLK2
+Text HLabel 750  4450 0    39   Input Italic 8
 LED1
-Text GLabel 1000 4550 0    39   Input ~ 0
+Text HLabel 750  4550 0    39   Input Italic 8
 LED2
-Text GLabel 1000 4650 0    39   Input ~ 0
+Text HLabel 750  4650 0    39   Input Italic 8
 LED3
-Text GLabel 1000 4750 0    39   Input ~ 0
+Text HLabel 750  4750 0    39   Input Italic 8
 LED4
-Text GLabel 1000 4850 0    39   Input ~ 0
+Text HLabel 750  4850 0    39   Input Italic 8
 LED5
-Text GLabel 1000 4950 0    39   Input ~ 0
+Text HLabel 750  4950 0    39   Input Italic 8
 LED6
-Text GLabel 1000 5050 0    39   Input ~ 0
+Text HLabel 750  5050 0    39   Input Italic 8
 LED7
+Text HLabel 750  4350 0    39   Input Italic 8
+LED0
+$Comp
+L GND #PWR018
+U 1 1 5A4230FF
+P 7850 950
+F 0 "#PWR018" H 7850 700 50  0001 C CNN
+F 1 "GND" H 8000 900 50  0000 C CNN
+F 2 "" H 7850 950 50  0001 C CNN
+F 3 "" H 7850 950 50  0001 C CNN
+	1    7850 950 
+	1    0    0    -1  
+$EndComp
+Text HLabel 7750 900  0    39   Input Italic 8
+GND
+Wire Wire Line
+	7750 900  7850 900 
+Wire Wire Line
+	7850 900  7850 950 
+Text HLabel 900  5250 0    39   Input ~ 0
+XTAL1_EN
+Text HLabel 900  5300 0    39   Input ~ 0
+XTAL2_EN
+Text GLabel 10150 1550 2    39   Input ~ 0
+FLASH_~WP
+Text GLabel 10150 1650 2    39   Input ~ 0
+FLASH_~HOLD
+Text GLabel 900  5450 0    39   Input ~ 0
+FLASH_~WP
+Text GLabel 900  5550 0    39   Input ~ 0
+FLASH_~HOLD
 $EndSCHEMATC
