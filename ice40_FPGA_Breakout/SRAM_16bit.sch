@@ -394,9 +394,15 @@ F 3 "" H 8500 2200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	9800 3300 10100 3300
+	9800 3300 9950 3300
 Wire Wire Line
-	7450 3400 7950 3400
+	9950 3300 10100 3300
+Wire Wire Line
+	7450 3400 7700 3400
+Wire Wire Line
+	7700 3400 7850 3400
+Wire Wire Line
+	7850 3400 7950 3400
 Wire Wire Line
 	7550 3000 7550 3200
 Connection ~ 7550 3200
@@ -416,7 +422,19 @@ Wire Wire Line
 Wire Wire Line
 	7850 2550 7850 2700
 Wire Wire Line
-	7550 2550 10650 2550
+	7550 2550 7700 2550
+Wire Wire Line
+	7700 2550 7850 2550
+Wire Wire Line
+	7850 2550 9950 2550
+Wire Wire Line
+	9950 2550 10100 2550
+Wire Wire Line
+	10100 2550 10300 2550
+Wire Wire Line
+	10300 2550 10550 2550
+Wire Wire Line
+	10550 2550 10650 2550
 Connection ~ 7700 2550
 Connection ~ 9950 2550
 Connection ~ 7850 2550
@@ -433,7 +451,9 @@ Connection ~ 10100 2550
 Wire Wire Line
 	10300 2900 10300 2950
 Wire Wire Line
-	10300 2950 10750 2950
+	10300 2950 10550 2950
+Wire Wire Line
+	10550 2950 10750 2950
 Wire Wire Line
 	10550 2950 10550 2900
 Wire Wire Line
@@ -444,24 +464,28 @@ Wire Wire Line
 Connection ~ 10550 2550
 Connection ~ 10550 2950
 Wire Wire Line
-	8000 1550 8750 1550
+	8000 1550 8400 1550
 Wire Wire Line
-	8000 1650 8750 1650
+	8400 1550 8500 1550
 Wire Wire Line
-	8000 1750 8750 1750
+	8500 1550 8750 1550
+Wire Wire Line
+	8000 1650 8250 1650
+Wire Wire Line
+	8250 1650 8750 1650
+Wire Wire Line
+	8000 1750 8100 1750
+Wire Wire Line
+	8100 1750 8750 1750
 Wire Wire Line
 	8400 1200 8400 1550
 Connection ~ 8400 1550
-Wire Wire Line
-	9550 1650 10150 1650
 Connection ~ 8100 1750
 Connection ~ 8250 1650
 Wire Wire Line
 	8250 1200 8250 1650
 Wire Wire Line
 	8100 1200 8100 1750
-Wire Wire Line
-	9550 1550 10150 1550
 Wire Wire Line
 	9700 1200 9700 1550
 Connection ~ 9700 1550
@@ -472,7 +496,23 @@ Connection ~ 10000 1750
 Wire Wire Line
 	10000 800  10000 900 
 Wire Wire Line
-	7750 800  10000 800 
+	7750 800  8100 800 
+Wire Wire Line
+	8100 800  8250 800 
+Wire Wire Line
+	8250 800  8400 800 
+Wire Wire Line
+	8400 800  8700 800 
+Wire Wire Line
+	8700 800  9150 800 
+Wire Wire Line
+	9150 800  9350 800 
+Wire Wire Line
+	9350 800  9700 800 
+Wire Wire Line
+	9700 800  9850 800 
+Wire Wire Line
+	9850 800  10000 800 
 Wire Wire Line
 	9850 800  9850 900 
 Wire Wire Line
@@ -511,15 +551,23 @@ Wire Wire Line
 Wire Wire Line
 	1850 3600 2000 3600
 Wire Wire Line
-	9800 3200 10150 3200
+	9800 3200 9950 3200
 Wire Wire Line
-	9550 1750 10150 1750
+	9950 3200 10150 3200
+Wire Wire Line
+	9550 1750 10000 1750
+Wire Wire Line
+	10000 1750 10150 1750
 Wire Wire Line
 	10000 1200 10000 1750
 Wire Wire Line
-	7450 3300 7950 3300
+	7450 3300 7700 3300
 Wire Wire Line
-	7450 3200 7950 3200
+	7700 3300 7950 3300
+Wire Wire Line
+	7450 3200 7550 3200
+Wire Wire Line
+	7550 3200 7950 3200
 $Comp
 L GND #PWR016
 U 1 1 5A2E5ABD
@@ -608,27 +656,27 @@ Text HLabel 7450 3400 0    39   Input Italic 8
 FGPA_SCK
 Text HLabel 10150 3200 2    39   Input Italic 8
 FPGA_SS
-Text Notes 10900 3300 2    39   Italic 8
+Text Notes 8950 3000 2    39   Italic 8
 iCE SPI SS
 Text HLabel 1850 3600 0    39   Input Italic 8
 CMOS_CLK1
 Text HLabel 1850 7350 0    39   Input Italic 8
 CMOS_CLK2
-Text HLabel 750  4450 0    39   Input Italic 8
+Text HLabel 750  4450 0    39   Input ~ 0
 LED1
-Text HLabel 750  4550 0    39   Input Italic 8
+Text HLabel 750  4550 0    39   Input ~ 0
 LED2
-Text HLabel 750  4650 0    39   Input Italic 8
+Text HLabel 750  4650 0    39   Input ~ 0
 LED3
-Text HLabel 750  4750 0    39   Input Italic 8
+Text HLabel 750  4750 0    39   Input ~ 0
 LED4
-Text HLabel 750  4850 0    39   Input Italic 8
+Text HLabel 750  4850 0    39   Input ~ 0
 LED5
-Text HLabel 750  4950 0    39   Input Italic 8
+Text HLabel 750  4950 0    39   Input ~ 0
 LED6
-Text HLabel 750  5050 0    39   Input Italic 8
+Text HLabel 750  5050 0    39   Input ~ 0
 LED7
-Text HLabel 750  4350 0    39   Input Italic 8
+Text HLabel 750  4350 0    39   Input ~ 0
 LED0
 $Comp
 L GND #PWR018
@@ -651,12 +699,37 @@ Text HLabel 900  5250 0    39   Input ~ 0
 XTAL1_EN
 Text HLabel 900  5300 0    39   Input ~ 0
 XTAL2_EN
-Text GLabel 10150 1550 2    39   Input ~ 0
-FLASH_~WP
-Text GLabel 10150 1650 2    39   Input ~ 0
-FLASH_~HOLD
 Text GLabel 900  5450 0    39   Input ~ 0
 FLASH_~WP
 Text GLabel 900  5550 0    39   Input ~ 0
 FLASH_~HOLD
+Text HLabel 750  5150 0    39   Input ~ 0
+LED8
+Wire Wire Line
+	9550 1650 9850 1650
+Wire Wire Line
+	9850 1650 10800 1650
+$Comp
+L R R?
+U 1 1 5A5FCC87
+P 10250 1550
+F 0 "R?" V 10330 1550 50  0000 C CNN
+F 1 "0" V 10250 1550 50  0000 C CNN
+F 2 "" V 10180 1550 50  0001 C CNN
+F 3 "" H 10250 1550 50  0001 C CNN
+	1    10250 1550
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	9550 1550 9700 1550
+Wire Wire Line
+	9700 1550 10100 1550
+Wire Wire Line
+	10400 1550 10800 1550
+Text Label 10450 1550 0    39   ~ 0
+FLASH_~WP
+Connection ~ 10800 1550
+Text Label 10400 1650 0    39   ~ 0
+FLASH_~HOLD
+Connection ~ 10800 1650
 $EndSCHEMATC
