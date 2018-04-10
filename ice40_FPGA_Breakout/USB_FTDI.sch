@@ -320,7 +320,7 @@ U 1 1 5A0D03B9
 P 4950 5850
 F 0 "C24" H 4975 5950 50  0000 L CNN
 F 1 "10pF" H 4975 5750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4988 5700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4988 5700 50  0001 C CNN
 F 3 "" H 4950 5850 50  0001 C CNN
 	1    4950 5850
 	-1   0    0    1   
@@ -988,9 +988,6 @@ Wire Wire Line
 Wire Wire Line
 	3400 4750 3400 4250
 Wire Wire Line
-	3800 4000 3800 4250
-Connection ~ 3800 4250
-Wire Wire Line
 	4000 4250 4000 4000
 Connection ~ 4000 4250
 Wire Wire Line
@@ -1106,7 +1103,7 @@ Wire Wire Line
 	8250 1400 8250 1500
 Connection ~ 8250 1500
 Wire Wire Line
-	9750 1500 9750 1400
+	9750 1400 9750 1575
 Connection ~ 8550 1500
 Wire Wire Line
 	9450 1400 9450 1500
@@ -1342,4 +1339,19 @@ Text Label 9900 4750 0    39   ~ 0
 Text Label 4850 3350 0    39   ~ 0
 3V3_IN
 Connection ~ 4750 3350
+$Comp
+L GND #PWR036
+U 1 1 5ACC1320
+P 9750 1575
+F 0 "#PWR036" H 9750 1325 50  0001 C CNN
+F 1 "GND" H 9750 1425 50  0000 C CNN
+F 2 "" H 9750 1575 50  0001 C CNN
+F 3 "" H 9750 1575 50  0001 C CNN
+	1    9750 1575
+	1    0    0    -1  
+$EndComp
+Connection ~ 9750 1500
+Wire Wire Line
+	3800 4000 3800 4150
+Connection ~ 3800 4150
 $EndSCHEMATC

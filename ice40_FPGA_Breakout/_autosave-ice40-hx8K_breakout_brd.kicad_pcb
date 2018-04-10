@@ -5578,7 +5578,7 @@
   )
 
   (module Resistor_SMD:R_0402_1005Metric (layer F.Cu) (tedit 5A002D62) (tstamp 5ABFFB7D)
-    (at 47.427381 69.18)
+    (at 68.8875 162.3)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5A0778ED/5A3B7AEA)
@@ -5612,7 +5612,7 @@
   )
 
   (module Resistor_SMD:R_0402_1005Metric (layer F.Cu) (tedit 5A002D62) (tstamp 5ABFFB8C)
-    (at 67.657381 48.68)
+    (at 67.0875 157.775)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5A0778ED/5A3B7AF1)
@@ -5646,7 +5646,7 @@
   )
 
   (module Resistor_SMD:R_0402_1005Metric (layer F.Cu) (tedit 5A002D62) (tstamp 5ABFFB9B)
-    (at 51.967381 64.13)
+    (at 68.8875 163.35)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5A0778ED/5A3B7B06)
@@ -5680,7 +5680,7 @@
   )
 
   (module Resistor_SMD:R_0402_1005Metric (layer F.Cu) (tedit 5A002D62) (tstamp 5ABFFBAA)
-    (at 40.647381 74.23)
+    (at 67.0875 158.825)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5A0778ED/5A3B7B0D)
@@ -5714,7 +5714,7 @@
   )
 
   (module Resistor_SMD:R_0402_1005Metric (layer F.Cu) (tedit 5A002D62) (tstamp 5ABFFBB9)
-    (at 60.827381 53.73)
+    (at 67.0875 159.875)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5A0778ED/5A3B7AF8)
@@ -5748,7 +5748,7 @@
   )
 
   (module Resistor_SMD:R_0402_1005Metric (layer F.Cu) (tedit 5A002D62) (tstamp 5ABFFBC8)
-    (at 64.357381 48.68)
+    (at 67.0875 160.925)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5A0778ED/5A3B7AFF)
@@ -11047,7 +11047,7 @@
   )
 
   (module GTI_Footprint_Lib:SO_DIMM_200 (layer F.Cu) (tedit 5A7135A4) (tstamp 5AC58228)
-    (at 36.830001 3.8)
+    (at 214.225 118.7)
     (path /5A077BA2/5A3A8985)
     (fp_text reference J9 (at -9.6 -2.4) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11603,7 +11603,7 @@
   )
 
   (module GTI_Footprint_Lib:BGA-256_12mmx12mm_Layout_14mmx14mm_P0.8mm_R0.5mm (layer F.Cu) (tedit 5AC59AAF) (tstamp 5AC7F2B7)
-    (at 10.575001 55.73)
+    (at 78.8 165.525)
     (path /5A0778ED/5A2426BF)
     (fp_text reference U1 (at 0 -12) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
