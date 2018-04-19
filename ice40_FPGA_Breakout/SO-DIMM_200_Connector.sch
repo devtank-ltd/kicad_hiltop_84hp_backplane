@@ -106,7 +106,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -312,10 +312,10 @@ Text GLabel 1350 5950 0    39   Input ~ 0
 Text GLabel 1350 6500 0    39   Input ~ 0
 2V5_EXT_IN
 $Comp
-L GND #PWR47
+L GND #PWR038
 U 1 1 5A41B6AD
 P 2850 5800
-F 0 "#PWR47" H 2850 5550 50  0001 C CNN
+F 0 "#PWR038" H 2850 5550 50  0001 C CNN
 F 1 "GND" H 2950 5800 50  0000 C CNN
 F 2 "" H 2850 5800 50  0001 C CNN
 F 3 "" H 2850 5800 50  0001 C CNN
@@ -323,10 +323,10 @@ F 3 "" H 2850 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR48
+L GND #PWR039
 U 1 1 5A41B7D9
 P 2850 6350
-F 0 "#PWR48" H 2850 6100 50  0001 C CNN
+F 0 "#PWR039" H 2850 6100 50  0001 C CNN
 F 1 "GND" H 2950 6350 50  0000 C CNN
 F 2 "" H 2850 6350 50  0001 C CNN
 F 3 "" H 2850 6350 50  0001 C CNN
@@ -334,10 +334,10 @@ F 3 "" H 2850 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR50
+L GND #PWR040
 U 1 1 5A41B927
 P 2850 7500
-F 0 "#PWR50" H 2850 7250 50  0001 C CNN
+F 0 "#PWR040" H 2850 7250 50  0001 C CNN
 F 1 "GND" H 2950 7500 50  0000 C CNN
 F 2 "" H 2850 7500 50  0001 C CNN
 F 3 "" H 2850 7500 50  0001 C CNN
@@ -345,10 +345,10 @@ F 3 "" H 2850 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR49
+L GND #PWR041
 U 1 1 5A41B976
 P 2850 6900
-F 0 "#PWR49" H 2850 6650 50  0001 C CNN
+F 0 "#PWR041" H 2850 6650 50  0001 C CNN
 F 1 "GND" H 2950 6900 50  0000 C CNN
 F 2 "" H 2850 6900 50  0001 C CNN
 F 3 "" H 2850 6900 50  0001 C CNN
@@ -356,10 +356,10 @@ F 3 "" H 2850 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR51
+L GND #PWR042
 U 1 1 5A41CA24
 P 11050 4500
-F 0 "#PWR51" H 11050 4250 50  0001 C CNN
+F 0 "#PWR042" H 11050 4250 50  0001 C CNN
 F 1 "GND" H 11050 4350 50  0000 C CNN
 F 2 "" H 11050 4500 50  0001 C CNN
 F 3 "" H 11050 4500 50  0001 C CNN
@@ -715,10 +715,10 @@ Wire Wire Line
 	11100 1500 11100 1550
 Connection ~ 10950 1500
 $Comp
-L GND #PWR52
+L GND #PWR043
 U 1 1 5A421824
 P 11100 1550
-F 0 "#PWR52" H 11100 1300 50  0001 C CNN
+F 0 "#PWR043" H 11100 1300 50  0001 C CNN
 F 1 "GND" H 11100 1400 50  0000 C CNN
 F 2 "" H 11100 1550 50  0001 C CNN
 F 3 "" H 11100 1550 50  0001 C CNN
@@ -841,86 +841,70 @@ Text GLabel 1300 1350 1    39   Input ~ 0
 2V5_EXT_IN
 Text GLabel 800  1350 1    39   Input ~ 0
 3V3_EXT_IN
-Text HLabel 7050 5800 3    39   Input ~ 0
+Text HLabel 10450 1275 1    39   Input ~ 0
 DP1-
-Text HLabel 7100 5800 3    39   Input ~ 0
+Text HLabel 10550 1275 1    39   Input ~ 0
 DP1+
-Text HLabel 7250 5800 3    39   Input ~ 0
+Text HLabel 10150 1275 1    39   Input ~ 0
 DP2-
-Text HLabel 7450 5800 3    39   Input ~ 0
+Text HLabel 9850 1275 1    39   Input ~ 0
 DP3-
-Text HLabel 7650 5800 3    39   Input ~ 0
+Text HLabel 9550 1275 1    39   Input ~ 0
 DP4-
-Text HLabel 7850 5800 3    39   Input ~ 0
+Text HLabel 9250 1275 1    39   Input ~ 0
 DP5-
-Text HLabel 8050 5800 3    39   Input ~ 0
+Text HLabel 8500 1225 1    39   Input ~ 0
 DP6-
-Text HLabel 8250 5800 3    39   Input ~ 0
+Text HLabel 8200 1225 1    39   Input ~ 0
 DP7-
-Text HLabel 8450 5800 3    39   Input ~ 0
+Text HLabel 7900 1225 1    39   Input ~ 0
 DP8-
-Text HLabel 8650 5800 3    39   Input ~ 0
+Text HLabel 7600 1225 1    39   Input ~ 0
 DP9-
-Text HLabel 8850 5800 3    39   Input ~ 0
+Text HLabel 7300 1225 1    39   Input ~ 0
 DP10-
-Text HLabel 9050 5800 3    39   Input ~ 0
+Text HLabel 7000 1225 1    39   Input ~ 0
 DP11-
-Text HLabel 9250 5800 3    39   Input ~ 0
+Text HLabel 6700 1225 1    39   Input ~ 0
 DP12-
-Text HLabel 9450 5800 3    39   Input ~ 0
+Text HLabel 6400 1225 1    39   Input ~ 0
 DP13-
-Text HLabel 9650 5800 3    39   Input ~ 0
+Text HLabel 6100 1225 1    39   Input ~ 0
 DP14-
-Text HLabel 9850 5800 3    39   Input ~ 0
+Text HLabel 5800 1225 1    39   Input ~ 0
 DP15-
-Text HLabel 10050 5800 3    39   Input ~ 0
+Text HLabel 5500 1225 1    39   Input ~ 0
 DP16-
-Text HLabel 10250 5800 3    39   Input ~ 0
-DP17-
-Text HLabel 10450 5800 3    39   Input ~ 0
-DP18-
-Text HLabel 10650 5800 3    39   Input ~ 0
-DP19-
-Text HLabel 10850 5800 3    39   Input ~ 0
-DP20-
-Text HLabel 7300 5800 3    39   Input ~ 0
+Text HLabel 10250 1275 1    39   Input ~ 0
 DP2+
-Text HLabel 7500 5800 3    39   Input ~ 0
+Text HLabel 9950 1275 1    39   Input ~ 0
 DP3+
-Text HLabel 7700 5800 3    39   Input ~ 0
+Text HLabel 9650 1275 1    39   Input ~ 0
 DP4+
-Text HLabel 7900 5800 3    39   Input ~ 0
+Text HLabel 9350 1275 1    39   Input ~ 0
 DP5+
-Text HLabel 8100 5800 3    39   Input ~ 0
+Text HLabel 8400 1225 1    39   Input ~ 0
 DP6+
-Text HLabel 8300 5800 3    39   Input ~ 0
+Text HLabel 8100 1225 1    39   Input ~ 0
 DP7+
-Text HLabel 8500 5800 3    39   Input ~ 0
+Text HLabel 7800 1225 1    39   Input ~ 0
 DP8+
-Text HLabel 8700 5800 3    39   Input ~ 0
+Text HLabel 7500 1225 1    39   Input ~ 0
 DP9+
-Text HLabel 8900 5800 3    39   Input ~ 0
+Text HLabel 7200 1225 1    39   Input ~ 0
 DP10+
-Text HLabel 9100 5800 3    39   Input ~ 0
+Text HLabel 6900 1225 1    39   Input ~ 0
 DP11+
-Text HLabel 9300 5800 3    39   Input ~ 0
+Text HLabel 6600 1225 1    39   Input ~ 0
 DP12+
-Text HLabel 9500 5800 3    39   Input ~ 0
+Text HLabel 6300 1225 1    39   Input ~ 0
 DP13+
-Text HLabel 9700 5800 3    39   Input ~ 0
+Text HLabel 6000 1225 1    39   Input ~ 0
 DP14+
-Text HLabel 9900 5800 3    39   Input ~ 0
+Text HLabel 5700 1225 1    39   Input ~ 0
 DP15+
-Text HLabel 10100 5800 3    39   Input ~ 0
+Text HLabel 5400 1225 1    39   Input ~ 0
 DP16+
-Text HLabel 10300 5800 3    39   Input ~ 0
-DP17+
-Text HLabel 10500 5800 3    39   Input ~ 0
-DP18+
-Text HLabel 10700 5800 3    39   Input ~ 0
-DP19+
-Text HLabel 10900 5800 3    39   Input ~ 0
-DP20+
 Text HLabel 6450 5850 3    39   Input ~ 0
 ET_SPI_MISO
 Text HLabel 6550 5850 3    39   Input ~ 0
@@ -931,4 +915,68 @@ Text HLabel 6750 5850 3    39   Input ~ 0
 EXT_SPI_SS
 Text HLabel 6850 5850 3    39   Input ~ 0
 EXT_RESET
+Wire Wire Line
+	10550 1700 10550 1275
+Wire Wire Line
+	10450 1675 10450 1275
+Wire Wire Line
+	10250 1700 10250 1275
+Wire Wire Line
+	10150 1700 10150 1275
+Wire Wire Line
+	9950 1700 9950 1275
+Wire Wire Line
+	9850 1275 9850 1700
+Wire Wire Line
+	9650 1700 9650 1275
+Wire Wire Line
+	9550 1700 9550 1275
+Wire Wire Line
+	9350 1700 9350 1275
+Wire Wire Line
+	9250 1700 9250 1275
+Wire Wire Line
+	8500 1700 8500 1225
+Wire Wire Line
+	8400 1700 8400 1225
+Wire Wire Line
+	8200 1700 8200 1225
+Wire Wire Line
+	8100 1700 8100 1225
+Wire Wire Line
+	7900 1700 7900 1225
+Wire Wire Line
+	7800 1700 7800 1225
+Wire Wire Line
+	7600 1225 7600 1700
+Wire Wire Line
+	7500 1700 7500 1225
+Wire Wire Line
+	7300 1700 7300 1225
+Wire Wire Line
+	7200 1700 7200 1225
+Wire Wire Line
+	7000 1700 7000 1225
+Wire Wire Line
+	6900 1700 6900 1225
+Wire Wire Line
+	6700 1700 6700 1225
+Wire Wire Line
+	6600 1700 6600 1225
+Wire Wire Line
+	6400 1700 6400 1225
+Wire Wire Line
+	6300 1700 6300 1225
+Wire Wire Line
+	6100 1700 6100 1225
+Wire Wire Line
+	6000 1700 6000 1225
+Wire Wire Line
+	5800 1700 5800 1225
+Wire Wire Line
+	5700 1700 5700 1225
+Wire Wire Line
+	5500 1700 5500 1225
+Wire Wire Line
+	5400 1700 5400 1225
 $EndSCHEMATC
