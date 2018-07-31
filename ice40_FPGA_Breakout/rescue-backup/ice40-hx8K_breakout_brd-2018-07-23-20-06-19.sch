@@ -1,6 +1,108 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:Devtank
+LIBS:ac-dc
+LIBS:adc-dac
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:Battery_Management
+LIBS:bbd
+LIBS:Bosch
+LIBS:brooktre
+LIBS:Connector
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:Diode
+LIBS:Display
+LIBS:driver_gate
+LIBS:dsp
+LIBS:DSP_Microchip_DSPIC33
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:Espressif
+LIBS:FPGA_Actel
+LIBS:ftdi
+LIBS:gennum
+LIBS:Graphic
+LIBS:hc11
+LIBS:infineon
+LIBS:intel
+LIBS:interface
+LIBS:intersil
+LIBS:ir
+LIBS:Lattice
+LIBS:LED
+LIBS:LEM
+LIBS:linear
+LIBS:Logic_74xgxx
+LIBS:Logic_74xx
+LIBS:Logic_CMOS_4000
+LIBS:Logic_CMOS_IEEE
+LIBS:logic_programmable
+LIBS:Logic_TTL_IEEE
+LIBS:maxim
+LIBS:MCU_Microchip_PIC10
+LIBS:MCU_Microchip_PIC12
+LIBS:MCU_Microchip_PIC16
+LIBS:MCU_Microchip_PIC18
+LIBS:MCU_Microchip_PIC24
+LIBS:MCU_Microchip_PIC32
+LIBS:MCU_NXP_Kinetis
+LIBS:MCU_NXP_LPC
+LIBS:MCU_NXP_S08
+LIBS:MCU_Parallax
+LIBS:MCU_ST_STM8
+LIBS:MCU_ST_STM32
+LIBS:MCU_Texas_MSP430
+LIBS:Mechanical
+LIBS:memory
+LIBS:microchip
+LIBS:microcontrollers
+LIBS:modules
+LIBS:Motor
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:Relay
+LIBS:rfcom
+LIBS:RFSolutions
+LIBS:Sensor_Current
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:supertex
+LIBS:Switch
+LIBS:texas
+LIBS:Transformer
+LIBS:Transistor
+LIBS:triac_thyristor
+LIBS:Valve
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:zetex
+LIBS:Zilog
+LIBS:gti_Lattice
 LIBS:ice40-hx8K_breakout_brd-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -453,7 +555,7 @@ DPCK-
 Text Label 7950 1150 0    30   ~ 0
 DPCK+
 $Comp
-L power:GND #PWR01
+L GND #PWR01
 U 1 1 5A52AC04
 P 1600 6700
 F 0 "#PWR01" H 1600 6450 50  0001 C CNN
@@ -574,7 +676,7 @@ FPGA_SCK
 Text Label 3700 4250 0    30   ~ 0
 FPGA_SS
 $Comp
-L device:R R1
+L R R1
 U 1 1 5A61EAF8
 P 10300 1750
 F 0 "R1" V 10350 1600 50  0000 C CNN
@@ -585,7 +687,7 @@ F 3 "" H 10300 1750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R3
+L R R3
 U 1 1 5A62B56E
 P 10400 1750
 F 0 "R3" V 10450 1600 50  0000 C CNN
@@ -596,7 +698,7 @@ F 3 "" H 10400 1750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R5
+L R R5
 U 1 1 5A62BAEE
 P 10500 1750
 F 0 "R5" V 10550 1600 50  0000 C CNN
@@ -607,7 +709,7 @@ F 3 "" H 10500 1750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R7
+L R R7
 U 1 1 5A62C079
 P 10600 1750
 F 0 "R7" V 10650 1600 50  0000 C CNN
@@ -618,7 +720,7 @@ F 3 "" H 10600 1750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R9
+L R R9
 U 1 1 5A63AC19
 P 10700 1750
 F 0 "R9" V 10750 1600 50  0000 C CNN
@@ -629,7 +731,7 @@ F 3 "" H 10700 1750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R11
+L R R11
 U 1 1 5A63B1A0
 P 10800 1750
 F 0 "R11" V 10850 1600 50  0000 C CNN
@@ -640,7 +742,7 @@ F 3 "" H 10800 1750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R8
+L R R8
 U 1 1 5A63B732
 P 10600 2500
 F 0 "R8" V 10650 2350 50  0000 C CNN
@@ -651,7 +753,7 @@ F 3 "" H 10600 2500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R10
+L R R10
 U 1 1 5A63BCC3
 P 10700 2500
 F 0 "R10" V 10750 2350 50  0000 C CNN
@@ -662,7 +764,7 @@ F 3 "" H 10700 2500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R12
+L R R12
 U 1 1 5A63C25B
 P 10800 2500
 F 0 "R12" V 10850 2350 50  0000 C CNN
@@ -673,7 +775,7 @@ F 3 "" H 10800 2500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R2
+L R R2
 U 1 1 5A6400C0
 P 10300 2500
 F 0 "R2" V 10350 2350 50  0000 C CNN
@@ -684,7 +786,7 @@ F 3 "" H 10300 2500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R4
+L R R4
 U 1 1 5A640686
 P 10400 2500
 F 0 "R4" V 10450 2350 50  0000 C CNN
@@ -695,7 +797,7 @@ F 3 "" H 10400 2500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R6
+L R R6
 U 1 1 5A640C1D
 P 10500 2500
 F 0 "R6" V 10550 2350 50  0000 C CNN
@@ -800,7 +902,11 @@ Wire Wire Line
 Wire Wire Line
 	7100 4300 7250 4300
 Wire Bus Line
+	7350 1150 7350 4500
+Wire Bus Line
 	7350 4500 7850 4500
+Wire Bus Line
+	7850 4500 7850 1000
 Wire Wire Line
 	7950 1150 8150 1150
 Wire Wire Line
@@ -898,7 +1004,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 2500 1600 2500
 Wire Wire Line
-	1600 2500 1600 4700
+	1600 2500 1600 6700
 Wire Wire Line
 	1700 4700 1600 4700
 Connection ~ 1600 4700
@@ -908,13 +1014,17 @@ Connection ~ 1600 6300
 Wire Wire Line
 	1550 5550 1700 5550
 Wire Wire Line
-	1550 850  1550 1100
+	1550 850  1550 5550
 Wire Wire Line
-	1550 1100 1650 1100
+	1550 1100 1700 1100
 Connection ~ 1550 1100
 Wire Wire Line
 	1700 3350 1550 3350
 Connection ~ 1550 3350
+Wire Bus Line
+	3950 1500 3950 2000
+Wire Bus Line
+	3950 5550 3950 5750
 Wire Wire Line
 	3700 1400 3850 1400
 Wire Wire Line
@@ -945,6 +1055,8 @@ Wire Wire Line
 	3700 3600 4000 3600
 Wire Wire Line
 	3700 3650 4000 3650
+Wire Bus Line
+	4100 2450 4100 3750
 Wire Wire Line
 	3700 1450 3850 1450
 Wire Wire Line
@@ -957,6 +1069,8 @@ Wire Bus Line
 	4200 2000 4200 5550
 Wire Bus Line
 	4200 5550 3950 5550
+Wire Bus Line
+	4150 2150 4150 4350
 Wire Wire Line
 	3700 4100 4050 4100
 Wire Wire Line
@@ -979,17 +1093,17 @@ Wire Wire Line
 	1650 1200 1650 1100
 Connection ~ 1650 1100
 Wire Wire Line
-	1050 850  1550 850 
+	1050 850  4250 850 
 Wire Wire Line
-	4250 550  4250 850 
+	4250 550  4250 1350
 Wire Wire Line
 	4250 1350 4600 1350
 Wire Wire Line
 	4300 1300 4600 1300
 Wire Wire Line
-	4300 600  4300 800 
+	4300 600  4300 1300
 Wire Wire Line
-	1050 800  1500 800 
+	1050 800  4300 800 
 Wire Wire Line
 	1500 800  1500 1250
 Wire Wire Line
@@ -999,7 +1113,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 1250 4350 750 
 Wire Wire Line
-	1050 750  1450 750 
+	1050 750  9450 750 
 Wire Wire Line
 	1450 750  1450 1300
 Wire Wire Line
@@ -1009,7 +1123,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 1200 4400 700 
 Wire Wire Line
-	4400 700  1400 700 
+	4400 700  1050 700 
 Wire Wire Line
 	1400 700  1400 1350
 Wire Wire Line
@@ -1036,7 +1150,7 @@ Connection ~ 1550 850
 Wire Wire Line
 	7800 4850 8150 4850
 Wire Wire Line
-	10150 2050 10300 2050
+	10150 2050 10500 2050
 Wire Wire Line
 	10300 2050 10300 1900
 Wire Wire Line
@@ -1046,7 +1160,7 @@ Wire Wire Line
 	10500 2050 10500 1900
 Connection ~ 10400 2050
 Wire Wire Line
-	10150 2100 10600 2100
+	10150 2100 10800 2100
 Wire Wire Line
 	10600 2100 10600 1900
 Wire Wire Line
@@ -1056,7 +1170,7 @@ Wire Wire Line
 	10800 2100 10800 1900
 Connection ~ 10700 2100
 Wire Wire Line
-	10150 2200 10300 2200
+	10150 2200 10500 2200
 Wire Wire Line
 	10500 2200 10500 2350
 Wire Wire Line
@@ -1068,30 +1182,34 @@ Connection ~ 10300 2200
 Wire Wire Line
 	10300 1600 10300 1500
 Wire Wire Line
-	10300 1500 10600 1500
+	10300 1500 10900 1500
 Wire Wire Line
 	10600 1500 10600 1600
 Connection ~ 10600 1500
 Wire Wire Line
 	10400 1600 10400 1450
 Wire Wire Line
-	10400 1450 10700 1450
+	10400 1450 10950 1450
 Wire Wire Line
 	10700 1450 10700 1600
 Connection ~ 10700 1450
 Wire Wire Line
 	10500 1600 10500 1400
 Wire Wire Line
-	10500 1400 10800 1400
+	10500 1400 11000 1400
 Wire Wire Line
 	10800 1400 10800 1600
 Connection ~ 10800 1400
+Connection ~ 4050 6100
+Connection ~ 4050 6150
 Wire Wire Line
 	10150 3400 10500 3400
 Wire Wire Line
 	10150 3450 10500 3450
+Connection ~ 10500 3400
+Connection ~ 10500 3450
 Wire Wire Line
-	10150 2150 10600 2150
+	10150 2150 10800 2150
 Wire Wire Line
 	10800 2150 10800 2350
 Wire Wire Line
@@ -1103,42 +1221,50 @@ Connection ~ 10600 2150
 Wire Wire Line
 	10300 2650 10300 2750
 Wire Wire Line
-	10300 2750 10600 2750
+	10300 2750 10900 2750
 Wire Wire Line
 	10600 2750 10600 2650
 Wire Wire Line
 	10400 2650 10400 2800
 Wire Wire Line
-	10400 2800 10700 2800
+	10400 2800 10950 2800
 Wire Wire Line
 	10700 2800 10700 2650
 Wire Wire Line
 	10500 2650 10500 2850
 Wire Wire Line
-	10500 2850 10800 2850
+	10500 2850 11000 2850
 Wire Wire Line
 	10800 2850 10800 2650
 Connection ~ 10600 2750
 Connection ~ 10700 2800
 Connection ~ 10800 2850
 Wire Wire Line
-	10900 2750 10900 1500
+	10900 2750 10900 950 
 Wire Wire Line
-	10950 2800 10950 1450
+	10950 2800 10950 950 
 Wire Wire Line
-	11000 2850 11000 1400
+	11000 2850 11000 950 
 Connection ~ 11000 1400
 Connection ~ 10950 1450
 Connection ~ 10900 1500
+Connection ~ 10900 950 
+Connection ~ 10950 950 
+Connection ~ 11000 950 
 Connection ~ 1500 800 
 Connection ~ 1450 750 
 Connection ~ 1400 700 
+Connection ~ 1050 850 
+Connection ~ 1050 800 
+Connection ~ 1050 750 
+Connection ~ 1050 700 
+Connection ~ 7800 4850
 Wire Wire Line
 	10150 1250 10450 1250
 Wire Wire Line
 	10150 1200 10400 1200
 $Comp
-L device:D_Schottky D1
+L D_Schottky D1
 U 1 1 5A6D3B22
 P 9600 750
 F 0 "D1" H 9600 850 50  0000 C CNN
@@ -1261,74 +1387,4 @@ F48 "GND" I R 10150 4300 39
 F49 "FPGA_CDONE" I R 10150 3400 39 
 F50 "FPGA_CRST" I R 10150 3450 39 
 $EndSheet
-Wire Wire Line
-	1600 4700 1600 6300
-Wire Wire Line
-	1600 6300 1600 6700
-Wire Wire Line
-	1550 1100 1550 3350
-Wire Wire Line
-	1550 3350 1550 5550
-Wire Wire Line
-	1650 1100 1700 1100
-Wire Wire Line
-	4300 800  4300 1300
-Wire Wire Line
-	4250 850  4250 1350
-Wire Wire Line
-	1550 850  4250 850 
-Wire Wire Line
-	10300 2050 10400 2050
-Wire Wire Line
-	10400 2050 10500 2050
-Wire Wire Line
-	10600 2100 10700 2100
-Wire Wire Line
-	10700 2100 10800 2100
-Wire Wire Line
-	10400 2200 10500 2200
-Wire Wire Line
-	10300 2200 10400 2200
-Wire Wire Line
-	10600 1500 10900 1500
-Wire Wire Line
-	10700 1450 10950 1450
-Wire Wire Line
-	10800 1400 11000 1400
-Wire Wire Line
-	10700 2150 10800 2150
-Wire Wire Line
-	10600 2150 10700 2150
-Wire Wire Line
-	10600 2750 10900 2750
-Wire Wire Line
-	10700 2800 10950 2800
-Wire Wire Line
-	10800 2850 11000 2850
-Wire Wire Line
-	11000 1400 11000 950 
-Wire Wire Line
-	10950 1450 10950 950 
-Wire Wire Line
-	10900 1500 10900 950 
-Wire Wire Line
-	1500 800  4300 800 
-Wire Wire Line
-	1450 750  4350 750 
-Wire Wire Line
-	1400 700  1050 700 
-Wire Wire Line
-	4350 750  9450 750 
-Wire Bus Line
-	3950 1500 3950 2000
-Wire Bus Line
-	3950 5550 3950 5750
-Wire Bus Line
-	4100 2450 4100 3750
-Wire Bus Line
-	4150 2150 4150 4350
-Wire Bus Line
-	7350 1150 7350 4500
-Wire Bus Line
-	7850 1000 7850 4500
 $EndSCHEMATC

@@ -1,6 +1,108 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:Devtank
+LIBS:ac-dc
+LIBS:adc-dac
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:Battery_Management
+LIBS:bbd
+LIBS:Bosch
+LIBS:brooktre
+LIBS:Connector
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:Diode
+LIBS:Display
+LIBS:driver_gate
+LIBS:dsp
+LIBS:DSP_Microchip_DSPIC33
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:Espressif
+LIBS:FPGA_Actel
+LIBS:ftdi
+LIBS:gennum
+LIBS:Graphic
+LIBS:hc11
+LIBS:infineon
+LIBS:intel
+LIBS:interface
+LIBS:intersil
+LIBS:ir
+LIBS:Lattice
+LIBS:LED
+LIBS:LEM
+LIBS:linear
+LIBS:Logic_74xgxx
+LIBS:Logic_74xx
+LIBS:Logic_CMOS_4000
+LIBS:Logic_CMOS_IEEE
+LIBS:logic_programmable
+LIBS:Logic_TTL_IEEE
+LIBS:maxim
+LIBS:MCU_Microchip_PIC10
+LIBS:MCU_Microchip_PIC12
+LIBS:MCU_Microchip_PIC16
+LIBS:MCU_Microchip_PIC18
+LIBS:MCU_Microchip_PIC24
+LIBS:MCU_Microchip_PIC32
+LIBS:MCU_NXP_Kinetis
+LIBS:MCU_NXP_LPC
+LIBS:MCU_NXP_S08
+LIBS:MCU_Parallax
+LIBS:MCU_ST_STM8
+LIBS:MCU_ST_STM32
+LIBS:MCU_Texas_MSP430
+LIBS:Mechanical
+LIBS:memory
+LIBS:microchip
+LIBS:microcontrollers
+LIBS:modules
+LIBS:Motor
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:Relay
+LIBS:rfcom
+LIBS:RFSolutions
+LIBS:Sensor_Current
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:supertex
+LIBS:Switch
+LIBS:texas
+LIBS:Transformer
+LIBS:Transistor
+LIBS:triac_thyristor
+LIBS:Valve
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:zetex
+LIBS:Zilog
+LIBS:gti_Lattice
 LIBS:ice40-hx8K_breakout_brd-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +117,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector1:USB_B_Micro J1
+L USB_B_Micro J1
 U 1 1 5A0CEDE1
 P 1550 2750
 F 0 "J1" H 1350 3200 50  0000 L CNN
@@ -26,7 +128,7 @@ F 3 "" H 1700 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ESD_Protection:NUP2105L D3
+L NUP2105L D3
 U 1 1 5A0CEFF4
 P 4500 3150
 F 0 "D3" H 4725 3250 50  0000 L CNN
@@ -37,7 +139,7 @@ F 3 "" H 4625 3275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C22
+L C C22
 U 1 1 5A0CF19D
 P 2250 1500
 F 0 "C22" V 2100 1450 50  0000 L CNN
@@ -48,7 +150,7 @@ F 3 "" H 2250 1500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C23
+L C C23
 U 1 1 5A0CF48E
 P 3150 4800
 F 0 "C23" H 3175 4900 50  0000 L CNN
@@ -59,7 +161,7 @@ F 3 "" H 3150 4800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C37
+L C C37
 U 1 1 5A0CF61F
 P 8850 1250
 F 0 "C37" H 8700 1150 50  0000 L CNN
@@ -70,7 +172,7 @@ F 3 "" H 8850 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C39
+L C C39
 U 1 1 5A0CF7C6
 P 9450 1250
 F 0 "C39" H 9475 1350 50  0000 L CNN
@@ -81,7 +183,7 @@ F 3 "" H 9450 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C36
+L C C36
 U 1 1 5A0CF9B8
 P 8550 1250
 F 0 "C36" H 8575 1350 50  0000 L CNN
@@ -92,7 +194,7 @@ F 3 "" H 8550 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C40
+L C C40
 U 1 1 5A0CFC0B
 P 9750 1250
 F 0 "C40" H 9775 1350 50  0000 L CNN
@@ -103,7 +205,7 @@ F 3 "" H 9750 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C35
+L C C35
 U 1 1 5A0CFCE6
 P 8250 1250
 F 0 "C35" H 8275 1350 50  0000 L CNN
@@ -114,7 +216,7 @@ F 3 "" H 8250 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C34
+L C C34
 U 1 1 5A0CFD9F
 P 7950 1250
 F 0 "C34" H 7975 1350 50  0000 L CNN
@@ -125,7 +227,7 @@ F 3 "" H 7950 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C27
+L C C27
 U 1 1 5A0CFDD2
 P 5550 1200
 F 0 "C27" H 5575 1300 50  0000 L CNN
@@ -136,7 +238,7 @@ F 3 "" H 5550 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C30
+L C C30
 U 1 1 5A0CFE07
 P 5850 1200
 F 0 "C30" H 5875 1300 50  0000 L CNN
@@ -147,7 +249,7 @@ F 3 "" H 5850 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C32
+L C C32
 U 1 1 5A0CFE36
 P 6150 1200
 F 0 "C32" H 6175 1300 50  0000 L CNN
@@ -158,7 +260,7 @@ F 3 "" H 6150 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C33
+L C C33
 U 1 1 5A0CFE71
 P 6450 1200
 F 0 "C33" H 6475 1300 50  0000 L CNN
@@ -169,7 +271,7 @@ F 3 "" H 6450 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C38
+L C C38
 U 1 1 5A0CFEAA
 P 9150 1250
 F 0 "C38" H 9175 1350 50  0000 L CNN
@@ -180,7 +282,7 @@ F 3 "" H 9150 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C25
+L C C25
 U 1 1 5A0CFFD0
 P 5500 2300
 F 0 "C25" H 5525 2400 50  0000 L CNN
@@ -191,7 +293,7 @@ F 3 "" H 5500 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C29
+L C C29
 U 1 1 5A0D0317
 P 5750 2300
 F 0 "C29" H 5775 2400 50  0000 L CNN
@@ -202,7 +304,7 @@ F 3 "" H 5750 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C26
+L C C26
 U 1 1 5A0D035A
 P 5500 5850
 F 0 "C26" H 5400 5950 50  0000 L CNN
@@ -213,7 +315,7 @@ F 3 "" H 5500 5850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C24
+L C C24
 U 1 1 5A0D03B9
 P 4950 5850
 F 0 "C24" H 4975 5950 50  0000 L CNN
@@ -224,7 +326,7 @@ F 3 "" H 4950 5850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:Ferrite_Bead L2
+L Ferrite_Bead L2
 U 1 1 5A0D0483
 P 4850 650
 F 0 "L2" V 4700 675 50  0000 C CNN
@@ -235,7 +337,7 @@ F 3 "" H 4850 650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:Ferrite_Bead L3
+L Ferrite_Bead L3
 U 1 1 5A0D07F0
 P 4850 950
 F 0 "L3" V 4700 975 50  0000 C CNN
@@ -246,7 +348,7 @@ F 3 "" H 4850 950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:Ferrite_Bead L4
+L Ferrite_Bead L4
 U 1 1 5A0D0852
 P 10250 750
 F 0 "L4" V 10200 650 50  0000 C CNN
@@ -257,7 +359,7 @@ F 3 "" H 10250 750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:Ferrite_Bead L1
+L Ferrite_Bead L1
 U 1 1 5A0D09B1
 P 2000 2300
 F 0 "L1" H 1900 2250 50  0000 C CNN
@@ -268,7 +370,7 @@ F 3 "" H 2000 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:Ferrite_Bead L5
+L Ferrite_Bead L5
 U 1 1 5A0D0A0A
 P 10250 1000
 F 0 "L5" V 10200 900 50  0000 C CNN
@@ -279,7 +381,7 @@ F 3 "" H 10250 1000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ftdi:FT2232H U6
+L FT2232H U6
 U 1 1 5A0D0CDB
 P 7250 3750
 F 0 "U6" H 6200 5850 50  0000 L CNN
@@ -290,7 +392,7 @@ F 3 "" H 7250 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR014
+L GND #PWR014
 U 1 1 5A0D11EC
 P 7550 6150
 F 0 "#PWR014" H 7550 5900 50  0001 C CNN
@@ -301,7 +403,7 @@ F 3 "" H 7550 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR015
+L GND #PWR015
 U 1 1 5A0D12CE
 P 5500 6100
 F 0 "#PWR015" H 5500 5850 50  0001 C CNN
@@ -312,7 +414,7 @@ F 3 "" H 5500 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR016
+L GND #PWR016
 U 1 1 5A0D137A
 P 4950 6100
 F 0 "#PWR016" H 4950 5850 50  0001 C CNN
@@ -323,7 +425,7 @@ F 3 "" H 4950 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR017
+L GND #PWR017
 U 1 1 5A0D14C2
 P 5750 2550
 F 0 "#PWR017" H 5750 2300 50  0001 C CNN
@@ -334,7 +436,7 @@ F 3 "" H 5750 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR018
+L GND #PWR018
 U 1 1 5A0D1506
 P 5500 2550
 F 0 "#PWR018" H 5500 2300 50  0001 C CNN
@@ -345,7 +447,7 @@ F 3 "" H 5500 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR019
+L GND #PWR019
 U 1 1 5A0D154A
 P 3150 5000
 F 0 "#PWR019" H 3150 4750 50  0001 C CNN
@@ -356,7 +458,7 @@ F 3 "" H 3150 5000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR020
+L GND #PWR020
 U 1 1 5A0D172E
 P 2500 1600
 F 0 "#PWR020" H 2500 1350 50  0001 C CNN
@@ -367,7 +469,7 @@ F 3 "" H 2500 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR021
+L GND #PWR021
 U 1 1 5A0D17DA
 P 4500 3450
 F 0 "#PWR021" H 4500 3200 50  0001 C CNN
@@ -378,7 +480,7 @@ F 3 "" H 4500 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR022
+L GND #PWR022
 U 1 1 5A0D263E
 P 1550 3300
 F 0 "#PWR022" H 1550 3050 50  0001 C CNN
@@ -389,7 +491,7 @@ F 3 "" H 1550 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L memory:93LCxxC U5
+L 93LCxxC U5
 U 1 1 5A0D27FD
 P 3800 4750
 F 0 "U5" H 3650 5100 50  0000 C CNN
@@ -400,7 +502,7 @@ F 3 "" H 3800 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR023
+L GND #PWR023
 U 1 1 5A0E190F
 P 3400 5000
 F 0 "#PWR023" H 3400 4750 50  0001 C CNN
@@ -411,7 +513,7 @@ F 3 "" H 3400 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R111
+L R R111
 U 1 1 5A0E2040
 P 4000 3850
 F 0 "R111" V 4080 3850 50  0000 C CNN
@@ -422,7 +524,7 @@ F 3 "" H 4000 3850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R110
+L R R110
 U 1 1 5A0E22F5
 P 3800 3850
 F 0 "R110" V 3880 3850 50  0000 C CNN
@@ -433,7 +535,7 @@ F 3 "" H 3800 3850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:R R112
+L R R112
 U 1 1 5A0E2366
 P 4200 3850
 F 0 "R112" V 4280 3850 50  0000 C CNN
@@ -444,7 +546,7 @@ F 3 "" H 4200 3850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:R R113
+L R R113
 U 1 1 5A0E23C5
 P 4500 4650
 F 0 "R113" V 4580 4650 50  0000 C CNN
@@ -455,7 +557,7 @@ F 3 "" H 4500 4650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R114
+L R R114
 U 1 1 5A0E253E
 P 5050 2750
 F 0 "R114" V 4950 2700 50  0000 C CNN
@@ -466,7 +568,7 @@ F 3 "" H 5050 2750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R115
+L R R115
 U 1 1 5A0E2735
 P 5050 2850
 F 0 "R115" V 5150 2800 50  0000 C CNN
@@ -477,7 +579,7 @@ F 3 "" H 5050 2850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R117
+L R R117
 U 1 1 5A0E4574
 P 5850 3600
 F 0 "R117" V 5930 3600 50  0000 C CNN
@@ -488,7 +590,7 @@ F 3 "" H 5850 3600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R116
+L R R116
 U 1 1 5A0E467B
 P 5300 3350
 F 0 "R116" V 5380 3350 50  0000 C CNN
@@ -499,7 +601,7 @@ F 3 "" H 5300 3350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C28
+L C C28
 U 1 1 5A0E7988
 P 5550 3600
 F 0 "C28" H 5575 3700 50  0000 L CNN
@@ -510,7 +612,7 @@ F 3 "" H 5550 3600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR024
+L GND #PWR024
 U 1 1 5A0E83DE
 P 5550 3950
 F 0 "#PWR024" H 5550 3700 50  0001 C CNN
@@ -521,7 +623,7 @@ F 3 "" H 5550 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D_Schottky D2
+L D_Schottky D2
 U 1 1 5A0E9377
 P 2000 1800
 F 0 "D2" H 2000 1900 50  0000 C CNN
@@ -534,7 +636,7 @@ $EndComp
 Text Notes 1700 1100 0    60   ~ 0
 4.7V from USB
 $Comp
-L power:GND #PWR025
+L GND #PWR025
 U 1 1 5A0F5EF9
 P 5550 1600
 F 0 "#PWR025" H 5550 1350 50  0001 C CNN
@@ -545,7 +647,7 @@ F 3 "" H 5550 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R118
+L R R118
 U 1 1 5A286A3D
 P 8800 1850
 F 0 "R118" V 8750 1650 50  0000 C CNN
@@ -556,7 +658,7 @@ F 3 "" H 8800 1850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R119
+L R R119
 U 1 1 5A286C57
 P 8800 1950
 F 0 "R119" V 8750 1750 50  0000 C CNN
@@ -567,7 +669,7 @@ F 3 "" H 8800 1950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R120
+L R R120
 U 1 1 5A286CD9
 P 8800 2050
 F 0 "R120" V 8750 1850 50  0000 C CNN
@@ -578,7 +680,7 @@ F 3 "" H 8800 2050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R121
+L R R121
 U 1 1 5A286D5E
 P 8800 2150
 F 0 "R121" V 8750 1950 50  0000 C CNN
@@ -589,7 +691,7 @@ F 3 "" H 8800 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R123
+L R R123
 U 1 1 5A286F0C
 P 8800 2450
 F 0 "R123" V 8750 2250 50  0000 C CNN
@@ -600,7 +702,7 @@ F 3 "" H 8800 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R124
+L R R124
 U 1 1 5A286F9B
 P 8800 2550
 F 0 "R124" V 8750 2350 50  0000 C CNN
@@ -611,7 +713,7 @@ F 3 "" H 8800 2550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C31
+L C C31
 U 1 1 5A28A03B
 P 6000 2300
 F 0 "C31" H 6025 2400 50  0000 L CNN
@@ -622,7 +724,7 @@ F 3 "" H 6000 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R122
+L R R122
 U 1 1 5A28A99D
 P 8800 2250
 F 0 "R122" V 8750 2050 50  0000 C CNN
@@ -645,7 +747,7 @@ iCE40 CDONE
 Text Notes 9700 2550 0    39   Italic 0
 iCE40 CRESET
 $Comp
-L device:R R125
+L R R125
 U 1 1 5A432905
 P 9550 4850
 F 0 "R125" V 9450 4850 50  0000 C CNN
@@ -656,7 +758,7 @@ F 3 "" H 9550 4850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R126
+L R R126
 U 1 1 5A432C01
 P 9550 4950
 F 0 "R126" V 9650 4950 50  0000 C CNN
@@ -667,7 +769,7 @@ F 3 "" H 9550 4950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D4
+L LED D4
 U 1 1 5A432D8D
 P 9000 4800
 F 0 "D4" H 9000 4900 50  0000 C CNN
@@ -678,7 +780,7 @@ F 3 "" H 9000 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D5
+L LED D5
 U 1 1 5A432E41
 P 9000 5000
 F 0 "D5" H 9000 5100 50  0000 C CNN
@@ -689,7 +791,7 @@ F 3 "" H 9000 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Crystal_GND24 Y1
+L Crystal_GND24 Y1
 U 1 1 5A2C1F7D
 P 5250 5350
 F 0 "Y1" H 5375 5550 50  0000 L CNN
@@ -700,7 +802,7 @@ F 3 "" H 5250 5350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR026
+L GND #PWR026
 U 1 1 5A2C2E4B
 P 5250 5650
 F 0 "#PWR026" H 5250 5400 50  0001 C CNN
@@ -711,7 +813,7 @@ F 3 "" H 5250 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gti_Lattice:3pos_Jumper J3
+L 3pos_Jumper J3
 U 1 1 5A2C5B3A
 P 2800 2900
 F 0 "J3" H 2750 3100 60  0000 C CNN
@@ -722,7 +824,7 @@ F 3 "" H 2800 2900 60  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L gti_Lattice:3pos_Jumper J2
+L 3pos_Jumper J2
 U 1 1 5A2C5C1B
 P 2800 2700
 F 0 "J2" H 2750 2900 60  0000 C CNN
@@ -733,7 +835,7 @@ F 3 "" H 2800 2700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector1:Test_Point TP11
+L Test_Point TP11
 U 1 1 5A2FCE0A
 P 2000 1350
 F 0 "TP11" H 2000 1620 50  0000 C CNN
@@ -774,7 +876,7 @@ Text HLabel 5400 1850 0    39   Input Italic 8
 Text GLabel 5400 2050 0    39   Input Italic 8
 1V8_REG
 $Comp
-L power:GND #PWR027
+L GND #PWR027
 U 1 1 5A40997E
 P 4750 1150
 F 0 "#PWR027" H 4750 900 50  0001 C CNN
@@ -1238,7 +1340,7 @@ Text Label 4850 3350 0    39   ~ 0
 3V3_IN
 Connection ~ 4750 3350
 $Comp
-L power:GND #PWR028
+L GND #PWR028
 U 1 1 5ACC1320
 P 9750 1575
 F 0 "#PWR028" H 9750 1325 50  0001 C CNN
@@ -1252,8 +1354,4 @@ Connection ~ 9750 1500
 Wire Wire Line
 	3800 4000 3800 4150
 Connection ~ 3800 4150
-Text Label 2050 2700 0    60   ~ 0
-USB_D+
-Text Label 2050 2900 0    60   ~ 0
-USB_D-
 $EndSCHEMATC
