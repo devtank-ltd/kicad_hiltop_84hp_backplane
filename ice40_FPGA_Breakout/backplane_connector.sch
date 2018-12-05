@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -1087,4 +1087,208 @@ Wire Wire Line
 	1625 2775 1675 2775
 Text Notes 1300 675  0    60   ~ 0
 Differential Signals/Clock\n
+$Comp
+L gti_Lattice:LTC4311 U?
+U 1 1 5D11931D
+P -2625 225
+F 0 "U?" H -2625 366 39  0000 C CNN
+F 1 "LTC4311" H -2625 291 39  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.5mm_EP0.61x1.42mm" H -2625 225 39  0001 C CNN
+F 3 "" H -2625 225 39  0001 C CNN
+	1    -2625 225 
+	1    0    0    -1  
+$EndComp
+Text HLabel -3450 375  0    39   Input ~ 0
++3V3_IN
+Wire Wire Line
+	-3450 375  -3325 375 
+Wire Wire Line
+	-3075 525  -3150 525 
+Wire Wire Line
+	-3150 525  -3150 375 
+Connection ~ -3150 375 
+Wire Wire Line
+	-3150 375  -3075 375 
+$Comp
+L device:C C?
+U 1 1 5D1633D6
+P -3325 600
+F 0 "C?" H -3210 646 50  0000 L CNN
+F 1 "10nF" H -3210 555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H -3287 450 50  0001 C CNN
+F 3 "" H -3325 600 50  0001 C CNN
+	1    -3325 600 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3325 450  -3325 375 
+Connection ~ -3325 375 
+Wire Wire Line
+	-3325 375  -3150 375 
+Wire Wire Line
+	-3325 750  -3325 825 
+Wire Wire Line
+	-3325 825  -3150 825 
+Wire Wire Line
+	-3150 825  -3150 675 
+Wire Wire Line
+	-3150 675  -3075 675 
+$Comp
+L power:GND #PWR?
+U 1 1 5D198CFB
+P -3325 900
+F 0 "#PWR?" H -3325 650 50  0001 C CNN
+F 1 "GND" H -3320 727 50  0000 C CNN
+F 2 "" H -3325 900 50  0001 C CNN
+F 3 "" H -3325 900 50  0001 C CNN
+	1    -3325 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3325 900  -3325 825 
+Connection ~ -3325 825 
+Wire Wire Line
+	-2175 525  -1975 525 
+Wire Wire Line
+	-2175 675  -1975 675 
+Text HLabel -1975 525  2    39   Input ~ 0
+CON_SDA1
+Text HLabel -1975 675  2    39   Input ~ 0
+CON_SCL1
+$Comp
+L gti_Lattice:LTC4311 U?
+U 1 1 5D1C0206
+P -2625 1400
+F 0 "U?" H -2625 1541 39  0000 C CNN
+F 1 "LTC4311" H -2625 1466 39  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.5mm_EP0.61x1.42mm" H -2625 1400 39  0001 C CNN
+F 3 "" H -2625 1400 39  0001 C CNN
+	1    -2625 1400
+	1    0    0    -1  
+$EndComp
+Text HLabel -3450 1550 0    39   Input ~ 0
++3V3_IN
+Wire Wire Line
+	-3450 1550 -3325 1550
+Wire Wire Line
+	-3075 1700 -3150 1700
+Wire Wire Line
+	-3150 1700 -3150 1550
+Connection ~ -3150 1550
+Wire Wire Line
+	-3150 1550 -3075 1550
+$Comp
+L device:C C?
+U 1 1 5D1C0213
+P -3325 1775
+F 0 "C?" H -3210 1821 50  0000 L CNN
+F 1 "10nF" H -3210 1730 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H -3287 1625 50  0001 C CNN
+F 3 "" H -3325 1775 50  0001 C CNN
+	1    -3325 1775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3325 1625 -3325 1550
+Connection ~ -3325 1550
+Wire Wire Line
+	-3325 1550 -3150 1550
+Wire Wire Line
+	-3325 1925 -3325 2000
+Wire Wire Line
+	-3325 2000 -3150 2000
+Wire Wire Line
+	-3150 2000 -3150 1850
+Wire Wire Line
+	-3150 1850 -3075 1850
+$Comp
+L power:GND #PWR?
+U 1 1 5D1C0221
+P -3325 2075
+F 0 "#PWR?" H -3325 1825 50  0001 C CNN
+F 1 "GND" H -3320 1902 50  0000 C CNN
+F 2 "" H -3325 2075 50  0001 C CNN
+F 3 "" H -3325 2075 50  0001 C CNN
+	1    -3325 2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3325 2075 -3325 2000
+Connection ~ -3325 2000
+Wire Wire Line
+	-2175 1700 -1975 1700
+Wire Wire Line
+	-2175 1850 -1975 1850
+Text HLabel -1975 1700 2    39   Input ~ 0
+CON_SDA2
+Text HLabel -1975 1850 2    39   Input ~ 0
+CON_SCL2
+$Comp
+L gti_Lattice:LTC4311 U?
+U 1 1 5D1CF416
+P -2625 2600
+F 0 "U?" H -2625 2741 39  0000 C CNN
+F 1 "LTC4311" H -2625 2666 39  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.5mm_EP0.61x1.42mm" H -2625 2600 39  0001 C CNN
+F 3 "" H -2625 2600 39  0001 C CNN
+	1    -2625 2600
+	1    0    0    -1  
+$EndComp
+Text HLabel -3450 2750 0    39   Input ~ 0
++3V3_IN
+Wire Wire Line
+	-3450 2750 -3325 2750
+Wire Wire Line
+	-3075 2900 -3150 2900
+Wire Wire Line
+	-3150 2900 -3150 2750
+Connection ~ -3150 2750
+Wire Wire Line
+	-3150 2750 -3075 2750
+$Comp
+L device:C C?
+U 1 1 5D1CF423
+P -3325 2975
+F 0 "C?" H -3210 3021 50  0000 L CNN
+F 1 "10nF" H -3210 2930 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H -3287 2825 50  0001 C CNN
+F 3 "" H -3325 2975 50  0001 C CNN
+	1    -3325 2975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3325 2825 -3325 2750
+Connection ~ -3325 2750
+Wire Wire Line
+	-3325 2750 -3150 2750
+Wire Wire Line
+	-3325 3125 -3325 3200
+Wire Wire Line
+	-3325 3200 -3150 3200
+Wire Wire Line
+	-3150 3200 -3150 3050
+Wire Wire Line
+	-3150 3050 -3075 3050
+$Comp
+L power:GND #PWR?
+U 1 1 5D1CF431
+P -3325 3275
+F 0 "#PWR?" H -3325 3025 50  0001 C CNN
+F 1 "GND" H -3320 3102 50  0000 C CNN
+F 2 "" H -3325 3275 50  0001 C CNN
+F 3 "" H -3325 3275 50  0001 C CNN
+	1    -3325 3275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3325 3275 -3325 3200
+Connection ~ -3325 3200
+Wire Wire Line
+	-2175 2900 -1975 2900
+Wire Wire Line
+	-2175 3050 -1975 3050
+Text HLabel -1975 2900 2    39   Input ~ 0
+CON_SDA3
+Text HLabel -1975 3050 2    39   Input ~ 0
+CON_SCL3
 $EndSCHEMATC

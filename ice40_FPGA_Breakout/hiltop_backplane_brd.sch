@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title "Project X"
 Date ""
 Rev "Draft"
@@ -239,4 +239,10 @@ Wire Wire Line
 	8150 1200 7100 1200
 Wire Wire Line
 	9125 975  9125 1000
+$Sheet
+S 1700 3100 2000 2050
+U 5C074E5E
+F0 "MotherBoard_Connector" 60
+F1 "MotherBoard_Connector.sch" 60
+$EndSheet
 $EndSCHEMATC
