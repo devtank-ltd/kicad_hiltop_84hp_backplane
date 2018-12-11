@@ -1,0 +1,1783 @@
+EESchema Schematic File Version 4
+LIBS:hiltop_backplane_brd-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L device:R R32
+U 1 1 5A3B7AEA
+P -7325 7325
+F 0 "R32" V -7375 7150 50  0000 C CNN
+F 1 "150" V -7325 7325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 7325 50  0001 C CNN
+F 3 "" H -7325 7325 50  0001 C CNN
+	1    -7325 7325
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R33
+U 1 1 5A3B7AF1
+P -7325 7425
+F 0 "R33" V -7375 7250 50  0000 C CNN
+F 1 "150" V -7325 7425 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 7425 50  0001 C CNN
+F 3 "" H -7325 7425 50  0001 C CNN
+	1    -7325 7425
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R36
+U 1 1 5A3B7AF8
+P -7325 7725
+F 0 "R36" V -7375 7550 50  0000 C CNN
+F 1 "150" V -7325 7725 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 7725 50  0001 C CNN
+F 3 "" H -7325 7725 50  0001 C CNN
+	1    -7325 7725
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R37
+U 1 1 5A3B7AFF
+P -7325 7825
+F 0 "R37" V -7375 7650 50  0000 C CNN
+F 1 "150" V -7325 7825 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 7825 50  0001 C CNN
+F 3 "" H -7325 7825 50  0001 C CNN
+	1    -7325 7825
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R34
+U 1 1 5A3B7B06
+P -7325 7525
+F 0 "R34" V -7375 7350 50  0000 C CNN
+F 1 "150" V -7325 7525 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 7525 50  0001 C CNN
+F 3 "" H -7325 7525 50  0001 C CNN
+	1    -7325 7525
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R35
+U 1 1 5A3B7B0D
+P -7325 7625
+F 0 "R35" V -7375 7450 50  0000 C CNN
+F 1 "150" V -7325 7625 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 7625 50  0001 C CNN
+F 3 "" H -7325 7625 50  0001 C CNN
+	1    -7325 7625
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R38
+U 1 1 5A3B7B14
+P -7325 7925
+F 0 "R38" V -7375 7750 50  0000 C CNN
+F 1 "150" V -7325 7925 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 7925 50  0001 C CNN
+F 3 "" H -7325 7925 50  0001 C CNN
+	1    -7325 7925
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R39
+U 1 1 5A3B7B1B
+P -7325 8025
+F 0 "R39" V -7375 7850 50  0000 C CNN
+F 1 "150" V -7325 8025 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 8025 50  0001 C CNN
+F 3 "" H -7325 8025 50  0001 C CNN
+	1    -7325 8025
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R40
+U 1 1 5A3B7B22
+P -7325 8125
+F 0 "R40" V -7375 7950 50  0000 C CNN
+F 1 "150" V -7325 8125 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 8125 50  0001 C CNN
+F 3 "" H -7325 8125 50  0001 C CNN
+	1    -7325 8125
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R41
+U 1 1 5A3B7B29
+P -7325 8225
+F 0 "R41" V -7375 8050 50  0000 C CNN
+F 1 "150" V -7325 8225 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 8225 50  0001 C CNN
+F 3 "" H -7325 8225 50  0001 C CNN
+	1    -7325 8225
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R42
+U 1 1 5A3B7B30
+P -7325 8425
+F 0 "R42" V -7375 8250 50  0000 C CNN
+F 1 "150" V -7325 8425 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 8425 50  0001 C CNN
+F 3 "" H -7325 8425 50  0001 C CNN
+	1    -7325 8425
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R43
+U 1 1 5A3B7B37
+P -7325 8525
+F 0 "R43" V -7375 8350 50  0000 C CNN
+F 1 "150" V -7325 8525 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 8525 50  0001 C CNN
+F 3 "" H -7325 8525 50  0001 C CNN
+	1    -7325 8525
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R44
+U 1 1 5A3B7B3E
+P -7325 8625
+F 0 "R44" V -7375 8450 50  0000 C CNN
+F 1 "150" V -7325 8625 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 8625 50  0001 C CNN
+F 3 "" H -7325 8625 50  0001 C CNN
+	1    -7325 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R45
+U 1 1 5A3B7B45
+P -7325 8725
+F 0 "R45" V -7375 8550 50  0000 C CNN
+F 1 "150" V -7325 8725 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 8725 50  0001 C CNN
+F 3 "" H -7325 8725 50  0001 C CNN
+	1    -7325 8725
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R46
+U 1 1 5A3B7B4C
+P -7325 8825
+F 0 "R46" V -7375 8650 50  0000 C CNN
+F 1 "150" V -7325 8825 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 8825 50  0001 C CNN
+F 3 "" H -7325 8825 50  0001 C CNN
+	1    -7325 8825
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R47
+U 1 1 5A3B7B53
+P -7325 8925
+F 0 "R47" V -7375 8750 50  0000 C CNN
+F 1 "150" V -7325 8925 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 8925 50  0001 C CNN
+F 3 "" H -7325 8925 50  0001 C CNN
+	1    -7325 8925
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R48
+U 1 1 5A3B7B5A
+P -7325 9025
+F 0 "R48" V -7375 8850 50  0000 C CNN
+F 1 "150" V -7325 9025 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 9025 50  0001 C CNN
+F 3 "" H -7325 9025 50  0001 C CNN
+	1    -7325 9025
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R49
+U 1 1 5A3B7B61
+P -7325 9125
+F 0 "R49" V -7375 8950 50  0000 C CNN
+F 1 "150" V -7325 9125 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 9125 50  0001 C CNN
+F 3 "" H -7325 9125 50  0001 C CNN
+	1    -7325 9125
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R50
+U 1 1 5A3B7B68
+P -7325 9225
+F 0 "R50" V -7375 9050 50  0000 C CNN
+F 1 "150" V -7325 9225 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 9225 50  0001 C CNN
+F 3 "" H -7325 9225 50  0001 C CNN
+	1    -7325 9225
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R51
+U 1 1 5A3B7B6F
+P -7325 9325
+F 0 "R51" V -7375 9150 50  0000 C CNN
+F 1 "150" V -7325 9325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 9325 50  0001 C CNN
+F 3 "" H -7325 9325 50  0001 C CNN
+	1    -7325 9325
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R52
+U 1 1 5A3B7B76
+P -7325 9525
+F 0 "R52" V -7375 9350 50  0000 C CNN
+F 1 "150" V -7325 9525 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 9525 50  0001 C CNN
+F 3 "" H -7325 9525 50  0001 C CNN
+	1    -7325 9525
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R53
+U 1 1 5A3B7B7D
+P -7325 9625
+F 0 "R53" V -7375 9450 50  0000 C CNN
+F 1 "150" V -7325 9625 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 9625 50  0001 C CNN
+F 3 "" H -7325 9625 50  0001 C CNN
+	1    -7325 9625
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R54
+U 1 1 5A3B7B84
+P -7325 9725
+F 0 "R54" V -7375 9550 50  0000 C CNN
+F 1 "150" V -7325 9725 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 9725 50  0001 C CNN
+F 3 "" H -7325 9725 50  0001 C CNN
+	1    -7325 9725
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R55
+U 1 1 5A3B7B8B
+P -7325 9825
+F 0 "R55" V -7375 9650 50  0000 C CNN
+F 1 "150" V -7325 9825 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 9825 50  0001 C CNN
+F 3 "" H -7325 9825 50  0001 C CNN
+	1    -7325 9825
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R58
+U 1 1 5A3B7B92
+P -7325 10325
+F 0 "R58" V -7375 10150 50  0000 C CNN
+F 1 "150" V -7325 10325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 10325 50  0001 C CNN
+F 3 "" H -7325 10325 50  0001 C CNN
+	1    -7325 10325
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R59
+U 1 1 5A3B7B99
+P -7325 10425
+F 0 "R59" V -7375 10250 50  0000 C CNN
+F 1 "150" V -7325 10425 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 10425 50  0001 C CNN
+F 3 "" H -7325 10425 50  0001 C CNN
+	1    -7325 10425
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R66
+U 1 1 5A3B7BA0
+P -7325 10600
+F 0 "R66" V -7375 10775 50  0000 C CNN
+F 1 "150" V -7325 10600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 10600 50  0001 C CNN
+F 3 "" H -7325 10600 50  0001 C CNN
+	1    -7325 10600
+	0    -1   1    0   
+$EndComp
+$Comp
+L device:R R67
+U 1 1 5A3B7BA7
+P -7325 10700
+F 0 "R67" V -7375 10875 50  0000 C CNN
+F 1 "150" V -7325 10700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 10700 50  0001 C CNN
+F 3 "" H -7325 10700 50  0001 C CNN
+	1    -7325 10700
+	0    -1   1    0   
+$EndComp
+$Comp
+L device:R R68
+U 1 1 5A3B7BAE
+P -7325 10800
+F 0 "R68" V -7375 10975 50  0000 C CNN
+F 1 "150" V -7325 10800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 10800 50  0001 C CNN
+F 3 "" H -7325 10800 50  0001 C CNN
+	1    -7325 10800
+	0    -1   1    0   
+$EndComp
+$Comp
+L device:R R69
+U 1 1 5A3B7BB5
+P -7325 10900
+F 0 "R69" V -7375 11075 50  0000 C CNN
+F 1 "150" V -7325 10900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 10900 50  0001 C CNN
+F 3 "" H -7325 10900 50  0001 C CNN
+	1    -7325 10900
+	0    -1   1    0   
+$EndComp
+$Comp
+L device:R R70
+U 1 1 5A3B7BBC
+P -7325 11000
+F 0 "R70" V -7375 11175 50  0000 C CNN
+F 1 "150" V -7325 11000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 11000 50  0001 C CNN
+F 3 "" H -7325 11000 50  0001 C CNN
+	1    -7325 11000
+	0    -1   1    0   
+$EndComp
+$Comp
+L device:R R71
+U 1 1 5A3B7BC3
+P -7325 11100
+F 0 "R71" V -7375 11275 50  0000 C CNN
+F 1 "150" V -7325 11100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 11100 50  0001 C CNN
+F 3 "" H -7325 11100 50  0001 C CNN
+	1    -7325 11100
+	0    -1   1    0   
+$EndComp
+$Comp
+L device:R R18
+U 1 1 5A3B7C02
+P -7775 7325
+F 0 "R18" V -7700 7300 39  0000 C CNN
+F 1 "100" V -7775 7325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7845 7325 50  0001 C CNN
+F 3 "" H -7775 7325 50  0001 C CNN
+	1    -7775 7325
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R19
+U 1 1 5A3B7C09
+P -7775 7525
+F 0 "R19" V -7700 7500 39  0000 C CNN
+F 1 "100" V -7775 7525 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7845 7525 50  0001 C CNN
+F 3 "" H -7775 7525 50  0001 C CNN
+	1    -7775 7525
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R20
+U 1 1 5A3B7C10
+P -7775 7725
+F 0 "R20" V -7700 7700 39  0000 C CNN
+F 1 "100" V -7775 7725 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7845 7725 50  0001 C CNN
+F 3 "" H -7775 7725 50  0001 C CNN
+	1    -7775 7725
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R21
+U 1 1 5A3B7C17
+P -7775 7925
+F 0 "R21" V -7700 7900 50  0000 C CNN
+F 1 "100" V -7775 7925 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7845 7925 50  0001 C CNN
+F 3 "" H -7775 7925 50  0001 C CNN
+	1    -7775 7925
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R22
+U 1 1 5A3B7C1E
+P -7775 8125
+F 0 "R22" V -7700 8075 39  0000 C CNN
+F 1 "100" V -7775 8125 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7845 8125 50  0001 C CNN
+F 3 "" H -7775 8125 50  0001 C CNN
+	1    -7775 8125
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R23
+U 1 1 5A3B7C25
+P -7775 8425
+F 0 "R23" V -7700 8400 39  0000 C CNN
+F 1 "100" V -7775 8425 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7845 8425 50  0001 C CNN
+F 3 "" H -7775 8425 50  0001 C CNN
+	1    -7775 8425
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R24
+U 1 1 5A3B7C2C
+P -7775 8625
+F 0 "R24" V -7700 8600 39  0000 C CNN
+F 1 "100" V -7775 8625 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7845 8625 50  0001 C CNN
+F 3 "" H -7775 8625 50  0001 C CNN
+	1    -7775 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R25
+U 1 1 5A3B7C33
+P -7775 8825
+F 0 "R25" V -7700 8800 39  0000 C CNN
+F 1 "100" V -7775 8825 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7845 8825 50  0001 C CNN
+F 3 "" H -7775 8825 50  0001 C CNN
+	1    -7775 8825
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R26
+U 1 1 5A3B7C3A
+P -7775 9025
+F 0 "R26" V -7700 9000 50  0000 C CNN
+F 1 "100" V -7775 9025 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7845 9025 50  0001 C CNN
+F 3 "" H -7775 9025 50  0001 C CNN
+	1    -7775 9025
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R27
+U 1 1 5A3B7C41
+P -7775 9225
+F 0 "R27" V -7700 9200 39  0000 C CNN
+F 1 "100" V -7775 9225 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7845 9225 50  0001 C CNN
+F 3 "" H -7775 9225 50  0001 C CNN
+	1    -7775 9225
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R28
+U 1 1 5A3B7C48
+P -7775 9525
+F 0 "R28" V -7700 9500 39  0000 C CNN
+F 1 "100" V -7775 9525 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7845 9525 50  0001 C CNN
+F 3 "" H -7775 9525 50  0001 C CNN
+	1    -7775 9525
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R29
+U 1 1 5A3B7C4F
+P -7775 9725
+F 0 "R29" V -7700 9700 39  0000 C CNN
+F 1 "100" V -7775 9725 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7845 9725 50  0001 C CNN
+F 3 "" H -7775 9725 50  0001 C CNN
+	1    -7775 9725
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R31
+U 1 1 5A3B7C56
+P -7775 10425
+F 0 "R31" V -7850 10400 39  0000 C CNN
+F 1 "100" V -7775 10425 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7845 10425 50  0001 C CNN
+F 3 "" H -7775 10425 50  0001 C CNN
+	1    -7775 10425
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R80
+U 1 1 5A3B7C5D
+P -7775 10600
+F 0 "R80" V -7700 10600 39  0000 C CNN
+F 1 "100" V -7775 10600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7845 10600 50  0001 C CNN
+F 3 "" H -7775 10600 50  0001 C CNN
+	1    -7775 10600
+	0    -1   1    0   
+$EndComp
+$Comp
+L device:R R81
+U 1 1 5A3B7C64
+P -7775 10800
+F 0 "R81" V -7700 10800 39  0000 C CNN
+F 1 "100" V -7775 10800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7845 10800 50  0001 C CNN
+F 3 "" H -7775 10800 50  0001 C CNN
+	1    -7775 10800
+	0    -1   1    0   
+$EndComp
+$Comp
+L device:R R82
+U 1 1 5A3B7C6B
+P -7775 11000
+F 0 "R82" V -7700 11000 39  0000 C CNN
+F 1 "100" V -7775 11000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7845 11000 50  0001 C CNN
+F 3 "" H -7775 11000 50  0001 C CNN
+	1    -7775 11000
+	0    -1   1    0   
+$EndComp
+$Comp
+L device:R R56
+U 1 1 5A3D435B
+P -7325 10025
+F 0 "R56" V -7375 9850 50  0000 C CNN
+F 1 "150" V -7325 10025 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 10025 50  0001 C CNN
+F 3 "" H -7325 10025 50  0001 C CNN
+	1    -7325 10025
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R57
+U 1 1 5A3D4449
+P -7325 10125
+F 0 "R57" V -7375 9950 50  0000 C CNN
+F 1 "150" V -7325 10125 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7395 10125 50  0001 C CNN
+F 3 "" H -7325 10125 50  0001 C CNN
+	1    -7325 10125
+	0    1    1    0   
+$EndComp
+$Comp
+L device:R R30
+U 1 1 5A3D452E
+P -7775 10025
+F 0 "R30" V -7700 10000 39  0000 C CNN
+F 1 "100" V -7775 10025 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V -7845 10025 50  0001 C CNN
+F 3 "" H -7775 10025 50  0001 C CNN
+	1    -7775 10025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-7175 7325 -7025 7325
+Wire Wire Line
+	-7175 7425 -7025 7425
+Wire Wire Line
+	-7175 7525 -7025 7525
+Wire Wire Line
+	-7175 7625 -7025 7625
+Wire Wire Line
+	-7175 7725 -7025 7725
+Wire Wire Line
+	-7175 7825 -7025 7825
+Wire Wire Line
+	-7175 7925 -7025 7925
+Wire Wire Line
+	-7175 8025 -7025 8025
+Wire Wire Line
+	-7175 8125 -7025 8125
+Wire Wire Line
+	-7175 8225 -7025 8225
+Wire Wire Line
+	-7175 8425 -7025 8425
+Wire Wire Line
+	-7175 8525 -7025 8525
+Wire Wire Line
+	-7175 8625 -7025 8625
+Wire Wire Line
+	-7175 8725 -7025 8725
+Wire Wire Line
+	-7175 8825 -7025 8825
+Wire Wire Line
+	-7175 8925 -7025 8925
+Wire Wire Line
+	-7175 9025 -7025 9025
+Wire Wire Line
+	-7175 9125 -7025 9125
+Wire Wire Line
+	-7175 9225 -7025 9225
+Wire Wire Line
+	-7175 9325 -7025 9325
+Wire Wire Line
+	-7175 9525 -7025 9525
+Wire Wire Line
+	-7175 9625 -7025 9625
+Wire Wire Line
+	-7175 9725 -7025 9725
+Wire Wire Line
+	-7175 9825 -7025 9825
+Wire Wire Line
+	-7175 10325 -7025 10325
+Wire Wire Line
+	-7175 10425 -7025 10425
+Wire Wire Line
+	-7025 10600 -7175 10600
+Wire Wire Line
+	-7025 10700 -7175 10700
+Wire Wire Line
+	-7025 10800 -7175 10800
+Wire Wire Line
+	-7025 10900 -7175 10900
+Wire Wire Line
+	-7025 11000 -7175 11000
+Wire Wire Line
+	-7025 11100 -7175 11100
+Wire Wire Line
+	-7625 7325 -7575 7325
+Wire Wire Line
+	-7475 7425 -7975 7425
+Wire Wire Line
+	-7975 7425 -7975 7325
+Wire Wire Line
+	-8125 7325 -7975 7325
+Connection ~ -7975 7325
+Wire Wire Line
+	-8125 7275 -7575 7275
+Wire Wire Line
+	-7575 7275 -7575 7325
+Connection ~ -7575 7325
+Wire Wire Line
+	-7625 7525 -7575 7525
+Wire Wire Line
+	-8125 7525 -7975 7525
+Wire Wire Line
+	-7475 7625 -7975 7625
+Wire Wire Line
+	-7975 7625 -7975 7525
+Connection ~ -7975 7525
+Wire Wire Line
+	-7575 7525 -7575 7475
+Wire Wire Line
+	-7575 7475 -8125 7475
+Connection ~ -7575 7525
+Wire Wire Line
+	-7625 7725 -7575 7725
+Wire Wire Line
+	-7475 7825 -7975 7825
+Wire Wire Line
+	-8125 7725 -7975 7725
+Wire Wire Line
+	-8125 7675 -7575 7675
+Wire Wire Line
+	-7575 7675 -7575 7725
+Connection ~ -7575 7725
+Wire Wire Line
+	-7625 7925 -7575 7925
+Wire Wire Line
+	-7475 8025 -7975 8025
+Wire Wire Line
+	-7975 8025 -7975 7925
+Wire Wire Line
+	-8125 7925 -7975 7925
+Connection ~ -7975 7925
+Wire Wire Line
+	-7575 7925 -7575 7875
+Wire Wire Line
+	-7575 7875 -8125 7875
+Connection ~ -7575 7925
+Wire Wire Line
+	-7625 8125 -7575 8125
+Wire Wire Line
+	-7475 8225 -7975 8225
+Wire Wire Line
+	-7975 8225 -7975 8125
+Wire Wire Line
+	-8125 8125 -7975 8125
+Connection ~ -7975 8125
+Wire Wire Line
+	-7575 8125 -7575 8075
+Wire Wire Line
+	-7575 8075 -8125 8075
+Connection ~ -7575 8125
+Wire Wire Line
+	-7625 8425 -7575 8425
+Wire Wire Line
+	-7475 8525 -7975 8525
+Wire Wire Line
+	-7975 8525 -7975 8425
+Wire Wire Line
+	-8125 8425 -7975 8425
+Connection ~ -7975 8425
+Wire Wire Line
+	-7575 8425 -7575 8375
+Wire Wire Line
+	-7575 8375 -8125 8375
+Connection ~ -7575 8425
+Wire Wire Line
+	-7625 8625 -7575 8625
+Wire Wire Line
+	-7475 8725 -7975 8725
+Wire Wire Line
+	-7975 8725 -7975 8625
+Wire Wire Line
+	-8125 8625 -7975 8625
+Connection ~ -7975 8625
+Wire Wire Line
+	-7575 8625 -7575 8575
+Wire Wire Line
+	-7575 8575 -8125 8575
+Connection ~ -7575 8625
+Wire Wire Line
+	-7625 8825 -7575 8825
+Wire Wire Line
+	-7475 8925 -7975 8925
+Wire Wire Line
+	-7975 8925 -7975 8825
+Wire Wire Line
+	-8125 8825 -7975 8825
+Connection ~ -7975 8825
+Wire Wire Line
+	-7575 8825 -7575 8775
+Wire Wire Line
+	-7575 8775 -8125 8775
+Connection ~ -7575 8825
+Wire Wire Line
+	-8125 8975 -7575 8975
+Wire Wire Line
+	-7575 8975 -7575 9025
+Wire Wire Line
+	-7625 9025 -7575 9025
+Connection ~ -7575 9025
+Wire Wire Line
+	-7475 9125 -7975 9125
+Wire Wire Line
+	-7975 9125 -7975 9025
+Wire Wire Line
+	-8125 9025 -7975 9025
+Connection ~ -7975 9025
+Wire Wire Line
+	-7625 9225 -7575 9225
+Wire Wire Line
+	-7475 9325 -7975 9325
+Wire Wire Line
+	-7975 9325 -7975 9225
+Wire Wire Line
+	-8125 9225 -7975 9225
+Wire Wire Line
+	-7575 9225 -7575 9175
+Connection ~ -7575 9225
+Wire Wire Line
+	-7575 9175 -8125 9175
+Wire Wire Line
+	-7625 9525 -7575 9525
+Wire Wire Line
+	-7475 9625 -7975 9625
+Wire Wire Line
+	-7975 9625 -7975 9525
+Wire Wire Line
+	-8125 9525 -7975 9525
+Connection ~ -7975 9525
+Wire Wire Line
+	-7575 9525 -7575 9475
+Wire Wire Line
+	-7575 9475 -8125 9475
+Connection ~ -7575 9525
+Wire Wire Line
+	-7625 9725 -7575 9725
+Wire Wire Line
+	-8125 9675 -7575 9675
+Wire Wire Line
+	-7575 9675 -7575 9725
+Connection ~ -7575 9725
+Wire Wire Line
+	-7475 9825 -7975 9825
+Wire Wire Line
+	-7975 9825 -7975 9725
+Wire Wire Line
+	-8125 9725 -7975 9725
+Connection ~ -7975 9725
+Wire Wire Line
+	-7625 10425 -7575 10425
+Wire Wire Line
+	-7475 10325 -7975 10325
+Wire Wire Line
+	-7975 10325 -7975 10425
+Wire Wire Line
+	-8125 10425 -7975 10425
+Wire Wire Line
+	-7575 10425 -7575 10475
+Wire Wire Line
+	-7575 10475 -8125 10475
+Connection ~ -7575 10425
+Wire Wire Line
+	-7475 10600 -7575 10600
+Wire Wire Line
+	-7475 11100 -7975 11100
+Wire Wire Line
+	-7975 11100 -7975 11000
+Wire Wire Line
+	-7925 11000 -7975 11000
+Connection ~ -7975 11000
+Wire Wire Line
+	-7475 11000 -7575 11000
+Wire Wire Line
+	-7575 11000 -7575 10950
+Wire Wire Line
+	-7575 10950 -8125 10950
+Connection ~ -7575 11000
+Wire Wire Line
+	-7475 10900 -7975 10900
+Wire Wire Line
+	-7975 10900 -7975 10800
+Wire Wire Line
+	-7925 10800 -7975 10800
+Connection ~ -7975 10800
+Wire Wire Line
+	-7475 10800 -7575 10800
+Wire Wire Line
+	-7575 10800 -7575 10750
+Wire Wire Line
+	-7575 10750 -8125 10750
+Connection ~ -7575 10800
+Wire Wire Line
+	-7475 10700 -7975 10700
+Wire Wire Line
+	-7975 10700 -7975 10600
+Wire Wire Line
+	-7925 10600 -7975 10600
+Wire Wire Line
+	-7575 10600 -7575 10550
+Wire Wire Line
+	-7575 10550 -8125 10550
+Connection ~ -7575 10600
+Wire Wire Line
+	-7625 10025 -7575 10025
+Wire Wire Line
+	-7475 10125 -7975 10125
+Wire Wire Line
+	-7975 10125 -7975 10025
+Wire Wire Line
+	-7175 10025 -7025 10025
+Wire Wire Line
+	-7175 10125 -7025 10125
+Wire Wire Line
+	-8125 10025 -7975 10025
+Connection ~ -7975 10025
+Wire Wire Line
+	-8125 9975 -7575 9975
+Wire Wire Line
+	-7575 9975 -7575 10025
+Connection ~ -7575 10025
+Text HLabel -8125 7275 0    39   Input ~ 0
+LVDS_D1-
+Text HLabel -8125 7475 0    39   Input ~ 0
+LVDS_D2-
+Text HLabel -8125 7675 0    39   Input ~ 0
+LVDS_D3-
+Text HLabel -8125 7875 0    39   Input ~ 0
+LVDS_D4-
+Text HLabel -8125 8075 0    39   Input ~ 0
+LVDS_D5-
+Text HLabel -8125 8375 0    39   Input ~ 0
+LVDS_D6-
+Text HLabel -8125 8575 0    39   Input ~ 0
+LVDS_D7-
+Text HLabel -8125 8775 0    39   Input ~ 0
+LVDS_D8-
+Text HLabel -8125 8975 0    39   Input ~ 0
+LVDS_D9-
+Text HLabel -8125 9175 0    39   Input ~ 0
+LVDS_D10-
+Text HLabel -8125 9475 0    39   Input ~ 0
+LVDS_D11-
+Text HLabel -8125 9675 0    39   Input ~ 0
+LVDS_D12-
+Text HLabel -8125 9725 0    39   Input ~ 0
+LVDS_D12+
+Text HLabel -8125 9525 0    39   Input ~ 0
+LVDS_D11+
+Text HLabel -8125 9225 0    39   Input ~ 0
+LVDS_D10+
+Text HLabel -8125 9025 0    39   Input ~ 0
+LVDS_D9+
+Text HLabel -8125 8825 0    39   Input ~ 0
+LVDS_D8+
+Text HLabel -8125 8625 0    39   Input ~ 0
+LVDS_D7+
+Text HLabel -8125 8425 0    39   Input ~ 0
+LVDS_D6+
+Text HLabel -8125 8125 0    39   Input ~ 0
+LVDS_D5+
+Text HLabel -8125 7925 0    39   Input ~ 0
+LVDS_D4+
+Text HLabel -8125 7725 0    39   Input ~ 0
+LVDS_D3+
+Text HLabel -8125 7525 0    39   Input ~ 0
+LVDS_D2+
+Text HLabel -8125 7325 0    39   Input ~ 0
+LVDS_D1+
+Text HLabel -8125 9975 0    39   Input ~ 0
+LVPECLK+
+Text HLabel -8125 10025 0    39   Input ~ 0
+LVDSCLK-
+Connection ~ -7975 10425
+Text HLabel -8125 10425 0    39   Input ~ 0
+LVDS_D13-
+Text HLabel -8125 10475 0    39   Input ~ 0
+LVDS_D13+
+Text HLabel -8125 10550 0    39   Input ~ 0
+LVDS_D14-
+Text HLabel -8125 10600 0    39   Input ~ 0
+LVDS_D14+
+Text HLabel -8125 10750 0    39   Input ~ 0
+LVDS_D15-
+Text HLabel -8125 10800 0    39   Input ~ 0
+LVDS_D15+
+Text HLabel -8125 10950 0    39   Input ~ 0
+LVDS_D16-
+Text HLabel -8125 11000 0    39   Input ~ 0
+LVDS_D16+
+Wire Wire Line
+	-7975 7825 -7975 7725
+Connection ~ -7975 7725
+Connection ~ -7975 10600
+Connection ~ -7975 9225
+Text Label -7175 7325 0    60   ~ 0
+D1-
+Text Label -7175 7425 0    60   ~ 0
+D1+
+Text Label -7175 7525 0    60   ~ 0
+D2-
+Text Label -7175 7725 0    60   ~ 0
+D3-
+Text Label -7175 7925 0    60   ~ 0
+D4-
+Text Label -7175 8125 0    60   ~ 0
+D5-
+Text Label -7175 8425 0    60   ~ 0
+D6-
+Text Label -7175 8625 0    60   ~ 0
+D7-
+Text Label -7175 8825 0    60   ~ 0
+D8-
+Text Label -7175 9025 0    60   ~ 0
+D9-
+Text Label -7175 9225 0    39   ~ 0
+D10-
+Text Label -7175 9325 0    39   ~ 0
+D10+
+Text Label -7175 9525 0    39   ~ 0
+D11-
+Text Label -7175 9725 0    39   ~ 0
+D12-
+Text Label -7175 10025 0    39   ~ 0
+DCK-
+Text Label -7175 10325 0    39   ~ 0
+D13-
+Text Label -7025 10600 2    39   ~ 0
+D14-
+Text Label -7025 10800 2    39   ~ 0
+D15-
+Text Label -7025 11000 2    39   ~ 0
+D16-
+Text Label -7025 11100 2    39   ~ 0
+D16+
+Text Label -7025 10900 2    39   ~ 0
+D15+
+Text Label -7025 10700 2    39   ~ 0
+D14+
+Text Label -7175 10425 0    39   ~ 0
+D13+
+Text Label -7175 10125 0    39   ~ 0
+DCK+
+Text Label -7175 9825 0    39   ~ 0
+D12+
+Text Label -7175 9625 0    39   ~ 0
+D11+
+Text Label -7175 9125 0    59   ~ 0
+D9+
+Text Label -7175 8925 0    59   ~ 0
+D8+
+Text Label -7175 8725 0    59   ~ 0
+D7+
+Text Label -7175 8525 0    59   ~ 0
+D6+
+Text Label -7175 8225 0    59   ~ 0
+D5+
+Text Label -7175 7625 0    59   ~ 0
+D2+
+Text Label -7175 7825 0    59   ~ 0
+D3+
+Text Label -7175 8025 0    59   ~ 0
+D4+
+Wire Wire Line
+	-7975 7325 -7925 7325
+Wire Wire Line
+	-7575 7325 -7475 7325
+Wire Wire Line
+	-7975 7525 -7925 7525
+Wire Wire Line
+	-7575 7525 -7475 7525
+Wire Wire Line
+	-7575 7725 -7475 7725
+Wire Wire Line
+	-7975 7925 -7925 7925
+Wire Wire Line
+	-7575 7925 -7475 7925
+Wire Wire Line
+	-7975 8125 -7925 8125
+Wire Wire Line
+	-7575 8125 -7475 8125
+Wire Wire Line
+	-7975 8425 -7925 8425
+Wire Wire Line
+	-7575 8425 -7475 8425
+Wire Wire Line
+	-7975 8625 -7925 8625
+Wire Wire Line
+	-7575 8625 -7475 8625
+Wire Wire Line
+	-7975 8825 -7925 8825
+Wire Wire Line
+	-7575 8825 -7475 8825
+Wire Wire Line
+	-7575 9025 -7475 9025
+Wire Wire Line
+	-7975 9025 -7925 9025
+Wire Wire Line
+	-7575 9225 -7475 9225
+Wire Wire Line
+	-7975 9525 -7925 9525
+Wire Wire Line
+	-7575 9525 -7475 9525
+Wire Wire Line
+	-7575 9725 -7475 9725
+Wire Wire Line
+	-7975 9725 -7925 9725
+Wire Wire Line
+	-7575 10425 -7475 10425
+Wire Wire Line
+	-7975 11000 -8125 11000
+Wire Wire Line
+	-7575 11000 -7625 11000
+Wire Wire Line
+	-7975 10800 -8125 10800
+Wire Wire Line
+	-7575 10800 -7625 10800
+Wire Wire Line
+	-7575 10600 -7625 10600
+Wire Wire Line
+	-7975 10025 -7925 10025
+Wire Wire Line
+	-7575 10025 -7475 10025
+Wire Wire Line
+	-7975 10425 -7925 10425
+Wire Wire Line
+	-7975 7725 -7925 7725
+Wire Wire Line
+	-7975 10600 -8125 10600
+Wire Wire Line
+	-7975 9225 -7925 9225
+Text Notes -8300 7125 0    60   ~ 0
+Differential Signals/Clock\n
+$Comp
+L gti_Lattice:LTC4311 U?
+U 1 1 5D11931D
+P -2625 225
+F 0 "U?" H -2625 366 39  0000 C CNN
+F 1 "LTC4311" H -2625 291 39  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.5mm_EP0.61x1.42mm" H -2625 225 39  0001 C CNN
+F 3 "" H -2625 225 39  0001 C CNN
+	1    -2625 225 
+	1    0    0    -1  
+$EndComp
+Text HLabel -3450 375  0    39   Input ~ 0
++3V3_IN
+Wire Wire Line
+	-3450 375  -3325 375 
+Wire Wire Line
+	-3075 525  -3150 525 
+Wire Wire Line
+	-3150 525  -3150 375 
+Connection ~ -3150 375 
+Wire Wire Line
+	-3150 375  -3075 375 
+$Comp
+L device:C C?
+U 1 1 5D1633D6
+P -3325 600
+F 0 "C?" H -3210 646 50  0000 L CNN
+F 1 "10nF" H -3210 555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H -3287 450 50  0001 C CNN
+F 3 "" H -3325 600 50  0001 C CNN
+	1    -3325 600 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3325 450  -3325 375 
+Connection ~ -3325 375 
+Wire Wire Line
+	-3325 375  -3150 375 
+Wire Wire Line
+	-3325 750  -3325 825 
+Wire Wire Line
+	-3325 825  -3150 825 
+Wire Wire Line
+	-3150 825  -3150 675 
+Wire Wire Line
+	-3150 675  -3075 675 
+$Comp
+L power:GND #PWR?
+U 1 1 5D198CFB
+P -3325 900
+F 0 "#PWR?" H -3325 650 50  0001 C CNN
+F 1 "GND" H -3320 727 50  0000 C CNN
+F 2 "" H -3325 900 50  0001 C CNN
+F 3 "" H -3325 900 50  0001 C CNN
+	1    -3325 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3325 900  -3325 825 
+Connection ~ -3325 825 
+Wire Wire Line
+	-2175 525  -1975 525 
+Wire Wire Line
+	-2175 675  -1975 675 
+Text HLabel -1975 525  2    39   Input ~ 0
+CON_SDA1
+Text HLabel -1975 675  2    39   Input ~ 0
+CON_SCL1
+$Comp
+L gti_Lattice:LTC4311 U?
+U 1 1 5D1C0206
+P -2625 1400
+F 0 "U?" H -2625 1541 39  0000 C CNN
+F 1 "LTC4311" H -2625 1466 39  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.5mm_EP0.61x1.42mm" H -2625 1400 39  0001 C CNN
+F 3 "" H -2625 1400 39  0001 C CNN
+	1    -2625 1400
+	1    0    0    -1  
+$EndComp
+Text HLabel -3450 1550 0    39   Input ~ 0
++3V3_IN
+Wire Wire Line
+	-3450 1550 -3325 1550
+Wire Wire Line
+	-3075 1700 -3150 1700
+Wire Wire Line
+	-3150 1700 -3150 1550
+Connection ~ -3150 1550
+Wire Wire Line
+	-3150 1550 -3075 1550
+$Comp
+L device:C C?
+U 1 1 5D1C0213
+P -3325 1775
+F 0 "C?" H -3210 1821 50  0000 L CNN
+F 1 "10nF" H -3210 1730 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H -3287 1625 50  0001 C CNN
+F 3 "" H -3325 1775 50  0001 C CNN
+	1    -3325 1775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3325 1625 -3325 1550
+Connection ~ -3325 1550
+Wire Wire Line
+	-3325 1550 -3150 1550
+Wire Wire Line
+	-3325 1925 -3325 2000
+Wire Wire Line
+	-3325 2000 -3150 2000
+Wire Wire Line
+	-3150 2000 -3150 1850
+Wire Wire Line
+	-3150 1850 -3075 1850
+$Comp
+L power:GND #PWR?
+U 1 1 5D1C0221
+P -3325 2075
+F 0 "#PWR?" H -3325 1825 50  0001 C CNN
+F 1 "GND" H -3320 1902 50  0000 C CNN
+F 2 "" H -3325 2075 50  0001 C CNN
+F 3 "" H -3325 2075 50  0001 C CNN
+	1    -3325 2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3325 2075 -3325 2000
+Connection ~ -3325 2000
+Wire Wire Line
+	-2175 1700 -1975 1700
+Wire Wire Line
+	-2175 1850 -1975 1850
+Text HLabel -1975 1700 2    39   Input ~ 0
+CON_SDA2
+Text HLabel -1975 1850 2    39   Input ~ 0
+CON_SCL2
+$Comp
+L gti_Lattice:LTC4311 U?
+U 1 1 5D1CF416
+P -2625 2600
+F 0 "U?" H -2625 2741 39  0000 C CNN
+F 1 "LTC4311" H -2625 2666 39  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.5mm_EP0.61x1.42mm" H -2625 2600 39  0001 C CNN
+F 3 "" H -2625 2600 39  0001 C CNN
+	1    -2625 2600
+	1    0    0    -1  
+$EndComp
+Text HLabel -3450 2750 0    39   Input ~ 0
++3V3_IN
+Wire Wire Line
+	-3450 2750 -3325 2750
+Wire Wire Line
+	-3075 2900 -3150 2900
+Wire Wire Line
+	-3150 2900 -3150 2750
+Connection ~ -3150 2750
+Wire Wire Line
+	-3150 2750 -3075 2750
+$Comp
+L device:C C?
+U 1 1 5D1CF423
+P -3325 2975
+F 0 "C?" H -3210 3021 50  0000 L CNN
+F 1 "10nF" H -3210 2930 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H -3287 2825 50  0001 C CNN
+F 3 "" H -3325 2975 50  0001 C CNN
+	1    -3325 2975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3325 2825 -3325 2750
+Connection ~ -3325 2750
+Wire Wire Line
+	-3325 2750 -3150 2750
+Wire Wire Line
+	-3325 3125 -3325 3200
+Wire Wire Line
+	-3325 3200 -3150 3200
+Wire Wire Line
+	-3150 3200 -3150 3050
+Wire Wire Line
+	-3150 3050 -3075 3050
+$Comp
+L power:GND #PWR?
+U 1 1 5D1CF431
+P -3325 3275
+F 0 "#PWR?" H -3325 3025 50  0001 C CNN
+F 1 "GND" H -3320 3102 50  0000 C CNN
+F 2 "" H -3325 3275 50  0001 C CNN
+F 3 "" H -3325 3275 50  0001 C CNN
+	1    -3325 3275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3325 3275 -3325 3200
+Connection ~ -3325 3200
+Wire Wire Line
+	-2175 2900 -1975 2900
+Wire Wire Line
+	-2175 3050 -1975 3050
+Text HLabel -1975 2900 2    39   Input ~ 0
+CON_SDA3
+Text HLabel -1975 3050 2    39   Input ~ 0
+CON_SCL3
+$Comp
+L gti_Lattice:CONN_DIN_HDR_96POS J?
+U 1 1 5CF33761
+P 7700 4850
+F 0 "J?" V 7775 1475 60  0000 L CNN
+F 1 "CONN_DIN_HDR_96POS" V 7750 3850 60  0000 L CNN
+F 2 "" H 7500 4800 60  0001 C CNN
+F 3 "" H 7500 4800 60  0001 C CNN
+	1    7700 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L gti_Lattice:CONN_DIN_HDR_96POS J?
+U 2 1 5CF33A9A
+P 7700 3000
+F 0 "J?" V 7750 -375 60  0000 L CNN
+F 1 "CONN_DIN_HDR_96POS" V 7750 1975 60  0000 L CNN
+F 2 "" H 7500 2950 60  0001 C CNN
+F 3 "" H 7500 2950 60  0001 C CNN
+	2    7700 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L gti_Lattice:CONN_DIN_HDR_96POS J?
+U 3 1 5CF33CB5
+P 7700 950
+F 0 "J?" V 7750 -2425 60  0000 L CNN
+F 1 "CONN_DIN_HDR_96POS" V 7750 -50 60  0000 L CNN
+F 2 "" H 7500 900 60  0001 C CNN
+F 3 "" H 7500 900 60  0001 C CNN
+	3    7700 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L gti_Lattice:CONN_DIN_HDR_96POS J?
+U 1 1 5CF33E18
+P 4175 4850
+F 0 "J?" V 4225 1450 60  0000 L CNN
+F 1 "CONN_DIN_HDR_96POS" V 4225 3850 60  0000 L CNN
+F 2 "" H 3975 4800 60  0001 C CNN
+F 3 "" H 3975 4800 60  0001 C CNN
+	1    4175 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L gti_Lattice:CONN_DIN_HDR_96POS J?
+U 2 1 5CF33F58
+P 4175 3000
+F 0 "J?" V 4225 -400 60  0000 L CNN
+F 1 "CONN_DIN_HDR_96POS" V 4225 1975 60  0000 L CNN
+F 2 "" H 3975 2950 60  0001 C CNN
+F 3 "" H 3975 2950 60  0001 C CNN
+	2    4175 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L gti_Lattice:CONN_DIN_HDR_96POS J?
+U 3 1 5CF3408F
+P 4175 950
+F 0 "J?" V 4225 -2425 60  0000 L CNN
+F 1 "CONN_DIN_HDR_96POS" V 4225 -50 60  0000 L CNN
+F 2 "" H 3975 900 60  0001 C CNN
+F 3 "" H 3975 900 60  0001 C CNN
+	3    4175 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L gti_Lattice:CONN_DIN_HDR_96POS J?
+U 1 1 5CF34279
+P 650 4850
+F 0 "J?" V 700 1450 60  0000 L CNN
+F 1 "CONN_DIN_HDR_96POS" V 700 3825 60  0000 L CNN
+F 2 "" H 450 4800 60  0001 C CNN
+F 3 "" H 450 4800 60  0001 C CNN
+	1    650  4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L gti_Lattice:CONN_DIN_HDR_96POS J?
+U 2 1 5CF34480
+P 650 3000
+F 0 "J?" V 700 -375 60  0000 L CNN
+F 1 "CONN_DIN_HDR_96POS" V 700 1975 60  0000 L CNN
+F 2 "" H 450 2950 60  0001 C CNN
+F 3 "" H 450 2950 60  0001 C CNN
+	2    650  3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L gti_Lattice:CONN_DIN_HDR_96POS J?
+U 3 1 5CF345E0
+P 650 950
+F 0 "J?" V 700 -2400 60  0000 L CNN
+F 1 "CONN_DIN_HDR_96POS" V 700 -50 60  0000 L CNN
+F 2 "" H 450 900 60  0001 C CNN
+F 3 "" H 450 900 60  0001 C CNN
+	3    650  950 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	800  3550 800  3675
+Wire Wire Line
+	1400 3550 1400 3675
+Wire Wire Line
+	1300 3550 1300 3675
+Connection ~ 1300 3675
+Wire Wire Line
+	1300 3675 1400 3675
+Wire Wire Line
+	1200 3550 1200 3675
+Connection ~ 1200 3675
+Wire Wire Line
+	1200 3675 1300 3675
+Wire Wire Line
+	1100 3550 1100 3675
+Connection ~ 1100 3675
+Wire Wire Line
+	1100 3675 1200 3675
+Wire Wire Line
+	1000 3550 1000 3675
+Wire Wire Line
+	800  3675 900  3675
+Connection ~ 1000 3675
+Wire Wire Line
+	1000 3675 1100 3675
+Wire Wire Line
+	900  3550 900  3675
+Connection ~ 900  3675
+Wire Wire Line
+	900  3675 1000 3675
+Wire Wire Line
+	1400 3675 2000 3675
+Wire Wire Line
+	2000 3675 2000 3550
+Connection ~ 1400 3675
+Wire Wire Line
+	2000 3675 3000 3675
+Wire Wire Line
+	3000 3675 3000 3550
+Connection ~ 2000 3675
+Wire Wire Line
+	3000 3675 3600 3675
+Wire Wire Line
+	3600 3675 3600 3550
+Connection ~ 3000 3675
+Wire Wire Line
+	3600 3675 3900 3675
+Wire Wire Line
+	3900 3675 3900 3550
+Connection ~ 3600 3675
+Wire Wire Line
+	4325 3550 4325 3675
+Wire Wire Line
+	4325 3675 4425 3675
+Wire Wire Line
+	4925 3675 4925 3550
+Wire Wire Line
+	4925 3675 5525 3675
+Wire Wire Line
+	7425 3675 7425 3550
+Connection ~ 4925 3675
+Wire Wire Line
+	7125 3550 7125 3675
+Connection ~ 7125 3675
+Wire Wire Line
+	7125 3675 7425 3675
+Wire Wire Line
+	6525 3550 6525 3675
+Connection ~ 6525 3675
+Wire Wire Line
+	6525 3675 7125 3675
+Wire Wire Line
+	5525 3550 5525 3675
+Connection ~ 5525 3675
+Wire Wire Line
+	5525 3675 6525 3675
+Wire Wire Line
+	4425 3550 4425 3675
+Connection ~ 4425 3675
+Wire Wire Line
+	4425 3675 4525 3675
+Wire Wire Line
+	4525 3550 4525 3675
+Connection ~ 4525 3675
+Wire Wire Line
+	4525 3675 4625 3675
+Wire Wire Line
+	4625 3550 4625 3675
+Connection ~ 4625 3675
+Wire Wire Line
+	4625 3675 4725 3675
+Wire Wire Line
+	4725 3550 4725 3675
+Connection ~ 4725 3675
+Wire Wire Line
+	4725 3675 4825 3675
+Wire Wire Line
+	4825 3550 4825 3675
+Connection ~ 4825 3675
+Wire Wire Line
+	4825 3675 4925 3675
+Wire Wire Line
+	7850 3550 7850 3675
+Wire Wire Line
+	7850 3675 7950 3675
+Wire Wire Line
+	10950 3675 10950 3550
+Wire Wire Line
+	10650 3550 10650 3675
+Connection ~ 10650 3675
+Wire Wire Line
+	10650 3675 10950 3675
+Wire Wire Line
+	10050 3550 10050 3675
+Connection ~ 10050 3675
+Wire Wire Line
+	10050 3675 10650 3675
+Wire Wire Line
+	8450 3550 8450 3675
+Connection ~ 8450 3675
+Wire Wire Line
+	8450 3675 9050 3675
+Wire Wire Line
+	8350 3550 8350 3675
+Connection ~ 8350 3675
+Wire Wire Line
+	8350 3675 8450 3675
+Wire Wire Line
+	8250 3550 8250 3675
+Connection ~ 8250 3675
+Wire Wire Line
+	8250 3675 8350 3675
+Wire Wire Line
+	8150 3550 8150 3675
+Connection ~ 8150 3675
+Wire Wire Line
+	8150 3675 8250 3675
+Wire Wire Line
+	8050 3550 8050 3675
+Connection ~ 8050 3675
+Wire Wire Line
+	8050 3675 8150 3675
+Wire Wire Line
+	7950 3550 7950 3675
+Connection ~ 7950 3675
+Wire Wire Line
+	7950 3675 8050 3675
+Wire Wire Line
+	9050 3550 9050 3675
+Connection ~ 9050 3675
+Wire Wire Line
+	9050 3675 10050 3675
+$Comp
+L power:GND #PWR?
+U 1 1 5D19D092
+P 10950 3800
+F 0 "#PWR?" H 10950 3550 50  0001 C CNN
+F 1 "GND" H 10955 3627 50  0000 C CNN
+F 2 "" H 10950 3800 50  0001 C CNN
+F 3 "" H 10950 3800 50  0001 C CNN
+	1    10950 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D19D2F6
+P 7425 3775
+F 0 "#PWR?" H 7425 3525 50  0001 C CNN
+F 1 "GND" H 7430 3602 50  0000 C CNN
+F 2 "" H 7425 3775 50  0001 C CNN
+F 3 "" H 7425 3775 50  0001 C CNN
+	1    7425 3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D19D595
+P 3900 3775
+F 0 "#PWR?" H 3900 3525 50  0001 C CNN
+F 1 "GND" H 3905 3602 50  0000 C CNN
+F 2 "" H 3900 3775 50  0001 C CNN
+F 3 "" H 3900 3775 50  0001 C CNN
+	1    3900 3775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3775 3900 3675
+Connection ~ 3900 3675
+Connection ~ 7425 3675
+Wire Wire Line
+	7425 3675 7425 3775
+Wire Wire Line
+	10950 3800 10950 3675
+Connection ~ 10950 3675
+$Comp
+L power:GND #PWR?
+U 1 1 5D1EE0A6
+P 3100 1725
+F 0 "#PWR?" H 3100 1475 50  0001 C CNN
+F 1 "GND" H 3105 1552 50  0000 C CNN
+F 2 "" H 3100 1725 50  0001 C CNN
+F 3 "" H 3100 1725 50  0001 C CNN
+	1    3100 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D1EE51E
+P 10150 1750
+F 0 "#PWR?" H 10150 1500 50  0001 C CNN
+F 1 "GND" H 10155 1577 50  0000 C CNN
+F 2 "" H 10150 1750 50  0001 C CNN
+F 3 "" H 10150 1750 50  0001 C CNN
+	1    10150 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1500 1800 1625
+Wire Wire Line
+	1800 1625 2100 1625
+Wire Wire Line
+	2100 1625 2100 1500
+Wire Wire Line
+	2100 1625 2400 1625
+Wire Wire Line
+	2400 1625 2400 1500
+Connection ~ 2100 1625
+Wire Wire Line
+	2400 1625 3100 1625
+Wire Wire Line
+	3100 1625 3100 1500
+Connection ~ 2400 1625
+Wire Wire Line
+	3100 1725 3100 1625
+Connection ~ 3100 1625
+Wire Wire Line
+	5325 1500 5325 1625
+Wire Wire Line
+	5325 1625 5625 1625
+Wire Wire Line
+	5625 1625 5625 1500
+Wire Wire Line
+	5625 1625 5925 1625
+Wire Wire Line
+	5925 1625 5925 1500
+Connection ~ 5625 1625
+Wire Wire Line
+	5925 1625 6625 1625
+Wire Wire Line
+	6625 1625 6625 1500
+Connection ~ 5925 1625
+$Comp
+L power:GND #PWR?
+U 1 1 5D2822A8
+P 6625 1700
+F 0 "#PWR?" H 6625 1450 50  0001 C CNN
+F 1 "GND" H 6630 1527 50  0000 C CNN
+F 2 "" H 6625 1700 50  0001 C CNN
+F 3 "" H 6625 1700 50  0001 C CNN
+	1    6625 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6625 1700 6625 1625
+Connection ~ 6625 1625
+Wire Wire Line
+	8850 1500 8850 1650
+Wire Wire Line
+	8850 1650 9150 1650
+Wire Wire Line
+	9150 1650 9150 1500
+Wire Wire Line
+	9150 1650 9450 1650
+Wire Wire Line
+	9450 1650 9450 1500
+Connection ~ 9150 1650
+Wire Wire Line
+	9450 1650 10150 1650
+Wire Wire Line
+	10150 1650 10150 1500
+Connection ~ 9450 1650
+Wire Wire Line
+	10150 1750 10150 1650
+Connection ~ 10150 1650
+Wire Wire Line
+	800  5400 800  5575
+Wire Wire Line
+	800  5575 1100 5575
+Wire Wire Line
+	1100 5575 1100 5400
+Wire Wire Line
+	1100 5575 1400 5575
+Wire Wire Line
+	1400 5575 1400 5400
+Connection ~ 1100 5575
+Wire Wire Line
+	1400 5575 1700 5575
+Wire Wire Line
+	1700 5575 1700 5400
+Connection ~ 1400 5575
+Wire Wire Line
+	4325 5400 4325 5575
+Wire Wire Line
+	4325 5575 4625 5575
+Wire Wire Line
+	4625 5575 4625 5400
+Wire Wire Line
+	4625 5575 4925 5575
+Wire Wire Line
+	4925 5575 4925 5400
+Connection ~ 4625 5575
+Wire Wire Line
+	4925 5575 5225 5575
+Wire Wire Line
+	5225 5575 5225 5400
+Connection ~ 4925 5575
+Wire Wire Line
+	7850 5400 7850 5575
+Wire Wire Line
+	7850 5575 8150 5575
+Wire Wire Line
+	8150 5575 8150 5400
+Wire Wire Line
+	8150 5575 8450 5575
+Wire Wire Line
+	8450 5575 8450 5400
+Connection ~ 8150 5575
+Wire Wire Line
+	8450 5575 8750 5575
+Wire Wire Line
+	8750 5575 8750 5400
+Connection ~ 8450 5575
+Wire Wire Line
+	8750 5575 9850 5575
+Wire Wire Line
+	9850 5575 9850 5400
+Connection ~ 8750 5575
+Wire Wire Line
+	5225 5575 6325 5575
+Wire Wire Line
+	6325 5575 6325 5400
+Connection ~ 5225 5575
+Wire Wire Line
+	1700 5575 2800 5575
+Wire Wire Line
+	2800 5575 2800 5400
+Connection ~ 1700 5575
+$Comp
+L power:GND #PWR?
+U 1 1 5D4CB526
+P 9850 5675
+F 0 "#PWR?" H 9850 5425 50  0001 C CNN
+F 1 "GND" H 9855 5502 50  0000 C CNN
+F 2 "" H 9850 5675 50  0001 C CNN
+F 3 "" H 9850 5675 50  0001 C CNN
+	1    9850 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D4CB7C5
+P 6325 5675
+F 0 "#PWR?" H 6325 5425 50  0001 C CNN
+F 1 "GND" H 6330 5502 50  0000 C CNN
+F 2 "" H 6325 5675 50  0001 C CNN
+F 3 "" H 6325 5675 50  0001 C CNN
+	1    6325 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D4CBAA6
+P 2800 5675
+F 0 "#PWR?" H 2800 5425 50  0001 C CNN
+F 1 "GND" H 2805 5502 50  0000 C CNN
+F 2 "" H 2800 5675 50  0001 C CNN
+F 3 "" H 2800 5675 50  0001 C CNN
+	1    2800 5675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5675 2800 5575
+Connection ~ 2800 5575
+Wire Wire Line
+	6325 5575 6325 5675
+Connection ~ 6325 5575
+Wire Wire Line
+	9850 5675 9850 5575
+Connection ~ 9850 5575
+$EndSCHEMATC

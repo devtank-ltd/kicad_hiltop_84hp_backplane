@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 6 6
 Title ""
 Date ""
 Rev ""
@@ -17,89 +17,89 @@ $EndDescr
 $Comp
 L device:C C58
 U 1 1 5A418459
-P 1950 5600
-F 0 "C58" H 1975 5700 50  0000 L CNN
-F 1 "10uF" H 1975 5500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1988 5450 50  0001 C CNN
-F 3 "" H 1950 5600 50  0001 C CNN
-	1    1950 5600
+P 4650 6725
+F 0 "C58" H 4675 6825 50  0000 L CNN
+F 1 "10uF" H 4675 6625 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 6575 50  0001 C CNN
+F 3 "" H 4650 6725 50  0001 C CNN
+	1    4650 6725
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:C C59
 U 1 1 5A4184EA
-P 2200 5600
-F 0 "C59" H 2225 5700 50  0000 L CNN
-F 1 "1uF" H 2225 5500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2238 5450 50  0001 C CNN
-F 3 "" H 2200 5600 50  0001 C CNN
-	1    2200 5600
+P 4900 6725
+F 0 "C59" H 4925 6825 50  0000 L CNN
+F 1 "1uF" H 4925 6625 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4938 6575 50  0001 C CNN
+F 3 "" H 4900 6725 50  0001 C CNN
+	1    4900 6725
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:C C66
 U 1 1 5A41850F
-P 2450 5600
-F 0 "C66" H 2475 5700 50  0000 L CNN
-F 1 "0.1uF" H 2475 5500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2488 5450 50  0001 C CNN
-F 3 "" H 2450 5600 50  0001 C CNN
-	1    2450 5600
+P 5150 6725
+F 0 "C66" H 5175 6825 50  0000 L CNN
+F 1 "0.1uF" H 5175 6625 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5188 6575 50  0001 C CNN
+F 3 "" H 5150 6725 50  0001 C CNN
+	1    5150 6725
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:C C70
 U 1 1 5A418541
-P 2700 5600
-F 0 "C70" H 2725 5700 50  0000 L CNN
-F 1 "0.01uF" H 2725 5500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2738 5450 50  0001 C CNN
-F 3 "" H 2700 5600 50  0001 C CNN
-	1    2700 5600
+P 5400 6725
+F 0 "C70" H 5425 6825 50  0000 L CNN
+F 1 "0.01uF" H 5425 6625 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5438 6575 50  0001 C CNN
+F 3 "" H 5400 6725 50  0001 C CNN
+	1    5400 6725
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:C C60
 U 1 1 5A41856A
-P 1950 6150
-F 0 "C60" H 1975 6250 50  0000 L CNN
-F 1 "10uF" H 1975 6050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1988 6000 50  0001 C CNN
-F 3 "" H 1950 6150 50  0001 C CNN
-	1    1950 6150
+P 4650 7275
+F 0 "C60" H 4675 7375 50  0000 L CNN
+F 1 "10uF" H 4675 7175 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 7125 50  0001 C CNN
+F 3 "" H 4650 7275 50  0001 C CNN
+	1    4650 7275
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:C C63
 U 1 1 5A4185BC
-P 2200 6150
-F 0 "C63" H 2225 6250 50  0000 L CNN
-F 1 "1uF" H 2225 6050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2238 6000 50  0001 C CNN
-F 3 "" H 2200 6150 50  0001 C CNN
-	1    2200 6150
+P 4900 7275
+F 0 "C63" H 4925 7375 50  0000 L CNN
+F 1 "1uF" H 4925 7175 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4938 7125 50  0001 C CNN
+F 3 "" H 4900 7275 50  0001 C CNN
+	1    4900 7275
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:C C67
 U 1 1 5A4185F9
-P 2450 6150
-F 0 "C67" H 2475 6250 50  0000 L CNN
-F 1 "0.1uF" H 2475 6050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2488 6000 50  0001 C CNN
-F 3 "" H 2450 6150 50  0001 C CNN
-	1    2450 6150
+P 5150 7275
+F 0 "C67" H 5175 7375 50  0000 L CNN
+F 1 "0.1uF" H 5175 7175 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5188 7125 50  0001 C CNN
+F 3 "" H 5150 7275 50  0001 C CNN
+	1    5150 7275
 	1    0    0    -1  
 $EndComp
 $Comp
 L device:C C71
 U 1 1 5A41862F
-P 2700 6150
-F 0 "C71" H 2725 6250 50  0000 L CNN
-F 1 "0.01uF" H 2725 6050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 2738 6000 50  0001 C CNN
-F 3 "" H 2700 6150 50  0001 C CNN
-	1    2700 6150
+P 5400 7275
+F 0 "C71" H 5425 7375 50  0000 L CNN
+F 1 "0.01uF" H 5425 7175 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5438 7125 50  0001 C CNN
+F 3 "" H 5400 7275 50  0001 C CNN
+	1    5400 7275
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -192,32 +192,32 @@ F 3 "" H 2700 7300 50  0001 C CNN
 $EndComp
 Text GLabel 1350 7100 0    39   Input ~ 0
 +3V3_EXT_IN
-Text GLabel 1350 5400 0    39   Input ~ 0
+Text GLabel 4050 6525 0    39   Input ~ 0
 +1V2_EXT_IN
-Text GLabel 1350 5950 0    39   Input ~ 0
+Text GLabel 4050 7075 0    39   Input ~ 0
 +1V8_EXT_IN
 Text GLabel 1350 6500 0    39   Input ~ 0
 +2V5_EXT_IN
 $Comp
 L power:GND #PWR038
 U 1 1 5A41B6AD
-P 2850 5800
-F 0 "#PWR038" H 2850 5550 50  0001 C CNN
-F 1 "GND" H 2950 5800 50  0000 C CNN
-F 2 "" H 2850 5800 50  0001 C CNN
-F 3 "" H 2850 5800 50  0001 C CNN
-	1    2850 5800
+P 5550 6925
+F 0 "#PWR038" H 5550 6675 50  0001 C CNN
+F 1 "GND" H 5650 6925 50  0000 C CNN
+F 2 "" H 5550 6925 50  0001 C CNN
+F 3 "" H 5550 6925 50  0001 C CNN
+	1    5550 6925
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR039
 U 1 1 5A41B7D9
-P 2850 6350
-F 0 "#PWR039" H 2850 6100 50  0001 C CNN
-F 1 "GND" H 2950 6350 50  0000 C CNN
-F 2 "" H 2850 6350 50  0001 C CNN
-F 3 "" H 2850 6350 50  0001 C CNN
-	1    2850 6350
+P 5550 7475
+F 0 "#PWR039" H 5550 7225 50  0001 C CNN
+F 1 "GND" H 5650 7475 50  0000 C CNN
+F 2 "" H 5550 7475 50  0001 C CNN
+F 3 "" H 5550 7475 50  0001 C CNN
+	1    5550 7475
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -366,57 +366,57 @@ Wire Wire Line
 Wire Wire Line
 	1800 4200 1800 4300
 Wire Wire Line
-	1750 5400 1950 5400
+	4450 6525 4650 6525
 Wire Wire Line
-	2700 5400 2700 5450
+	5400 6525 5400 6575
 Wire Wire Line
-	2450 5450 2450 5400
-Connection ~ 2450 5400
+	5150 6575 5150 6525
+Connection ~ 5150 6525
 Wire Wire Line
-	2200 5450 2200 5400
-Connection ~ 2200 5400
+	4900 6575 4900 6525
+Connection ~ 4900 6525
 Wire Wire Line
-	1950 5450 1950 5400
-Connection ~ 1950 5400
+	4650 6575 4650 6525
+Connection ~ 4650 6525
 Wire Wire Line
-	1950 5750 1950 5800
+	4650 6875 4650 6925
 Wire Wire Line
-	1950 5800 2200 5800
+	4650 6925 4900 6925
 Wire Wire Line
-	2700 5750 2700 5800
-Connection ~ 2700 5800
+	5400 6875 5400 6925
+Connection ~ 5400 6925
 Wire Wire Line
-	2450 5750 2450 5800
-Connection ~ 2450 5800
+	5150 6875 5150 6925
+Connection ~ 5150 6925
 Wire Wire Line
-	2200 5750 2200 5800
-Connection ~ 2200 5800
+	4900 6875 4900 6925
+Connection ~ 4900 6925
 Wire Wire Line
-	2700 5950 2700 6000
+	5400 7075 5400 7125
 Wire Wire Line
-	1750 5950 1950 5950
+	4450 7075 4650 7075
 Wire Wire Line
-	1950 6000 1950 5950
-Connection ~ 1950 5950
+	4650 7125 4650 7075
+Connection ~ 4650 7075
 Wire Wire Line
-	2200 6000 2200 5950
-Connection ~ 2200 5950
+	4900 7125 4900 7075
+Connection ~ 4900 7075
 Wire Wire Line
-	2450 6000 2450 5950
-Connection ~ 2450 5950
+	5150 7125 5150 7075
+Connection ~ 5150 7075
 Wire Wire Line
-	1950 6300 1950 6350
+	4650 7425 4650 7475
 Wire Wire Line
-	1950 6350 2200 6350
+	4650 7475 4900 7475
 Wire Wire Line
-	2700 6300 2700 6350
-Connection ~ 2700 6350
+	5400 7425 5400 7475
+Connection ~ 5400 7475
 Wire Wire Line
-	2450 6300 2450 6350
-Connection ~ 2450 6350
+	5150 7425 5150 7475
+Connection ~ 5150 7475
 Wire Wire Line
-	2200 6300 2200 6350
-Connection ~ 2200 6350
+	4900 7425 4900 7475
+Connection ~ 4900 7475
 Wire Wire Line
 	2700 6500 2700 6550
 Wire Wire Line
@@ -483,9 +483,9 @@ Wire Wire Line
 	1300 1700 1300 1350
 Wire Wire Line
 	800  1350 800  1600
-Connection ~ 2700 5400
+Connection ~ 5400 6525
 Connection ~ 2700 7100
-Connection ~ 2700 5950
+Connection ~ 5400 7075
 Connection ~ 2700 6500
 Wire Wire Line
 	900  4200 900  4300
@@ -634,54 +634,10 @@ Wire Wire Line
 Connection ~ 1400 4450
 Wire Wire Line
 	1300 4200 1300 4600
-$Comp
-L device:Ferrite_Bead L6
-U 1 1 5A42412E
-P 1600 5400
-F 0 "L6" V 1450 5425 50  0000 C CNN
-F 1 "Ferrite_Bead" V 1750 5400 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" V 1530 5400 50  0001 C CNN
-F 3 "" H 1600 5400 50  0001 C CNN
-	1    1600 5400
-	0    1    1    0   
-$EndComp
-$Comp
-L device:Ferrite_Bead L7
-U 1 1 5A4241DD
-P 1600 5950
-F 0 "L7" V 1450 5975 50  0000 C CNN
-F 1 "Ferrite_Bead" V 1750 5950 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" V 1530 5950 50  0001 C CNN
-F 3 "" H 1600 5950 50  0001 C CNN
-	1    1600 5950
-	0    1    1    0   
-$EndComp
-$Comp
-L device:Ferrite_Bead L8
-U 1 1 5A4242DA
-P 1600 6500
-F 0 "L8" V 1450 6525 50  0000 C CNN
-F 1 "Ferrite_Bead" V 1750 6500 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" V 1530 6500 50  0001 C CNN
-F 3 "" H 1600 6500 50  0001 C CNN
-	1    1600 6500
-	0    1    1    0   
-$EndComp
-$Comp
-L device:Ferrite_Bead L9
-U 1 1 5A424340
-P 1600 7100
-F 0 "L9" V 1450 7125 50  0000 C CNN
-F 1 "Ferrite_Bead" V 1750 7100 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" V 1530 7100 50  0001 C CNN
-F 3 "" H 1600 7100 50  0001 C CNN
-	1    1600 7100
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	1350 5400 1450 5400
+	4050 6525 4150 6525
 Wire Wire Line
-	1350 5950 1450 5950
+	4050 7075 4150 7075
 Wire Wire Line
 	1350 6500 1450 6500
 Wire Wire Line
@@ -690,9 +646,9 @@ Text HLabel 2800 7100 2    39   Input ~ 0
 +3V3_EXT_OUT
 Text HLabel 2800 6500 2    39   Input ~ 0
 +2V5_EXT_OUT
-Text HLabel 2800 5950 2    39   Input ~ 0
+Text HLabel 5500 7075 2    39   Input ~ 0
 +1V8_EXT_OUT
-Text HLabel 2800 5400 2    39   Input ~ 0
+Text HLabel 5500 6525 2    39   Input ~ 0
 +1V2_EXT_OUT
 Text HLabel 2100 1350 1    39   Input ~ 0
 EXT_USB_D-
@@ -782,15 +738,15 @@ Text HLabel 5700 1225 1    39   Input ~ 0
 DP15+
 Text HLabel 5400 1225 1    39   Input ~ 0
 DP16+
-Text HLabel 6450 5850 3    39   Input ~ 0
+Text HLabel 2400 1350 1    39   Input ~ 0
 ET_SPI_MISO
-Text HLabel 6550 5850 3    39   Input ~ 0
+Text HLabel 2500 1350 1    39   Input ~ 0
 EXT_SPI_MOSI
-Text HLabel 6650 5850 3    39   Input ~ 0
+Text HLabel 2700 1350 1    39   Input ~ 0
 EXT_SPI_SCK
-Text HLabel 6750 5850 3    39   Input ~ 0
+Text HLabel 2800 1350 1    39   Input ~ 0
 EXT_SPI_SS
-Text HLabel 6850 5850 3    39   Input ~ 0
+Text HLabel 3000 1350 1    39   Input ~ 0
 EXT_RESET
 Wire Wire Line
 	7300 1225 7300 1300
@@ -807,29 +763,29 @@ Wire Wire Line
 	7350 1300 7300 1300
 Connection ~ 7300 1300
 Wire Wire Line
-	2450 5400 2700 5400
+	5150 6525 5400 6525
 Wire Wire Line
-	2200 5400 2450 5400
+	4900 6525 5150 6525
 Wire Wire Line
-	1950 5400 2200 5400
+	4650 6525 4900 6525
 Wire Wire Line
-	2700 5800 2850 5800
+	5400 6925 5550 6925
 Wire Wire Line
-	2450 5800 2700 5800
+	5150 6925 5400 6925
 Wire Wire Line
-	2200 5800 2450 5800
+	4900 6925 5150 6925
 Wire Wire Line
-	1950 5950 2200 5950
+	4650 7075 4900 7075
 Wire Wire Line
-	2200 5950 2450 5950
+	4900 7075 5150 7075
 Wire Wire Line
-	2450 5950 2700 5950
+	5150 7075 5400 7075
 Wire Wire Line
-	2700 6350 2850 6350
+	5400 7475 5550 7475
 Wire Wire Line
-	2450 6350 2700 6350
+	5150 7475 5400 7475
 Wire Wire Line
-	2200 6350 2450 6350
+	4900 7475 5150 7475
 Wire Wire Line
 	1950 6500 2200 6500
 Wire Wire Line
@@ -855,11 +811,11 @@ Wire Wire Line
 Wire Wire Line
 	2200 7500 2450 7500
 Wire Wire Line
-	2700 5400 2800 5400
+	5400 6525 5500 6525
 Wire Wire Line
 	2700 7100 2800 7100
 Wire Wire Line
-	2700 5950 2800 5950
+	5400 7075 5500 7075
 Wire Wire Line
 	2700 6500 2800 6500
 Wire Wire Line
@@ -1091,6 +1047,341 @@ F 1 "SO-DIMM" H 11300 2800 60  0000 C CNN
 F 2 "Devtank_PCB_Lib:Conn_TE-DDR2-SODIMM-0.6-200P-ComputeModule" H 11350 2950 60  0001 C CNN
 F 3 "" H 11350 2950 60  0001 C CNN
 	1    11200 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 1700 2400 1350
+Wire Wire Line
+	2500 1700 2500 1350
+Wire Wire Line
+	2700 1700 2700 1350
+Wire Wire Line
+	2800 1700 2800 1350
+Wire Wire Line
+	3000 1700 3000 1350
+Wire Wire Line
+	3100 1700 3100 1350
+Wire Wire Line
+	3400 1700 3400 1350
+Wire Wire Line
+	3300 1350 3300 1700
+Wire Wire Line
+	3600 1700 3600 1350
+Wire Wire Line
+	3700 1700 3700 1350
+Wire Wire Line
+	3900 1700 3900 1350
+Wire Wire Line
+	4000 1700 4000 1350
+Wire Wire Line
+	4200 1700 4200 1350
+Wire Wire Line
+	4300 1700 4300 1350
+Wire Wire Line
+	4500 1700 4500 1350
+Wire Wire Line
+	4600 1700 4600 1350
+Wire Wire Line
+	4800 1700 4800 1350
+Wire Wire Line
+	4900 1350 4900 1700
+Wire Wire Line
+	5100 1700 5100 1350
+Wire Wire Line
+	5200 1700 5200 1350
+Wire Wire Line
+	2100 4200 2100 4600
+Wire Wire Line
+	2200 4200 2200 4600
+Wire Wire Line
+	2400 4200 2400 4600
+Wire Wire Line
+	2500 4200 2500 4600
+Wire Wire Line
+	2700 4200 2700 4600
+Wire Wire Line
+	2800 4200 2800 4600
+Wire Wire Line
+	3000 4200 3000 4600
+Wire Wire Line
+	3100 4200 3100 4600
+Wire Wire Line
+	3300 4200 3300 4600
+Wire Wire Line
+	3400 4200 3400 4600
+Wire Wire Line
+	3600 4200 3600 4600
+Wire Wire Line
+	3700 4200 3700 4600
+Wire Wire Line
+	3900 4200 3900 4600
+Wire Wire Line
+	4000 4200 4000 4600
+Wire Wire Line
+	4300 4200 4300 4600
+Wire Wire Line
+	4200 4200 4200 4600
+Wire Wire Line
+	4500 4200 4500 4600
+Wire Wire Line
+	4600 4200 4600 4600
+Wire Wire Line
+	4800 4200 4800 4600
+Wire Wire Line
+	4900 4200 4900 4600
+Wire Wire Line
+	5100 4200 5100 4600
+Wire Wire Line
+	5200 4200 5200 4600
+Wire Wire Line
+	5400 4200 5400 4600
+Wire Wire Line
+	5500 4200 5500 4600
+Wire Wire Line
+	5700 4200 5700 4600
+Wire Wire Line
+	5800 4200 5800 4600
+Wire Wire Line
+	6000 4200 6000 4600
+Wire Wire Line
+	6100 4200 6100 4600
+Wire Wire Line
+	6300 4200 6300 4600
+Wire Wire Line
+	6400 4200 6400 4600
+Wire Wire Line
+	6600 4200 6600 4600
+Wire Wire Line
+	6700 4200 6700 4600
+Wire Wire Line
+	6900 4200 6900 4600
+Wire Wire Line
+	7000 4200 7000 4600
+Wire Wire Line
+	7200 4200 7200 4600
+Wire Wire Line
+	7300 4200 7300 4600
+Wire Wire Line
+	7500 4200 7500 4600
+Wire Wire Line
+	7600 4200 7600 4600
+Wire Wire Line
+	7800 4200 7800 4600
+Wire Wire Line
+	7900 4200 7900 4600
+Wire Wire Line
+	8100 4200 8100 4600
+Wire Wire Line
+	8200 4200 8200 4600
+Wire Wire Line
+	8400 4200 8400 4600
+Wire Wire Line
+	8500 4200 8500 4600
+Wire Wire Line
+	8700 4200 8700 4600
+Wire Wire Line
+	9050 4200 9050 4600
+Wire Wire Line
+	9250 4200 9250 4600
+Wire Wire Line
+	9350 4200 9350 4600
+Wire Wire Line
+	9550 4200 9550 4600
+Wire Wire Line
+	9650 4200 9650 4600
+Wire Wire Line
+	9850 4200 9850 4600
+Wire Wire Line
+	9950 4200 9950 4600
+Wire Wire Line
+	10150 4200 10150 4600
+Wire Wire Line
+	10250 4200 10250 4600
+Wire Wire Line
+	10450 4200 10450 4600
+Wire Wire Line
+	10550 4200 10550 4600
+Wire Wire Line
+	10750 4200 10750 4600
+Wire Wire Line
+	10850 4200 10850 4600
+Text HLabel 10850 4600 3    60   Input ~ 0
+REF_CLK_IN+
+Text HLabel 10750 4600 3    60   Input ~ 0
+REF_CLK_IN-
+Text HLabel 10550 4600 3    60   Input ~ 0
+GPIO_1
+Text HLabel 10450 4600 3    60   Input ~ 0
+GPIO_2
+Text HLabel 10250 4600 3    60   Input ~ 0
+GPIO_3
+Text HLabel 10150 4600 3    60   Input ~ 0
+GPIO_4
+Text HLabel 9950 4600 3    60   Input ~ 0
+GPIO_5
+Text HLabel 9850 4600 3    60   Input ~ 0
+GPIO_6
+Text HLabel 9650 4600 3    60   Input ~ 0
+GPIO_7
+Text HLabel 9550 4600 3    60   Input ~ 0
+GPIO_8
+Text HLabel 9350 4600 3    60   Input ~ 0
+GPIO_9
+Text HLabel 9250 4600 3    60   Input ~ 0
+GPIO_10
+Text HLabel 9050 4600 3    60   Input ~ 0
+GPIO_11
+Text HLabel 8700 4600 3    60   Input ~ 0
+GPIO_12
+Text HLabel 8500 4600 3    60   Input ~ 0
+GPIO_13
+Text HLabel 8400 4600 3    60   Input ~ 0
+GPIO_14
+Text HLabel 8200 4600 3    60   Input ~ 0
+GPIO_15
+Text HLabel 8100 4600 3    60   Input ~ 0
+GPIO_16
+Text HLabel 7900 4600 3    60   Input ~ 0
+GPIO_17
+Text HLabel 7800 4600 3    60   Input ~ 0
+GPIO_18
+Text HLabel 7600 4600 3    60   Input ~ 0
+GPIO_19
+Text HLabel 7500 4600 3    60   Input ~ 0
+GPIO_20
+Text HLabel 7300 4600 3    60   Input ~ 0
+GPIO_21
+Text HLabel 7200 4600 3    60   Input ~ 0
+GPIO_22
+Text HLabel 7000 4600 3    60   Input ~ 0
+GPIO_23
+Text HLabel 6900 4600 3    60   Input ~ 0
+GPIO_24
+Text HLabel 6700 4600 3    60   Input ~ 0
+GPIO_25
+Text HLabel 6600 4600 3    60   Input ~ 0
+GPIO_26
+Text HLabel 6400 4600 3    60   Input ~ 0
+GPIO_27
+Text HLabel 6300 4600 3    60   Input ~ 0
+GPIO_28
+Text HLabel 6100 4600 3    60   Input ~ 0
+GPIO_29
+Text HLabel 6000 4600 3    60   Input ~ 0
+GPIO_30
+Text HLabel 5800 4600 3    60   Input ~ 0
+GPIO_31
+Text HLabel 5700 4600 3    60   Input ~ 0
+GPIO_32
+Text HLabel 5500 4600 3    60   Input ~ 0
+GPIO_33
+Text HLabel 5400 4600 3    60   Input ~ 0
+GPIO_34
+Text HLabel 5200 4600 3    60   Input ~ 0
+GPIO_35
+Text HLabel 5100 4600 3    60   Input ~ 0
+GPIO_36
+Text HLabel 4900 4600 3    60   Input ~ 0
+GPIO_37
+Text HLabel 4800 4600 3    60   Input ~ 0
+GPIO_38
+Text HLabel 4600 4600 3    60   Input ~ 0
+GPIO_39
+Text HLabel 4500 4600 3    60   Input ~ 0
+GPIO_40
+Text HLabel 4300 4600 3    60   Input ~ 0
+GPIO_41
+Text HLabel 4200 4600 3    60   Input ~ 0
+GPIO_42
+Text HLabel 4000 4600 3    60   Input ~ 0
+GPIO_43
+Text HLabel 3900 4600 3    60   Input ~ 0
+GPIO_44
+Text HLabel 3700 4600 3    60   Input ~ 0
+GPIO_45
+Text HLabel 3600 4600 3    60   Input ~ 0
+GPIO_46
+Text HLabel 3400 4600 3    60   Input ~ 0
+GPIO_47
+Text HLabel 3300 4600 3    60   Input ~ 0
+GPIO_48
+Text HLabel 3100 4600 3    60   Input ~ 0
+GPIO_49
+Text HLabel 3000 4600 3    60   Input ~ 0
+GPIO_50
+Text HLabel 2800 4600 3    60   Input ~ 0
+GPIO_51
+Text HLabel 2700 4600 3    60   Input ~ 0
+GPIO_52
+Text HLabel 2500 4600 3    60   Input ~ 0
+GPIO_53
+Text HLabel 2400 4600 3    60   Input ~ 0
+GPIO_54
+Text HLabel 2200 4600 3    60   Input ~ 0
+GPIO_55
+Text HLabel 2100 4600 3    60   Input ~ 0
+GPIO_56
+Text HLabel 5200 1350 1    60   Input ~ 0
+GPIO_57
+Text HLabel 5100 1350 1    60   Input ~ 0
+GPIO_58
+Text HLabel 4900 1350 1    60   Input ~ 0
+GPIO_59
+Text HLabel 4800 1350 1    60   Input ~ 0
+GPIO_60
+Text HLabel 4600 1350 1    60   Input ~ 0
+GPIO_61
+Text HLabel 4500 1350 1    60   Input ~ 0
+GPIO_62
+Text HLabel 4300 1350 1    60   Input ~ 0
+GPIO_63
+Text HLabel 4200 1350 1    60   Input ~ 0
+GPIO_64
+Text HLabel 4000 1350 1    60   Input ~ 0
+GPIO_65
+Text HLabel 3900 1350 1    60   Input ~ 0
+GPIO_66
+Text HLabel 3700 1350 1    60   Input ~ 0
+GPIO_67
+Text HLabel 3600 1325 1    60   Input ~ 0
+GPIO_68
+Text HLabel 3400 1350 1    60   Input ~ 0
+GPIO_69
+Text HLabel 3300 1350 1    60   Input ~ 0
+GPIO_70
+Text HLabel 3100 1350 1    60   Input ~ 0
+GPIO_71
+$Comp
+L device:Polyfuse F?
+U 1 1 5CEC5F97
+P 1600 6500
+F 0 "F?" V 1375 6500 50  0000 C CNN
+F 1 "Polyfuse" V 1466 6500 50  0000 C CNN
+F 2 "" H 1650 6300 50  0001 L CNN
+F 3 "" H 1600 6500 50  0001 C CNN
+	1    1600 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L device:Polyfuse F?
+U 1 1 5CEC61F6
+P 1600 7100
+F 0 "F?" V 1375 7100 50  0000 C CNN
+F 1 "Polyfuse" V 1466 7100 50  0000 C CNN
+F 2 "" H 1650 6900 50  0001 L CNN
+F 3 "" H 1600 7100 50  0001 C CNN
+	1    1600 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L device:Polyfuse F?
+U 1 1 5CEC625C
+P 4300 6525
+F 0 "F?" V 4075 6525 50  0000 C CNN
+F 1 "Polyfuse" V 4166 6525 50  0000 C CNN
+F 2 "" H 4350 6325 50  0001 L CNN
+F 3 "" H 4300 6525 50  0001 C CNN
+	1    4300 6525
 	0    1    1    0   
 $EndComp
 $EndSCHEMATC
