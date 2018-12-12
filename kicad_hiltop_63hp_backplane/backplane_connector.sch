@@ -1317,15 +1317,15 @@ Wire Wire Line
 Connection ~ 1575 1325
 Wire Wire Line
 	1575 1325 1575 1475
-Text HLabel 775  1475 3    60   Input ~ 0
+Text HLabel 775  1925 3    60   Input ~ 0
 +12V0
-Text HLabel 975  1475 3    60   Input ~ 0
+Text HLabel 975  1925 3    60   Input ~ 0
 +5V0
-Text HLabel 1375 1475 3    60   Input ~ 0
+Text HLabel 1375 1925 3    60   Input ~ 0
 +3V3V
-Text HLabel 1175 1475 3    60   Input ~ 0
+Text HLabel 1175 1925 3    60   Input ~ 0
 -5V0
-Text HLabel 1575 1475 3    60   Input ~ 0
+Text HLabel 1575 1925 3    60   Input ~ 0
 V_ADJ
 Wire Wire Line
 	4300 1175 4300 1325
@@ -1372,16 +1372,6 @@ Wire Wire Line
 Connection ~ 5100 1325
 Wire Wire Line
 	5100 1325 5100 1475
-Text HLabel 4300 1475 3    60   Input ~ 0
-+12V0
-Text HLabel 4500 1475 3    60   Input ~ 0
-+5V0
-Text HLabel 4900 1475 3    60   Input ~ 0
-+3V3V
-Text HLabel 4700 1475 3    60   Input ~ 0
--5V0
-Text HLabel 5100 1475 3    60   Input ~ 0
-V_ADJ
 Wire Wire Line
 	7825 1175 7825 1325
 Wire Wire Line
@@ -1427,16 +1417,6 @@ Wire Wire Line
 Connection ~ 8625 1325
 Wire Wire Line
 	8625 1325 8625 1475
-Text HLabel 7825 1475 3    60   Input ~ 0
-+12V0
-Text HLabel 8025 1475 3    60   Input ~ 0
-+5V0
-Text HLabel 8425 1475 3    60   Input ~ 0
-+3V3V
-Text HLabel 8225 1475 3    60   Input ~ 0
--5V0
-Text HLabel 8625 1475 3    60   Input ~ 0
-V_ADJ
 Wire Wire Line
 	1875 1175 1875 1475
 Wire Wire Line
@@ -1781,8 +1761,6 @@ Wire Wire Line
 	9650 2975 9650 3325
 Text HLabel 9650 3325 3    60   Input ~ 0
 RESERVED_3
-Text HLabel 6125 3325 3    60   Input ~ 0
-RESERVED_2
 Text HLabel 2600 3325 3    60   Input ~ 0
 RESERVED_1
 Wire Wire Line
@@ -1802,13 +1780,13 @@ PWM0
 Text HLabel 2975 1500 3    60   Input ~ 0
 PWM1
 Text HLabel 6400 1500 3    60   Input ~ 0
-PWM2
+PWM0
 Text HLabel 6500 1500 3    60   Input ~ 0
-PWM3
+PWM1
 Text HLabel 9925 1500 3    60   Input ~ 0
-PWM5
+PWM0
 Text HLabel 10025 1500 3    60   Input ~ 0
-PWM6
+PWM1
 $Comp
 L gti_Lattice:LTC4311 U?
 U 1 1 600073BD
@@ -2055,4 +2033,221 @@ Wire Wire Line
 	7950 5950 7950 5900
 Wire Wire Line
 	7950 5550 7950 5450
+$Comp
+L device:Polyfuse F?
+U 1 1 60455C00
+P 775 1625
+F 0 "F?" V 725 1750 50  0000 L CNN
+F 1 "Polyfuse" V 863 1580 50  0000 L CNN
+F 2 "" H 825 1425 50  0001 L CNN
+F 3 "" H 775 1625 50  0001 C CNN
+	1    775  1625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	775  1925 775  1775
+$Comp
+L device:Polyfuse F?
+U 1 1 604A6423
+P 975 1625
+F 0 "F?" V 925 1750 50  0000 L CNN
+F 1 "Polyfuse" V 1063 1580 50  0000 L CNN
+F 2 "" H 1025 1425 50  0001 L CNN
+F 3 "" H 975 1625 50  0001 C CNN
+	1    975  1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:Polyfuse F?
+U 1 1 604A6497
+P 1175 1625
+F 0 "F?" V 1125 1750 50  0000 L CNN
+F 1 "Polyfuse" V 1263 1580 50  0000 L CNN
+F 2 "" H 1225 1425 50  0001 L CNN
+F 3 "" H 1175 1625 50  0001 C CNN
+	1    1175 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:Polyfuse F?
+U 1 1 604A664B
+P 1375 1625
+F 0 "F?" V 1325 1750 50  0000 L CNN
+F 1 "Polyfuse" V 1463 1580 50  0000 L CNN
+F 2 "" H 1425 1425 50  0001 L CNN
+F 3 "" H 1375 1625 50  0001 C CNN
+	1    1375 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:Polyfuse F?
+U 1 1 604A66C3
+P 1575 1625
+F 0 "F?" V 1525 1750 50  0000 L CNN
+F 1 "Polyfuse" V 1663 1580 50  0000 L CNN
+F 2 "" H 1625 1425 50  0001 L CNN
+F 3 "" H 1575 1625 50  0001 C CNN
+	1    1575 1625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	975  1775 975  1925
+Wire Wire Line
+	1175 1775 1175 1925
+Wire Wire Line
+	1375 1775 1375 1925
+Wire Wire Line
+	1575 1775 1575 1925
+Text HLabel 4300 1925 3    60   Input ~ 0
++12V0
+Text HLabel 4500 1925 3    60   Input ~ 0
++5V0
+Text HLabel 4900 1925 3    60   Input ~ 0
++3V3V
+Text HLabel 4700 1925 3    60   Input ~ 0
+-5V0
+Text HLabel 5100 1925 3    60   Input ~ 0
+V_ADJ
+$Comp
+L device:Polyfuse F?
+U 1 1 6073C287
+P 4300 1625
+F 0 "F?" V 4250 1750 50  0000 L CNN
+F 1 "Polyfuse" V 4388 1580 50  0000 L CNN
+F 2 "" H 4350 1425 50  0001 L CNN
+F 3 "" H 4300 1625 50  0001 C CNN
+	1    4300 1625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 1925 4300 1775
+$Comp
+L device:Polyfuse F?
+U 1 1 6073C28F
+P 4500 1625
+F 0 "F?" V 4450 1750 50  0000 L CNN
+F 1 "Polyfuse" V 4588 1580 50  0000 L CNN
+F 2 "" H 4550 1425 50  0001 L CNN
+F 3 "" H 4500 1625 50  0001 C CNN
+	1    4500 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:Polyfuse F?
+U 1 1 6073C296
+P 4700 1625
+F 0 "F?" V 4650 1750 50  0000 L CNN
+F 1 "Polyfuse" V 4788 1580 50  0000 L CNN
+F 2 "" H 4750 1425 50  0001 L CNN
+F 3 "" H 4700 1625 50  0001 C CNN
+	1    4700 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:Polyfuse F?
+U 1 1 6073C29D
+P 4900 1625
+F 0 "F?" V 4850 1750 50  0000 L CNN
+F 1 "Polyfuse" V 4988 1580 50  0000 L CNN
+F 2 "" H 4950 1425 50  0001 L CNN
+F 3 "" H 4900 1625 50  0001 C CNN
+	1    4900 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:Polyfuse F?
+U 1 1 6073C2A4
+P 5100 1625
+F 0 "F?" V 5050 1750 50  0000 L CNN
+F 1 "Polyfuse" V 5188 1580 50  0000 L CNN
+F 2 "" H 5150 1425 50  0001 L CNN
+F 3 "" H 5100 1625 50  0001 C CNN
+	1    5100 1625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1775 4500 1925
+Wire Wire Line
+	4700 1775 4700 1925
+Wire Wire Line
+	4900 1775 4900 1925
+Wire Wire Line
+	5100 1775 5100 1925
+Text HLabel 7825 1925 3    60   Input ~ 0
++12V0
+Text HLabel 8025 1925 3    60   Input ~ 0
++5V0
+Text HLabel 8425 1925 3    60   Input ~ 0
++3V3V
+Text HLabel 8225 1925 3    60   Input ~ 0
+-5V0
+Text HLabel 8625 1925 3    60   Input ~ 0
+V_ADJ
+$Comp
+L device:Polyfuse F?
+U 1 1 60790ED9
+P 7825 1625
+F 0 "F?" V 7775 1750 50  0000 L CNN
+F 1 "Polyfuse" V 7913 1580 50  0000 L CNN
+F 2 "" H 7875 1425 50  0001 L CNN
+F 3 "" H 7825 1625 50  0001 C CNN
+	1    7825 1625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7825 1925 7825 1775
+$Comp
+L device:Polyfuse F?
+U 1 1 60790EE1
+P 8025 1625
+F 0 "F?" V 7975 1750 50  0000 L CNN
+F 1 "Polyfuse" V 8113 1580 50  0000 L CNN
+F 2 "" H 8075 1425 50  0001 L CNN
+F 3 "" H 8025 1625 50  0001 C CNN
+	1    8025 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:Polyfuse F?
+U 1 1 60790EE8
+P 8225 1625
+F 0 "F?" V 8175 1750 50  0000 L CNN
+F 1 "Polyfuse" V 8313 1580 50  0000 L CNN
+F 2 "" H 8275 1425 50  0001 L CNN
+F 3 "" H 8225 1625 50  0001 C CNN
+	1    8225 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:Polyfuse F?
+U 1 1 60790EEF
+P 8425 1625
+F 0 "F?" V 8375 1750 50  0000 L CNN
+F 1 "Polyfuse" V 8513 1580 50  0000 L CNN
+F 2 "" H 8475 1425 50  0001 L CNN
+F 3 "" H 8425 1625 50  0001 C CNN
+	1    8425 1625
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:Polyfuse F?
+U 1 1 60790EF6
+P 8625 1625
+F 0 "F?" V 8575 1750 50  0000 L CNN
+F 1 "Polyfuse" V 8713 1580 50  0000 L CNN
+F 2 "" H 8675 1425 50  0001 L CNN
+F 3 "" H 8625 1625 50  0001 C CNN
+	1    8625 1625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8025 1775 8025 1925
+Wire Wire Line
+	8225 1775 8225 1925
+Wire Wire Line
+	8425 1775 8425 1925
+Wire Wire Line
+	8625 1775 8625 1925
+Text HLabel 6125 3325 3    60   Input ~ 0
+RESERVED_2
 $EndSCHEMATC
