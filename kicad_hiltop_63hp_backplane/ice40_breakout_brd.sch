@@ -1352,10 +1352,10 @@ GPIO_70
 Text HLabel 3100 1350 1    60   Input ~ 0
 GPIO_71
 $Comp
-L device:Polyfuse F?
+L device:Polyfuse F9
 U 1 1 5CEC5F97
 P 1600 6500
-F 0 "F?" V 1375 6500 50  0000 C CNN
+F 0 "F9" V 1375 6500 50  0000 C CNN
 F 1 "Polyfuse" V 1466 6500 50  0000 C CNN
 F 2 "" H 1650 6300 50  0001 L CNN
 F 3 "" H 1600 6500 50  0001 C CNN
@@ -1363,10 +1363,10 @@ F 3 "" H 1600 6500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:Polyfuse F?
+L device:Polyfuse F10
 U 1 1 5CEC61F6
 P 1600 7100
-F 0 "F?" V 1375 7100 50  0000 C CNN
+F 0 "F10" V 1375 7100 50  0000 C CNN
 F 1 "Polyfuse" V 1466 7100 50  0000 C CNN
 F 2 "" H 1650 6900 50  0001 L CNN
 F 3 "" H 1600 7100 50  0001 C CNN
@@ -1374,10 +1374,10 @@ F 3 "" H 1600 7100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:Polyfuse F?
+L device:Polyfuse F11
 U 1 1 5CEC625C
 P 4300 6525
-F 0 "F?" V 4075 6525 50  0000 C CNN
+F 0 "F11" V 4075 6525 50  0000 C CNN
 F 1 "Polyfuse" V 4166 6525 50  0000 C CNN
 F 2 "" H 4350 6325 50  0001 L CNN
 F 3 "" H 4300 6525 50  0001 C CNN

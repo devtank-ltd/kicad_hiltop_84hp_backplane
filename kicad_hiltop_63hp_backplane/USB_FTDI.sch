@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -1353,10 +1353,10 @@ $EndComp
 Text HLabel 4975 3350 0    39   Input ~ 0
 +3V3_IN
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP1
 U 1 1 5D0D4D61
 P 5400 2050
-F 0 "TP?" V 5425 2300 50  0000 C CNN
+F 0 "TP1" V 5425 2300 50  0000 C CNN
 F 1 "+1V8_REG_OUT" V 5350 2525 50  0000 C CNN
 F 2 "" H 5600 2050 50  0001 C CNN
 F 3 "~" H 5600 2050 50  0001 C CNN
