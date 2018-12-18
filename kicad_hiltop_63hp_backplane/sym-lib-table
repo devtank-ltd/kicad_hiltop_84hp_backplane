@@ -100,4 +100,5 @@
   (lib (name zetex)(type Legacy)(uri /usr/share/kicad/kicad-library/library/zetex.lib)(options "")(descr ""))
   (lib (name Zilog)(type Legacy)(uri /usr/share/kicad/kicad-library/library/Zilog.lib)(options "")(descr ""))
   (lib (name gti_Lattice)(type Legacy)(uri /home/ronak/Desktop/KiCad_Projects/GoTronix_Library/gti_Lattice.lib)(options "")(descr ""))
+  (lib (name hiltop_backplane_brd-rescue)(type Legacy)(uri ${KIPRJMOD}/hiltop_backplane_brd-rescue.lib)(options "")(descr ""))
 )

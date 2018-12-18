@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L device:C C58
+L hiltop_backplane_brd-rescue:C-device C58
 U 1 1 5A418459
 P 4650 6725
 F 0 "C58" H 4675 6825 50  0000 L CNN
@@ -26,7 +26,7 @@ F 3 "" H 4650 6725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C59
+L hiltop_backplane_brd-rescue:C-device C59
 U 1 1 5A4184EA
 P 4900 6725
 F 0 "C59" H 4925 6825 50  0000 L CNN
@@ -37,7 +37,7 @@ F 3 "" H 4900 6725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C66
+L hiltop_backplane_brd-rescue:C-device C66
 U 1 1 5A41850F
 P 5150 6725
 F 0 "C66" H 5175 6825 50  0000 L CNN
@@ -48,7 +48,7 @@ F 3 "" H 5150 6725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C70
+L hiltop_backplane_brd-rescue:C-device C70
 U 1 1 5A418541
 P 5400 6725
 F 0 "C70" H 5425 6825 50  0000 L CNN
@@ -59,7 +59,7 @@ F 3 "" H 5400 6725 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C60
+L hiltop_backplane_brd-rescue:C-device C60
 U 1 1 5A41856A
 P 4650 7275
 F 0 "C60" H 4675 7375 50  0000 L CNN
@@ -70,7 +70,7 @@ F 3 "" H 4650 7275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C63
+L hiltop_backplane_brd-rescue:C-device C63
 U 1 1 5A4185BC
 P 4900 7275
 F 0 "C63" H 4925 7375 50  0000 L CNN
@@ -81,7 +81,7 @@ F 3 "" H 4900 7275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C67
+L hiltop_backplane_brd-rescue:C-device C67
 U 1 1 5A4185F9
 P 5150 7275
 F 0 "C67" H 5175 7375 50  0000 L CNN
@@ -92,7 +92,7 @@ F 3 "" H 5150 7275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C71
+L hiltop_backplane_brd-rescue:C-device C71
 U 1 1 5A41862F
 P 5400 7275
 F 0 "C71" H 5425 7375 50  0000 L CNN
@@ -103,7 +103,7 @@ F 3 "" H 5400 7275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C61
+L hiltop_backplane_brd-rescue:C-device C61
 U 1 1 5A418664
 P 1950 6700
 F 0 "C61" H 1975 6800 50  0000 L CNN
@@ -114,7 +114,7 @@ F 3 "" H 1950 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C64
+L hiltop_backplane_brd-rescue:C-device C64
 U 1 1 5A4186B2
 P 2200 6700
 F 0 "C64" H 2225 6800 50  0000 L CNN
@@ -125,7 +125,7 @@ F 3 "" H 2200 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C68
+L hiltop_backplane_brd-rescue:C-device C68
 U 1 1 5A4186E9
 P 2450 6700
 F 0 "C68" H 2475 6800 50  0000 L CNN
@@ -136,7 +136,7 @@ F 3 "" H 2450 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C72
+L hiltop_backplane_brd-rescue:C-device C72
 U 1 1 5A418729
 P 2700 6700
 F 0 "C72" H 2725 6800 50  0000 L CNN
@@ -147,7 +147,7 @@ F 3 "" H 2700 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C62
+L hiltop_backplane_brd-rescue:C-device C62
 U 1 1 5A418776
 P 1950 7300
 F 0 "C62" H 1975 7400 50  0000 L CNN
@@ -158,7 +158,7 @@ F 3 "" H 1950 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C65
+L hiltop_backplane_brd-rescue:C-device C65
 U 1 1 5A418B7E
 P 2200 7300
 F 0 "C65" H 2225 7400 50  0000 L CNN
@@ -169,7 +169,7 @@ F 3 "" H 2200 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C69
+L hiltop_backplane_brd-rescue:C-device C69
 U 1 1 5A418BC9
 P 2450 7300
 F 0 "C69" H 2475 7400 50  0000 L CNN
@@ -180,7 +180,7 @@ F 3 "" H 2450 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C73
+L hiltop_backplane_brd-rescue:C-device C73
 U 1 1 5A418C13
 P 2700 7300
 F 0 "C73" H 2725 7400 50  0000 L CNN
@@ -1039,7 +1039,7 @@ Connection ~ 8600 1500
 Wire Wire Line
 	8600 1500 9150 1500
 $Comp
-L gti_Lattice:SO-DIMM J9
+L hiltop_backplane_brd-rescue:SO-DIMM-gti_Lattice J9
 U 1 1 5A3A8985
 P 11200 2950
 F 0 "J9" H 10250 3100 60  0000 C CNN
@@ -1352,7 +1352,7 @@ GPIO_70
 Text HLabel 3100 1350 1    60   Input ~ 0
 GPIO_71
 $Comp
-L device:Polyfuse F9
+L hiltop_backplane_brd-rescue:Polyfuse-device F9
 U 1 1 5CEC5F97
 P 1600 6500
 F 0 "F9" V 1375 6500 50  0000 C CNN
@@ -1363,7 +1363,7 @@ F 3 "" H 1600 6500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:Polyfuse F10
+L hiltop_backplane_brd-rescue:Polyfuse-device F10
 U 1 1 5CEC61F6
 P 1600 7100
 F 0 "F10" V 1375 7100 50  0000 C CNN
@@ -1374,7 +1374,7 @@ F 3 "" H 1600 7100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:Polyfuse F11
+L hiltop_backplane_brd-rescue:Polyfuse-device F11
 U 1 1 5CEC625C
 P 4300 6525
 F 0 "F11" V 4075 6525 50  0000 C CNN
