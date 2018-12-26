@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -40,12 +40,6 @@ Wire Wire Line
 	2625 2475 2350 2475
 Wire Wire Line
 	2625 2675 2350 2675
-Wire Wire Line
-	2625 2975 2350 2975
-Wire Wire Line
-	2625 3075 2350 3075
-Wire Wire Line
-	2625 3175 2350 3175
 Wire Wire Line
 	2625 3275 2350 3275
 Wire Wire Line
@@ -143,11 +137,6 @@ Wire Wire Line
 Connection ~ 2500 1675
 Wire Wire Line
 	2500 1675 2500 1975
-Wire Wire Line
-	2500 2875 2500 3475
-Connection ~ 2500 2875
-Wire Wire Line
-	2500 2875 2625 2875
 Connection ~ 2500 3475
 Wire Wire Line
 	2500 3775 2500 4075
@@ -179,12 +168,10 @@ Text HLabel 2350 4275 0    60   Input ~ 0
 MBRD_GPIO12
 Text HLabel 2350 4375 0    60   Input ~ 0
 MBRD_GPIO13
-Text HLabel 4850 4175 2    60   Input ~ 0
-MBRD_GPIO14
 Text HLabel 4850 4275 2    60   Input ~ 0
-MBRD_GPIO15
+MBRD_GPIO14
 Text HLabel 4850 4375 2    60   Input ~ 0
-MBRD_GPIO16
+MBRD_GPIO15
 Wire Wire Line
 	4650 1175 4650 1475
 Connection ~ 4650 1475
@@ -239,11 +226,11 @@ Text HLabel 2350 2575 0    60   Input ~ 0
 MBRD_GPIO4
 Text HLabel 2350 2675 0    60   Input ~ 0
 MBRD_GPIO5
-Text HLabel 2350 2975 0    60   Input ~ 0
+Text HLabel 2350 2875 0    60   Input ~ 0
 MBRD_GPIO6
-Text HLabel 2350 3075 0    60   Input ~ 0
+Text HLabel 2350 2975 0    60   Input ~ 0
 MBRD_GPIO7
-Text HLabel 2350 3175 0    60   Input ~ 0
+Text HLabel 2350 3075 0    60   Input ~ 0
 MBRD_PWM8
 Text HLabel 2350 3275 0    60   Input ~ 0
 MBRD_PWM9
@@ -302,7 +289,7 @@ Text HLabel 8925 2025 2    60   Input ~ 0
 Text HLabel 8925 1925 2    60   Input ~ 0
 -5V
 $Comp
-L hiltop_backplane_brd-rescue:HILTOP_PCIE-64_CONN-hiltop_pcie-64_conn J11
+L gti_Lattice:HILTOP_PCIE-64_CONN J11
 U 1 1 5C13457D
 P 3575 2725
 F 0 "J11" H 3575 4640 50  0000 C CNN
@@ -314,14 +301,12 @@ F 3 "" H 3075 4675 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2350 2575 2625 2575
-Wire Wire Line
-	2500 1975 2500 2875
 Connection ~ 2500 1975
 Wire Wire Line
 	4650 2175 4650 2875
 Connection ~ 4650 2175
 $Comp
-L hiltop_backplane_brd-rescue:Conn_02x04_Odd_Even-Connector1 J12
+L Connector1:Conn_02x04_Odd_Even J12
 U 1 1 5C155D60
 P 8400 1825
 F 0 "J12" H 8450 2142 50  0000 C CNN
@@ -332,18 +317,18 @@ F 3 "~" H 8400 1825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:Conn_02x02_Counter_Clockwise-Connector1 J13
+L Connector1:Conn_02x02_Counter_Clockwise J13
 U 1 1 5C155E73
 P 8425 2700
-F 0 "J13" H 8475 2917 50  0000 C CNN
-F 1 "Conn_02x02_Counter_Clockwise" H 8475 2826 50  0000 C CNN
+F 0 "J13" H 8425 2800 50  0000 C CNN
+F 1 "Conn_02x02_Counter_Clockwise" H 8425 2925 50  0000 C CNN
 F 2 "" H 8425 2700 50  0001 C CNN
 F 3 "~" H 8425 2700 50  0001 C CNN
 	1    8425 2700
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:Conn_01x02-Connector1 J14
+L Connector1:Conn_01x02 J14
 U 1 1 5C155F47
 P 8475 3425
 F 0 "J14" H 8450 3600 50  0000 L CNN
@@ -389,9 +374,9 @@ Wire Wire Line
 	8725 2800 8825 2800
 Wire Wire Line
 	8825 2800 8825 2875
-Text HLabel 7875 2700 0    60   Input ~ 0
+Text HLabel 7500 2700 0    60   Input ~ 0
 +2V5
-Text HLabel 7875 2800 0    60   Input ~ 0
+Text HLabel 7500 2800 0    60   Input ~ 0
 +1V8
 Text HLabel 9625 2700 2    60   Input ~ 0
 +1V2
@@ -426,7 +411,7 @@ Wire Wire Line
 Wire Wire Line
 	8725 2700 8950 2700
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 602962E5
 P 6100 5100
 AR Path="/5A0778ED/602962E5" Ref="R?"  Part="1" 
@@ -439,7 +424,7 @@ F 3 "" H 6100 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 602962EC
 P 6100 5200
 AR Path="/5A0778ED/602962EC" Ref="R?"  Part="1" 
@@ -452,7 +437,7 @@ F 3 "" H 6100 5200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 602962F3
 P 6100 5300
 AR Path="/5A0778ED/602962F3" Ref="R?"  Part="1" 
@@ -465,7 +450,7 @@ F 3 "" H 6100 5300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 602962FA
 P 6100 5400
 AR Path="/5A0778ED/602962FA" Ref="R?"  Part="1" 
@@ -478,7 +463,7 @@ F 3 "" H 6100 5400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 60296301
 P 6100 5500
 AR Path="/5A0778ED/60296301" Ref="R?"  Part="1" 
@@ -491,7 +476,7 @@ F 3 "" H 6100 5500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 60296308
 P 6100 5600
 AR Path="/5A0778ED/60296308" Ref="R?"  Part="1" 
@@ -504,7 +489,7 @@ F 3 "" H 6100 5600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 6029630F
 P 6100 5700
 AR Path="/5A0778ED/6029630F" Ref="R?"  Part="1" 
@@ -517,7 +502,7 @@ F 3 "" H 6100 5700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 60296316
 P 6100 5800
 AR Path="/5A0778ED/60296316" Ref="R?"  Part="1" 
@@ -530,7 +515,7 @@ F 3 "" H 6100 5800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 6029631D
 P 6100 6000
 AR Path="/5A0778ED/6029631D" Ref="R?"  Part="1" 
@@ -543,7 +528,7 @@ F 3 "" H 6100 6000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 60296324
 P 6100 6100
 AR Path="/5A0778ED/60296324" Ref="R?"  Part="1" 
@@ -556,7 +541,7 @@ F 3 "" H 6100 6100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 6029632B
 P 6100 6200
 AR Path="/5A0778ED/6029632B" Ref="R?"  Part="1" 
@@ -569,7 +554,7 @@ F 3 "" H 6100 6200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 60296332
 P 6100 6300
 AR Path="/5A0778ED/60296332" Ref="R?"  Part="1" 
@@ -582,7 +567,7 @@ F 3 "" H 6100 6300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 60296339
 P 6100 6800
 AR Path="/5A0778ED/60296339" Ref="R?"  Part="1" 
@@ -595,7 +580,7 @@ F 3 "" H 6100 6800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 60296340
 P 6100 6900
 AR Path="/5A0778ED/60296340" Ref="R?"  Part="1" 
@@ -608,7 +593,7 @@ F 3 "" H 6100 6900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 60296347
 P 6100 7075
 AR Path="/5A0778ED/60296347" Ref="R?"  Part="1" 
@@ -621,7 +606,7 @@ F 3 "" H 6100 7075 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 6029634E
 P 6100 7175
 AR Path="/5A0778ED/6029634E" Ref="R?"  Part="1" 
@@ -634,7 +619,7 @@ F 3 "" H 6100 7175 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 60296355
 P 6100 7275
 AR Path="/5A0778ED/60296355" Ref="R?"  Part="1" 
@@ -647,7 +632,7 @@ F 3 "" H 6100 7275 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 6029635C
 P 6100 7375
 AR Path="/5A0778ED/6029635C" Ref="R?"  Part="1" 
@@ -660,7 +645,7 @@ F 3 "" H 6100 7375 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 60296363
 P 6100 7475
 AR Path="/5A0778ED/60296363" Ref="R?"  Part="1" 
@@ -673,7 +658,7 @@ F 3 "" H 6100 7475 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 6029636A
 P 6100 7575
 AR Path="/5A0778ED/6029636A" Ref="R?"  Part="1" 
@@ -686,7 +671,7 @@ F 3 "" H 6100 7575 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 60296371
 P 5650 5100
 AR Path="/5A0778ED/60296371" Ref="R?"  Part="1" 
@@ -699,7 +684,7 @@ F 3 "" H 5650 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 60296378
 P 5650 5300
 AR Path="/5A0778ED/60296378" Ref="R?"  Part="1" 
@@ -712,7 +697,7 @@ F 3 "" H 5650 5300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 6029637F
 P 5650 5500
 AR Path="/5A0778ED/6029637F" Ref="R?"  Part="1" 
@@ -725,7 +710,7 @@ F 3 "" H 5650 5500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 60296386
 P 5650 5700
 AR Path="/5A0778ED/60296386" Ref="R?"  Part="1" 
@@ -738,7 +723,7 @@ F 3 "" H 5650 5700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 6029638D
 P 5650 6000
 AR Path="/5A0778ED/6029638D" Ref="R?"  Part="1" 
@@ -751,7 +736,7 @@ F 3 "" H 5650 6000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 60296394
 P 5650 6200
 AR Path="/5A0778ED/60296394" Ref="R?"  Part="1" 
@@ -764,7 +749,7 @@ F 3 "" H 5650 6200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 6029639B
 P 5650 6900
 AR Path="/5A0778ED/6029639B" Ref="R?"  Part="1" 
@@ -777,7 +762,7 @@ F 3 "" H 5650 6900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 602963A2
 P 5650 7075
 AR Path="/5A0778ED/602963A2" Ref="R?"  Part="1" 
@@ -790,7 +775,7 @@ F 3 "" H 5650 7075 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 602963A9
 P 5650 7275
 AR Path="/5A0778ED/602963A9" Ref="R?"  Part="1" 
@@ -803,7 +788,7 @@ F 3 "" H 5650 7275 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R?
+L device:R R?
 U 1 1 602963B0
 P 5650 7475
 AR Path="/5A0778ED/602963B0" Ref="R?"  Part="1" 
@@ -1068,10 +1053,6 @@ Wire Wire Line
 Wire Wire Line
 	5450 5700 5500 5700
 Wire Wire Line
-	7875 2700 8225 2700
-Wire Wire Line
-	7875 2800 8225 2800
-Wire Wire Line
 	7900 3425 8275 3425
 Wire Wire Line
 	8700 1725 8925 1725
@@ -1081,4 +1062,65 @@ Wire Wire Line
 	8700 1925 8925 1925
 Wire Wire Line
 	8700 2025 8925 2025
+$Comp
+L device:Polyfuse F?
+U 1 1 5C36D98A
+P 9100 2700
+F 0 "F?" V 8875 2700 50  0000 C CNN
+F 1 "Polyfuse" V 8966 2700 50  0000 C CNN
+F 2 "" H 9150 2500 50  0001 L CNN
+F 3 "" H 9100 2700 50  0001 C CNN
+	1    9100 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L device:Polyfuse F?
+U 1 1 5C36DB02
+P 7950 2700
+F 0 "F?" V 7850 2550 50  0000 C CNN
+F 1 "Polyfuse" V 7900 2425 50  0000 C CNN
+F 2 "" H 8000 2500 50  0001 L CNN
+F 3 "" H 7950 2700 50  0001 C CNN
+	1    7950 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L device:Polyfuse F?
+U 1 1 5C36DBE2
+P 7950 2800
+F 0 "F?" V 8075 2650 50  0000 C CNN
+F 1 "Polyfuse" V 8000 2525 50  0000 C CNN
+F 2 "" H 8000 2600 50  0001 L CNN
+F 3 "" H 7950 2800 50  0001 C CNN
+	1    7950 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8100 2700 8225 2700
+Wire Wire Line
+	8100 2800 8225 2800
+Wire Wire Line
+	7500 2700 7800 2700
+Wire Wire Line
+	7500 2800 7800 2800
+Wire Wire Line
+	2500 1975 2500 2775
+Wire Wire Line
+	2625 2775 2500 2775
+Connection ~ 2500 2775
+Wire Wire Line
+	2500 2775 2500 3175
+Wire Wire Line
+	2625 3175 2500 3175
+Connection ~ 2500 3175
+Wire Wire Line
+	2500 3175 2500 3475
+Wire Wire Line
+	2625 2875 2350 2875
+Wire Wire Line
+	2625 2975 2350 2975
+Wire Wire Line
+	2625 3075 2350 3075
+Text HLabel 4850 4175 2    59   Input ~ 0
+MBRD_SPI1_CS2
 $EndSCHEMATC

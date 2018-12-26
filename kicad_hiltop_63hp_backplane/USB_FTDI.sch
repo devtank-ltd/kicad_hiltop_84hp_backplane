@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L hiltop_backplane_brd-rescue:USB_B_Micro-Connector1 J1
+L Connector:USB_B_Micro J1
 U 1 1 5A0CEDE1
 P 1550 2750
 F 0 "J1" H 1350 3200 50  0000 L CNN
@@ -26,7 +26,7 @@ F 3 "" H 1700 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:NUP2105L-ESD_Protection D3
+L ESD_Protection:NUP2105L D3
 U 1 1 5A0CEFF4
 P 4500 3150
 F 0 "D3" H 4725 3250 50  0000 L CNN
@@ -37,7 +37,7 @@ F 3 "" H 4625 3275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C22
+L device:C C22
 U 1 1 5A0CF19D
 P 2250 1500
 F 0 "C22" V 2100 1450 50  0000 L CNN
@@ -48,7 +48,7 @@ F 3 "" H 2250 1500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C23
+L device:C C23
 U 1 1 5A0CF48E
 P 3150 4800
 F 0 "C23" H 3175 4900 50  0000 L CNN
@@ -59,7 +59,7 @@ F 3 "" H 3150 4800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C37
+L device:C C37
 U 1 1 5A0CF61F
 P 8850 1250
 F 0 "C37" H 8700 1150 50  0000 L CNN
@@ -70,7 +70,7 @@ F 3 "" H 8850 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C39
+L device:C C39
 U 1 1 5A0CF7C6
 P 9450 1250
 F 0 "C39" H 9475 1350 50  0000 L CNN
@@ -81,7 +81,7 @@ F 3 "" H 9450 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C36
+L device:C C36
 U 1 1 5A0CF9B8
 P 8550 1250
 F 0 "C36" H 8575 1350 50  0000 L CNN
@@ -92,7 +92,7 @@ F 3 "" H 8550 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C40
+L device:C C40
 U 1 1 5A0CFC0B
 P 9750 1250
 F 0 "C40" H 9775 1350 50  0000 L CNN
@@ -103,7 +103,7 @@ F 3 "" H 9750 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C35
+L device:C C35
 U 1 1 5A0CFCE6
 P 8250 1250
 F 0 "C35" H 8275 1350 50  0000 L CNN
@@ -114,7 +114,7 @@ F 3 "" H 8250 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C34
+L device:C C34
 U 1 1 5A0CFD9F
 P 7950 1250
 F 0 "C34" H 7975 1350 50  0000 L CNN
@@ -125,7 +125,7 @@ F 3 "" H 7950 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C27
+L device:C C27
 U 1 1 5A0CFDD2
 P 5550 1200
 F 0 "C27" H 5575 1300 50  0000 L CNN
@@ -136,7 +136,7 @@ F 3 "" H 5550 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C30
+L device:C C30
 U 1 1 5A0CFE07
 P 5850 1200
 F 0 "C30" H 5875 1300 50  0000 L CNN
@@ -147,7 +147,7 @@ F 3 "" H 5850 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C32
+L device:C C32
 U 1 1 5A0CFE36
 P 6150 1200
 F 0 "C32" H 6175 1300 50  0000 L CNN
@@ -158,7 +158,7 @@ F 3 "" H 6150 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C33
+L device:C C33
 U 1 1 5A0CFE71
 P 6450 1200
 F 0 "C33" H 6475 1300 50  0000 L CNN
@@ -169,7 +169,7 @@ F 3 "" H 6450 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C38
+L device:C C38
 U 1 1 5A0CFEAA
 P 9150 1250
 F 0 "C38" H 9175 1350 50  0000 L CNN
@@ -180,7 +180,7 @@ F 3 "" H 9150 1250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C25
+L device:C C25
 U 1 1 5A0CFFD0
 P 5500 2300
 F 0 "C25" H 5525 2400 50  0000 L CNN
@@ -191,7 +191,7 @@ F 3 "" H 5500 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C29
+L device:C C29
 U 1 1 5A0D0317
 P 5750 2300
 F 0 "C29" H 5775 2400 50  0000 L CNN
@@ -202,7 +202,7 @@ F 3 "" H 5750 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C26
+L device:C C26
 U 1 1 5A0D035A
 P 5500 5850
 F 0 "C26" H 5400 5950 50  0000 L CNN
@@ -213,7 +213,7 @@ F 3 "" H 5500 5850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C24
+L device:C C24
 U 1 1 5A0D03B9
 P 4950 5850
 F 0 "C24" H 4975 5950 50  0000 L CNN
@@ -224,7 +224,7 @@ F 3 "" H 4950 5850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:Ferrite_Bead-device L2
+L device:Ferrite_Bead L2
 U 1 1 5A0D0483
 P 4850 650
 F 0 "L2" V 4700 675 50  0000 C CNN
@@ -235,7 +235,7 @@ F 3 "" H 4850 650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:Ferrite_Bead-device L3
+L device:Ferrite_Bead L3
 U 1 1 5A0D07F0
 P 4850 950
 F 0 "L3" V 4700 975 50  0000 C CNN
@@ -246,7 +246,7 @@ F 3 "" H 4850 950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:Ferrite_Bead-device L4
+L device:Ferrite_Bead L4
 U 1 1 5A0D0852
 P 10250 750
 F 0 "L4" V 10200 650 50  0000 C CNN
@@ -257,7 +257,7 @@ F 3 "" H 10250 750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:Ferrite_Bead-device L1
+L device:Ferrite_Bead L1
 U 1 1 5A0D09B1
 P 2000 2300
 F 0 "L1" H 1900 2250 50  0000 C CNN
@@ -268,7 +268,7 @@ F 3 "" H 2000 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:FT2232H-ftdi U6
+L ftdi:FT2232H U6
 U 1 1 5A0D0CDB
 P 7250 3750
 F 0 "U6" H 6200 5850 50  0000 L CNN
@@ -378,7 +378,7 @@ F 3 "" H 1550 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:93LCxxC-memory U5
+L memory:93LCxxC U5
 U 1 1 5A0D27FD
 P 3800 4750
 F 0 "U5" H 3650 5100 50  0000 C CNN
@@ -400,7 +400,7 @@ F 3 "" H 3400 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R111
+L device:R R111
 U 1 1 5A0E2040
 P 4000 3850
 F 0 "R111" V 4080 3850 50  0000 C CNN
@@ -411,7 +411,7 @@ F 3 "" H 4000 3850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R110
+L device:R R110
 U 1 1 5A0E22F5
 P 3800 3850
 F 0 "R110" V 3880 3850 50  0000 C CNN
@@ -422,7 +422,7 @@ F 3 "" H 3800 3850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R112
+L device:R R112
 U 1 1 5A0E2366
 P 4200 3850
 F 0 "R112" V 4280 3850 50  0000 C CNN
@@ -433,7 +433,7 @@ F 3 "" H 4200 3850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R113
+L device:R R113
 U 1 1 5A0E23C5
 P 4500 4650
 F 0 "R113" V 4580 4650 50  0000 C CNN
@@ -444,7 +444,7 @@ F 3 "" H 4500 4650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R114
+L device:R R114
 U 1 1 5A0E253E
 P 5050 2750
 F 0 "R114" V 4950 2700 50  0000 C CNN
@@ -455,7 +455,7 @@ F 3 "" H 5050 2750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R115
+L device:R R115
 U 1 1 5A0E2735
 P 5050 2850
 F 0 "R115" V 5150 2800 50  0000 C CNN
@@ -466,7 +466,7 @@ F 3 "" H 5050 2850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R117
+L device:R R117
 U 1 1 5A0E4574
 P 5850 3600
 F 0 "R117" V 5930 3600 50  0000 C CNN
@@ -477,7 +477,7 @@ F 3 "" H 5850 3600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R116
+L device:R R116
 U 1 1 5A0E467B
 P 5300 3350
 F 0 "R116" V 5380 3350 50  0000 C CNN
@@ -488,7 +488,7 @@ F 3 "" H 5300 3350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C28
+L device:C C28
 U 1 1 5A0E7988
 P 5550 3600
 F 0 "C28" H 5575 3700 50  0000 L CNN
@@ -510,7 +510,7 @@ F 3 "" H 5550 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:D_Schottky-device D2
+L device:D_Schottky D2
 U 1 1 5A0E9377
 P 2000 1800
 F 0 "D2" H 2000 1900 50  0000 C CNN
@@ -534,7 +534,7 @@ F 3 "" H 5550 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R118
+L device:R R118
 U 1 1 5A286A3D
 P 8800 1850
 F 0 "R118" V 8750 1650 50  0000 C CNN
@@ -545,7 +545,7 @@ F 3 "" H 8800 1850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R119
+L device:R R119
 U 1 1 5A286C57
 P 8800 1950
 F 0 "R119" V 8750 1750 50  0000 C CNN
@@ -556,7 +556,7 @@ F 3 "" H 8800 1950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R120
+L device:R R120
 U 1 1 5A286CD9
 P 8800 2050
 F 0 "R120" V 8750 1850 50  0000 C CNN
@@ -567,7 +567,7 @@ F 3 "" H 8800 2050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R121
+L device:R R121
 U 1 1 5A286D5E
 P 8800 2150
 F 0 "R121" V 8750 1950 50  0000 C CNN
@@ -578,7 +578,7 @@ F 3 "" H 8800 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R123
+L device:R R123
 U 1 1 5A286F0C
 P 8800 2450
 F 0 "R123" V 8750 2250 50  0000 C CNN
@@ -589,7 +589,7 @@ F 3 "" H 8800 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R124
+L device:R R124
 U 1 1 5A286F9B
 P 8800 2550
 F 0 "R124" V 8750 2350 50  0000 C CNN
@@ -600,7 +600,7 @@ F 3 "" H 8800 2550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C31
+L device:C C31
 U 1 1 5A28A03B
 P 6000 2300
 F 0 "C31" H 6025 2400 50  0000 L CNN
@@ -611,7 +611,7 @@ F 3 "" H 6000 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R122
+L device:R R122
 U 1 1 5A28A99D
 P 8800 2250
 F 0 "R122" V 8750 2050 50  0000 C CNN
@@ -634,7 +634,7 @@ iCE40 CDONE
 Text Notes 9700 2550 0    39   Italic 0
 iCE40 CRESET
 $Comp
-L hiltop_backplane_brd-rescue:R-device R125
+L device:R R125
 U 1 1 5A432905
 P 9550 4800
 F 0 "R125" V 9450 4800 50  0000 C CNN
@@ -645,7 +645,7 @@ F 3 "" H 9550 4800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R126
+L device:R R126
 U 1 1 5A432C01
 P 9550 5000
 F 0 "R126" V 9650 5000 50  0000 C CNN
@@ -656,7 +656,7 @@ F 3 "" H 9550 5000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:LED-device D4
+L device:LED D4
 U 1 1 5A432D8D
 P 9000 4800
 F 0 "D4" H 9000 4900 50  0000 C CNN
@@ -667,7 +667,7 @@ F 3 "" H 9000 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:LED-device D5
+L device:LED D5
 U 1 1 5A432E41
 P 9000 5000
 F 0 "D5" H 9000 5100 50  0000 C CNN
@@ -678,7 +678,7 @@ F 3 "" H 9000 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:Crystal_GND24-device Y1
+L device:Crystal_GND24 Y1
 U 1 1 5A2C1F7D
 P 5250 5350
 F 0 "Y1" H 5375 5550 50  0000 L CNN
@@ -700,29 +700,7 @@ F 3 "" H 5250 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:3pos_Jumper-gti_Lattice J3
-U 1 1 5A2C5B3A
-P 2800 2900
-F 0 "J3" H 2750 3100 39  0000 C CNN
-F 1 "3pos_Jumper" H 2800 3150 39  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 2800 2900 60  0001 C CNN
-F 3 "" H 2800 2900 60  0001 C CNN
-	1    2800 2900
-	1    0    0    1   
-$EndComp
-$Comp
-L hiltop_backplane_brd-rescue:3pos_Jumper-gti_Lattice J2
-U 1 1 5A2C5C1B
-P 2800 2700
-F 0 "J2" H 2750 2900 39  0000 C CNN
-F 1 "3pos_Jumper" H 2800 3000 39  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 2800 2700 60  0001 C CNN
-F 3 "" H 2800 2700 60  0001 C CNN
-	1    2800 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L hiltop_backplane_brd-rescue:Test_Point-Connector1 TP11
+L Connector:TestPoint TP11
 U 1 1 5A2FCE0A
 P 2000 1350
 F 0 "TP11" H 2000 1620 50  0000 C CNN
@@ -756,8 +734,6 @@ Text HLabel 9150 2450 2    39   Input ~ 0
 FTDI_GPIO6
 Text HLabel 9150 2550 2    39   Input ~ 0
 FTDI_GPIO7
-Text HLabel 2450 2600 0    39   Input ~ 0
-EXT_USB_D+
 Text HLabel 5400 1850 0    39   Input ~ 0
 +3V3_IN
 $Comp
@@ -822,10 +798,6 @@ Wire Wire Line
 	5200 2850 6050 2850
 Wire Wire Line
 	5200 2750 5750 2750
-Wire Wire Line
-	1850 2850 2000 2850
-Wire Wire Line
-	1850 2750 2000 2750
 Wire Wire Line
 	5450 3350 5550 3350
 Wire Wire Line
@@ -1115,30 +1087,6 @@ Wire Wire Line
 	5250 5550 5250 5600
 Connection ~ 5250 5600
 Wire Wire Line
-	2000 2750 2000 2700
-Wire Wire Line
-	2000 2700 2550 2700
-Wire Wire Line
-	2000 2850 2000 2900
-Wire Wire Line
-	2000 2900 2550 2900
-Wire Wire Line
-	3100 2650 3250 2650
-Wire Wire Line
-	3250 2650 3250 2750
-Wire Wire Line
-	3250 2750 4400 2750
-Wire Wire Line
-	3100 2950 3250 2950
-Wire Wire Line
-	3250 2950 3250 2850
-Wire Wire Line
-	3250 2850 4600 2850
-Wire Wire Line
-	2550 2600 2450 2600
-Wire Wire Line
-	2450 3000 2550 3000
-Wire Wire Line
 	4100 4850 4300 4850
 Wire Wire Line
 	4300 4850 4300 3600
@@ -1165,8 +1113,6 @@ Wire Wire Line
 	4900 4150 4900 4450
 Wire Wire Line
 	4900 4450 6050 4450
-Text HLabel 2450 3000 0    39   Input ~ 0
-EXT_USB_D-
 Wire Wire Line
 	4400 2950 4400 2750
 Wire Wire Line
@@ -1194,9 +1140,9 @@ Connection ~ 9750 1500
 Wire Wire Line
 	3800 4000 3800 4150
 Connection ~ 3800 4150
-Text Label 2050 2700 0    39   ~ 0
+Text Label 2050 2750 0    39   ~ 0
 USB_D+
-Text Label 2050 2900 0    39   ~ 0
+Text Label 2075 2850 0    39   ~ 0
 USB_D-
 Wire Wire Line
 	6650 6050 6850 6050
@@ -1322,8 +1268,6 @@ Text HLabel 10850 750  2    39   Input ~ 0
 3V3_IN
 Text HLabel 10200 4800 2    39   Input ~ 0
 +3V3_IN
-Connection ~ 4600 2850
-Connection ~ 4400 2750
 Wire Wire Line
 	2000 1950 2000 2150
 Wire Wire Line
@@ -1340,7 +1284,7 @@ Text Label 10500 1000 0    39   ~ 0
 Text HLabel 10850 1000 2    39   Input ~ 0
 +1V8_IN
 $Comp
-L hiltop_backplane_brd-rescue:Ferrite_Bead-device L5
+L device:Ferrite_Bead L5
 U 1 1 5A0D0A0A
 P 10250 1000
 F 0 "L5" V 10200 900 50  0000 C CNN
@@ -1353,7 +1297,7 @@ $EndComp
 Text HLabel 4975 3350 0    39   Input ~ 0
 +3V3_IN
 $Comp
-L hiltop_backplane_brd-rescue:TestPoint-Connector TP1
+L Connector:TestPoint TP1
 U 1 1 5D0D4D61
 P 5400 2050
 AR Path="/5D0D4D61" Ref="TP1"  Part="1" 
@@ -1365,4 +1309,60 @@ F 3 "~" H 5600 2050 50  0001 C CNN
 	1    5400 2050
 	0    -1   -1   0   
 $EndComp
+$Comp
+L gti_Lattice:3pos_Jumper J?
+U 1 1 5C690C56
+P 3200 2400
+F 0 "J?" H 2975 2400 60  0000 C CNN
+F 1 "3pos_Jumper" H 3225 2341 60  0000 C CNN
+F 2 "" H 3200 2400 60  0001 C CNN
+F 3 "" H 3200 2400 60  0001 C CNN
+	1    3200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L gti_Lattice:3pos_Jumper J?
+U 1 1 5C690DBE
+P 3200 2700
+F 0 "J?" H 2975 2250 60  0000 C CNN
+F 1 "3pos_Jumper" H 3225 2325 60  0000 C CNN
+F 2 "" H 3200 2700 60  0001 C CNN
+F 3 "" H 3200 2700 60  0001 C CNN
+	1    3200 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2750 2600 2750
+Wire Wire Line
+	2600 2750 2600 2700
+Wire Wire Line
+	2600 2700 2950 2700
+Wire Wire Line
+	1850 2850 2600 2850
+Wire Wire Line
+	2600 2850 2600 2900
+Wire Wire Line
+	2600 2900 2950 2900
+Wire Wire Line
+	3500 2650 4050 2650
+Wire Wire Line
+	4050 2650 4050 2750
+Wire Wire Line
+	4050 2750 4400 2750
+Connection ~ 4400 2750
+Wire Wire Line
+	3500 2950 4050 2950
+Wire Wire Line
+	4050 2950 4050 2850
+Wire Wire Line
+	4050 2850 4600 2850
+Connection ~ 4600 2850
+Wire Wire Line
+	2600 2600 2950 2600
+Wire Wire Line
+	2600 3000 2950 3000
+Text HLabel 2600 2600 0    28   Input ~ 0
+EXT_USB_D+
+Text HLabel 2600 3000 0    28   Input ~ 0
+EXT_USB_D-
 $EndSCHEMATC
