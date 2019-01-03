@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 6 6
 Title ""
 Date ""
 Rev ""
@@ -283,11 +283,11 @@ Wire Wire Line
 Wire Wire Line
 	2700 6050 2850 6050
 Wire Wire Line
-	3350 6050 3500 6050
+	3350 6050 3950 6050
 Wire Wire Line
 	2700 6400 2850 6400
 Wire Wire Line
-	3350 6400 3500 6400
+	3350 6400 3950 6400
 Wire Wire Line
 	2700 6800 2850 6800
 Wire Wire Line
@@ -310,11 +310,11 @@ $EndComp
 Wire Wire Line
 	2850 7600 2700 7600
 Wire Wire Line
-	3350 7600 3500 7600
+	3350 7600 3950 7600
 Wire Wire Line
 	3350 7700 3500 7700
 Wire Wire Line
-	2850 7700 2700 7700
+	2850 7700 2225 7700
 Text Notes 3750 7400 2    39   ~ 0
 Switch (FPGA) Master to Slave (M/M)\n
 Text Notes 875  7000 0    60   ~ 0
@@ -1357,101 +1357,8 @@ $EndComp
 Wire Wire Line
 	5500 2450 5500 2375
 Connection ~ 5500 2375
-$Comp
-L Connector:USB_B_Micro J?
-U 1 1 5C68B09B
-P 1025 1250
-AR Path="/5A077B59/5C68B09B" Ref="J?"  Part="1" 
-AR Path="/5A077C30/5C68B09B" Ref="J10"  Part="1" 
-F 0 "J10" H 825 1700 50  0000 L CNN
-F 1 "USB_B_Micro" H 825 1600 50  0000 L CNN
-F 2 "Connector_USB:USB_Micro-B_GCT_USB3076-30-A" H 1175 1200 50  0001 C CNN
-F 3 "" H 1175 1200 50  0001 C CNN
-	1    1025 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L device:C C?
-U 1 1 5C68B0A2
-P 1700 825
-AR Path="/5A077B59/5C68B0A2" Ref="C?"  Part="1" 
-AR Path="/5A077C30/5C68B0A2" Ref="C2"  Part="1" 
-F 0 "C2" H 1600 750 50  0000 L CNN
-F 1 "0.1uF" H 1475 900 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1738 675 50  0001 C CNN
-F 3 "" H 1700 825 50  0001 C CNN
-	1    1700 825 
-	-1   0    0    1   
-$EndComp
-$Comp
-L device:Ferrite_Bead L?
-U 1 1 5C68B0A9
-P 1425 825
-AR Path="/5A077B59/5C68B0A9" Ref="L?"  Part="1" 
-AR Path="/5A077C30/5C68B0A9" Ref="L6"  Part="1" 
-F 0 "L6" H 1325 775 50  0000 C CNN
-F 1 "Ferrite_Bead" H 1350 550 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" V 1355 825 50  0001 C CNN
-F 3 "" H 1425 825 50  0001 C CNN
-	1    1425 825 
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C68B0B0
-P 1700 1050
-AR Path="/5A077B59/5C68B0B0" Ref="#PWR?"  Part="1" 
-AR Path="/5A077C30/5C68B0B0" Ref="#PWR05"  Part="1" 
-F 0 "#PWR05" H 1700 800 50  0001 C CNN
-F 1 "GND" H 1600 1050 50  0000 C CNN
-F 2 "" H 1700 1050 50  0001 C CNN
-F 3 "" H 1700 1050 50  0001 C CNN
-	1    1700 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C68B0B6
-P 1025 1825
-AR Path="/5A077B59/5C68B0B6" Ref="#PWR?"  Part="1" 
-AR Path="/5A077C30/5C68B0B6" Ref="#PWR03"  Part="1" 
-F 0 "#PWR03" H 1025 1575 50  0001 C CNN
-F 1 "GND" H 900 1800 50  0000 C CNN
-F 2 "" H 1025 1825 50  0001 C CNN
-F 3 "" H 1025 1825 50  0001 C CNN
-	1    1025 1825
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5C68B0D2
-P 1350 600
-AR Path="/5A077B59/5C68B0D2" Ref="TP?"  Part="1" 
-AR Path="/5A077C30/5C68B0D2" Ref="TP2"  Part="1" 
-F 0 "TP2" V 1350 875 50  0000 C CNN
-F 1 "Test_Point" V 1275 750 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1550 600 50  0001 C CNN
-F 3 "" H 1550 600 50  0001 C CNN
-	1    1350 600 
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1025 1650 1025 1750
-Wire Wire Line
-	925  1650 925  1750
-Wire Wire Line
-	925  1750 1025 1750
-Connection ~ 1025 1750
-Wire Wire Line
-	1325 1050 1425 1050
-Wire Wire Line
-	1425 1050 1425 975 
-Wire Wire Line
-	1700 975  1700 1050
 Text Notes 1750 1225 0    39   ~ 0
 Differential Pair
-Wire Wire Line
-	1025 1750 1025 1825
 $Comp
 L ESD_Protection:NUP2105L D?
 U 1 1 5C69F83C
@@ -1480,15 +1387,6 @@ F 3 "" H 2075 1900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2075 1825 2075 1900
-Wire Wire Line
-	1350 600  1425 600 
-Wire Wire Line
-	1425 600  1425 675 
-Wire Wire Line
-	1425 600  1700 600 
-Wire Wire Line
-	1700 600  1700 675 
-Connection ~ 1425 600 
 Wire Wire Line
 	1325 1250 1975 1250
 Wire Wire Line
@@ -1889,19 +1787,19 @@ Wire Wire Line
 Wire Wire Line
 	2325 4800 2325 4850
 Text HLabel 7250 1125 0    60   Input ~ 0
-USB_~OCS1
+USB_~OSC1
 Text HLabel 7250 1725 0    60   Input ~ 0
-USB_~OCS2
+USB_~OSC2
 Text HLabel 7250 2325 0    60   Input ~ 0
-USB_~OCS3
+USB_~OSC3
 Text HLabel 7250 2925 0    60   Input ~ 0
-USB_~OCS4
+USB_~OSC4
 Text HLabel 7250 3525 0    60   Input ~ 0
-USB_~OCS5
+USB_~OSC5
 Text HLabel 7250 4125 0    60   Input ~ 0
-USB_~OCS6
+USB_~OSC6
 Text HLabel 7250 4725 0    60   Input ~ 0
-USB_~OCS7
+USB_~OSC7
 Wire Wire Line
 	7250 4725 7350 4725
 Wire Wire Line
@@ -1922,14 +1820,6 @@ Wire Wire Line
 	10825 675  10925 675 
 Wire Wire Line
 	10925 675  10925 1225
-Text GLabel 3500 6050 2    39   Input ~ 0
-FPGA_SPI_DATA1
-Text GLabel 3500 6400 2    39   Input ~ 0
-FPGA_SPI_DATA2
-Text GLabel 3500 7600 2    39   Input ~ 0
-FPGA_SPI_DATA1
-Text GLabel 2700 7700 0    39   Input ~ 0
-FPGA_SPI_DATA2
 Text HLabel 6875 5750 2    60   Input ~ 0
 +3V3_IN
 $Comp
@@ -1943,4 +1833,16 @@ F 3 "DOCUMENTATION" H 9150 150 50  0001 C CNN
 	2    8550 2675
 	1    0    0    -1  
 $EndComp
+Text HLabel 1325 1250 0    60   Input ~ 0
+USB_D+
+Text HLabel 1325 1350 0    60   Input ~ 0
+USB_D-
+Text Label 3400 6050 0    28   ~ 0
+FPGA_SPI_DATA1
+Text Label 3475 7600 0    28   ~ 0
+FPGA_SPI_DATA1
+Text Label 2400 7700 0    28   ~ 0
+FPGA_SPI_DATA2
+Text Label 3425 6400 0    28   ~ 0
+FPGA_SPI_DATA2
 $EndSCHEMATC

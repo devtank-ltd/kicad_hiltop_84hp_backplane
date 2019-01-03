@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -923,85 +923,69 @@ Wire Wire Line
 Wire Wire Line
 	3900 4825 3900 5150
 Wire Wire Line
-	3175 1175 3175 1500
+	3175 1175 3175 1700
 Wire Wire Line
-	3275 1175 3275 1500
+	3275 1175 3275 1700
 Wire Wire Line
-	3375 1175 3375 1500
+	3375 1175 3375 1700
 Wire Wire Line
-	3475 1175 3475 1500
+	3475 1175 3475 1700
 Wire Wire Line
-	3575 1500 3575 1175
+	3575 1700 3575 1175
 Wire Wire Line
-	3675 1500 3675 1175
+	3675 1700 3675 1175
 Wire Wire Line
-	3775 1500 3775 1175
+	3775 1700 3775 1175
 Wire Wire Line
-	3875 1500 3875 1175
+	3875 1700 3875 1175
 Wire Wire Line
-	6725 4825 6725 5150
+	6725 4825 6725 5525
 Wire Wire Line
-	6825 4825 6825 5150
+	6825 4825 6825 5525
 Wire Wire Line
-	6925 4825 6925 5150
+	6925 4825 6925 5525
 Wire Wire Line
-	7025 4825 7025 5150
+	7025 4825 7025 5525
 Wire Wire Line
-	7125 5150 7125 4825
+	7125 5525 7125 4825
 Wire Wire Line
-	7225 5150 7225 4825
+	7225 5525 7225 4825
 Wire Wire Line
-	7325 5150 7325 4825
+	7325 5525 7325 4825
 Wire Wire Line
-	7425 5150 7425 4825
+	7425 5525 7425 4825
 Wire Wire Line
-	6700 1175 6700 1475
+	6700 1175 6700 1650
 Wire Wire Line
-	6900 1175 6900 1475
+	6900 1175 6900 1650
 Wire Wire Line
-	7000 1175 7000 1475
+	7000 1175 7000 1650
 Wire Wire Line
-	7100 1175 7100 1475
+	7100 1175 7100 1650
 Wire Wire Line
-	7200 1175 7200 1475
+	7200 1175 7200 1650
 Wire Wire Line
-	7300 1175 7300 1475
+	7300 1175 7300 1650
 Wire Wire Line
-	7400 1175 7400 1475
-Text GLabel 6700 1475 3    60   Input ~ 0
-RCOM1B
+	7400 1175 7400 1650
 Wire Wire Line
-	6800 1175 6800 1475
-Text GLabel 6800 1475 3    60   Input ~ 0
-RCOM2B
-Text GLabel 6900 1475 3    60   Input ~ 0
-RCOM3B
-Text GLabel 7000 1475 3    60   Input ~ 0
-RCOM4B
-Text GLabel 7100 1475 3    60   Input ~ 0
-RCOM5B
-Text GLabel 7200 1475 3    60   Input ~ 0
-RCOM6B
-Text GLabel 7300 1475 3    60   Input ~ 0
-RCOM7B
-Text GLabel 7400 1475 3    60   Input ~ 0
-RCOM8B
+	6800 1175 6800 1650
 Wire Wire Line
-	10250 4825 10250 5125
+	10250 4825 10250 5475
 Wire Wire Line
-	10450 4825 10450 5125
+	10450 4825 10450 5475
 Wire Wire Line
-	10550 4825 10550 5125
+	10550 4825 10550 5475
 Wire Wire Line
-	10650 4825 10650 5125
+	10650 4825 10650 5475
 Wire Wire Line
-	10750 4825 10750 5125
+	10750 4825 10750 5475
 Wire Wire Line
-	10850 4825 10850 5125
+	10850 4825 10850 5475
 Wire Wire Line
-	10950 4825 10950 5125
+	10950 4825 10950 5475
 Wire Wire Line
-	10350 4825 10350 5125
+	10350 4825 10350 5475
 Wire Wire Line
 	10225 1175 10225 1475
 Wire Wire Line
@@ -1020,54 +1004,6 @@ Wire Wire Line
 	10325 1175 10325 1475
 Text HLabel 10225 1475 3    60   Input ~ 0
 RCOM1
-Text GLabel 3175 1500 3    60   Input ~ 0
-RCOM1A
-Text GLabel 3275 1500 3    60   Input ~ 0
-RCOM2A
-Text GLabel 3375 1500 3    60   Input ~ 0
-RCOM3A
-Text GLabel 3475 1500 3    60   Input ~ 0
-RCOM4A
-Text GLabel 3575 1500 3    60   Input ~ 0
-RCOM5A
-Text GLabel 3675 1500 3    60   Input ~ 0
-RCOM6A
-Text GLabel 3775 1500 3    60   Input ~ 0
-RCOM7A
-Text GLabel 3875 1500 3    60   Input ~ 0
-RCOM8A
-Text GLabel 6725 5150 3    60   Input ~ 0
-RCOM1A
-Text GLabel 6825 5150 3    60   Input ~ 0
-RCOM2A
-Text GLabel 6925 5150 3    60   Input ~ 0
-RCOM3A
-Text GLabel 7025 5150 3    60   Input ~ 0
-RCOM4A
-Text GLabel 7125 5150 3    60   Input ~ 0
-RCOM5A
-Text GLabel 7225 5150 3    60   Input ~ 0
-RCOM6A
-Text GLabel 7325 5150 3    60   Input ~ 0
-RCOM7A
-Text GLabel 7425 5150 3    60   Input ~ 0
-RCOM8A
-Text GLabel 10250 5125 3    60   Input ~ 0
-RCOM1B
-Text GLabel 10350 5125 3    60   Input ~ 0
-RCOM2B
-Text GLabel 10450 5125 3    60   Input ~ 0
-RCOM3B
-Text GLabel 10550 5125 3    60   Input ~ 0
-RCOM4B
-Text GLabel 10650 5125 3    60   Input ~ 0
-RCOM5B
-Text GLabel 10750 5125 3    60   Input ~ 0
-RCOM6B
-Text GLabel 10850 5125 3    60   Input ~ 0
-RCOM7B
-Text GLabel 10950 5125 3    60   Input ~ 0
-RCOM8B
 Text HLabel 10325 1475 3    60   Input ~ 0
 RCOM2
 Text HLabel 10425 1475 3    60   Input ~ 0
@@ -2250,4 +2186,68 @@ Text HLabel 3575 7025 0    39   Input ~ 0
 +3V3
 Text HLabel 1000 6950 0    39   Input ~ 0
 +3V3
+Text Label 3175 1575 1    28   ~ 0
+RCOM1A
+Text Label 3275 1600 1    28   ~ 0
+RCOM2A
+Text Label 3375 1575 1    28   ~ 0
+RCOM3A
+Text Label 3475 1600 1    28   ~ 0
+RCOM4A
+Text Label 3575 1575 1    28   ~ 0
+RCOM5A
+Text Label 3675 1600 1    28   ~ 0
+RCOM6A
+Text Label 3775 1575 1    28   ~ 0
+RCOM7A
+Text Label 3875 1600 1    28   ~ 0
+RCOM8A
+Text Label 6700 1525 1    28   ~ 0
+RCOM1B
+Text Label 6800 1550 1    28   ~ 0
+RCOM2B
+Text Label 6900 1525 1    28   ~ 0
+RCOM3B
+Text Label 7000 1550 1    28   ~ 0
+RCOM4B
+Text Label 7100 1525 1    28   ~ 0
+RCOM5B
+Text Label 7200 1550 1    28   ~ 0
+RCOM6B
+Text Label 7300 1525 1    28   ~ 0
+RCOM7B
+Text Label 7400 1550 1    28   ~ 0
+RCOM8B
+Text Label 10250 5325 1    28   ~ 0
+RCOM1B
+Text Label 10350 5350 1    28   ~ 0
+RCOM2B
+Text Label 10450 5325 1    28   ~ 0
+RCOM3B
+Text Label 10550 5350 1    28   ~ 0
+RCOM4B
+Text Label 10650 5325 1    28   ~ 0
+RCOM5B
+Text Label 10750 5350 1    28   ~ 0
+RCOM6B
+Text Label 10850 5325 1    28   ~ 0
+RCOM7B
+Text Label 10950 5350 1    28   ~ 0
+RCOM8B
+Text Label 6725 5400 1    28   ~ 0
+RCOM1A
+Text Label 6825 5425 1    28   ~ 0
+RCOM2A
+Text Label 6925 5400 1    28   ~ 0
+RCOM3A
+Text Label 7025 5425 1    28   ~ 0
+RCOM4A
+Text Label 7125 5400 1    28   ~ 0
+RCOM5A
+Text Label 7225 5425 1    28   ~ 0
+RCOM6A
+Text Label 7325 5400 1    28   ~ 0
+RCOM7A
+Text Label 7425 5425 1    28   ~ 0
+RCOM8A
 $EndSCHEMATC

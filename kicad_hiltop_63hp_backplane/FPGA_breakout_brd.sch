@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -190,14 +190,6 @@ F 3 "" H 2700 7300 50  0001 C CNN
 	1    2700 7300
 	1    0    0    -1  
 $EndComp
-Text GLabel 1350 7100 0    39   Input ~ 0
-+3V3_EXT_IN
-Text GLabel 4050 6525 0    39   Input ~ 0
-+1V2_EXT_IN
-Text GLabel 4050 7075 0    39   Input ~ 0
-+1V8_EXT_IN
-Text GLabel 1350 6500 0    39   Input ~ 0
-+2V5_EXT_IN
 $Comp
 L power:GND #PWR038
 U 1 1 5A41B6AD
@@ -476,13 +468,13 @@ Wire Wire Line
 Wire Wire Line
 	1700 1500 1700 1700
 Wire Wire Line
-	1500 1350 1500 1600
+	1500 1075 1500 1600
 Wire Wire Line
 	1400 1500 1400 1700
 Wire Wire Line
-	1300 1700 1300 1350
+	1300 1700 1300 1075
 Wire Wire Line
-	800  1350 800  1600
+	800  1075 800  1600
 Connection ~ 5400 6525
 Connection ~ 2700 7100
 Connection ~ 5400 7075
@@ -615,7 +607,7 @@ Wire Wire Line
 	1600 1600 1500 1600
 Connection ~ 1500 1600
 Wire Wire Line
-	1800 1350 1800 1600
+	1800 1075 1800 1600
 Wire Wire Line
 	1900 1700 1900 1600
 Wire Wire Line
@@ -633,15 +625,15 @@ Wire Wire Line
 	1000 4200 1000 4450
 Connection ~ 1400 4450
 Wire Wire Line
-	1300 4200 1300 4600
+	1300 4200 1300 4825
 Wire Wire Line
-	4050 6525 4150 6525
+	3550 6525 4150 6525
 Wire Wire Line
-	4050 7075 4150 7075
+	3550 7075 4150 7075
 Wire Wire Line
-	1350 6500 1450 6500
+	825  6500 1450 6500
 Wire Wire Line
-	1350 7100 1450 7100
+	825  7100 1450 7100
 Text HLabel 2800 7100 2    39   Input ~ 0
 +3V3_EXT_OUT
 Text HLabel 2800 6500 2    39   Input ~ 0
@@ -658,22 +650,6 @@ Text HLabel 10750 1275 1    39   Input ~ 0
 LVPECLK-
 Text HLabel 10850 1275 1    39   Input ~ 0
 LVPECLK+
-Text GLabel 1800 4600 3    39   Input ~ 0
-+1V2_EXT_IN
-Text GLabel 1500 4600 3    39   Input ~ 0
-+1V8_EXT_IN
-Text GLabel 1300 4600 3    39   Input ~ 0
-+2V5_EXT_IN
-Text GLabel 800  4600 3    39   Input ~ 0
-+3V3_EXT_IN
-Text GLabel 1800 1350 1    39   Input ~ 0
-+1V2_EXT_IN
-Text GLabel 1500 1350 1    39   Input ~ 0
-+1V8_EXT_IN
-Text GLabel 1300 1350 1    39   Input ~ 0
-+2V5_EXT_IN
-Text GLabel 800  1350 1    39   Input ~ 0
-+3V3_EXT_IN
 Text HLabel 10450 1275 1    39   Input ~ 0
 DP1-
 Text HLabel 10550 1275 1    39   Input ~ 0
@@ -819,15 +795,15 @@ Wire Wire Line
 Wire Wire Line
 	2700 6500 2800 6500
 Wire Wire Line
-	800  4300 800  4600
+	800  4300 800  4825
 Wire Wire Line
 	900  4300 1100 4300
 Wire Wire Line
 	1100 4300 1200 4300
 Wire Wire Line
-	1500 4300 1500 4600
+	1500 4300 1500 4825
 Wire Wire Line
-	1800 4300 1800 4600
+	1800 4300 1800 4825
 Wire Wire Line
 	1700 4450 2000 4450
 Wire Wire Line
@@ -1395,4 +1371,28 @@ F 3 "" H 4300 7075 50  0001 C CNN
 	1    4300 7075
 	0    1    1    0   
 $EndComp
+Text Label 800  1425 1    28   ~ 0
++3V3_EXT_IN
+Text Label 800  4775 1    28   ~ 0
++3V3_EXT_IN
+Text Label 1300 4775 1    28   ~ 0
++2V5_EXT_IN
+Text Label 1300 1400 1    28   ~ 0
++2V5_EXT_IN
+Text Label 1500 4775 1    28   ~ 0
++1V8_EXT_IN
+Text Label 1800 4750 1    28   ~ 0
++1V2_EXT_IN
+Text Label 1500 1400 1    28   ~ 0
++1V8_EXT_IN
+Text Label 1800 1400 1    28   ~ 0
++1V2_EXT_IN
+Text Label 925  6500 0    28   ~ 0
++2V5_EXT_IN
+Text Label 925  7100 0    28   ~ 0
++3V3_EXT_IN
+Text Label 3700 6525 0    28   ~ 0
++1V2_EXT_IN
+Text Label 3700 7075 0    28   ~ 0
++1V8_EXT_IN
 $EndSCHEMATC
