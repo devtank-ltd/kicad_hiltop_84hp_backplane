@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 6 6
 Title ""
 Date ""
 Rev ""
@@ -1015,7 +1015,7 @@ Connection ~ 8600 1500
 Wire Wire Line
 	8600 1500 9150 1500
 $Comp
-L gti_Lattice:SO-DIMM J11
+L hiltop_backplane_brd-rescue:SO-DIMM-gti_Lattice J11
 U 1 1 5A3A8985
 P 11200 2950
 F 0 "J11" H 10250 3100 60  0000 C CNN
@@ -1371,21 +1371,21 @@ F 3 "" H 4300 7075 50  0001 C CNN
 	1    4300 7075
 	0    1    1    0   
 $EndComp
-Text Label 800  1425 1    28   ~ 0
+Text Label 800  1075 3    28   ~ 0
 +3V3_EXT_IN
-Text Label 800  4775 1    28   ~ 0
+Text Label 800  4825 1    28   ~ 0
 +3V3_EXT_IN
-Text Label 1300 4775 1    28   ~ 0
+Text Label 1300 4825 1    28   ~ 0
 +2V5_EXT_IN
-Text Label 1300 1400 1    28   ~ 0
+Text Label 1300 1075 3    28   ~ 0
 +2V5_EXT_IN
-Text Label 1500 4775 1    28   ~ 0
+Text Label 1500 4825 1    28   ~ 0
 +1V8_EXT_IN
-Text Label 1800 4750 1    28   ~ 0
+Text Label 1800 4825 1    28   ~ 0
 +1V2_EXT_IN
-Text Label 1500 1400 1    28   ~ 0
+Text Label 1500 1075 3    28   ~ 0
 +1V8_EXT_IN
-Text Label 1800 1400 1    28   ~ 0
+Text Label 1800 1075 3    28   ~ 0
 +1V2_EXT_IN
 Text Label 825  6500 0    28   ~ 0
 +2V5_EXT_IN
