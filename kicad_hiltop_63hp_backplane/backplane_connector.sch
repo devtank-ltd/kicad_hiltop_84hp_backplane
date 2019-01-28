@@ -365,7 +365,7 @@ LVDS_D2+
 Text HLabel 1200 6100 3    39   Input ~ 0
 LVDS_D1+
 Text HLabel 850  6100 3    39   Input ~ 0
-LVPECLK+
+LVPSCLK+
 Text HLabel 900  6100 3    39   Input ~ 0
 LVDSCLK-
 Wire Wire Line
@@ -1798,7 +1798,7 @@ Wire Wire Line
 	4375 5550 4425 5550
 Connection ~ 4425 5550
 Text HLabel 4375 6100 3    39   Input ~ 0
-LVPECLK+
+LVPSCLK+
 Text HLabel 4425 6100 3    39   Input ~ 0
 LVDSCLK-
 Wire Wire Line
@@ -1839,27 +1839,18 @@ F 3 "" H 7950 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7950 5600 7950 5550
-Wire Wire Line
 	8050 5450 8050 5950
 Wire Wire Line
 	8050 5950 7950 5950
 Wire Wire Line
 	7950 6100 7950 5950
 Connection ~ 7950 5950
-Wire Wire Line
-	7900 6100 7900 5550
-Wire Wire Line
-	7900 5550 7950 5550
-Connection ~ 7950 5550
 Text HLabel 7900 6100 3    39   Input ~ 0
-LVPECLK+
+LVPSCLK+
 Text HLabel 7950 6100 3    39   Input ~ 0
 LVDSCLK-
 Wire Wire Line
 	7950 5950 7950 5900
-Wire Wire Line
-	7950 5550 7950 5450
 $Comp
 L device:Polyfuse F1
 U 1 1 60455C00
@@ -2269,4 +2260,13 @@ F 3 "" H 7475 575 60  0001 C CNN
 	3    7675 625 
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	7950 5450 7950 5575
+Wire Wire Line
+	7900 6100 7900 5575
+Wire Wire Line
+	7900 5575 7950 5575
+Connection ~ 7950 5575
+Wire Wire Line
+	7950 5575 7950 5600
 $EndSCHEMATC

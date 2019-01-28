@@ -1015,9 +1015,11 @@ Connection ~ 8600 1500
 Wire Wire Line
 	8600 1500 9150 1500
 $Comp
-L hiltop_backplane_brd-rescue:SO-DIMM-gti_Lattice J11
+L hiltop_backplane_brd-rescue:SO-DIMM-gti_Lattice-hiltop_backplane_brd-rescue J11
 U 1 1 5A3A8985
 P 11200 2950
+AR Path="/5A3A8985" Ref="J11"  Part="1" 
+AR Path="/5A077BA2/5A3A8985" Ref="J11"  Part="1" 
 F 0 "J11" H 10250 3100 60  0000 C CNN
 F 1 "SO-DIMM" H 11300 2800 60  0000 C CNN
 F 2 "Devtank_PCB_Lib:Conn_TE-DDR2-SODIMM-0.6-200P-ComputeModule" H 11350 2950 60  0001 C CNN

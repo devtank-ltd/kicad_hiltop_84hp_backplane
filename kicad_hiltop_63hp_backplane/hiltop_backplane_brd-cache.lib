@@ -741,11 +741,11 @@ X GND 6 -450 -450 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# hiltop_backplane_brd-rescue_SO-DIMM-gti_Lattice
+# hiltop_backplane_brd-rescue_SO-DIMM-gti_Lattice-hiltop_backplane_brd-rescue
 #
-DEF hiltop_backplane_brd-rescue_SO-DIMM-gti_Lattice J 0 40 Y Y 26 F N
+DEF hiltop_backplane_brd-rescue_SO-DIMM-gti_Lattice-hiltop_backplane_brd-rescue J 0 40 Y Y 26 F N
 F0 "J" -950 150 60 H V C CNN
-F1 "hiltop_backplane_brd-rescue_SO-DIMM-gti_Lattice" 50 -200 60 H V C CNN
+F1 "hiltop_backplane_brd-rescue_SO-DIMM-gti_Lattice-hiltop_backplane_brd-rescue" 50 -200 60 H V C CNN
 F2 "" 150 0 60 H I C CNN
 F3 "" 150 0 60 H I C CNN
 DRAW
@@ -840,8 +840,8 @@ X GND 175 -1250 -9200 200 R 50 50 1 1 I
 X GND 176 1250 -9200 200 L 50 50 1 1 I
 X 1V2_IN 177 -1250 -9300 200 R 50 50 1 1 I
 X 1V2_IN 178 1250 -9300 200 L 50 50 1 1 I
+X 1V2_IN 179 -1250 -9400 200 R 50 50 1 1 I
 X FPGA_GPIO_4 18 1250 -1050 200 L 50 50 1 1 I
-X 1V2_IN 180 -1250 -9400 200 R 50 50 1 1 I
 X 1V2_IN 180 1250 -9400 200 L 50 50 1 1 I
 X GND 181 -1250 -9500 200 R 50 50 1 1 I
 X GND 182 1250 -9500 200 L 50 50 1 1 I
