@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ronak/Desktop/KiCad_Projects/Hiltop/hiltop_backplane/kicad_hiltop_63hp_backplane/hiltop_backplane_brd.sch)
-    (date "Sun 27 Jan 2019 22:58:23 EST")
+    (date "Mon 28 Jan 2019 21:20:12 EST")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -2566,7 +2566,7 @@
       (node (ref C32) (pin 1))
       (node (ref F18) (pin 1))
       (node (ref R47) (pin 1)))
-    (net (code 84) (name /backplane_connector/LVDSCLK-)
+    (net (code 84) (name /ice40_breakout_brd/LVPECLK-)
       (node (ref R20) (pin 2))
       (node (ref R38) (pin 2))
       (node (ref J11) (pin 5))

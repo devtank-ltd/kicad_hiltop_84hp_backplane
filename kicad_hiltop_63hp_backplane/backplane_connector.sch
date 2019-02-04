@@ -367,7 +367,7 @@ LVDS_D1+
 Text HLabel 850  6100 3    39   Input ~ 0
 LVPSCLK+
 Text HLabel 900  6100 3    39   Input ~ 0
-LVDSCLK-
+LVPSCLK-
 Wire Wire Line
 	4825 5950 4725 5950
 Connection ~ 4725 5950
@@ -1800,7 +1800,7 @@ Connection ~ 4425 5550
 Text HLabel 4375 6100 3    39   Input ~ 0
 LVPSCLK+
 Text HLabel 4425 6100 3    39   Input ~ 0
-LVDSCLK-
+LVPSCLK-
 Wire Wire Line
 	4425 5950 4425 5900
 Wire Wire Line
@@ -1848,7 +1848,7 @@ Connection ~ 7950 5950
 Text HLabel 7900 6100 3    39   Input ~ 0
 LVPSCLK+
 Text HLabel 7950 6100 3    39   Input ~ 0
-LVDSCLK-
+LVPSCLK-
 Wire Wire Line
 	7950 5950 7950 5900
 $Comp
