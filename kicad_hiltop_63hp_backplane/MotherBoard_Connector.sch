@@ -261,9 +261,9 @@ MBRD_RESERVED_0
 Text HLabel 4850 2575 2    60   Input ~ 0
 MBRD_RESERVED_1
 Text HLabel 4850 2675 2    60   Input ~ 0
-MBRD_RESERVED_2
+MBRD_RESERVED_2+
 Text HLabel 4850 2775 2    60   Input ~ 0
-MBRD_RESERVED_3
+MBRD_RESERVED_2-
 Text HLabel 4850 1575 2    60   Input ~ 0
 MBRD_PSEL_0
 Text HLabel 4850 1675 2    60   Input ~ 0

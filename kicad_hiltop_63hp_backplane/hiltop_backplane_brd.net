@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ronak/Desktop/KiCad_Projects/Hiltop/hiltop_backplane/kicad_hiltop_63hp_backplane/hiltop_backplane_brd.sch)
-    (date "Mon 28 Jan 2019 21:20:12 EST")
+    (date "Sun 10 Feb 2019 02:32:45 EST")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -2349,7 +2349,7 @@
       (node (ref U5) (pin 9)))
     (net (code 34) (name /USB_HUB_LED_JUMPERS/USB_~OSC3)
       (node (ref U5) (pin 22)))
-    (net (code 35) (name /MotherBoard_Connector/MBRD_RESERVED_3)
+    (net (code 35) (name /MotherBoard_Connector/MBRD_RESERVED_2-)
       (node (ref J7) (pin A15))
       (node (ref R83) (pin 2)))
     (net (code 36) (name /USB_HUB_LED_JUMPERS/FTDI_AD1_MOSI)
@@ -2609,7 +2609,7 @@
     (net (code 92) (name /ice40_breakout_brd/REF_CLK_IN+)
       (node (ref R82) (pin 1))
       (node (ref J11) (pin 4)))
-    (net (code 93) (name /MotherBoard_Connector/MBRD_RESERVED_2)
+    (net (code 93) (name /MotherBoard_Connector/MBRD_RESERVED_2+)
       (node (ref R82) (pin 2))
       (node (ref J7) (pin A14)))
     (net (code 94) (name /ice40_breakout_brd/REF_CLK_IN-)
