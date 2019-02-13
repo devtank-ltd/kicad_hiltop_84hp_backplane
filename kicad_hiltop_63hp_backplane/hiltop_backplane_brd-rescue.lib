@@ -1,6 +1,22 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 3pos_Jumper-gti_Lattice
+#
+DEF 3pos_Jumper-gti_Lattice R 0 40 Y Y 1 F N
+F0 "R" 0 -100 60 H V C CNN
+F1 "3pos_Jumper-gti_Lattice" 0 -400 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -200 -150 -200 -150 0 1 0 N
+S -50 -150 100 -350 0 1 0 N
+X I1 1 -150 -200 100 R 39 39 1 1 I
+X C 2 200 -250 100 L 39 39 1 1 I
+X I2 3 -150 -300 100 R 39 39 1 1 I
+ENDDRAW
+ENDDEF
+#
 # SO-DIMM-gti_Lattice
 #
 DEF SO-DIMM-gti_Lattice J 0 40 Y Y 26 F N
