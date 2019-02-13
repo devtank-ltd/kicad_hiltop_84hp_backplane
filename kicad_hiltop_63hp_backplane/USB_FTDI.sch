@@ -1310,7 +1310,7 @@ F 3 "~" H 5600 2050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L gti_Lattice:3pos_Jumper J2
+L hiltop_backplane_brd-rescue:3pos_Jumper-gti_Lattice J2
 U 1 1 5C690C56
 P 3200 2400
 AR Path="/5C690C56" Ref="J2"  Part="1" 
@@ -1323,7 +1323,7 @@ F 3 "" H 3200 2400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gti_Lattice:3pos_Jumper J3
+L hiltop_backplane_brd-rescue:3pos_Jumper-gti_Lattice J3
 U 1 1 5C690DBE
 P 3200 2700
 AR Path="/5C690DBE" Ref="J3"  Part="1" 
