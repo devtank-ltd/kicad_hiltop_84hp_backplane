@@ -15,46 +15,50 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L device:R R60
+L hiltop_backplane_brd-rescue:R-device R60
 U 1 1 5A30401C
 P 6325 6050
 F 0 "R60" V 6275 5900 50  0000 C CNN
 F 1 "330" V 6325 6050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6255 6050 50  0001 C CNN
 F 3 "" H 6325 6050 50  0001 C CNN
+F 4 "101-509" H 0   0   50  0001 C CNN "Devtank"
 	1    6325 6050
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R61
+L hiltop_backplane_brd-rescue:R-device R61
 U 1 1 5A304023
 P 6325 6250
 F 0 "R61" V 6275 6100 50  0000 C CNN
 F 1 "330" V 6325 6250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6255 6250 50  0001 C CNN
 F 3 "" H 6325 6250 50  0001 C CNN
+F 4 "101-509" H 0   0   50  0001 C CNN "Devtank"
 	1    6325 6250
 	0    1    1    0   
 $EndComp
 $Comp
-L device:LED D6
+L hiltop_backplane_brd-rescue:LED-device D6
 U 1 1 5A30402A
 P 5775 6050
 F 0 "D6" H 5775 6150 50  0000 C CNN
-F 1 "LED" H 5575 6100 50  0000 C CNN
+F 1 "LED RED" H 5575 6100 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 5775 6050 50  0001 C CNN
 F 3 "" H 5775 6050 50  0001 C CNN
+F 4 "110-004" H 0   0   50  0001 C CNN "Devtank"
 	1    5775 6050
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D7
+L hiltop_backplane_brd-rescue:LED-device D7
 U 1 1 5A304031
 P 5775 6250
 F 0 "D7" H 5775 6350 50  0000 C CNN
-F 1 "LED" H 5575 6300 50  0000 C CNN
+F 1 "LED RED" H 5575 6300 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 5775 6250 50  0001 C CNN
 F 3 "" H 5775 6250 50  0001 C CNN
+F 4 "110-004" H 0   0   50  0001 C CNN "Devtank"
 	1    5775 6250
 	1    0    0    -1  
 $EndComp
@@ -72,112 +76,122 @@ Connection ~ 6575 6050
 Wire Wire Line
 	6575 5750 6875 5750
 $Comp
-L device:LED D8
+L hiltop_backplane_brd-rescue:LED-device D8
 U 1 1 5A304040
 P 5775 6450
 F 0 "D8" H 5775 6550 50  0000 C CNN
-F 1 "LED" H 5575 6500 50  0000 C CNN
+F 1 "LED RED" H 5575 6500 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 5775 6450 50  0001 C CNN
 F 3 "" H 5775 6450 50  0001 C CNN
+F 4 "110-004" H 0   0   50  0001 C CNN "Devtank"
 	1    5775 6450
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D9
+L hiltop_backplane_brd-rescue:LED-device D9
 U 1 1 5A304047
 P 5775 6650
 F 0 "D9" H 5775 6750 50  0000 C CNN
-F 1 "LED" H 5575 6700 50  0000 C CNN
+F 1 "LED RED" H 5575 6700 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 5775 6650 50  0001 C CNN
 F 3 "" H 5775 6650 50  0001 C CNN
+F 4 "110-004" H 0   0   50  0001 C CNN "Devtank"
 	1    5775 6650
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D10
+L hiltop_backplane_brd-rescue:LED-device D10
 U 1 1 5A30404E
 P 5775 6850
 F 0 "D10" H 5775 6950 50  0000 C CNN
-F 1 "LED" H 5575 6900 50  0000 C CNN
+F 1 "LED RED" H 5575 6900 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 5775 6850 50  0001 C CNN
 F 3 "" H 5775 6850 50  0001 C CNN
+F 4 "110-004" H 0   0   50  0001 C CNN "Devtank"
 	1    5775 6850
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D11
+L hiltop_backplane_brd-rescue:LED-device D11
 U 1 1 5A304055
 P 5775 7050
 F 0 "D11" H 5775 7150 50  0000 C CNN
-F 1 "LED" H 5575 7100 50  0000 C CNN
+F 1 "LED RED" H 5575 7100 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 5775 7050 50  0001 C CNN
 F 3 "" H 5775 7050 50  0001 C CNN
+F 4 "110-004" H 0   0   50  0001 C CNN "Devtank"
 	1    5775 7050
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D12
+L hiltop_backplane_brd-rescue:LED-device D12
 U 1 1 5A30405C
 P 5775 7250
 F 0 "D12" H 5775 7350 50  0000 C CNN
-F 1 "LED" H 5575 7300 50  0000 C CNN
+F 1 "LED RED" H 5575 7300 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 5775 7250 50  0001 C CNN
 F 3 "" H 5775 7250 50  0001 C CNN
+F 4 "110-004" H 0   0   50  0001 C CNN "Devtank"
 	1    5775 7250
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R62
+L hiltop_backplane_brd-rescue:R-device R62
 U 1 1 5A304063
 P 6325 6450
 F 0 "R62" V 6275 6300 50  0000 C CNN
 F 1 "330" V 6325 6450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6255 6450 50  0001 C CNN
 F 3 "" H 6325 6450 50  0001 C CNN
+F 4 "101-509" H 0   0   50  0001 C CNN "Devtank"
 	1    6325 6450
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R63
+L hiltop_backplane_brd-rescue:R-device R63
 U 1 1 5A30406A
 P 6325 6650
 F 0 "R63" V 6275 6500 50  0000 C CNN
 F 1 "330" V 6325 6650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6255 6650 50  0001 C CNN
 F 3 "" H 6325 6650 50  0001 C CNN
+F 4 "101-509" H 0   0   50  0001 C CNN "Devtank"
 	1    6325 6650
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R64
+L hiltop_backplane_brd-rescue:R-device R64
 U 1 1 5A304071
 P 6325 6850
 F 0 "R64" V 6275 6700 50  0000 C CNN
 F 1 "330" V 6325 6850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6255 6850 50  0001 C CNN
 F 3 "" H 6325 6850 50  0001 C CNN
+F 4 "101-509" H 0   0   50  0001 C CNN "Devtank"
 	1    6325 6850
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R65
+L hiltop_backplane_brd-rescue:R-device R65
 U 1 1 5A304078
 P 6325 7050
 F 0 "R65" V 6275 6900 50  0000 C CNN
 F 1 "330" V 6325 7050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6255 7050 50  0001 C CNN
 F 3 "" H 6325 7050 50  0001 C CNN
+F 4 "101-509" H 0   0   50  0001 C CNN "Devtank"
 	1    6325 7050
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R66
+L hiltop_backplane_brd-rescue:R-device R66
 U 1 1 5A30407F
 P 6325 7250
 F 0 "R66" V 6275 7100 50  0000 C CNN
 F 1 "330" V 6325 7250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6255 7250 50  0001 C CNN
 F 3 "" H 6325 7250 50  0001 C CNN
+F 4 "101-509" H 0   0   50  0001 C CNN "Devtank"
 	1    6325 7250
 	0    1    1    0   
 $EndComp
@@ -221,46 +235,50 @@ Wire Wire Line
 Wire Wire Line
 	5625 7250 5425 7250
 $Comp
-L gti_Lattice:4POS_JUMPER J12
+L hiltop_backplane_brd-rescue:4POS_JUMPER-gti_Lattice J12
 U 1 1 5A304A10
 P 3100 5800
 F 0 "J12" H 3100 5800 39  0000 C CNN
 F 1 "4POS_JUMPER" H 3100 5750 39  0000 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical" H 3100 5800 39  0001 C CNN
 F 3 "" H 3100 5800 39  0001 C CNN
+F 4 "711-003" H 0   0   50  0001 C CNN "Devtank"
 	1    3100 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L gti_Lattice:4POS_JUMPER J13
+L hiltop_backplane_brd-rescue:4POS_JUMPER-gti_Lattice J13
 U 1 1 5A304A17
 P 3100 6150
 F 0 "J13" H 3100 6150 39  0000 C CNN
 F 1 "4POS_JUMPER" H 3100 6100 39  0000 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical" H 3100 6150 39  0001 C CNN
 F 3 "" H 3100 6150 39  0001 C CNN
+F 4 "711-003" H 0   0   50  0001 C CNN "Devtank"
 	1    3100 6150
 	1    0    0    -1  
 $EndComp
 $Comp
-L gti_Lattice:4POS_JUMPER J14
+L hiltop_backplane_brd-rescue:4POS_JUMPER-gti_Lattice J14
 U 1 1 5A304A1E
 P 3100 6550
 F 0 "J14" H 3100 6550 39  0000 C CNN
 F 1 "4POS_JUMPER" H 3100 6500 39  0000 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical" H 3100 6550 39  0001 C CNN
 F 3 "" H 3100 6550 39  0001 C CNN
+F 4 "711-003" H 0   0   50  0001 C CNN "Devtank"
 	1    3100 6550
 	1    0    0    -1  
 $EndComp
 $Comp
-L gti_Lattice:4POS_JUMPER J15
+L hiltop_backplane_brd-rescue:4POS_JUMPER-gti_Lattice J15
 U 1 1 5A304A25
 P 3100 6950
 F 0 "J15" H 3100 6950 39  0000 C CNN
 F 1 "4POS_JUMPER" H 3100 6900 39  0000 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical" H 3100 6950 39  0001 C CNN
 F 3 "" H 3100 6950 39  0001 C CNN
+F 4 "711-003" H 0   0   50  0001 C CNN "Devtank"
 	1    3100 6950
 	1    0    0    -1  
 $EndComp
@@ -297,13 +315,14 @@ Wire Wire Line
 Wire Wire Line
 	3350 7200 3500 7200
 $Comp
-L gti_Lattice:4POS_JUMPER J16
+L hiltop_backplane_brd-rescue:4POS_JUMPER-gti_Lattice J16
 U 1 1 5A304A44
 P 3100 7450
 F 0 "J16" H 3100 7450 39  0000 C CNN
 F 1 "4POS_JUMPER" H 3100 7400 39  0000 C CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical" H 3100 7450 39  0001 C CNN
 F 3 "" H 3100 7450 39  0001 C CNN
+F 4 "711-003" H 0   0   50  0001 C CNN "Devtank"
 	1    3100 7450
 	1    0    0    -1  
 $EndComp
@@ -368,24 +387,26 @@ LED 1-7 PULL DOWN
 Text HLabel 3500 7100 2    39   Input ~ 0
 s_FLASH_SS
 $Comp
-L device:LED D13
+L hiltop_backplane_brd-rescue:LED-device D13
 U 1 1 5A5D84B9
 P 5775 7450
 F 0 "D13" H 5775 7550 50  0000 C CNN
-F 1 "LED" H 5575 7500 50  0000 C CNN
+F 1 "LED RED" H 5575 7500 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 5775 7450 50  0001 C CNN
 F 3 "" H 5775 7450 50  0001 C CNN
+F 4 "110-004" H 0   0   50  0001 C CNN "Devtank"
 	1    5775 7450
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R67
+L hiltop_backplane_brd-rescue:R-device R67
 U 1 1 5A5D857D
 P 6325 7450
 F 0 "R67" V 6275 7300 50  0000 C CNN
 F 1 "330" V 6325 7450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6255 7450 50  0001 C CNN
 F 3 "" H 6325 7450 50  0001 C CNN
+F 4 "101-509" H 0   0   50  0001 C CNN "Devtank"
 	1    6325 7450
 	0    1    1    0   
 $EndComp
@@ -415,13 +436,14 @@ Wire Wire Line
 Wire Wire Line
 	6575 7250 6575 7450
 $Comp
-L Devtank:USB2517 U5
+L hiltop_backplane_brd-rescue:USB2517-Devtank U5
 U 1 1 5C0DA594
 P 3600 2650
 F 0 "U5" H 3600 4665 50  0000 C CNN
 F 1 "USB2517" H 3600 4574 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP4.7x4.7mm" H 4350 25  50  0001 C CNN
 F 3 "DOCUMENTATION" H 4200 125 50  0001 C CNN
+F 4 "118-004" H 3600 2650 50  0001 C CNN "Devtank"
 	1    3600 2650
 	1    0    0    -1  
 $EndComp
@@ -482,310 +504,338 @@ Wire Wire Line
 Wire Wire Line
 	9750 4625 10050 4625
 $Comp
-L device:LED D16
+L hiltop_backplane_brd-rescue:LED-device D16
 U 1 1 5C0F522E
 P 10700 1225
 F 0 "D16" H 10700 1325 50  0000 C CNN
-F 1 "GRN" H 10450 1275 50  0000 C CNN
+F 1 "LED GRN" H 10450 1275 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 10700 1225 50  0001 C CNN
 F 3 "" H 10700 1225 50  0001 C CNN
+F 4 "110-005" H 0   0   50  0001 C CNN "Devtank"
 	1    10700 1225
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D17
+L hiltop_backplane_brd-rescue:LED-device D17
 U 1 1 5C0F5392
 P 10700 1375
 F 0 "D17" H 10700 1475 50  0000 C CNN
-F 1 "YEL" H 10450 1425 50  0000 C CNN
+F 1 "LED YEL" H 10450 1425 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 10700 1375 50  0001 C CNN
 F 3 "" H 10700 1375 50  0001 C CNN
+F 4 "110-007" H 0   0   50  0001 C CNN "Devtank"
 	1    10700 1375
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D18
+L hiltop_backplane_brd-rescue:LED-device D18
 U 1 1 5C0FE560
 P 10700 1825
 F 0 "D18" H 10700 1925 50  0000 C CNN
-F 1 "GRN" H 10425 1875 50  0000 C CNN
+F 1 "LED GRN" H 10425 1875 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 10700 1825 50  0001 C CNN
 F 3 "" H 10700 1825 50  0001 C CNN
+F 4 "110-005" H 0   0   50  0001 C CNN "Devtank"
 	1    10700 1825
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D19
+L hiltop_backplane_brd-rescue:LED-device D19
 U 1 1 5C0FE5F2
 P 10700 1975
 F 0 "D19" H 10700 2075 50  0000 C CNN
-F 1 "YEL" H 10425 2025 50  0000 C CNN
+F 1 "LED YEL" H 10425 2025 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 10700 1975 50  0001 C CNN
 F 3 "" H 10700 1975 50  0001 C CNN
+F 4 "110-007" H 0   0   50  0001 C CNN "Devtank"
 	1    10700 1975
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D20
+L hiltop_backplane_brd-rescue:LED-device D20
 U 1 1 5C0FE648
 P 10700 2425
 F 0 "D20" H 10700 2525 50  0000 C CNN
-F 1 "GRN" H 10425 2475 50  0000 C CNN
+F 1 "LED GRN" H 10425 2475 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 10700 2425 50  0001 C CNN
 F 3 "" H 10700 2425 50  0001 C CNN
+F 4 "110-005" H 0   0   50  0001 C CNN "Devtank"
 	1    10700 2425
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D21
+L hiltop_backplane_brd-rescue:LED-device D21
 U 1 1 5C0FE6D4
 P 10700 2575
 F 0 "D21" H 10700 2675 50  0000 C CNN
-F 1 "YEL" H 10425 2625 50  0000 C CNN
+F 1 "LED YEL" H 10425 2625 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 10700 2575 50  0001 C CNN
 F 3 "" H 10700 2575 50  0001 C CNN
+F 4 "110-007" H 0   0   50  0001 C CNN "Devtank"
 	1    10700 2575
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D22
+L hiltop_backplane_brd-rescue:LED-device D22
 U 1 1 5C0FE732
 P 10700 3025
 F 0 "D22" H 10700 3125 50  0000 C CNN
-F 1 "GRN" H 10450 3075 50  0000 C CNN
+F 1 "LED GRN" H 10450 3075 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 10700 3025 50  0001 C CNN
 F 3 "" H 10700 3025 50  0001 C CNN
+F 4 "110-005" H 0   0   50  0001 C CNN "Devtank"
 	1    10700 3025
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D23
+L hiltop_backplane_brd-rescue:LED-device D23
 U 1 1 5C0FE918
 P 10700 3175
 F 0 "D23" H 10700 3275 50  0000 C CNN
-F 1 "YEL" H 10450 3225 50  0000 C CNN
+F 1 "LED YEL" H 10450 3225 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 10700 3175 50  0001 C CNN
 F 3 "" H 10700 3175 50  0001 C CNN
+F 4 "110-007" H 0   0   50  0001 C CNN "Devtank"
 	1    10700 3175
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D24
+L hiltop_backplane_brd-rescue:LED-device D24
 U 1 1 5C0FEA2E
 P 10700 3625
 F 0 "D24" H 10700 3725 50  0000 C CNN
-F 1 "GRN" H 10450 3675 50  0000 C CNN
+F 1 "LED GRN" H 10450 3675 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 10700 3625 50  0001 C CNN
 F 3 "" H 10700 3625 50  0001 C CNN
+F 4 "110-005" H 0   0   50  0001 C CNN "Devtank"
 	1    10700 3625
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D25
+L hiltop_backplane_brd-rescue:LED-device D25
 U 1 1 5C0FEABE
 P 10700 3775
 F 0 "D25" H 10700 3875 50  0000 C CNN
-F 1 "YEL" H 10450 3825 50  0000 C CNN
+F 1 "LED YEL" H 10450 3825 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 10700 3775 50  0001 C CNN
 F 3 "" H 10700 3775 50  0001 C CNN
+F 4 "110-007" H 0   0   50  0001 C CNN "Devtank"
 	1    10700 3775
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D26
+L hiltop_backplane_brd-rescue:LED-device D26
 U 1 1 5C0FEB18
 P 10700 4225
 F 0 "D26" H 10700 4325 50  0000 C CNN
-F 1 "GRN" H 10450 4275 50  0000 C CNN
+F 1 "LED GRN" H 10450 4275 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 10700 4225 50  0001 C CNN
 F 3 "" H 10700 4225 50  0001 C CNN
+F 4 "110-005" H 0   0   50  0001 C CNN "Devtank"
 	1    10700 4225
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D27
+L hiltop_backplane_brd-rescue:LED-device D27
 U 1 1 5C0FECFE
 P 10700 4375
 F 0 "D27" H 10700 4475 50  0000 C CNN
-F 1 "YEL" H 10450 4425 50  0000 C CNN
+F 1 "LED YEL" H 10450 4425 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 10700 4375 50  0001 C CNN
 F 3 "" H 10700 4375 50  0001 C CNN
+F 4 "110-007" H 0   0   50  0001 C CNN "Devtank"
 	1    10700 4375
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D14
+L hiltop_backplane_brd-rescue:LED-device D14
 U 1 1 5C0FED5C
 P 10675 4825
 F 0 "D14" H 10675 4925 50  0000 C CNN
-F 1 "GRN" H 10425 4875 50  0000 C CNN
+F 1 "LED GRN" H 10425 4875 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 10675 4825 50  0001 C CNN
 F 3 "" H 10675 4825 50  0001 C CNN
+F 4 "110-005" H 0   0   50  0001 C CNN "Devtank"
 	1    10675 4825
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D15
+L hiltop_backplane_brd-rescue:LED-device D15
 U 1 1 5C0FEE3C
 P 10675 4975
 F 0 "D15" H 10675 5075 50  0000 C CNN
-F 1 "YEL" H 10425 5025 50  0000 C CNN
+F 1 "LED YEL" H 10425 5025 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 10675 4975 50  0001 C CNN
 F 3 "" H 10675 4975 50  0001 C CNN
+F 4 "110-007" H 0   0   50  0001 C CNN "Devtank"
 	1    10675 4975
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R72
+L hiltop_backplane_brd-rescue:R-device R72
 U 1 1 5C0FF01D
 P 10050 4825
 F 0 "R72" V 10000 4675 50  0000 C CNN
 F 1 "330" V 10050 4825 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 9980 4825 50  0001 C CNN
 F 3 "" H 10050 4825 50  0001 C CNN
+F 4 "101-509" H 0   0   50  0001 C CNN "Devtank"
 	1    10050 4825
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R73
+L hiltop_backplane_brd-rescue:R-device R73
 U 1 1 5C0FF165
 P 10050 4975
 F 0 "R73" V 10000 4825 50  0000 C CNN
 F 1 "330" V 10050 4975 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 9980 4975 50  0001 C CNN
 F 3 "" H 10050 4975 50  0001 C CNN
+F 4 "101-509" H 0   0   50  0001 C CNN "Devtank"
 	1    10050 4975
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R71
+L hiltop_backplane_brd-rescue:R-device R71
 U 1 1 5C0FF1CF
 P 10050 4375
 F 0 "R71" V 10000 4225 50  0000 C CNN
 F 1 "330" V 10050 4375 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 9980 4375 50  0001 C CNN
 F 3 "" H 10050 4375 50  0001 C CNN
+F 4 "101-509" H 0   0   50  0001 C CNN "Devtank"
 	1    10050 4375
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R70
+L hiltop_backplane_brd-rescue:R-device R70
 U 1 1 5C0FF4CF
 P 10050 4225
 F 0 "R70" V 10000 4075 50  0000 C CNN
 F 1 "330" V 10050 4225 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 9980 4225 50  0001 C CNN
 F 3 "" H 10050 4225 50  0001 C CNN
+F 4 "101-509" H 0   0   50  0001 C CNN "Devtank"
 	1    10050 4225
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R69
+L hiltop_backplane_brd-rescue:R-device R69
 U 1 1 5C0FF593
 P 10050 3775
 F 0 "R69" V 10000 3625 50  0000 C CNN
 F 1 "330" V 10050 3775 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 9980 3775 50  0001 C CNN
 F 3 "" H 10050 3775 50  0001 C CNN
+F 4 "101-509" H 0   0   50  0001 C CNN "Devtank"
 	1    10050 3775
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R68
+L hiltop_backplane_brd-rescue:R-device R68
 U 1 1 5C0FF881
 P 10050 3625
 F 0 "R68" V 10000 3475 50  0000 C CNN
 F 1 "330" V 10050 3625 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 9980 3625 50  0001 C CNN
 F 3 "" H 10050 3625 50  0001 C CNN
+F 4 "101-509" H 0   0   50  0001 C CNN "Devtank"
 	1    10050 3625
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R79
+L hiltop_backplane_brd-rescue:R-device R79
 U 1 1 5C0FF949
 P 10075 3175
 F 0 "R79" V 10025 3025 50  0000 C CNN
 F 1 "330" V 10075 3175 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 10005 3175 50  0001 C CNN
 F 3 "" H 10075 3175 50  0001 C CNN
+F 4 "101-509" H 0   0   50  0001 C CNN "Devtank"
 	1    10075 3175
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R78
+L hiltop_backplane_brd-rescue:R-device R78
 U 1 1 5C0FFA11
 P 10075 3025
 F 0 "R78" V 10025 2875 50  0000 C CNN
 F 1 "330" V 10075 3025 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 10005 3025 50  0001 C CNN
 F 3 "" H 10075 3025 50  0001 C CNN
+F 4 "101-509" H 0   0   50  0001 C CNN "Devtank"
 	1    10075 3025
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R77
+L hiltop_backplane_brd-rescue:R-device R77
 U 1 1 5C0FFA85
 P 10075 2575
 F 0 "R77" V 10025 2425 50  0000 C CNN
 F 1 "330" V 10075 2575 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 10005 2575 50  0001 C CNN
 F 3 "" H 10075 2575 50  0001 C CNN
+F 4 "101-509" H 0   0   50  0001 C CNN "Devtank"
 	1    10075 2575
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R76
+L hiltop_backplane_brd-rescue:R-device R76
 U 1 1 5C0FFC6D
 P 10075 2425
 F 0 "R76" V 10025 2275 50  0000 C CNN
 F 1 "330" V 10075 2425 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 10005 2425 50  0001 C CNN
 F 3 "" H 10075 2425 50  0001 C CNN
+F 4 "101-509" H 0   0   50  0001 C CNN "Devtank"
 	1    10075 2425
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R75
+L hiltop_backplane_brd-rescue:R-device R75
 U 1 1 5C0FFE1F
 P 10075 1975
 F 0 "R75" V 10025 1825 50  0000 C CNN
 F 1 "330" V 10075 1975 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 10005 1975 50  0001 C CNN
 F 3 "" H 10075 1975 50  0001 C CNN
+F 4 "101-509" H 0   0   50  0001 C CNN "Devtank"
 	1    10075 1975
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R74
+L hiltop_backplane_brd-rescue:R-device R74
 U 1 1 5C0FFED5
 P 10075 1825
 F 0 "R74" V 10025 1675 50  0000 C CNN
 F 1 "330" V 10075 1825 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 10005 1825 50  0001 C CNN
 F 3 "" H 10075 1825 50  0001 C CNN
+F 4 "101-509" H 0   0   50  0001 C CNN "Devtank"
 	1    10075 1825
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R81
+L hiltop_backplane_brd-rescue:R-device R81
 U 1 1 5C1002A3
 P 10100 1375
 F 0 "R81" V 10050 1225 50  0000 C CNN
 F 1 "330" V 10100 1375 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 10030 1375 50  0001 C CNN
 F 3 "" H 10100 1375 50  0001 C CNN
+F 4 "101-509" H 0   0   50  0001 C CNN "Devtank"
 	1    10100 1375
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R80
+L hiltop_backplane_brd-rescue:R-device R80
 U 1 1 5C10033F
 P 10100 1225
 F 0 "R80" V 10050 1075 50  0000 C CNN
 F 1 "330" V 10100 1225 50  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 10030 1225 50  0001 C CNN
 F 3 "" H 10100 1225 50  0001 C CNN
+F 4 "101-509" H 0   0   50  0001 C CNN "Devtank"
 	1    10100 1225
 	0    1    1    0   
 $EndComp
@@ -941,68 +991,74 @@ Wire Wire Line
 Wire Wire Line
 	10200 4975 10525 4975
 $Comp
-L device:C C46
+L hiltop_backplane_brd-rescue:C-device C46
 U 1 1 5C3627E5
 P 5050 4700
 F 0 "C46" H 5025 4625 50  0000 R CNN
 F 1 "100nF" H 5025 4800 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5088 4550 50  0001 C CNN
 F 3 "" H 5050 4700 50  0001 C CNN
+F 4 "105-002" H 0   0   50  0001 C CNN "Devtank"
 	1    5050 4700
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C48
+L hiltop_backplane_brd-rescue:C-device C48
 U 1 1 5C362BCB
 P 5350 4700
 F 0 "C48" H 5325 4625 50  0000 R CNN
 F 1 "100nF" H 5325 4800 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5388 4550 50  0001 C CNN
 F 3 "" H 5350 4700 50  0001 C CNN
+F 4 "105-002" H 0   0   50  0001 C CNN "Devtank"
 	1    5350 4700
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C50
+L hiltop_backplane_brd-rescue:C-device C50
 U 1 1 5C362C5F
 P 5650 4700
 F 0 "C50" H 5625 4625 50  0000 R CNN
 F 1 "100nF" H 5625 4800 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5688 4550 50  0001 C CNN
 F 3 "" H 5650 4700 50  0001 C CNN
+F 4 "105-002" H 0   0   50  0001 C CNN "Devtank"
 	1    5650 4700
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C52
+L hiltop_backplane_brd-rescue:C-device C52
 U 1 1 5C362CFB
 P 5950 4700
 F 0 "C52" H 5925 4625 50  0000 R CNN
 F 1 "100nF" H 5925 4800 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5988 4550 50  0001 C CNN
 F 3 "" H 5950 4700 50  0001 C CNN
+F 4 "105-002" H 0   0   50  0001 C CNN "Devtank"
 	1    5950 4700
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C53
+L hiltop_backplane_brd-rescue:C-device C53
 U 1 1 5C362F51
 P 6250 4700
 F 0 "C53" H 6225 4625 50  0000 R CNN
 F 1 "100nF" H 6225 4800 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6288 4550 50  0001 C CNN
 F 3 "" H 6250 4700 50  0001 C CNN
+F 4 "105-002" H 0   0   50  0001 C CNN "Devtank"
 	1    6250 4700
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C54
+L hiltop_backplane_brd-rescue:C-device C54
 U 1 1 5C362FE9
 P 6550 4700
 F 0 "C54" H 6525 4625 50  0000 R CNN
 F 1 "1uF" H 6525 4800 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6588 4550 50  0001 C CNN
 F 3 "" H 6550 4700 50  0001 C CNN
+F 4 "105-014" H 0   0   50  0001 C CNN "Devtank"
 	1    6550 4700
 	-1   0    0    1   
 $EndComp
@@ -1109,24 +1165,26 @@ F 3 "" H 4925 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C49
+L hiltop_backplane_brd-rescue:C-device C49
 U 1 1 5C41CDD6
 P 5375 4150
 F 0 "C49" H 5350 4075 50  0000 R CNN
 F 1 "1uF" H 5350 4250 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5413 4000 50  0001 C CNN
 F 3 "" H 5375 4150 50  0001 C CNN
+F 4 "105-014" H 0   0   50  0001 C CNN "Devtank"
 	1    5375 4150
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C51
+L hiltop_backplane_brd-rescue:C-device C51
 U 1 1 5C41CE92
 P 5675 4150
 F 0 "C51" H 5650 4075 50  0000 R CNN
 F 1 "100nF" H 5650 4250 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5713 4000 50  0001 C CNN
 F 3 "" H 5675 4150 50  0001 C CNN
+F 4 "105-002" H 0   0   50  0001 C CNN "Devtank"
 	1    5675 4150
 	-1   0    0    1   
 $EndComp
@@ -1149,13 +1207,14 @@ Wire Wire Line
 	5775 4350 5675 4350
 Connection ~ 5675 4350
 $Comp
-L device:C C47
+L hiltop_backplane_brd-rescue:C-device C47
 U 1 1 5C477D71
 P 5075 4150
 F 0 "C47" H 5050 4075 50  0000 R CNN
 F 1 "100nF" H 5050 4250 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5113 4000 50  0001 C CNN
 F 3 "" H 5075 4150 50  0001 C CNN
+F 4 "105-002" H 0   0   50  0001 C CNN "Devtank"
 	1    5075 4150
 	-1   0    0    1   
 $EndComp
@@ -1197,18 +1256,19 @@ Text Notes 4825 4300 2    60   ~ 0
 Text Notes 4975 3825 2    60   ~ 0
 100n/1uF
 $Comp
-L device:R R52
+L hiltop_backplane_brd-rescue:R-device R52
 U 1 1 5C57F78B
 P 4925 2475
 F 0 "R52" V 4875 2325 50  0000 C CNN
 F 1 "12K" V 4925 2475 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4855 2475 50  0001 C CNN
 F 3 "" H 4925 2475 50  0001 C CNN
+F 4 "101-050" H 0   0   50  0001 C CNN "Devtank"
 	1    4925 2475
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R55
+L hiltop_backplane_brd-rescue:R-device R55
 U 1 1 5C597163
 P 5150 2150
 F 0 "R55" V 5100 2000 50  0000 C CNN
@@ -1219,18 +1279,19 @@ F 3 "" H 5150 2150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R57
+L hiltop_backplane_brd-rescue:R-device R57
 U 1 1 5C59723F
 P 5325 2150
 F 0 "R57" V 5275 2000 50  0000 C CNN
 F 1 "10K" V 5325 2150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5255 2150 50  0001 C CNN
 F 3 "" H 5325 2150 50  0001 C CNN
+F 4 "101-010" H 0   0   50  0001 C CNN "Devtank"
 	1    5325 2150
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R59
+L hiltop_backplane_brd-rescue:R-device R59
 U 1 1 5C5972DF
 P 5500 2150
 F 0 "R59" V 5450 2000 50  0000 C CNN
@@ -1253,18 +1314,19 @@ Wire Wire Line
 Wire Wire Line
 	5150 1700 5150 2000
 $Comp
-L device:R R54
+L hiltop_backplane_brd-rescue:R-device R54
 U 1 1 5C5C7592
 P 5150 1350
 F 0 "R54" V 5100 1200 50  0000 C CNN
 F 1 "10K" V 5150 1350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5080 1350 50  0001 C CNN
 F 3 "" H 5150 1350 50  0001 C CNN
+F 4 "101-010" H 0   0   50  0001 C CNN "Devtank"
 	1    5150 1350
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R56
+L hiltop_backplane_brd-rescue:R-device R56
 U 1 1 5C5C7660
 P 5325 1350
 F 0 "R56" V 5275 1200 50  0000 C CNN
@@ -1275,13 +1337,14 @@ F 3 "" H 5325 1350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R58
+L hiltop_backplane_brd-rescue:R-device R58
 U 1 1 5C5C7700
 P 5500 1350
 F 0 "R58" V 5450 1200 50  0000 C CNN
 F 1 "10K" V 5500 1350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5430 1350 50  0001 C CNN
 F 3 "" H 5500 1350 50  0001 C CNN
+F 4 "101-010" H 0   0   50  0001 C CNN "Devtank"
 	1    5500 1350
 	-1   0    0    1   
 $EndComp
@@ -1306,13 +1369,14 @@ Connection ~ 5325 1125
 Wire Wire Line
 	5325 1125 5500 1125
 $Comp
-L device:R R53
+L hiltop_backplane_brd-rescue:R-device R53
 U 1 1 5C606744
 P 4975 1350
 F 0 "R53" V 4925 1200 50  0000 C CNN
 F 1 "10K" V 4975 1350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4905 1350 50  0001 C CNN
 F 3 "" H 4975 1350 50  0001 C CNN
+F 4 "101-010" H 0   0   50  0001 C CNN "Devtank"
 	1    4975 1350
 	-1   0    0    1   
 $EndComp
@@ -1360,7 +1424,7 @@ Connection ~ 5500 2375
 Text Notes 1750 1225 0    39   ~ 0
 Differential Pair
 $Comp
-L ESD_Protection:NUP2105L D?
+L hiltop_backplane_brd-rescue:NUP2105L-ESD_Protection D?
 U 1 1 5C69F83C
 P 2075 1625
 AR Path="/5A077B59/5C69F83C" Ref="D?"  Part="1" 
@@ -1369,6 +1433,7 @@ F 0 "D5" H 2300 1725 50  0000 L CNN
 F 1 "NUP2105L" H 2300 1650 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2300 1575 50  0001 L CNN
 F 3 "" H 2200 1750 50  0001 C CNN
+F 4 "136-002" H 0   0   50  0001 C CNN "Devtank"
 	1    2075 1625
 	1    0    0    -1  
 $EndComp
@@ -1402,7 +1467,7 @@ Connection ~ 1975 1250
 Wire Wire Line
 	1975 1250 2400 1250
 $Comp
-L device:C C?
+L hiltop_backplane_brd-rescue:C-device C?
 U 1 1 5C9245EC
 P 2175 800
 AR Path="/5A077B59/5C9245EC" Ref="C?"  Part="1" 
@@ -1411,6 +1476,7 @@ F 0 "C43" H 2075 725 50  0000 L CNN
 F 1 "100nF" H 1950 875 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2213 650 50  0001 C CNN
 F 3 "" H 2175 800 50  0001 C CNN
+F 4 "105-002" H 0   0   50  0001 C CNN "Devtank"
 	1    2175 800 
 	0    -1   -1   0   
 $EndComp
@@ -1460,18 +1526,19 @@ Wire Wire Line
 Wire Wire Line
 	2350 2150 2350 2200
 $Comp
-L device:R R49
+L hiltop_backplane_brd-rescue:R-device R49
 U 1 1 5C9B6B68
 P 1600 2200
 F 0 "R49" V 1550 2050 50  0000 C CNN
 F 1 "100K" V 1600 2200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1530 2200 50  0001 C CNN
 F 3 "" H 1600 2200 50  0001 C CNN
+F 4 "101-015" H 0   0   50  0001 C CNN "Devtank"
 	1    1600 2200
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C?
+L hiltop_backplane_brd-rescue:C-device C?
 U 1 1 5C9B706F
 P 1600 2700
 AR Path="/5A077B59/5C9B706F" Ref="C?"  Part="1" 
@@ -1480,6 +1547,7 @@ F 0 "C38" H 1600 2775 50  0000 L CNN
 F 1 "100nF" H 1625 2600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1638 2550 50  0001 C CNN
 F 3 "" H 1600 2700 50  0001 C CNN
+F 4 "105-002" H 0   0   50  0001 C CNN "Devtank"
 	1    1600 2700
 	1    0    0    -1  
 $EndComp
@@ -1491,13 +1559,14 @@ Connection ~ 1600 2500
 Wire Wire Line
 	1600 2500 1600 2425
 $Comp
-L device:R R50
+L hiltop_backplane_brd-rescue:R-device R50
 U 1 1 5C9EFD85
 P 1825 2200
 F 0 "R50" V 1775 2050 50  0000 C CNN
 F 1 "10K" V 1825 2200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1755 2200 50  0001 C CNN
 F 3 "" H 1825 2200 50  0001 C CNN
+F 4 "101-010" H 0   0   50  0001 C CNN "Devtank"
 	1    1825 2200
 	-1   0    0    1   
 $EndComp
@@ -1517,13 +1586,14 @@ Connection ~ 1600 1950
 Text HLabel 1100 1950 0    60   Input ~ 0
 +3V3_IN
 $Comp
-L device:R R48
+L hiltop_backplane_brd-rescue:R-device R48
 U 1 1 5CA6762D
 P 1350 2425
 F 0 "R48" V 1300 2275 50  0000 C CNN
 F 1 "100K" V 1350 2425 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1280 2425 50  0001 C CNN
 F 3 "" H 1350 2425 50  0001 C CNN
+F 4 "101-015" H 0   0   50  0001 C CNN "Devtank"
 	1    1350 2425
 	0    -1   -1   0   
 $EndComp
@@ -1552,18 +1622,19 @@ $EndComp
 Wire Wire Line
 	1600 2900 1600 2850
 $Comp
-L device:R R51
+L hiltop_backplane_brd-rescue:R-device R51
 U 1 1 5CAE6BDA
 P 2325 3250
 F 0 "R51" V 2275 3100 50  0000 C CNN
 F 1 "10K" V 2325 3250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2255 3250 50  0001 C CNN
 F 3 "" H 2325 3250 50  0001 C CNN
+F 4 "101-010" H 0   0   50  0001 C CNN "Devtank"
 	1    2325 3250
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C?
+L hiltop_backplane_brd-rescue:C-device C?
 U 1 1 5CAE6D14
 P 1825 3650
 AR Path="/5A077B59/5CAE6D14" Ref="C?"  Part="1" 
@@ -1572,11 +1643,12 @@ F 0 "C39" H 1725 3575 50  0000 L CNN
 F 1 "100nF" H 1575 3725 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1863 3500 50  0001 C CNN
 F 3 "" H 1825 3650 50  0001 C CNN
+F 4 "105-002" H 0   0   50  0001 C CNN "Devtank"
 	1    1825 3650
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C?
+L hiltop_backplane_brd-rescue:C-device C?
 U 1 1 5CAE7273
 P 2100 3650
 AR Path="/5A077B59/5CAE7273" Ref="C?"  Part="1" 
@@ -1585,6 +1657,7 @@ F 0 "C42" H 2000 3575 50  0000 L CNN
 F 1 "100nF" H 1850 3725 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2138 3500 50  0001 C CNN
 F 3 "" H 2100 3650 50  0001 C CNN
+F 4 "105-002" H 0   0   50  0001 C CNN "Devtank"
 	1    2100 3650
 	-1   0    0    1   
 $EndComp
@@ -1611,13 +1684,14 @@ Connection ~ 2325 3050
 Wire Wire Line
 	2325 3050 2325 3100
 $Comp
-L device:Crystal Y2
+L hiltop_backplane_brd-rescue:Crystal-device Y2
 U 1 1 5CB3EC9D
 P 2100 3250
 F 0 "Y2" V 2000 3075 50  0000 L CNN
 F 1 "24Mhz Xtal" V 2225 3000 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_7050-2Pin_7.0x5.0mm" H 2100 3250 50  0001 C CNN
 F 3 "" H 2100 3250 50  0001 C CNN
+F 4 "181-003" H 0   0   50  0001 C CNN "Devtank"
 	1    2100 3250
 	0    1    1    0   
 $EndComp
@@ -1652,7 +1726,7 @@ Wire Wire Line
 	1825 3900 1825 3850
 Connection ~ 1825 3850
 $Comp
-L device:C C?
+L hiltop_backplane_brd-rescue:C-device C?
 U 1 1 5CBF7F97
 P 2050 4100
 AR Path="/5A077B59/5CBF7F97" Ref="C?"  Part="1" 
@@ -1661,11 +1735,12 @@ F 0 "C40" H 1900 4025 50  0000 L CNN
 F 1 "100nF" H 1800 4175 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2088 3950 50  0001 C CNN
 F 3 "" H 2050 4100 50  0001 C CNN
+F 4 "105-002" H 0   0   50  0001 C CNN "Devtank"
 	1    2050 4100
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C?
+L hiltop_backplane_brd-rescue:C-device C?
 U 1 1 5CBF8081
 P 2325 4100
 AR Path="/5A077B59/5CBF8081" Ref="C?"  Part="1" 
@@ -1674,11 +1749,12 @@ F 0 "C44" H 2175 4025 50  0000 L CNN
 F 1 "100nF" H 2075 4175 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2363 3950 50  0001 C CNN
 F 3 "" H 2325 4100 50  0001 C CNN
+F 4 "105-002" H 0   0   50  0001 C CNN "Devtank"
 	1    2325 4100
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C?
+L hiltop_backplane_brd-rescue:C-device C?
 U 1 1 5CBF82F9
 P 2050 4550
 AR Path="/5A077B59/5CBF82F9" Ref="C?"  Part="1" 
@@ -1687,11 +1763,12 @@ F 0 "C41" H 1900 4475 50  0000 L CNN
 F 1 "100nF" H 1800 4625 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2088 4400 50  0001 C CNN
 F 3 "" H 2050 4550 50  0001 C CNN
+F 4 "105-002" H 0   0   50  0001 C CNN "Devtank"
 	1    2050 4550
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C?
+L hiltop_backplane_brd-rescue:C-device C?
 U 1 1 5CBF83E1
 P 2325 4550
 AR Path="/5A077B59/5CBF83E1" Ref="C?"  Part="1" 
@@ -1700,6 +1777,7 @@ F 0 "C45" H 2175 4475 50  0000 L CNN
 F 1 "100nF" H 2075 4625 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2363 4400 50  0001 C CNN
 F 3 "" H 2325 4550 50  0001 C CNN
+F 4 "105-002" H 0   0   50  0001 C CNN "Devtank"
 	1    2325 4550
 	-1   0    0    1   
 $EndComp
@@ -1823,13 +1901,14 @@ Wire Wire Line
 Text HLabel 6875 5750 2    60   Input ~ 0
 +3V3_IN
 $Comp
-L Devtank:USB2517 U5
+L hiltop_backplane_brd-rescue:USB2517-Devtank U5
 U 2 1 5CD24F2D
 P 8550 2675
 F 0 "U5" H 8550 4690 50  0000 C CNN
 F 1 "USB2517" H 8550 4599 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP4.7x4.7mm" H 9300 50  50  0001 C CNN
 F 3 "DOCUMENTATION" H 9150 150 50  0001 C CNN
+F 4 "118-004" H 0   0   50  0001 C CNN "Devtank"
 	2    8550 2675
 	1    0    0    -1  
 $EndComp

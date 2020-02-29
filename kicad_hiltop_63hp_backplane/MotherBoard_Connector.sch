@@ -289,12 +289,12 @@ Text HLabel 8925 2025 2    60   Input ~ 0
 Text HLabel 8925 1925 2    60   Input ~ 0
 -5V
 $Comp
-L gti_Lattice:HILTOP_PCIE-64_CONN J7
+L hiltop_backplane_brd-rescue:HILTOP_PCIE-64_CONN-gti_Lattice J7
 U 1 1 5C13457D
 P 3575 2725
 F 0 "J7" H 3575 4640 50  0000 C CNN
 F 1 "HILTOP_PCIE-64_CONN" H 3575 4549 50  0000 C CNN
-F 2 "GTI_Footprint_Lib:CONN PCI EXP FEMALE 64POS 0.039" H 2925 4575 50  0001 C CNN
+F 2 "Devtank_PCB_Lib:CONN PCI EXP FEMALE 64POS 0.039" H 2925 4575 50  0001 C CNN
 F 3 "" H 3075 4675 50  0001 C CNN
 	1    3575 2725
 	1    0    0    -1  
@@ -306,35 +306,38 @@ Wire Wire Line
 	4650 2175 4650 2875
 Connection ~ 4650 2175
 $Comp
-L Connector1:Conn_02x04_Odd_Even J8
+L hiltop_backplane_brd-rescue:Conn_02x04_Odd_Even-Connector1 J8
 U 1 1 5C155D60
 P 8400 1825
 F 0 "J8" H 8450 2142 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 8450 2051 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A_2x04_P4.20mm_Vertical" H 8400 1825 50  0001 C CNN
 F 3 "~" H 8400 1825 50  0001 C CNN
+F 4 "709-005" H 0   0   50  0001 C CNN "Devtank"
 	1    8400 1825
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector1:Conn_02x02_Counter_Clockwise J9
+L hiltop_backplane_brd-rescue:Conn_02x02_Counter_Clockwise-Connector1 J9
 U 1 1 5C155E73
 P 8425 2700
 F 0 "J9" H 8425 2800 50  0000 C CNN
 F 1 "Conn_02x02_Counter_Clockwise" H 8425 2925 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 8425 2700 50  0001 C CNN
 F 3 "~" H 8425 2700 50  0001 C CNN
+F 4 "709-006" H 0   0   50  0001 C CNN "Devtank"
 	1    8425 2700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector1:Conn_01x02 J10
+L hiltop_backplane_brd-rescue:Conn_01x02-Connector1 J10
 U 1 1 5C155F47
 P 8475 3425
 F 0 "J10" H 8450 3600 50  0000 L CNN
 F 1 "Conn_01x02" H 8275 3525 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A2_2x01_P4.20mm_Vertical" H 8475 3425 50  0001 C CNN
 F 3 "~" H 8475 3425 50  0001 C CNN
+F 4 "709-002" H 0   0   50  0001 C CNN "Devtank"
 	1    8475 3425
 	1    0    0    -1  
 $EndComp
@@ -421,35 +424,38 @@ Wire Wire Line
 Wire Wire Line
 	8700 2025 8925 2025
 $Comp
-L device:Polyfuse R47
+L hiltop_backplane_brd-rescue:Polyfuse-device R47
 U 1 1 5C36D98A
 P 9100 2700
 F 0 "R47" V 9025 2525 50  0000 C CNN
 F 1 "0R" V 9025 2700 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 9150 2500 50  0001 L CNN
 F 3 "" H 9100 2700 50  0001 C CNN
+F 4 "101-007" H 0   0   50  0001 C CNN "Devtank"
 	1    9100 2700
 	0    1    1    0   
 $EndComp
 $Comp
-L device:Polyfuse R45
+L hiltop_backplane_brd-rescue:Polyfuse-device R45
 U 1 1 5C36DB02
 P 7950 2700
 F 0 "R45" V 7850 2550 50  0000 C CNN
 F 1 "0R" V 7875 2700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 8000 2500 50  0001 L CNN
 F 3 "" H 7950 2700 50  0001 C CNN
+F 4 "101-005" H 0   0   50  0001 C CNN "Devtank"
 	1    7950 2700
 	0    1    1    0   
 $EndComp
 $Comp
-L device:Polyfuse R46
+L hiltop_backplane_brd-rescue:Polyfuse-device R46
 U 1 1 5C36DBE2
 P 7950 2800
 F 0 "R46" V 8075 2650 50  0000 C CNN
 F 1 "0R" V 8025 2800 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric" H 8000 2600 50  0001 L CNN
 F 3 "" H 7950 2800 50  0001 C CNN
+F 4 "101-007" H 0   0   50  0001 C CNN "Devtank"
 	1    7950 2800
 	0    1    1    0   
 $EndComp

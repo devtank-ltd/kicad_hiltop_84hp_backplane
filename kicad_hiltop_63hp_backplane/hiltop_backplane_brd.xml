@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/ronak/Desktop/KiCad_Projects/Hiltop/hiltop_backplane/kicad_hiltop_63hp_backplane/hiltop_backplane_brd.sch</source>
-    <date>Wed 13 Feb 2019 22:17:21 EST</date>
-    <tool>Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1</tool>
+    <source>/home/tungsten/Documents/Devtank/HILTOP/Hardware/kicad_hiltop_63hp_backplane/kicad_hiltop_63hp_backplane/hiltop_backplane_brd.sch</source>
+    <date>Mon 18 Feb 2019 13:30:37 GMT</date>
+    <tool>Eeschema 5.0.1-33cea8e~68~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Project X</title>
@@ -88,7 +88,7 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C46A039</tstamp>
     </comp>
@@ -96,7 +96,7 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C46A4C6</tstamp>
     </comp>
@@ -104,7 +104,7 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C46A4E0</tstamp>
     </comp>
@@ -112,7 +112,7 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C46A4FC</tstamp>
     </comp>
@@ -120,7 +120,7 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C46A522</tstamp>
     </comp>
@@ -128,7 +128,7 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C46A542</tstamp>
     </comp>
@@ -136,7 +136,7 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C46A566</tstamp>
     </comp>
@@ -144,7 +144,7 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C46A590</tstamp>
     </comp>
@@ -152,7 +152,7 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C441846</tstamp>
     </comp>
@@ -160,7 +160,7 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C441970</tstamp>
     </comp>
@@ -168,7 +168,7 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C4419AA</tstamp>
     </comp>
@@ -176,7 +176,7 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D454C70</tstamp>
     </comp>
@@ -184,21 +184,21 @@
       <value>TestPoint</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D454D59</tstamp>
     </comp>
     <comp ref="R82">
       <value>DNP</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C4B32E3</tstamp>
     </comp>
     <comp ref="R83">
       <value>DNP</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C4B338E</tstamp>
     </comp>
@@ -206,7 +206,7 @@
       <value>L4</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C507009</tstamp>
     </comp>
@@ -214,7 +214,7 @@
       <value>L5</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C507080</tstamp>
     </comp>
@@ -222,7 +222,7 @@
       <value>L6</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C507107</tstamp>
     </comp>
@@ -230,7 +230,7 @@
       <value>L7</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C507184</tstamp>
     </comp>
@@ -238,13 +238,16 @@
       <value>L8</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C507279</tstamp>
     </comp>
     <comp ref="J1">
       <value>USB_B_Micro</value>
       <footprint>Connector_USB:USB_Micro-B_GCT_USB3076-30-A</footprint>
+      <fields>
+        <field name="Devtank">703-005</field>
+      </fields>
       <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0CEDE1</tstamp>
@@ -252,336 +255,474 @@
     <comp ref="D2">
       <value>NUP2105L</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <libsource lib="ESD_Protection" part="NUP2105L" description="Dual Line CAN Bus Protector, 24Vrwm"/>
+      <fields>
+        <field name="Devtank">136-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="NUP2105L-ESD_Protection" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0CEFF4</tstamp>
     </comp>
     <comp ref="C1">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-019</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0CF19D</tstamp>
     </comp>
     <comp ref="C2">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-019</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0CF48E</tstamp>
     </comp>
     <comp ref="C16">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-019</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0CF61F</tstamp>
     </comp>
     <comp ref="C18">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-019</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0CF7C6</tstamp>
     </comp>
     <comp ref="C15">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-019</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0CF9B8</tstamp>
     </comp>
     <comp ref="C19">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-019</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0CFC0B</tstamp>
     </comp>
     <comp ref="C14">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-019</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0CFCE6</tstamp>
     </comp>
     <comp ref="C13">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-019</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0CFD9F</tstamp>
     </comp>
     <comp ref="C6">
       <value>4.7uf</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-021</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0CFDD2</tstamp>
     </comp>
     <comp ref="C9">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-019</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0CFE07</tstamp>
     </comp>
     <comp ref="C11">
       <value>4.7uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-021</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0CFE36</tstamp>
     </comp>
     <comp ref="C12">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-019</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0CFE71</tstamp>
     </comp>
     <comp ref="C17">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-019</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0CFEAA</tstamp>
     </comp>
     <comp ref="C4">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-019</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0CFFD0</tstamp>
     </comp>
     <comp ref="C8">
       <value>3.3uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-022</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0D0317</tstamp>
     </comp>
     <comp ref="C5">
       <value>10pF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">106-012</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0D035A</tstamp>
     </comp>
     <comp ref="C3">
       <value>10pF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">106-012</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0D03B9</tstamp>
     </comp>
     <comp ref="L2">
       <value>Ferrite_Bead</value>
       <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
-      <libsource lib="device" part="Ferrite_Bead" description="Ferrite bead"/>
+      <fields>
+        <field name="Devtank">113-001</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Ferrite_Bead-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0D0483</tstamp>
     </comp>
     <comp ref="L3">
       <value>Ferrite_Bead</value>
       <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
-      <libsource lib="device" part="Ferrite_Bead" description="Ferrite bead"/>
+      <fields>
+        <field name="Devtank">113-001</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Ferrite_Bead-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0D07F0</tstamp>
     </comp>
     <comp ref="L4">
       <value>Ferrite_Bead</value>
       <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
-      <libsource lib="device" part="Ferrite_Bead" description="Ferrite bead"/>
+      <fields>
+        <field name="Devtank">113-001</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Ferrite_Bead-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0D0852</tstamp>
     </comp>
     <comp ref="L1">
       <value>Ferrite_Bead</value>
       <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
-      <libsource lib="device" part="Ferrite_Bead" description="Ferrite bead"/>
+      <fields>
+        <field name="Devtank">113-001</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Ferrite_Bead-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0D09B1</tstamp>
     </comp>
     <comp ref="U1">
       <value>93LCxxC</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
-      <libsource lib="memory" part="93LCxxC" description="Serial EEPROM, 93 series in 8-pin package with ORG pin, 2.5V"/>
+      <fields>
+        <field name="Devtank">129-004</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="93LCxxC-memory" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0D27FD</tstamp>
     </comp>
     <comp ref="R2">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-501</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0E2040</tstamp>
     </comp>
     <comp ref="R1">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-501</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0E22F5</tstamp>
     </comp>
     <comp ref="R3">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-501</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0E2366</tstamp>
     </comp>
     <comp ref="R4">
       <value>2.2K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-505</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0E23C5</tstamp>
     </comp>
     <comp ref="R5">
       <value>0</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-506</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0E253E</tstamp>
     </comp>
     <comp ref="R6">
       <value>0</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-506</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0E2735</tstamp>
     </comp>
     <comp ref="R8">
       <value>12K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-508</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0E4574</tstamp>
     </comp>
     <comp ref="R7">
       <value>1K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-507</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0E467B</tstamp>
     </comp>
     <comp ref="C7">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-019</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0E7988</tstamp>
     </comp>
     <comp ref="D1">
-      <value> MBR120VLSFT3G </value>
+      <value>MBR230LSFT1G</value>
       <footprint>Diode_SMD:D_SOD-123F</footprint>
-      <libsource lib="device" part="D_Schottky" description="Schottky diode"/>
+      <fields>
+        <field name="Devtank">133-006</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="D_Schottky-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0E9377</tstamp>
     </comp>
     <comp ref="R9">
       <value>0</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-506</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A286A3D</tstamp>
     </comp>
     <comp ref="R10">
       <value>0</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-506</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A286C57</tstamp>
     </comp>
     <comp ref="R11">
       <value>0</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-506</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A286CD9</tstamp>
     </comp>
     <comp ref="R12">
       <value>0</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-506</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A286D5E</tstamp>
     </comp>
     <comp ref="R14">
       <value>0</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-506</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A286F0C</tstamp>
     </comp>
     <comp ref="R15">
       <value>0</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-506</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A286F9B</tstamp>
     </comp>
     <comp ref="C10">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-019</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A28A03B</tstamp>
     </comp>
     <comp ref="R13">
       <value>DNP</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A28A99D</tstamp>
     </comp>
     <comp ref="R16">
       <value>330</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-509</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A432905</tstamp>
     </comp>
     <comp ref="R17">
       <value>330</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-509</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A432C01</tstamp>
     </comp>
     <comp ref="D3">
-      <value>LED</value>
+      <value>LED RED</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="device" part="LED" description="LED generic"/>
+      <fields>
+        <field name="Devtank">110-004</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LED-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A432D8D</tstamp>
     </comp>
     <comp ref="D4">
-      <value>LED</value>
+      <value>LED RED</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="device" part="LED" description="LED generic"/>
+      <fields>
+        <field name="Devtank">110-004</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LED-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A432E41</tstamp>
     </comp>
     <comp ref="Y1">
       <value>ABM10AIG-12.000MHZ-4Z-T3 </value>
       <footprint>Crystal:Crystal_SMD_Abracon_ABM10-4Pin_2.5x2.0mm</footprint>
-      <libsource lib="device" part="Crystal_GND24" description="Four pin crystal (GND on pins 2 and 4), e.g. in SMD package"/>
+      <fields>
+        <field name="Devtank">181-007</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Crystal_GND24-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A2C1F7D</tstamp>
     </comp>
     <comp ref="TP14">
       <value>Test_Point</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A2FCE0A</tstamp>
     </comp>
     <comp ref="L5">
       <value>Ferrite_Bead</value>
       <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
-      <libsource lib="device" part="Ferrite_Bead" description="Ferrite bead"/>
+      <fields>
+        <field name="Devtank">113-001</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Ferrite_Bead-device" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5A0D0A0A</tstamp>
     </comp>
@@ -589,7 +730,7 @@
       <value>+1V8_REG_OUT</value>
       <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="TestPoint-Connector" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5D0D4D61</tstamp>
     </comp>
@@ -611,357 +752,507 @@
       <value>FT2232H</value>
       <footprint>Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP7.35x7.35mm</footprint>
       <datasheet>http://www.ftdichip.com/Products/ICs/FT2232H.html</datasheet>
-      <libsource lib="gti_Lattice" part="FT2232H" description="FT2232Hx, Hi Speed Double Channel USB UART/FIFO, LQFP/QFN-64"/>
+      <fields>
+        <field name="Devtank">118-011</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="FT2232H-gti_Lattice" description=""/>
       <sheetpath names="/USB_FTDI/" tstamps="/5A077B59/"/>
       <tstamp>5C716984</tstamp>
     </comp>
     <comp ref="R21">
       <value>150</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-510</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>5A3B7AEA</tstamp>
     </comp>
     <comp ref="R23">
       <value>150</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-510</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>5A3B7AF1</tstamp>
     </comp>
     <comp ref="R30">
       <value>150</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-510</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>5A3B7AF8</tstamp>
     </comp>
     <comp ref="R32">
       <value>150</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-510</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>5A3B7AFF</tstamp>
     </comp>
     <comp ref="R24">
       <value>150</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-510</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>5A3B7B06</tstamp>
     </comp>
     <comp ref="R26">
       <value>150</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-510</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>5A3B7B0D</tstamp>
     </comp>
     <comp ref="R33">
       <value>150</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-510</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>5A3B7B14</tstamp>
     </comp>
     <comp ref="R35">
       <value>150</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-510</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>5A3B7B1B</tstamp>
     </comp>
     <comp ref="R39">
       <value>150</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-510</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>5A3B7B22</tstamp>
     </comp>
     <comp ref="R41">
       <value>150</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-510</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>5A3B7B29</tstamp>
     </comp>
     <comp ref="R42">
       <value>150</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-510</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>5A3B7B30</tstamp>
     </comp>
     <comp ref="R44">
       <value>150</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-510</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>5A3B7B37</tstamp>
     </comp>
     <comp ref="R22">
       <value>100</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-500</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>5A3B7C02</tstamp>
     </comp>
     <comp ref="R25">
       <value>100</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-500</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>5A3B7C09</tstamp>
     </comp>
     <comp ref="R31">
       <value>100</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-500</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>5A3B7C10</tstamp>
     </comp>
     <comp ref="R34">
       <value>100</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-500</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>5A3B7C17</tstamp>
     </comp>
     <comp ref="R40">
       <value>100</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-500</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>5A3B7C1E</tstamp>
     </comp>
     <comp ref="R43">
       <value>100</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-500</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>5A3B7C25</tstamp>
     </comp>
     <comp ref="R18">
       <value>150</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-510</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>5A3D435B</tstamp>
     </comp>
     <comp ref="R20">
       <value>150</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-510</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>5A3D4449</tstamp>
     </comp>
     <comp ref="R19">
       <value>100</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-500</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>5A3D452E</tstamp>
     </comp>
     <comp ref="U3">
       <value>LTC4311</value>
       <footprint>Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.5mm_EP0.61x1.42mm</footprint>
-      <libsource lib="gti_Lattice" part="LTC4311" description=""/>
+      <fields>
+        <field name="Devtank">118-010</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LTC4311-gti_Lattice" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>600073BD</tstamp>
     </comp>
     <comp ref="C20">
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-017</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>600073CA</tstamp>
     </comp>
     <comp ref="U4">
       <value>LTC4311</value>
       <footprint>Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.5mm_EP0.61x1.42mm</footprint>
-      <libsource lib="gti_Lattice" part="LTC4311" description=""/>
+      <fields>
+        <field name="Devtank">118-010</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LTC4311-gti_Lattice" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>600073E4</tstamp>
     </comp>
     <comp ref="C21">
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-017</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>600073F1</tstamp>
     </comp>
     <comp ref="R27">
       <value>150</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-510</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>602A6030</tstamp>
     </comp>
     <comp ref="R29">
       <value>150</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-510</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>602A6037</tstamp>
     </comp>
     <comp ref="R28">
       <value>100</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-500</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>602A603E</tstamp>
     </comp>
     <comp ref="R36">
       <value>150</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-510</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>602F37B2</tstamp>
     </comp>
     <comp ref="R38">
       <value>150</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-510</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>602F37B9</tstamp>
     </comp>
     <comp ref="R37">
       <value>100</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-500</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>602F37C0</tstamp>
     </comp>
     <comp ref="F1">
       <value>1206L050</value>
       <footprint>Fuse:Fuse_1206_3216Metric</footprint>
-      <libsource lib="device" part="Polyfuse" description="resettable fuse, polymeric positive temperature coefficient (PPTC)"/>
+      <fields>
+        <field name="Devtank">190-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Polyfuse-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>60455C00</tstamp>
     </comp>
     <comp ref="F2">
       <value>1206L050</value>
       <footprint>Fuse:Fuse_1206_3216Metric</footprint>
-      <libsource lib="device" part="Polyfuse" description="resettable fuse, polymeric positive temperature coefficient (PPTC)"/>
+      <fields>
+        <field name="Devtank">190-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Polyfuse-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>604A6423</tstamp>
     </comp>
     <comp ref="F3">
       <value>1206L050</value>
       <footprint>Fuse:Fuse_1206_3216Metric</footprint>
-      <libsource lib="device" part="Polyfuse" description="resettable fuse, polymeric positive temperature coefficient (PPTC)"/>
+      <fields>
+        <field name="Devtank">190-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Polyfuse-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>604A6497</tstamp>
     </comp>
     <comp ref="F4">
       <value>1206L075</value>
       <footprint>Fuse:Fuse_1206_3216Metric</footprint>
-      <libsource lib="device" part="Polyfuse" description="resettable fuse, polymeric positive temperature coefficient (PPTC)"/>
+      <fields>
+        <field name="Devtank">190-003</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Polyfuse-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>604A664B</tstamp>
     </comp>
     <comp ref="F5">
       <value>2920L100PR</value>
       <footprint>Fuse:Fuse_2920_7451Metric</footprint>
-      <libsource lib="device" part="Polyfuse" description="resettable fuse, polymeric positive temperature coefficient (PPTC)"/>
+      <fields>
+        <field name="Devtank">190-004</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Polyfuse-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>604A66C3</tstamp>
     </comp>
     <comp ref="F6">
       <value>1206L050</value>
       <footprint>Fuse:Fuse_1206_3216Metric</footprint>
-      <libsource lib="device" part="Polyfuse" description="resettable fuse, polymeric positive temperature coefficient (PPTC)"/>
+      <fields>
+        <field name="Devtank">190-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Polyfuse-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>6073C287</tstamp>
     </comp>
     <comp ref="F7">
       <value>1206L050</value>
       <footprint>Fuse:Fuse_1206_3216Metric</footprint>
-      <libsource lib="device" part="Polyfuse" description="resettable fuse, polymeric positive temperature coefficient (PPTC)"/>
+      <fields>
+        <field name="Devtank">190-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Polyfuse-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>6073C28F</tstamp>
     </comp>
     <comp ref="F8">
       <value>1206L050</value>
       <footprint>Fuse:Fuse_1206_3216Metric</footprint>
-      <libsource lib="device" part="Polyfuse" description="resettable fuse, polymeric positive temperature coefficient (PPTC)"/>
+      <fields>
+        <field name="Devtank">190-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Polyfuse-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>6073C296</tstamp>
     </comp>
     <comp ref="F9">
       <value>1206L075</value>
       <footprint>Fuse:Fuse_1206_3216Metric</footprint>
-      <libsource lib="device" part="Polyfuse" description="resettable fuse, polymeric positive temperature coefficient (PPTC)"/>
+      <fields>
+        <field name="Devtank">190-003</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Polyfuse-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>6073C29D</tstamp>
     </comp>
     <comp ref="F10">
       <value>2920L100PR</value>
       <footprint>Fuse:Fuse_2920_7451Metric</footprint>
-      <libsource lib="device" part="Polyfuse" description="resettable fuse, polymeric positive temperature coefficient (PPTC)"/>
+      <fields>
+        <field name="Devtank">190-004</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Polyfuse-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>6073C2A4</tstamp>
     </comp>
     <comp ref="F11">
       <value>1206L050</value>
       <footprint>Fuse:Fuse_1206_3216Metric</footprint>
-      <libsource lib="device" part="Polyfuse" description="resettable fuse, polymeric positive temperature coefficient (PPTC)"/>
+      <fields>
+        <field name="Devtank">190-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Polyfuse-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>60790ED9</tstamp>
     </comp>
     <comp ref="F12">
       <value>1206L050</value>
       <footprint>Fuse:Fuse_1206_3216Metric</footprint>
-      <libsource lib="device" part="Polyfuse" description="resettable fuse, polymeric positive temperature coefficient (PPTC)"/>
+      <fields>
+        <field name="Devtank">190-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Polyfuse-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>60790EE1</tstamp>
     </comp>
     <comp ref="F13">
       <value>1206L050</value>
       <footprint>Fuse:Fuse_1206_3216Metric</footprint>
-      <libsource lib="device" part="Polyfuse" description="resettable fuse, polymeric positive temperature coefficient (PPTC)"/>
+      <fields>
+        <field name="Devtank">190-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Polyfuse-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>60790EE8</tstamp>
     </comp>
     <comp ref="F14">
       <value>1206L075</value>
       <footprint>Fuse:Fuse_1206_3216Metric</footprint>
-      <libsource lib="device" part="Polyfuse" description="resettable fuse, polymeric positive temperature coefficient (PPTC)"/>
+      <fields>
+        <field name="Devtank">190-003</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Polyfuse-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>60790EEF</tstamp>
     </comp>
     <comp ref="F15">
       <value>2920L100PR</value>
       <footprint>Fuse:Fuse_2920_7451Metric</footprint>
-      <libsource lib="device" part="Polyfuse" description="resettable fuse, polymeric positive temperature coefficient (PPTC)"/>
+      <fields>
+        <field name="Devtank">190-004</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Polyfuse-device" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>60790EF6</tstamp>
     </comp>
     <comp ref="J4">
       <value>CONN_DIN_HDR_96POS</value>
       <footprint>Connectors_IEC_DIN:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows</footprint>
-      <libsource lib="gti_Lattice" part="CONN_DIN_HDR_96POS" description=""/>
+      <fields>
+        <field name="Devtank">717-001</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="CONN_DIN_HDR_96POS-gti_Lattice" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>5C446251</tstamp>
     </comp>
     <comp ref="J5">
       <value>CONN_DIN_HDR_96POS</value>
       <footprint>Connectors_IEC_DIN:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows</footprint>
-      <libsource lib="gti_Lattice" part="CONN_DIN_HDR_96POS" description=""/>
+      <fields>
+        <field name="Devtank">717-001</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="CONN_DIN_HDR_96POS-gti_Lattice" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>5C4466C1</tstamp>
     </comp>
     <comp ref="J6">
       <value>CONN_DIN_HDR_96POS</value>
       <footprint>Connectors_IEC_DIN:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows</footprint>
-      <libsource lib="gti_Lattice" part="CONN_DIN_HDR_96POS" description=""/>
+      <fields>
+        <field name="Devtank">717-001</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="CONN_DIN_HDR_96POS-gti_Lattice" description=""/>
       <sheetpath names="/backplane_connector/" tstamps="/5A0778ED/"/>
       <tstamp>5C446ABA</tstamp>
     </comp>
     <comp ref="J7">
       <value>HILTOP_PCIE-64_CONN</value>
-      <footprint>GTI_Footprint_Lib:CONN PCI EXP FEMALE 64POS 0.039</footprint>
-      <libsource lib="gti_Lattice" part="HILTOP_PCIE-64_CONN" description=""/>
+      <footprint>Devtank_PCB_Lib:CONN PCI EXP FEMALE 64POS 0.039</footprint>
+      <libsource lib="hiltop_backplane_brd-rescue" part="HILTOP_PCIE-64_CONN-gti_Lattice" description=""/>
       <sheetpath names="/MotherBoard_Connector/" tstamps="/5C074E5E/"/>
       <tstamp>5C13457D</tstamp>
     </comp>
@@ -969,7 +1260,10 @@
       <value>Conn_02x04_Odd_Even</value>
       <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-08A_2x04_P4.20mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector1" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)"/>
+      <fields>
+        <field name="Devtank">709-005</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Conn_02x04_Odd_Even-Connector1" description=""/>
       <sheetpath names="/MotherBoard_Connector/" tstamps="/5C074E5E/"/>
       <tstamp>5C155D60</tstamp>
     </comp>
@@ -977,7 +1271,10 @@
       <value>Conn_02x02_Counter_Clockwise</value>
       <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector1" part="Conn_02x02_Counter_Clockwise" description="Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP packge numbering)"/>
+      <fields>
+        <field name="Devtank">709-006</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Conn_02x02_Counter_Clockwise-Connector1" description=""/>
       <sheetpath names="/MotherBoard_Connector/" tstamps="/5C074E5E/"/>
       <tstamp>5C155E73</tstamp>
     </comp>
@@ -985,175 +1282,250 @@
       <value>Conn_01x02</value>
       <footprint>Connector_Molex:Molex_Mini-Fit_Jr_5566-02A2_2x01_P4.20mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Connector1" part="Conn_01x02" description="Generic connector, single row, 01x02"/>
+      <fields>
+        <field name="Devtank">709-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Conn_01x02-Connector1" description=""/>
       <sheetpath names="/MotherBoard_Connector/" tstamps="/5C074E5E/"/>
       <tstamp>5C155F47</tstamp>
     </comp>
     <comp ref="R47">
       <value>0R</value>
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
-      <libsource lib="device" part="Polyfuse" description="resettable fuse, polymeric positive temperature coefficient (PPTC)"/>
+      <fields>
+        <field name="Devtank">101-007</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Polyfuse-device" description=""/>
       <sheetpath names="/MotherBoard_Connector/" tstamps="/5C074E5E/"/>
       <tstamp>5C36D98A</tstamp>
     </comp>
     <comp ref="R45">
       <value>0R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="device" part="Polyfuse" description="resettable fuse, polymeric positive temperature coefficient (PPTC)"/>
+      <fields>
+        <field name="Devtank">101-005</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Polyfuse-device" description=""/>
       <sheetpath names="/MotherBoard_Connector/" tstamps="/5C074E5E/"/>
       <tstamp>5C36DB02</tstamp>
     </comp>
     <comp ref="R46">
       <value>0R</value>
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
-      <libsource lib="device" part="Polyfuse" description="resettable fuse, polymeric positive temperature coefficient (PPTC)"/>
+      <fields>
+        <field name="Devtank">101-007</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Polyfuse-device" description=""/>
       <sheetpath names="/MotherBoard_Connector/" tstamps="/5C074E5E/"/>
       <tstamp>5C36DBE2</tstamp>
     </comp>
     <comp ref="R60">
       <value>330</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-509</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5A30401C</tstamp>
     </comp>
     <comp ref="R61">
       <value>330</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-509</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5A304023</tstamp>
     </comp>
     <comp ref="D6">
-      <value>LED</value>
+      <value>LED RED</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="device" part="LED" description="LED generic"/>
+      <fields>
+        <field name="Devtank">110-004</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LED-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5A30402A</tstamp>
     </comp>
     <comp ref="D7">
-      <value>LED</value>
+      <value>LED RED</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="device" part="LED" description="LED generic"/>
+      <fields>
+        <field name="Devtank">110-004</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LED-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5A304031</tstamp>
     </comp>
     <comp ref="D8">
-      <value>LED</value>
+      <value>LED RED</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="device" part="LED" description="LED generic"/>
+      <fields>
+        <field name="Devtank">110-004</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LED-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5A304040</tstamp>
     </comp>
     <comp ref="D9">
-      <value>LED</value>
+      <value>LED RED</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="device" part="LED" description="LED generic"/>
+      <fields>
+        <field name="Devtank">110-004</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LED-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5A304047</tstamp>
     </comp>
     <comp ref="D10">
-      <value>LED</value>
+      <value>LED RED</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="device" part="LED" description="LED generic"/>
+      <fields>
+        <field name="Devtank">110-004</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LED-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5A30404E</tstamp>
     </comp>
     <comp ref="D11">
-      <value>LED</value>
+      <value>LED RED</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="device" part="LED" description="LED generic"/>
+      <fields>
+        <field name="Devtank">110-004</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LED-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5A304055</tstamp>
     </comp>
     <comp ref="D12">
-      <value>LED</value>
+      <value>LED RED</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="device" part="LED" description="LED generic"/>
+      <fields>
+        <field name="Devtank">110-004</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LED-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5A30405C</tstamp>
     </comp>
     <comp ref="R62">
       <value>330</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-509</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5A304063</tstamp>
     </comp>
     <comp ref="R63">
       <value>330</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-509</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5A30406A</tstamp>
     </comp>
     <comp ref="R64">
       <value>330</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-509</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5A304071</tstamp>
     </comp>
     <comp ref="R65">
       <value>330</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-509</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5A304078</tstamp>
     </comp>
     <comp ref="R66">
       <value>330</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-509</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5A30407F</tstamp>
     </comp>
     <comp ref="J12">
       <value>4POS_JUMPER</value>
       <footprint>Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical</footprint>
-      <libsource lib="gti_Lattice" part="4POS_JUMPER" description=""/>
+      <fields>
+        <field name="Devtank">711-003</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="4POS_JUMPER-gti_Lattice" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5A304A10</tstamp>
     </comp>
     <comp ref="J13">
       <value>4POS_JUMPER</value>
       <footprint>Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical</footprint>
-      <libsource lib="gti_Lattice" part="4POS_JUMPER" description=""/>
+      <fields>
+        <field name="Devtank">711-003</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="4POS_JUMPER-gti_Lattice" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5A304A17</tstamp>
     </comp>
     <comp ref="J14">
       <value>4POS_JUMPER</value>
       <footprint>Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical</footprint>
-      <libsource lib="gti_Lattice" part="4POS_JUMPER" description=""/>
+      <fields>
+        <field name="Devtank">711-003</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="4POS_JUMPER-gti_Lattice" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5A304A1E</tstamp>
     </comp>
     <comp ref="J15">
       <value>4POS_JUMPER</value>
       <footprint>Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical</footprint>
-      <libsource lib="gti_Lattice" part="4POS_JUMPER" description=""/>
+      <fields>
+        <field name="Devtank">711-003</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="4POS_JUMPER-gti_Lattice" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5A304A25</tstamp>
     </comp>
     <comp ref="J16">
       <value>4POS_JUMPER</value>
       <footprint>Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical</footprint>
-      <libsource lib="gti_Lattice" part="4POS_JUMPER" description=""/>
+      <fields>
+        <field name="Devtank">711-003</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="4POS_JUMPER-gti_Lattice" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5A304A44</tstamp>
     </comp>
     <comp ref="D13">
-      <value>LED</value>
+      <value>LED RED</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="device" part="LED" description="LED generic"/>
+      <fields>
+        <field name="Devtank">110-004</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LED-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5A5D84B9</tstamp>
     </comp>
     <comp ref="R67">
       <value>330</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-509</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5A5D857D</tstamp>
     </comp>
@@ -1161,538 +1533,760 @@
       <value>USB2517</value>
       <footprint>Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP4.7x4.7mm</footprint>
       <datasheet>DOCUMENTATION</datasheet>
-      <libsource lib="Devtank" part="USB2517" description="USB2517"/>
+      <fields>
+        <field name="Devtank">118-004</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="USB2517-Devtank" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0DA594</tstamp>
     </comp>
     <comp ref="D16">
-      <value>GRN</value>
+      <value>LED GRN</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="device" part="LED" description="LED generic"/>
+      <fields>
+        <field name="Devtank">110-005</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LED-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0F522E</tstamp>
     </comp>
     <comp ref="D17">
-      <value>YEL</value>
+      <value>LED YEL</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="device" part="LED" description="LED generic"/>
+      <fields>
+        <field name="Devtank">110-007</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LED-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0F5392</tstamp>
     </comp>
     <comp ref="D18">
-      <value>GRN</value>
+      <value>LED GRN</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="device" part="LED" description="LED generic"/>
+      <fields>
+        <field name="Devtank">110-005</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LED-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0FE560</tstamp>
     </comp>
     <comp ref="D19">
-      <value>YEL</value>
+      <value>LED YEL</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="device" part="LED" description="LED generic"/>
+      <fields>
+        <field name="Devtank">110-007</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LED-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0FE5F2</tstamp>
     </comp>
     <comp ref="D20">
-      <value>GRN</value>
+      <value>LED GRN</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="device" part="LED" description="LED generic"/>
+      <fields>
+        <field name="Devtank">110-005</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LED-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0FE648</tstamp>
     </comp>
     <comp ref="D21">
-      <value>YEL</value>
+      <value>LED YEL</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="device" part="LED" description="LED generic"/>
+      <fields>
+        <field name="Devtank">110-007</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LED-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0FE6D4</tstamp>
     </comp>
     <comp ref="D22">
-      <value>GRN</value>
+      <value>LED GRN</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="device" part="LED" description="LED generic"/>
+      <fields>
+        <field name="Devtank">110-005</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LED-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0FE732</tstamp>
     </comp>
     <comp ref="D23">
-      <value>YEL</value>
+      <value>LED YEL</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="device" part="LED" description="LED generic"/>
+      <fields>
+        <field name="Devtank">110-007</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LED-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0FE918</tstamp>
     </comp>
     <comp ref="D24">
-      <value>GRN</value>
+      <value>LED GRN</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="device" part="LED" description="LED generic"/>
+      <fields>
+        <field name="Devtank">110-005</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LED-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0FEA2E</tstamp>
     </comp>
     <comp ref="D25">
-      <value>YEL</value>
+      <value>LED YEL</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="device" part="LED" description="LED generic"/>
+      <fields>
+        <field name="Devtank">110-007</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LED-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0FEABE</tstamp>
     </comp>
     <comp ref="D26">
-      <value>GRN</value>
+      <value>LED GRN</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="device" part="LED" description="LED generic"/>
+      <fields>
+        <field name="Devtank">110-005</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LED-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0FEB18</tstamp>
     </comp>
     <comp ref="D27">
-      <value>YEL</value>
+      <value>LED YEL</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="device" part="LED" description="LED generic"/>
+      <fields>
+        <field name="Devtank">110-007</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LED-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0FECFE</tstamp>
     </comp>
     <comp ref="D14">
-      <value>GRN</value>
+      <value>LED GRN</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="device" part="LED" description="LED generic"/>
+      <fields>
+        <field name="Devtank">110-005</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LED-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0FED5C</tstamp>
     </comp>
     <comp ref="D15">
-      <value>YEL</value>
+      <value>LED YEL</value>
       <footprint>LED_SMD:LED_0402_1005Metric</footprint>
-      <libsource lib="device" part="LED" description="LED generic"/>
+      <fields>
+        <field name="Devtank">110-007</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="LED-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0FEE3C</tstamp>
     </comp>
     <comp ref="R72">
       <value>330</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-509</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0FF01D</tstamp>
     </comp>
     <comp ref="R73">
       <value>330</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-509</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0FF165</tstamp>
     </comp>
     <comp ref="R71">
       <value>330</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-509</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0FF1CF</tstamp>
     </comp>
     <comp ref="R70">
       <value>330</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-509</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0FF4CF</tstamp>
     </comp>
     <comp ref="R69">
       <value>330</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-509</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0FF593</tstamp>
     </comp>
     <comp ref="R68">
       <value>330</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-509</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0FF881</tstamp>
     </comp>
     <comp ref="R79">
       <value>330</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-509</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0FF949</tstamp>
     </comp>
     <comp ref="R78">
       <value>330</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-509</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0FFA11</tstamp>
     </comp>
     <comp ref="R77">
       <value>330</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-509</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0FFA85</tstamp>
     </comp>
     <comp ref="R76">
       <value>330</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-509</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0FFC6D</tstamp>
     </comp>
     <comp ref="R75">
       <value>330</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-509</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0FFE1F</tstamp>
     </comp>
     <comp ref="R74">
       <value>330</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-509</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C0FFED5</tstamp>
     </comp>
     <comp ref="R81">
       <value>330</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-509</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C1002A3</tstamp>
     </comp>
     <comp ref="R80">
       <value>330</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-509</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C10033F</tstamp>
     </comp>
     <comp ref="C46">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C3627E5</tstamp>
     </comp>
     <comp ref="C48">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C362BCB</tstamp>
     </comp>
     <comp ref="C50">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C362C5F</tstamp>
     </comp>
     <comp ref="C52">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C362CFB</tstamp>
     </comp>
     <comp ref="C53">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C362F51</tstamp>
     </comp>
     <comp ref="C54">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-014</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C362FE9</tstamp>
     </comp>
     <comp ref="C49">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-014</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C41CDD6</tstamp>
     </comp>
     <comp ref="C51">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C41CE92</tstamp>
     </comp>
     <comp ref="C47">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C477D71</tstamp>
     </comp>
     <comp ref="R52">
       <value>12K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-050</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C57F78B</tstamp>
     </comp>
     <comp ref="R55">
       <value>DNP</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C597163</tstamp>
     </comp>
     <comp ref="R57">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-010</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C59723F</tstamp>
     </comp>
     <comp ref="R59">
       <value>DNP</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C5972DF</tstamp>
     </comp>
     <comp ref="R54">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-010</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C5C7592</tstamp>
     </comp>
     <comp ref="R56">
       <value>DNP</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C5C7660</tstamp>
     </comp>
     <comp ref="R58">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-010</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C5C7700</tstamp>
     </comp>
     <comp ref="R53">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-010</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C606744</tstamp>
     </comp>
     <comp ref="D5">
       <value>NUP2105L</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <libsource lib="ESD_Protection" part="NUP2105L" description="Dual Line CAN Bus Protector, 24Vrwm"/>
+      <fields>
+        <field name="Devtank">136-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="NUP2105L-ESD_Protection" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C69F83C</tstamp>
     </comp>
     <comp ref="C43">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C9245EC</tstamp>
     </comp>
     <comp ref="R49">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-015</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C9B6B68</tstamp>
     </comp>
     <comp ref="C38">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C9B706F</tstamp>
     </comp>
     <comp ref="R50">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-010</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5C9EFD85</tstamp>
     </comp>
     <comp ref="R48">
       <value>100K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-015</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5CA6762D</tstamp>
     </comp>
     <comp ref="R51">
       <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="device" part="R" description="Resistor"/>
+      <fields>
+        <field name="Devtank">101-010</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="R-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5CAE6BDA</tstamp>
     </comp>
     <comp ref="C39">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5CAE6D14</tstamp>
     </comp>
     <comp ref="C42">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5CAE7273</tstamp>
     </comp>
     <comp ref="Y2">
       <value>24Mhz Xtal</value>
       <footprint>Crystal:Crystal_SMD_7050-2Pin_7.0x5.0mm</footprint>
-      <libsource lib="device" part="Crystal" description="Two pin crystal"/>
+      <fields>
+        <field name="Devtank">181-003</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Crystal-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5CB3EC9D</tstamp>
     </comp>
     <comp ref="C40">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5CBF7F97</tstamp>
     </comp>
     <comp ref="C44">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5CBF8081</tstamp>
     </comp>
     <comp ref="C41">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5CBF82F9</tstamp>
     </comp>
     <comp ref="C45">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/USB_HUB_LED_JUMPERS/" tstamps="/5A077C30/"/>
       <tstamp>5CBF83E1</tstamp>
     </comp>
     <comp ref="C30">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-023</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/ice40_breakout_brd/" tstamps="/5A077BA2/"/>
       <tstamp>5A418459</tstamp>
     </comp>
     <comp ref="C32">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-014</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/ice40_breakout_brd/" tstamps="/5A077BA2/"/>
       <tstamp>5A4184EA</tstamp>
     </comp>
     <comp ref="C34">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-019</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/ice40_breakout_brd/" tstamps="/5A077BA2/"/>
       <tstamp>5A41850F</tstamp>
     </comp>
     <comp ref="C36">
-      <value>0.01uF</value>
+      <value>10nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-017</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/ice40_breakout_brd/" tstamps="/5A077BA2/"/>
       <tstamp>5A418541</tstamp>
     </comp>
     <comp ref="C31">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-023</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/ice40_breakout_brd/" tstamps="/5A077BA2/"/>
       <tstamp>5A41856A</tstamp>
     </comp>
     <comp ref="C33">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-014</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/ice40_breakout_brd/" tstamps="/5A077BA2/"/>
       <tstamp>5A4185BC</tstamp>
     </comp>
     <comp ref="C35">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-019</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/ice40_breakout_brd/" tstamps="/5A077BA2/"/>
       <tstamp>5A4185F9</tstamp>
     </comp>
     <comp ref="C37">
-      <value>0.01uF</value>
+      <value>10nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-017</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/ice40_breakout_brd/" tstamps="/5A077BA2/"/>
       <tstamp>5A41862F</tstamp>
     </comp>
     <comp ref="C22">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-023</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/ice40_breakout_brd/" tstamps="/5A077BA2/"/>
       <tstamp>5A418664</tstamp>
     </comp>
     <comp ref="C24">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-014</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/ice40_breakout_brd/" tstamps="/5A077BA2/"/>
       <tstamp>5A4186B2</tstamp>
     </comp>
     <comp ref="C26">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-019</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/ice40_breakout_brd/" tstamps="/5A077BA2/"/>
       <tstamp>5A4186E9</tstamp>
     </comp>
     <comp ref="C28">
-      <value>0.01uF</value>
+      <value>10nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-017</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/ice40_breakout_brd/" tstamps="/5A077BA2/"/>
       <tstamp>5A418729</tstamp>
     </comp>
     <comp ref="C23">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-023</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/ice40_breakout_brd/" tstamps="/5A077BA2/"/>
       <tstamp>5A418776</tstamp>
     </comp>
     <comp ref="C25">
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-014</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/ice40_breakout_brd/" tstamps="/5A077BA2/"/>
       <tstamp>5A418B7E</tstamp>
     </comp>
     <comp ref="C27">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-019</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/ice40_breakout_brd/" tstamps="/5A077BA2/"/>
       <tstamp>5A418BC9</tstamp>
     </comp>
     <comp ref="C29">
-      <value>0.01uF</value>
+      <value>10nF</value>
       <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <libsource lib="device" part="C" description="Unpolarized capacitor"/>
+      <fields>
+        <field name="Devtank">105-017</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="C-device" description=""/>
       <sheetpath names="/ice40_breakout_brd/" tstamps="/5A077BA2/"/>
       <tstamp>5A418C13</tstamp>
     </comp>
     <comp ref="J11">
       <value>SO-DIMM</value>
       <footprint>Devtank_PCB_Lib:Conn_TE-DDR2-SODIMM-0.6-200P-ComputeModule</footprint>
+      <fields>
+        <field name="Devtank">712-001</field>
+      </fields>
       <libsource lib="hiltop_backplane_brd-rescue" part="SO-DIMM-gti_Lattice-hiltop_backplane_brd-rescue" description=""/>
       <sheetpath names="/ice40_breakout_brd/" tstamps="/5A077BA2/"/>
       <tstamp>5A3A8985</tstamp>
@@ -1700,48 +2294,45 @@
     <comp ref="F16">
       <value>1206L050</value>
       <footprint>Fuse:Fuse_1206_3216Metric</footprint>
-      <libsource lib="device" part="Polyfuse" description="resettable fuse, polymeric positive temperature coefficient (PPTC)"/>
+      <fields>
+        <field name="Devtank">190-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Polyfuse-device" description=""/>
       <sheetpath names="/ice40_breakout_brd/" tstamps="/5A077BA2/"/>
       <tstamp>5CEC5F97</tstamp>
     </comp>
     <comp ref="F17">
       <value>1206L050</value>
       <footprint>Fuse:Fuse_1206_3216Metric</footprint>
-      <libsource lib="device" part="Polyfuse" description="resettable fuse, polymeric positive temperature coefficient (PPTC)"/>
+      <fields>
+        <field name="Devtank">190-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Polyfuse-device" description=""/>
       <sheetpath names="/ice40_breakout_brd/" tstamps="/5A077BA2/"/>
       <tstamp>5CEC61F6</tstamp>
     </comp>
     <comp ref="F18">
       <value>1206L050</value>
       <footprint>Fuse:Fuse_1206_3216Metric</footprint>
-      <libsource lib="device" part="Polyfuse" description="resettable fuse, polymeric positive temperature coefficient (PPTC)"/>
+      <fields>
+        <field name="Devtank">190-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Polyfuse-device" description=""/>
       <sheetpath names="/ice40_breakout_brd/" tstamps="/5A077BA2/"/>
       <tstamp>5CEC625C</tstamp>
     </comp>
     <comp ref="F19">
       <value>1206L050</value>
       <footprint>Fuse:Fuse_1206_3216Metric</footprint>
-      <libsource lib="device" part="Polyfuse" description="resettable fuse, polymeric positive temperature coefficient (PPTC)"/>
+      <fields>
+        <field name="Devtank">190-002</field>
+      </fields>
+      <libsource lib="hiltop_backplane_brd-rescue" part="Polyfuse-device" description=""/>
       <sheetpath names="/ice40_breakout_brd/" tstamps="/5A077BA2/"/>
       <tstamp>5C2D630E</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="Connector" part="TestPoint">
-      <description>test point</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Pin*</fp>
-        <fp>Test*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">TP</field>
-        <field name="Value">TestPoint</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Connector" part="USB_B_Micro">
       <aliases>
         <alias>USB_B_Mini</alias>
@@ -1764,293 +2355,21 @@
         <pin num="6" name="Shield" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector1" part="Conn_01x02">
-      <description>Generic connector, single row, 01x02</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_??x*mm*</fp>
-        <fp>Connector*:*1x??x*mm*</fp>
-        <fp>Pin?Header?Straight?1X*</fp>
-        <fp>Pin?Header?Angled?1X*</fp>
-        <fp>Socket?Strip?Straight?1X*</fp>
-        <fp>Socket?Strip?Angled?1X*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x02</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector1" part="Conn_02x02_Counter_Clockwise">
-      <description>Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP packge numbering)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*2x??x*mm*</fp>
-        <fp>Connector*:*2x???Pitch*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_02x02_Counter_Clockwise</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-        <pin num="4" name="Pin_4" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Connector1" part="Conn_02x04_Odd_Even">
-      <description>Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*2x??x*mm*</fp>
-        <fp>Connector*:*2x???Pitch*</fp>
-        <fp>Pin_Header_Straight_2X*</fp>
-        <fp>Pin_Header_Angled_2X*</fp>
-        <fp>Socket_Strip_Straight_2X*</fp>
-        <fp>Socket_Strip_Angled_2X*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_02x04_Odd_Even</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-        <pin num="4" name="Pin_4" type="passive"/>
-        <pin num="5" name="Pin_5" type="passive"/>
-        <pin num="6" name="Pin_6" type="passive"/>
-        <pin num="7" name="Pin_7" type="passive"/>
-        <pin num="8" name="Pin_8" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Devtank" part="USB2517">
-      <description>USB2517</description>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">USB2517</field>
-        <field name="Footprint">MODULE</field>
-        <field name="Datasheet">DOCUMENTATION</field>
-      </fields>
-      <pins>
-        <pin num="1" name="USB1_N" type="BiDi"/>
-        <pin num="2" name="USB1_P" type="BiDi"/>
-        <pin num="3" name="USB2_N" type="BiDi"/>
-        <pin num="4" name="USB2_P" type="BiDi"/>
-        <pin num="5" name="VDDA3V3" type="input"/>
-        <pin num="6" name="USB3_N" type="BiDi"/>
-        <pin num="7" name="USB3_P" type="BiDi"/>
-        <pin num="8" name="USB4_N" type="BiDi"/>
-        <pin num="9" name="USB4_P" type="BiDi"/>
-        <pin num="10" name="VDDA3V3" type="input"/>
-        <pin num="11" name="USB5_N" type="BiDi"/>
-        <pin num="12" name="USB5_P" type="BiDi"/>
-        <pin num="13" name="CFG_SEL2" type="input"/>
-        <pin num="14" name="LEDB7" type="output"/>
-        <pin num="15" name="LEDA7" type="output"/>
-        <pin num="16" name="LEDB6" type="output"/>
-        <pin num="17" name="LEDA6" type="output"/>
-        <pin num="18" name="LEDB5" type="output"/>
-        <pin num="19" name="TEST" type="input"/>
-        <pin num="20" name="PRTPWR4" type="input"/>
-        <pin num="21" name="~OCS4" type="input"/>
-        <pin num="22" name="~OCS3" type="input"/>
-        <pin num="23" name="PRTPWR3" type="input"/>
-        <pin num="24" name="VDD3V3REG" type="input"/>
-        <pin num="25" name="VDD1V8" type="input"/>
-        <pin num="26" name="PRTPWR2" type="input"/>
-        <pin num="27" name="~OCS2" type="input"/>
-        <pin num="28" name="~OCS1" type="input"/>
-        <pin num="29" name="PRTPWR1" type="input"/>
-        <pin num="30" name="PRTPWR5" type="input"/>
-        <pin num="31" name="LEDA5" type="output"/>
-        <pin num="32" name="LEDB4" type="output"/>
-        <pin num="33" name="LEDA4" type="output"/>
-        <pin num="34" name="LEDB3" type="output"/>
-        <pin num="35" name="~OSC5" type="input"/>
-        <pin num="36" name="PRTPWR7" type="input"/>
-        <pin num="37" name="~OSC7" type="input"/>
-        <pin num="38" name="~OSC6" type="input"/>
-        <pin num="39" name="PRTPWR6" type="input"/>
-        <pin num="40" name="SDA" type="BiDi"/>
-        <pin num="41" name="SCL/CFG_SEL0" type="BiDi"/>
-        <pin num="42" name="HS_IND/CFG_SEL1" type="input"/>
-        <pin num="43" name="~RESET" type="input"/>
-        <pin num="44" name="VBUS_DET" type="input"/>
-        <pin num="45" name="SUSP_IND/LOCAL_PWR/NON_REM0" type="input"/>
-        <pin num="46" name="VDD3V3" type="input"/>
-        <pin num="47" name="LEDA3" type="output"/>
-        <pin num="48" name="LEDB2" type="output"/>
-        <pin num="49" name="LEDA2" type="output"/>
-        <pin num="50" name="LEDB1" type="output"/>
-        <pin num="51" name="LEDA1" type="output"/>
-        <pin num="52" name="VDDA3V3" type="input"/>
-        <pin num="53" name="USB6_N" type="BiDi"/>
-        <pin num="54" name="USB6_P" type="BiDi"/>
-        <pin num="55" name="USB7_N" type="BiDi"/>
-        <pin num="56" name="USB7_P" type="BiDi"/>
-        <pin num="57" name="VDD3V3" type="input"/>
-        <pin num="58" name="USBUP_DM0_N" type="input"/>
-        <pin num="59" name="USBUP_DP0_P" type="input"/>
-        <pin num="60" name="XTAL2" type="BiDi"/>
-        <pin num="61" name="XTAL1/CLKIN" type="BiDi"/>
-        <pin num="62" name="VDDPLL1V8" type="input"/>
-        <pin num="63" name="RBIAS" type="input"/>
-        <pin num="64" name="VDD3V3PLL" type="input"/>
-        <pin num="65" name="VSS(FLAG)" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="ESD_Protection" part="NUP2105L">
-      <aliases>
-        <alias>SZNUP2105L</alias>
-      </aliases>
-      <description>Dual Line CAN Bus Protector, 24Vrwm</description>
-      <docs>http://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF</docs>
-      <footprints>
-        <fp>SOT?23*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">NUP2105L</field>
-        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="input"/>
-        <pin num="2" name="K" type="input"/>
-        <pin num="3" name="A" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="C">
-      <description>Unpolarized capacitor</description>
-      <footprints>
-        <fp>C_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="Crystal">
-      <description>Two pin crystal</description>
-      <footprints>
-        <fp>Crystal*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Y</field>
-        <field name="Value">Crystal</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="Crystal_GND24">
-      <description>Four pin crystal (GND on pins 2 and 4), e.g. in SMD package</description>
-      <footprints>
-        <fp>Crystal*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Y</field>
-        <field name="Value">Crystal_GND24</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-        <pin num="3" name="3" type="passive"/>
-        <pin num="4" name="4" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="D_Schottky">
-      <description>Schottky diode</description>
-      <footprints>
-        <fp>TO-???*</fp>
-        <fp>*SingleDiode</fp>
-        <fp>*_Diode_*</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_Schottky</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="Ferrite_Bead">
-      <description>Ferrite bead</description>
-      <footprints>
-        <fp>Inductor_*</fp>
-        <fp>L_*</fp>
-        <fp>*Ferrite*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">L</field>
-        <field name="Value">Ferrite_Bead</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="LED">
-      <description>LED generic</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>LED*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">LED</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="Polyfuse">
-      <description>resettable fuse, polymeric positive temperature coefficient (PPTC)</description>
-      <footprints>
-        <fp>*polyfuse*</fp>
-        <fp>*PTC*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">F</field>
-        <field name="Value">Polyfuse</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="R">
-      <description>Resistor</description>
-      <footprints>
-        <fp>R_*</fp>
-        <fp>R_*</fp>
-      </footprints>
+    <libpart lib="hiltop_backplane_brd-rescue" part="3pos_Jumper-gti_Lattice">
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">R</field>
+        <field name="Value">3pos_Jumper-gti_Lattice</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="I1" type="input"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="I2" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="gti_Lattice" part="4POS_JUMPER">
+    <libpart lib="hiltop_backplane_brd-rescue" part="4POS_JUMPER-gti_Lattice">
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">4POS_JUMPER</field>
+        <field name="Value">4POS_JUMPER-gti_Lattice</field>
       </fields>
       <pins>
         <pin num="1" name="P1" type="BiDi"/>
@@ -2059,10 +2378,39 @@
         <pin num="4" name="P4" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="gti_Lattice" part="CONN_DIN_HDR_96POS">
+    <libpart lib="hiltop_backplane_brd-rescue" part="93LCxxC-memory">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">93LCxxC-memory</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CS" type="input"/>
+        <pin num="2" name="SCLK" type="input"/>
+        <pin num="3" name="DI" type="input"/>
+        <pin num="4" name="DO" type="3state"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="ORG" type="input"/>
+        <pin num="7" name="NC" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="hiltop_backplane_brd-rescue" part="C-device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hiltop_backplane_brd-rescue" part="CONN_DIN_HDR_96POS-gti_Lattice">
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">CONN_DIN_HDR_96POS</field>
+        <field name="Value">CONN_DIN_HDR_96POS-gti_Lattice</field>
       </fields>
       <pins>
         <pin num="1a" name="1" type="BiDi"/>
@@ -2163,16 +2511,117 @@
         <pin num="32c" name="96" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="gti_Lattice" part="FT2232H">
-      <description>FT2232Hx, Hi Speed Double Channel USB UART/FIFO, LQFP/QFN-64</description>
-      <docs>http://www.ftdichip.com/Products/ICs/FT2232H.html</docs>
+    <libpart lib="hiltop_backplane_brd-rescue" part="Conn_01x02-Connector1">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02-Connector1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hiltop_backplane_brd-rescue" part="Conn_02x02_Counter_Clockwise-Connector1">
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x02_Counter_Clockwise-Connector1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hiltop_backplane_brd-rescue" part="Conn_02x04_Odd_Even-Connector1">
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x04_Odd_Even-Connector1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hiltop_backplane_brd-rescue" part="Crystal-device">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hiltop_backplane_brd-rescue" part="Crystal_GND24-device">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_GND24-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hiltop_backplane_brd-rescue" part="D_Schottky-device">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hiltop_backplane_brd-rescue" part="FT2232H-gti_Lattice">
       <footprints>
         <fp>QFN*</fp>
         <fp>LQFP*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">FT2232H</field>
+        <field name="Value">FT2232H-gti_Lattice</field>
       </fields>
       <pins>
         <pin num="1" name="GND" type="power_in"/>
@@ -2242,10 +2691,25 @@
         <pin num="65" name="PAD" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="gti_Lattice" part="HILTOP_PCIE-64_CONN">
+    <libpart lib="hiltop_backplane_brd-rescue" part="Ferrite_Bead-device">
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">Ferrite_Bead-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hiltop_backplane_brd-rescue" part="HILTOP_PCIE-64_CONN-gti_Lattice">
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">HILTOP_PCIE-64_CONN</field>
+        <field name="Value">HILTOP_PCIE-64_CONN-gti_Lattice</field>
       </fields>
       <pins>
         <pin num="A1" name="GND" type="input"/>
@@ -2314,10 +2778,23 @@
         <pin num="B32" name="GND" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="gti_Lattice" part="LTC4311">
+    <libpart lib="hiltop_backplane_brd-rescue" part="LED-device">
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hiltop_backplane_brd-rescue" part="LTC4311-gti_Lattice">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">LTC4311</field>
+        <field name="Value">LTC4311-gti_Lattice</field>
       </fields>
       <pins>
         <pin num="1" name="EN" type="input"/>
@@ -2328,15 +2805,47 @@
         <pin num="6" name="GND" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="hiltop_backplane_brd-rescue" part="3pos_Jumper-gti_Lattice">
+    <libpart lib="hiltop_backplane_brd-rescue" part="NUP2105L-ESD_Protection">
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
       <fields>
-        <field name="Reference">R</field>
-        <field name="Value">3pos_Jumper-gti_Lattice</field>
+        <field name="Reference">D</field>
+        <field name="Value">NUP2105L-ESD_Protection</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23</field>
       </fields>
       <pins>
-        <pin num="1" name="I1" type="input"/>
-        <pin num="2" name="C" type="input"/>
-        <pin num="3" name="I2" type="input"/>
+        <pin num="1" name="K" type="input"/>
+        <pin num="2" name="K" type="input"/>
+        <pin num="3" name="A" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="hiltop_backplane_brd-rescue" part="Polyfuse-device">
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hiltop_backplane_brd-rescue" part="R-device">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="hiltop_backplane_brd-rescue" part="SO-DIMM-gti_Lattice-hiltop_backplane_brd-rescue">
@@ -2548,49 +3057,101 @@
         <pin num="??" name="GND" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="memory" part="93LCxxC">
-      <description>Serial EEPROM, 93 series in 8-pin package with ORG pin, 2.5V</description>
-      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf</docs>
+    <libpart lib="hiltop_backplane_brd-rescue" part="TestPoint-Connector">
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
       <fields>
-        <field name="Reference">U</field>
-        <field name="Value">93LCxxC</field>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint-Connector</field>
       </fields>
       <pins>
-        <pin num="1" name="CS" type="input"/>
-        <pin num="2" name="SCLK" type="input"/>
-        <pin num="3" name="DI" type="input"/>
-        <pin num="4" name="DO" type="3state"/>
-        <pin num="5" name="GND" type="power_in"/>
-        <pin num="6" name="ORG" type="input"/>
-        <pin num="7" name="NC" type="input"/>
-        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hiltop_backplane_brd-rescue" part="USB2517-Devtank">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USB2517-Devtank</field>
+        <field name="Footprint">MODULE</field>
+        <field name="Datasheet">DOCUMENTATION</field>
+      </fields>
+      <pins>
+        <pin num="1" name="USB1_N" type="BiDi"/>
+        <pin num="2" name="USB1_P" type="BiDi"/>
+        <pin num="3" name="USB2_N" type="BiDi"/>
+        <pin num="4" name="USB2_P" type="BiDi"/>
+        <pin num="5" name="VDDA3V3" type="input"/>
+        <pin num="6" name="USB3_N" type="BiDi"/>
+        <pin num="7" name="USB3_P" type="BiDi"/>
+        <pin num="8" name="USB4_N" type="BiDi"/>
+        <pin num="9" name="USB4_P" type="BiDi"/>
+        <pin num="10" name="VDDA3V3" type="input"/>
+        <pin num="11" name="USB5_N" type="BiDi"/>
+        <pin num="12" name="USB5_P" type="BiDi"/>
+        <pin num="13" name="CFG_SEL2" type="input"/>
+        <pin num="14" name="LEDB7" type="output"/>
+        <pin num="15" name="LEDA7" type="output"/>
+        <pin num="16" name="LEDB6" type="output"/>
+        <pin num="17" name="LEDA6" type="output"/>
+        <pin num="18" name="LEDB5" type="output"/>
+        <pin num="19" name="TEST" type="input"/>
+        <pin num="20" name="PRTPWR4" type="input"/>
+        <pin num="21" name="~OCS4" type="input"/>
+        <pin num="22" name="~OCS3" type="input"/>
+        <pin num="23" name="PRTPWR3" type="input"/>
+        <pin num="24" name="VDD3V3REG" type="input"/>
+        <pin num="25" name="VDD1V8" type="input"/>
+        <pin num="26" name="PRTPWR2" type="input"/>
+        <pin num="27" name="~OCS2" type="input"/>
+        <pin num="28" name="~OCS1" type="input"/>
+        <pin num="29" name="PRTPWR1" type="input"/>
+        <pin num="30" name="PRTPWR5" type="input"/>
+        <pin num="31" name="LEDA5" type="output"/>
+        <pin num="32" name="LEDB4" type="output"/>
+        <pin num="33" name="LEDA4" type="output"/>
+        <pin num="34" name="LEDB3" type="output"/>
+        <pin num="35" name="~OSC5" type="input"/>
+        <pin num="36" name="PRTPWR7" type="input"/>
+        <pin num="37" name="~OSC7" type="input"/>
+        <pin num="38" name="~OSC6" type="input"/>
+        <pin num="39" name="PRTPWR6" type="input"/>
+        <pin num="40" name="SDA" type="BiDi"/>
+        <pin num="41" name="SCL/CFG_SEL0" type="BiDi"/>
+        <pin num="42" name="HS_IND/CFG_SEL1" type="input"/>
+        <pin num="43" name="~RESET" type="input"/>
+        <pin num="44" name="VBUS_DET" type="input"/>
+        <pin num="45" name="SUSP_IND/LOCAL_PWR/NON_REM0" type="input"/>
+        <pin num="46" name="VDD3V3" type="input"/>
+        <pin num="47" name="LEDA3" type="output"/>
+        <pin num="48" name="LEDB2" type="output"/>
+        <pin num="49" name="LEDA2" type="output"/>
+        <pin num="50" name="LEDB1" type="output"/>
+        <pin num="51" name="LEDA1" type="output"/>
+        <pin num="52" name="VDDA3V3" type="input"/>
+        <pin num="53" name="USB6_N" type="BiDi"/>
+        <pin num="54" name="USB6_P" type="BiDi"/>
+        <pin num="55" name="USB7_N" type="BiDi"/>
+        <pin num="56" name="USB7_P" type="BiDi"/>
+        <pin num="57" name="VDD3V3" type="input"/>
+        <pin num="58" name="USBUP_DM0_N" type="input"/>
+        <pin num="59" name="USBUP_DP0_P" type="input"/>
+        <pin num="60" name="XTAL2" type="BiDi"/>
+        <pin num="61" name="XTAL1/CLKIN" type="BiDi"/>
+        <pin num="62" name="VDDPLL1V8" type="input"/>
+        <pin num="63" name="RBIAS" type="input"/>
+        <pin num="64" name="VDD3V3PLL" type="input"/>
+        <pin num="65" name="VSS(FLAG)" type="input"/>
       </pins>
     </libpart>
   </libparts>
   <libraries>
     <library logical="Connector">
-      <uri>/usr/share/kicad/library/Connector.lib</uri>
-    </library>
-    <library logical="Connector1">
-      <uri>/usr/share/kicad/kicad-library/library/Connector.lib</uri>
-    </library>
-    <library logical="Devtank">
-      <uri>/home/ronak/Desktop/KiCad_Projects/Hiltop/kicad_ice40_fpga_modulo/common/Devtank_Schema_Lib/Devtank.lib</uri>
-    </library>
-    <library logical="ESD_Protection">
-      <uri>/usr/share/kicad/kicad-library/library/ESD_Protection.lib</uri>
-    </library>
-    <library logical="device">
-      <uri>/usr/share/kicad/kicad-library/library/device.lib</uri>
-    </library>
-    <library logical="gti_Lattice">
-      <uri>/home/ronak/Desktop/KiCad_Projects/GoTronix_Library/gti_Lattice.lib</uri>
+      <uri>/home/tungsten/Documents/kicad-library/library/Connector.lib</uri>
     </library>
     <library logical="hiltop_backplane_brd-rescue">
-      <uri>/home/ronak/Desktop/KiCad_Projects/Hiltop/hiltop_backplane/kicad_hiltop_63hp_backplane/hiltop_backplane_brd-rescue.lib</uri>
-    </library>
-    <library logical="memory">
-      <uri>/usr/share/kicad/kicad-library/library/memory.lib</uri>
+      <uri>/home/tungsten/Documents/Devtank/HILTOP/Hardware/kicad_hiltop_63hp_backplane/kicad_hiltop_63hp_backplane/hiltop_backplane_brd-rescue.lib</uri>
     </library>
   </libraries>
   <nets>

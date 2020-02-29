@@ -15,178 +15,194 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L device:C C30
+L hiltop_backplane_brd-rescue:C-device C30
 U 1 1 5A418459
 P 4650 6725
 F 0 "C30" H 4675 6825 50  0000 L CNN
 F 1 "10uF" H 4675 6625 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 6575 50  0001 C CNN
 F 3 "" H 4650 6725 50  0001 C CNN
+F 4 "105-023" H 0   0   50  0001 C CNN "Devtank"
 	1    4650 6725
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C32
+L hiltop_backplane_brd-rescue:C-device C32
 U 1 1 5A4184EA
 P 4900 6725
 F 0 "C32" H 4925 6825 50  0000 L CNN
 F 1 "1uF" H 4925 6625 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4938 6575 50  0001 C CNN
 F 3 "" H 4900 6725 50  0001 C CNN
+F 4 "105-014" H 0   0   50  0001 C CNN "Devtank"
 	1    4900 6725
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C34
+L hiltop_backplane_brd-rescue:C-device C34
 U 1 1 5A41850F
 P 5150 6725
 F 0 "C34" H 5175 6825 50  0000 L CNN
-F 1 "0.1uF" H 5175 6625 50  0000 L CNN
+F 1 "100nF" H 5175 6625 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5188 6575 50  0001 C CNN
 F 3 "" H 5150 6725 50  0001 C CNN
+F 4 "105-019" H 0   0   50  0001 C CNN "Devtank"
 	1    5150 6725
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C36
+L hiltop_backplane_brd-rescue:C-device C36
 U 1 1 5A418541
 P 5400 6725
 F 0 "C36" H 5425 6825 50  0000 L CNN
-F 1 "0.01uF" H 5425 6625 50  0000 L CNN
+F 1 "10nF" H 5425 6625 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5438 6575 50  0001 C CNN
 F 3 "" H 5400 6725 50  0001 C CNN
+F 4 "105-017" H 0   0   50  0001 C CNN "Devtank"
 	1    5400 6725
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C31
+L hiltop_backplane_brd-rescue:C-device C31
 U 1 1 5A41856A
 P 4650 7275
 F 0 "C31" H 4675 7375 50  0000 L CNN
 F 1 "10uF" H 4675 7175 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 7125 50  0001 C CNN
 F 3 "" H 4650 7275 50  0001 C CNN
+F 4 "105-023" H 0   0   50  0001 C CNN "Devtank"
 	1    4650 7275
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C33
+L hiltop_backplane_brd-rescue:C-device C33
 U 1 1 5A4185BC
 P 4900 7275
 F 0 "C33" H 4925 7375 50  0000 L CNN
 F 1 "1uF" H 4925 7175 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4938 7125 50  0001 C CNN
 F 3 "" H 4900 7275 50  0001 C CNN
+F 4 "105-014" H 0   0   50  0001 C CNN "Devtank"
 	1    4900 7275
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C35
+L hiltop_backplane_brd-rescue:C-device C35
 U 1 1 5A4185F9
 P 5150 7275
 F 0 "C35" H 5175 7375 50  0000 L CNN
-F 1 "0.1uF" H 5175 7175 50  0000 L CNN
+F 1 "100nF" H 5175 7175 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5188 7125 50  0001 C CNN
 F 3 "" H 5150 7275 50  0001 C CNN
+F 4 "105-019" H 0   0   50  0001 C CNN "Devtank"
 	1    5150 7275
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C37
+L hiltop_backplane_brd-rescue:C-device C37
 U 1 1 5A41862F
 P 5400 7275
 F 0 "C37" H 5425 7375 50  0000 L CNN
-F 1 "0.01uF" H 5425 7175 50  0000 L CNN
+F 1 "10nF" H 5425 7175 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5438 7125 50  0001 C CNN
 F 3 "" H 5400 7275 50  0001 C CNN
+F 4 "105-017" H 0   0   50  0001 C CNN "Devtank"
 	1    5400 7275
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C22
+L hiltop_backplane_brd-rescue:C-device C22
 U 1 1 5A418664
 P 1950 6700
 F 0 "C22" H 1975 6800 50  0000 L CNN
 F 1 "10uF" H 1975 6600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1988 6550 50  0001 C CNN
 F 3 "" H 1950 6700 50  0001 C CNN
+F 4 "105-023" H 0   0   50  0001 C CNN "Devtank"
 	1    1950 6700
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C24
+L hiltop_backplane_brd-rescue:C-device C24
 U 1 1 5A4186B2
 P 2200 6700
 F 0 "C24" H 2225 6800 50  0000 L CNN
 F 1 "1uF" H 2225 6600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2238 6550 50  0001 C CNN
 F 3 "" H 2200 6700 50  0001 C CNN
+F 4 "105-014" H 0   0   50  0001 C CNN "Devtank"
 	1    2200 6700
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C26
+L hiltop_backplane_brd-rescue:C-device C26
 U 1 1 5A4186E9
 P 2450 6700
 F 0 "C26" H 2475 6800 50  0000 L CNN
-F 1 "0.1uF" H 2475 6600 50  0000 L CNN
+F 1 "100nF" H 2475 6600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2488 6550 50  0001 C CNN
 F 3 "" H 2450 6700 50  0001 C CNN
+F 4 "105-019" H 0   0   50  0001 C CNN "Devtank"
 	1    2450 6700
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C28
+L hiltop_backplane_brd-rescue:C-device C28
 U 1 1 5A418729
 P 2700 6700
 F 0 "C28" H 2725 6800 50  0000 L CNN
-F 1 "0.01uF" H 2725 6600 50  0000 L CNN
+F 1 "10nF" H 2725 6600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2738 6550 50  0001 C CNN
 F 3 "" H 2700 6700 50  0001 C CNN
+F 4 "105-017" H 0   0   50  0001 C CNN "Devtank"
 	1    2700 6700
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C23
+L hiltop_backplane_brd-rescue:C-device C23
 U 1 1 5A418776
 P 1950 7300
 F 0 "C23" H 1975 7400 50  0000 L CNN
 F 1 "10uF" H 1975 7200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1988 7150 50  0001 C CNN
 F 3 "" H 1950 7300 50  0001 C CNN
+F 4 "105-023" H 0   0   50  0001 C CNN "Devtank"
 	1    1950 7300
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C25
+L hiltop_backplane_brd-rescue:C-device C25
 U 1 1 5A418B7E
 P 2200 7300
 F 0 "C25" H 2225 7400 50  0000 L CNN
 F 1 "1uF" H 2225 7200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2238 7150 50  0001 C CNN
 F 3 "" H 2200 7300 50  0001 C CNN
+F 4 "105-014" H 0   0   50  0001 C CNN "Devtank"
 	1    2200 7300
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C27
+L hiltop_backplane_brd-rescue:C-device C27
 U 1 1 5A418BC9
 P 2450 7300
 F 0 "C27" H 2475 7400 50  0000 L CNN
-F 1 "0.1uF" H 2475 7200 50  0000 L CNN
+F 1 "100nF" H 2475 7200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2488 7150 50  0001 C CNN
 F 3 "" H 2450 7300 50  0001 C CNN
+F 4 "105-019" H 0   0   50  0001 C CNN "Devtank"
 	1    2450 7300
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C29
+L hiltop_backplane_brd-rescue:C-device C29
 U 1 1 5A418C13
 P 2700 7300
 F 0 "C29" H 2725 7400 50  0000 L CNN
-F 1 "0.01uF" H 2725 7200 50  0000 L CNN
+F 1 "10nF" H 2725 7200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2738 7150 50  0001 C CNN
 F 3 "" H 2700 7300 50  0001 C CNN
+F 4 "105-017" H 0   0   50  0001 C CNN "Devtank"
 	1    2700 7300
 	1    0    0    -1  
 $EndComp
@@ -1024,6 +1040,7 @@ F 0 "J11" H 10250 3100 60  0000 C CNN
 F 1 "SO-DIMM" H 11300 2800 60  0000 C CNN
 F 2 "Devtank_PCB_Lib:Conn_TE-DDR2-SODIMM-0.6-200P-ComputeModule" H 11350 2950 60  0001 C CNN
 F 3 "" H 11350 2950 60  0001 C CNN
+F 4 "712-001" H 0   0   50  0001 C CNN "Devtank"
 	1    11200 2950
 	0    1    1    0   
 $EndComp
@@ -1330,46 +1347,50 @@ GPIO_56
 Text HLabel 3100 1350 1    39   Input ~ 0
 GPIO_55
 $Comp
-L device:Polyfuse F16
+L hiltop_backplane_brd-rescue:Polyfuse-device F16
 U 1 1 5CEC5F97
 P 1600 6500
 F 0 "F16" V 1375 6500 50  0000 C CNN
 F 1 "1206L050" V 1466 6500 50  0000 C CNN
 F 2 "Fuse:Fuse_1206_3216Metric" H 1650 6300 50  0001 L CNN
 F 3 "" H 1600 6500 50  0001 C CNN
+F 4 "190-002" H 0   0   50  0001 C CNN "Devtank"
 	1    1600 6500
 	0    1    1    0   
 $EndComp
 $Comp
-L device:Polyfuse F17
+L hiltop_backplane_brd-rescue:Polyfuse-device F17
 U 1 1 5CEC61F6
 P 1600 7100
 F 0 "F17" V 1375 7100 50  0000 C CNN
 F 1 "1206L050" V 1466 7100 50  0000 C CNN
 F 2 "Fuse:Fuse_1206_3216Metric" H 1650 6900 50  0001 L CNN
 F 3 "" H 1600 7100 50  0001 C CNN
+F 4 "190-002" H 0   0   50  0001 C CNN "Devtank"
 	1    1600 7100
 	0    1    1    0   
 $EndComp
 $Comp
-L device:Polyfuse F18
+L hiltop_backplane_brd-rescue:Polyfuse-device F18
 U 1 1 5CEC625C
 P 4300 6525
 F 0 "F18" V 4075 6525 50  0000 C CNN
 F 1 "1206L050" V 4166 6525 50  0000 C CNN
 F 2 "Fuse:Fuse_1206_3216Metric" H 4350 6325 50  0001 L CNN
 F 3 "" H 4300 6525 50  0001 C CNN
+F 4 "190-002" H 0   0   50  0001 C CNN "Devtank"
 	1    4300 6525
 	0    1    1    0   
 $EndComp
 $Comp
-L device:Polyfuse F19
+L hiltop_backplane_brd-rescue:Polyfuse-device F19
 U 1 1 5C2D630E
 P 4300 7075
 F 0 "F19" V 4075 7075 50  0000 C CNN
 F 1 "1206L050" V 4166 7075 50  0000 C CNN
 F 2 "Fuse:Fuse_1206_3216Metric" H 4350 6875 50  0001 L CNN
 F 3 "" H 4300 7075 50  0001 C CNN
+F 4 "190-002" H 0   0   50  0001 C CNN "Devtank"
 	1    4300 7075
 	0    1    1    0   
 $EndComp

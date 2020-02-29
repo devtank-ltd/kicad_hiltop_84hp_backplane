@@ -402,7 +402,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 4525 8150 4525
 $Comp
-L Connector:TestPoint TP6
+L hiltop_backplane_brd-rescue:TestPoint-Connector TP6
 U 1 1 5C46A039
 P 9975 5050
 F 0 "TP6" V 9975 5300 50  0000 L CNN
@@ -413,7 +413,7 @@ F 3 "~" H 10175 5050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP10
+L hiltop_backplane_brd-rescue:TestPoint-Connector TP10
 U 1 1 5C46A4C6
 P 10050 5100
 F 0 "TP10" V 10050 5275 50  0000 L CNN
@@ -424,7 +424,7 @@ F 3 "~" H 10250 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP7
+L hiltop_backplane_brd-rescue:TestPoint-Connector TP7
 U 1 1 5C46A4E0
 P 9975 5150
 F 0 "TP7" V 9975 5400 50  0000 L CNN
@@ -435,7 +435,7 @@ F 3 "~" H 10175 5150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP11
+L hiltop_backplane_brd-rescue:TestPoint-Connector TP11
 U 1 1 5C46A4FC
 P 10050 5200
 F 0 "TP11" V 10050 5375 50  0000 L CNN
@@ -446,7 +446,7 @@ F 3 "~" H 10250 5200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP8
+L hiltop_backplane_brd-rescue:TestPoint-Connector TP8
 U 1 1 5C46A522
 P 9975 5250
 F 0 "TP8" V 9975 5500 50  0000 L CNN
@@ -457,7 +457,7 @@ F 3 "~" H 10175 5250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP12
+L hiltop_backplane_brd-rescue:TestPoint-Connector TP12
 U 1 1 5C46A542
 P 10050 5300
 F 0 "TP12" V 10050 5475 50  0000 L CNN
@@ -468,7 +468,7 @@ F 3 "~" H 10250 5300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP9
+L hiltop_backplane_brd-rescue:TestPoint-Connector TP9
 U 1 1 5C46A566
 P 9975 5350
 F 0 "TP9" V 9975 5600 50  0000 L CNN
@@ -479,7 +479,7 @@ F 3 "~" H 10175 5350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP13
+L hiltop_backplane_brd-rescue:TestPoint-Connector TP13
 U 1 1 5C46A590
 P 10050 5400
 F 0 "TP13" V 10050 5575 50  0000 L CNN
@@ -566,7 +566,7 @@ Wire Wire Line
 Wire Wire Line
 	1225 3625 1700 3625
 $Comp
-L Connector:TestPoint TP2
+L hiltop_backplane_brd-rescue:TestPoint-Connector TP2
 U 1 1 5C441846
 P 1275 3675
 F 0 "TP2" V 1300 3925 50  0000 L CNN
@@ -577,7 +577,7 @@ F 3 "~" H 1475 3675 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP1
+L hiltop_backplane_brd-rescue:TestPoint-Connector TP1
 U 1 1 5C441970
 P 1200 3725
 F 0 "TP1" V 1200 3900 50  0000 L CNN
@@ -588,7 +588,7 @@ F 3 "~" H 1400 3725 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP3
+L hiltop_backplane_brd-rescue:TestPoint-Connector TP3
 U 1 1 5C4419AA
 P 1275 3775
 F 0 "TP3" V 1250 4025 50  0000 L CNN
@@ -870,7 +870,7 @@ Wire Wire Line
 Wire Wire Line
 	1225 4950 1500 4950
 $Comp
-L Connector:TestPoint TP4
+L hiltop_backplane_brd-rescue:TestPoint-Connector TP4
 U 1 1 5D454C70
 P 1325 4875
 F 0 "TP4" V 1375 5100 50  0000 C CNN
@@ -881,7 +881,7 @@ F 3 "~" H 1525 4875 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP5
+L hiltop_backplane_brd-rescue:TestPoint-Connector TP5
 U 1 1 5D454D59
 P 1325 5075
 F 0 "TP5" V 1225 5250 50  0000 C CNN
@@ -1256,7 +1256,7 @@ Wire Wire Line
 Text Label 4200 4575 0    28   ~ 0
 FPGA_RST
 $Comp
-L device:R R82
+L hiltop_backplane_brd-rescue:R-device R82
 U 1 1 5C4B32E3
 P 4200 4950
 F 0 "R82" V 4150 4800 50  0000 C CNN
@@ -1267,7 +1267,7 @@ F 3 "" H 4200 4950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R83
+L hiltop_backplane_brd-rescue:R-device R83
 U 1 1 5C4B338E
 P 4200 5050
 F 0 "R83" V 4150 4900 50  0000 C CNN
@@ -1284,7 +1284,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 4950 4600 4950
 $Comp
-L Connector:TestPoint TP16
+L hiltop_backplane_brd-rescue:TestPoint-Connector TP16
 U 1 1 5C507009
 P 4200 2250
 F 0 "TP16" V 4525 2125 50  0000 L CNN
@@ -1295,7 +1295,7 @@ F 3 "~" H 4400 2250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP19
+L hiltop_backplane_brd-rescue:TestPoint-Connector TP19
 U 1 1 5C507080
 P 4275 2300
 F 0 "TP19" V 4625 2175 50  0000 L CNN
@@ -1306,7 +1306,7 @@ F 3 "~" H 4475 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP17
+L hiltop_backplane_brd-rescue:TestPoint-Connector TP17
 U 1 1 5C507107
 P 4200 2350
 F 0 "TP17" V 4575 2225 50  0000 L CNN
@@ -1317,7 +1317,7 @@ F 3 "~" H 4400 2350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP20
+L hiltop_backplane_brd-rescue:TestPoint-Connector TP20
 U 1 1 5C507184
 P 4275 2400
 F 0 "TP20" V 4675 2275 50  0000 L CNN
@@ -1328,7 +1328,7 @@ F 3 "~" H 4475 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP18
+L hiltop_backplane_brd-rescue:TestPoint-Connector TP18
 U 1 1 5C507279
 P 4200 2450
 F 0 "TP18" V 4625 2325 50  0000 L CNN
