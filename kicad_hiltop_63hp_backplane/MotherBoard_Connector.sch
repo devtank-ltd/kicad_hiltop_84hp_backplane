@@ -1,14 +1,14 @@
 EESchema Schematic File Version 4
 LIBS:hiltop_backplane_brd-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 6
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "63HP HILTOP Backplane"
+Date "2020-02-29"
+Rev "B"
+Comp "Devtank Ltd"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -289,7 +289,7 @@ Text HLabel 8925 2025 2    60   Input ~ 0
 Text HLabel 8925 1925 2    60   Input ~ 0
 -5V
 $Comp
-L hiltop_backplane_brd-rescue:HILTOP_PCIE-64_CONN-gti_Lattice J7
+L hiltop_backplane_brd-rescue:HILTOP_PCIE-64_CONN-gti_Lattice-hiltop_backplane_brd-rescue J7
 U 1 1 5C13457D
 P 3575 2725
 F 0 "J7" H 3575 4640 50  0000 C CNN
@@ -306,7 +306,7 @@ Wire Wire Line
 	4650 2175 4650 2875
 Connection ~ 4650 2175
 $Comp
-L hiltop_backplane_brd-rescue:Conn_02x04_Odd_Even-Connector1 J8
+L Connector:Conn_02x04_Top_Bottom J8
 U 1 1 5C155D60
 P 8400 1825
 F 0 "J8" H 8450 2142 50  0000 C CNN
@@ -318,7 +318,7 @@ F 4 "709-005" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:Conn_02x02_Counter_Clockwise-Connector1 J9
+L Connector:Conn_02x02_Top_Bottom J9
 U 1 1 5C155E73
 P 8425 2700
 F 0 "J9" H 8425 2800 50  0000 C CNN
@@ -330,7 +330,7 @@ F 4 "709-006" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:Conn_01x02-Connector1 J10
+L hiltop_backplane_brd-rescue:Conn_01x02-Connector1-hiltop_backplane_brd-rescue J10
 U 1 1 5C155F47
 P 8475 3425
 F 0 "J10" H 8450 3600 50  0000 L CNN
@@ -424,7 +424,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 2025 8925 2025
 $Comp
-L hiltop_backplane_brd-rescue:Polyfuse-device R47
+L hiltop_backplane_brd-rescue:Polyfuse-device-hiltop_backplane_brd-rescue R47
 U 1 1 5C36D98A
 P 9100 2700
 F 0 "R47" V 9025 2525 50  0000 C CNN
@@ -436,7 +436,7 @@ F 4 "101-007" H 0   0   50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:Polyfuse-device R45
+L hiltop_backplane_brd-rescue:Polyfuse-device-hiltop_backplane_brd-rescue R45
 U 1 1 5C36DB02
 P 7950 2700
 F 0 "R45" V 7850 2550 50  0000 C CNN
@@ -448,7 +448,7 @@ F 4 "101-005" H 0   0   50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:Polyfuse-device R46
+L hiltop_backplane_brd-rescue:Polyfuse-device-hiltop_backplane_brd-rescue R46
 U 1 1 5C36DBE2
 P 7950 2800
 F 0 "R46" V 8075 2650 50  0000 C CNN

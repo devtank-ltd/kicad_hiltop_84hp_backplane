@@ -1,21 +1,21 @@
 EESchema Schematic File Version 4
 LIBS:hiltop_backplane_brd-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "63HP HILTOP Backplane"
+Date "2020-02-29"
+Rev "B"
+Comp "Devtank Ltd"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L hiltop_backplane_brd-rescue:C-device C30
+L hiltop_backplane_brd-rescue:C-device-hiltop_backplane_brd-rescue C30
 U 1 1 5A418459
 P 4650 6725
 F 0 "C30" H 4675 6825 50  0000 L CNN
@@ -27,7 +27,7 @@ F 4 "105-023" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C32
+L hiltop_backplane_brd-rescue:C-device-hiltop_backplane_brd-rescue C32
 U 1 1 5A4184EA
 P 4900 6725
 F 0 "C32" H 4925 6825 50  0000 L CNN
@@ -39,7 +39,7 @@ F 4 "105-014" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C34
+L hiltop_backplane_brd-rescue:C-device-hiltop_backplane_brd-rescue C34
 U 1 1 5A41850F
 P 5150 6725
 F 0 "C34" H 5175 6825 50  0000 L CNN
@@ -51,7 +51,7 @@ F 4 "105-019" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C36
+L hiltop_backplane_brd-rescue:C-device-hiltop_backplane_brd-rescue C36
 U 1 1 5A418541
 P 5400 6725
 F 0 "C36" H 5425 6825 50  0000 L CNN
@@ -63,7 +63,7 @@ F 4 "105-017" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C31
+L hiltop_backplane_brd-rescue:C-device-hiltop_backplane_brd-rescue C31
 U 1 1 5A41856A
 P 4650 7275
 F 0 "C31" H 4675 7375 50  0000 L CNN
@@ -75,7 +75,7 @@ F 4 "105-023" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C33
+L hiltop_backplane_brd-rescue:C-device-hiltop_backplane_brd-rescue C33
 U 1 1 5A4185BC
 P 4900 7275
 F 0 "C33" H 4925 7375 50  0000 L CNN
@@ -87,7 +87,7 @@ F 4 "105-014" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C35
+L hiltop_backplane_brd-rescue:C-device-hiltop_backplane_brd-rescue C35
 U 1 1 5A4185F9
 P 5150 7275
 F 0 "C35" H 5175 7375 50  0000 L CNN
@@ -99,7 +99,7 @@ F 4 "105-019" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C37
+L hiltop_backplane_brd-rescue:C-device-hiltop_backplane_brd-rescue C37
 U 1 1 5A41862F
 P 5400 7275
 F 0 "C37" H 5425 7375 50  0000 L CNN
@@ -111,7 +111,7 @@ F 4 "105-017" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C22
+L hiltop_backplane_brd-rescue:C-device-hiltop_backplane_brd-rescue C22
 U 1 1 5A418664
 P 1950 6700
 F 0 "C22" H 1975 6800 50  0000 L CNN
@@ -123,7 +123,7 @@ F 4 "105-023" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C24
+L hiltop_backplane_brd-rescue:C-device-hiltop_backplane_brd-rescue C24
 U 1 1 5A4186B2
 P 2200 6700
 F 0 "C24" H 2225 6800 50  0000 L CNN
@@ -135,7 +135,7 @@ F 4 "105-014" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C26
+L hiltop_backplane_brd-rescue:C-device-hiltop_backplane_brd-rescue C26
 U 1 1 5A4186E9
 P 2450 6700
 F 0 "C26" H 2475 6800 50  0000 L CNN
@@ -147,7 +147,7 @@ F 4 "105-019" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C28
+L hiltop_backplane_brd-rescue:C-device-hiltop_backplane_brd-rescue C28
 U 1 1 5A418729
 P 2700 6700
 F 0 "C28" H 2725 6800 50  0000 L CNN
@@ -159,7 +159,7 @@ F 4 "105-017" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C23
+L hiltop_backplane_brd-rescue:C-device-hiltop_backplane_brd-rescue C23
 U 1 1 5A418776
 P 1950 7300
 F 0 "C23" H 1975 7400 50  0000 L CNN
@@ -171,7 +171,7 @@ F 4 "105-023" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C25
+L hiltop_backplane_brd-rescue:C-device-hiltop_backplane_brd-rescue C25
 U 1 1 5A418B7E
 P 2200 7300
 F 0 "C25" H 2225 7400 50  0000 L CNN
@@ -183,7 +183,7 @@ F 4 "105-014" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C27
+L hiltop_backplane_brd-rescue:C-device-hiltop_backplane_brd-rescue C27
 U 1 1 5A418BC9
 P 2450 7300
 F 0 "C27" H 2475 7400 50  0000 L CNN
@@ -195,7 +195,7 @@ F 4 "105-019" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:C-device C29
+L hiltop_backplane_brd-rescue:C-device-hiltop_backplane_brd-rescue C29
 U 1 1 5A418C13
 P 2700 7300
 F 0 "C29" H 2725 7400 50  0000 L CNN
@@ -1031,7 +1031,7 @@ Connection ~ 8600 1500
 Wire Wire Line
 	8600 1500 9150 1500
 $Comp
-L hiltop_backplane_brd-rescue:SO-DIMM-gti_Lattice-hiltop_backplane_brd-rescue J11
+L hiltop_backplane_brd-rescue:SO-DIMM-gti_Lattice-hiltop_backplane_brd-rescue-hiltop_backplane_brd-rescue J11
 U 1 1 5A3A8985
 P 11200 2950
 AR Path="/5A3A8985" Ref="J11"  Part="1" 
@@ -1347,7 +1347,7 @@ GPIO_56
 Text HLabel 3100 1350 1    39   Input ~ 0
 GPIO_55
 $Comp
-L hiltop_backplane_brd-rescue:Polyfuse-device F16
+L hiltop_backplane_brd-rescue:Polyfuse-device-hiltop_backplane_brd-rescue F16
 U 1 1 5CEC5F97
 P 1600 6500
 F 0 "F16" V 1375 6500 50  0000 C CNN
@@ -1359,7 +1359,7 @@ F 4 "190-002" H 0   0   50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:Polyfuse-device F17
+L hiltop_backplane_brd-rescue:Polyfuse-device-hiltop_backplane_brd-rescue F17
 U 1 1 5CEC61F6
 P 1600 7100
 F 0 "F17" V 1375 7100 50  0000 C CNN
@@ -1371,7 +1371,7 @@ F 4 "190-002" H 0   0   50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:Polyfuse-device F18
+L hiltop_backplane_brd-rescue:Polyfuse-device-hiltop_backplane_brd-rescue F18
 U 1 1 5CEC625C
 P 4300 6525
 F 0 "F18" V 4075 6525 50  0000 C CNN
@@ -1383,7 +1383,7 @@ F 4 "190-002" H 0   0   50  0001 C CNN "Devtank"
 	0    1    1    0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:Polyfuse-device F19
+L hiltop_backplane_brd-rescue:Polyfuse-device-hiltop_backplane_brd-rescue F19
 U 1 1 5C2D630E
 P 4300 7075
 F 0 "F19" V 4075 7075 50  0000 C CNN
@@ -1420,4 +1420,194 @@ Text Label 3550 7075 0    28   ~ 0
 +1V8_EXT_IN
 NoConn ~ 8700 1700
 NoConn ~ 9050 1700
+Wire Wire Line
+	6775 5625 6775 5525
+Wire Wire Line
+	6325 5525 6325 5625
+Wire Wire Line
+	7000 5625 7000 5525
+Wire Wire Line
+	7225 5625 7225 5525
+Wire Wire Line
+	7450 5625 7450 5525
+Wire Wire Line
+	7675 5625 7675 5525
+Wire Wire Line
+	7900 5625 7900 5525
+Wire Wire Line
+	8125 5625 8125 5525
+Wire Wire Line
+	8350 5625 8350 5525
+Text HLabel 6775 5525 1    39   Input ~ 0
+GPIO_57
+Text HLabel 7000 5525 1    39   Input ~ 0
+GPIO_58
+Text HLabel 7225 5525 1    39   Input ~ 0
+GPIO_59
+Text HLabel 7450 5525 1    39   Input ~ 0
+GPIO_60
+Text HLabel 7675 5525 1    39   Input ~ 0
+GPIO_61
+Text HLabel 7900 5525 1    39   Input ~ 0
+GPIO_62
+Text HLabel 8125 5525 1    39   Input ~ 0
+GPIO_63
+Text HLabel 8350 5525 1    39   Input ~ 0
+GPIO_64
+Text HLabel 6550 5525 1    39   Input ~ 0
+GPIO_56
+Wire Wire Line
+	6550 5625 6550 5525
+Text HLabel 6325 5525 1    39   Input ~ 0
+GPIO_55
+$Comp
+L device:R R5
+U 1 1 5EA95AA1
+P 6325 5775
+F 0 "R5" V 6250 5725 50  0000 L CNN
+F 1 "0R" V 6400 5725 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6255 5775 50  0001 C CNN
+F 3 "" H 6325 5775 50  0001 C CNN
+	1    6325 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R6
+U 1 1 5EB34C3F
+P 6550 5775
+F 0 "R6" V 6475 5725 50  0000 L CNN
+F 1 "0R" V 6625 5725 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6480 5775 50  0001 C CNN
+F 3 "" H 6550 5775 50  0001 C CNN
+	1    6550 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R84
+U 1 1 5EBAC36B
+P 6775 5775
+F 0 "R84" V 6700 5725 50  0000 L CNN
+F 1 "0R" V 6850 5725 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6705 5775 50  0001 C CNN
+F 3 "" H 6775 5775 50  0001 C CNN
+	1    6775 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R85
+U 1 1 5EBFBFB5
+P 7000 5775
+F 0 "R85" V 6925 5725 50  0000 L CNN
+F 1 "0R" V 7075 5725 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6930 5775 50  0001 C CNN
+F 3 "" H 7000 5775 50  0001 C CNN
+	1    7000 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R86
+U 1 1 5EC23F11
+P 7225 5775
+F 0 "R86" V 7150 5725 50  0000 L CNN
+F 1 "0R" V 7300 5725 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7155 5775 50  0001 C CNN
+F 3 "" H 7225 5775 50  0001 C CNN
+	1    7225 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R87
+U 1 1 5EC4F1FC
+P 7450 5775
+F 0 "R87" V 7375 5725 50  0000 L CNN
+F 1 "0R" V 7525 5725 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7380 5775 50  0001 C CNN
+F 3 "" H 7450 5775 50  0001 C CNN
+	1    7450 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R88
+U 1 1 5ECA1521
+P 7675 5775
+F 0 "R88" V 7600 5725 50  0000 L CNN
+F 1 "0R" V 7750 5725 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7605 5775 50  0001 C CNN
+F 3 "" H 7675 5775 50  0001 C CNN
+	1    7675 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R89
+U 1 1 5ECC9352
+P 7900 5775
+F 0 "R89" V 7825 5725 50  0000 L CNN
+F 1 "0R" V 7975 5725 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7830 5775 50  0001 C CNN
+F 3 "" H 7900 5775 50  0001 C CNN
+	1    7900 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R90
+U 1 1 5ECF0FAF
+P 8125 5775
+F 0 "R90" V 8050 5725 50  0000 L CNN
+F 1 "0R" V 8200 5725 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8055 5775 50  0001 C CNN
+F 3 "" H 8125 5775 50  0001 C CNN
+	1    8125 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R91
+U 1 1 5ED4302D
+P 8350 5775
+F 0 "R91" V 8275 5725 50  0000 L CNN
+F 1 "0R" V 8425 5725 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8280 5775 50  0001 C CNN
+F 3 "" H 8350 5775 50  0001 C CNN
+	1    8350 5775
+	1    0    0    -1  
+$EndComp
+Text HLabel 6325 6050 3    60   Input ~ 0
+GPIO_31
+Text HLabel 6550 6050 3    60   Input ~ 0
+GPIO_32
+Text HLabel 6775 6050 3    60   Input ~ 0
+GPIO_33
+Text HLabel 7000 6050 3    60   Input ~ 0
+GPIO_34
+Text HLabel 7225 6050 3    60   Input ~ 0
+GPIO_35
+Text HLabel 7450 6050 3    60   Input ~ 0
+GPIO_36
+Text HLabel 7675 6050 3    60   Input ~ 0
+GPIO_37
+Text HLabel 7900 6050 3    60   Input ~ 0
+GPIO_38
+Text HLabel 8125 6050 3    60   Input ~ 0
+GPIO_39
+Text HLabel 8350 6050 3    60   Input ~ 0
+GPIO_40
+Wire Wire Line
+	6325 6050 6325 5925
+Wire Wire Line
+	6550 5925 6550 6050
+Wire Wire Line
+	6775 5925 6775 6050
+Wire Wire Line
+	7000 5925 7000 6050
+Wire Wire Line
+	7225 5925 7225 6050
+Wire Wire Line
+	7450 5925 7450 6050
+Wire Wire Line
+	7675 5925 7675 6050
+Wire Wire Line
+	7900 5925 7900 6050
+Wire Wire Line
+	8125 5925 8125 6050
+Wire Wire Line
+	8350 5925 8350 6050
 $EndSCHEMATC

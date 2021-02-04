@@ -1,21 +1,21 @@
 EESchema Schematic File Version 4
 LIBS:hiltop_backplane_brd-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "63HP HILTOP Backplane"
+Date "2020-02-29"
+Rev "B"
+Comp "Devtank Ltd"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L hiltop_backplane_brd-rescue:R-device R21
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R21
 U 1 1 5A3B7AEA
 P 1200 5300
 F 0 "R21" V 1150 5125 50  0000 C CNN
@@ -27,7 +27,7 @@ F 4 "101-510" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R23
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R23
 U 1 1 5A3B7AF1
 P 1300 5300
 F 0 "R23" V 1250 5125 50  0000 C CNN
@@ -39,7 +39,7 @@ F 4 "101-510" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R30
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R30
 U 1 1 5A3B7AF8
 P 4725 5300
 F 0 "R30" V 4675 5125 50  0000 C CNN
@@ -51,7 +51,7 @@ F 4 "101-510" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R32
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R32
 U 1 1 5A3B7AFF
 P 4825 5300
 F 0 "R32" V 4775 5125 50  0000 C CNN
@@ -63,7 +63,7 @@ F 4 "101-510" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R24
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R24
 U 1 1 5A3B7B06
 P 1500 5300
 F 0 "R24" V 1450 5125 50  0000 C CNN
@@ -75,7 +75,7 @@ F 4 "101-510" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R26
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R26
 U 1 1 5A3B7B0D
 P 1600 5300
 F 0 "R26" V 1550 5125 50  0000 C CNN
@@ -87,7 +87,7 @@ F 4 "101-510" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R33
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R33
 U 1 1 5A3B7B14
 P 5025 5300
 F 0 "R33" V 4975 5125 50  0000 C CNN
@@ -99,7 +99,7 @@ F 4 "101-510" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R35
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R35
 U 1 1 5A3B7B1B
 P 5125 5300
 F 0 "R35" V 5075 5125 50  0000 C CNN
@@ -111,7 +111,7 @@ F 4 "101-510" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R39
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R39
 U 1 1 5A3B7B22
 P 8250 5300
 F 0 "R39" V 8200 5125 50  0000 C CNN
@@ -123,7 +123,7 @@ F 4 "101-510" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R41
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R41
 U 1 1 5A3B7B29
 P 8350 5300
 F 0 "R41" V 8300 5125 50  0000 C CNN
@@ -135,7 +135,7 @@ F 4 "101-510" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R42
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R42
 U 1 1 5A3B7B30
 P 8550 5300
 F 0 "R42" V 8500 5125 50  0000 C CNN
@@ -147,7 +147,7 @@ F 4 "101-510" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R44
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R44
 U 1 1 5A3B7B37
 P 8650 5300
 F 0 "R44" V 8600 5125 50  0000 C CNN
@@ -159,7 +159,7 @@ F 4 "101-510" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R22
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R22
 U 1 1 5A3B7C02
 P 1200 5750
 F 0 "R22" V 1275 5725 39  0000 C CNN
@@ -171,7 +171,7 @@ F 4 "101-500" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R25
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R25
 U 1 1 5A3B7C09
 P 1500 5750
 F 0 "R25" V 1575 5725 39  0000 C CNN
@@ -183,7 +183,7 @@ F 4 "101-500" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R31
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R31
 U 1 1 5A3B7C10
 P 4725 5750
 F 0 "R31" V 4800 5725 39  0000 C CNN
@@ -195,7 +195,7 @@ F 4 "101-500" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R34
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R34
 U 1 1 5A3B7C17
 P 5025 5750
 F 0 "R34" V 5100 5725 50  0000 C CNN
@@ -207,7 +207,7 @@ F 4 "101-500" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R40
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R40
 U 1 1 5A3B7C1E
 P 8250 5750
 F 0 "R40" V 8325 5700 39  0000 C CNN
@@ -219,7 +219,7 @@ F 4 "101-500" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R43
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R43
 U 1 1 5A3B7C25
 P 8550 5750
 F 0 "R43" V 8625 5725 39  0000 C CNN
@@ -231,7 +231,7 @@ F 4 "101-500" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R18
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R18
 U 1 1 5A3D435B
 P 900 5300
 F 0 "R18" V 850 5125 50  0000 C CNN
@@ -243,7 +243,7 @@ F 4 "101-510" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R20
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R20
 U 1 1 5A3D4449
 P 1000 5300
 F 0 "R20" V 950 5125 50  0000 C CNN
@@ -255,7 +255,7 @@ F 4 "101-510" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R19
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R19
 U 1 1 5A3D452E
 P 900 5750
 F 0 "R19" V 975 5725 39  0000 C CNN
@@ -1640,7 +1640,7 @@ PWM0
 Text HLabel 10025 1500 3    60   Input ~ 0
 PWM1
 $Comp
-L hiltop_backplane_brd-rescue:LTC4311-gti_Lattice U3
+L hiltop_backplane_brd-rescue:LTC4311-gti_Lattice-hiltop_backplane_brd-rescue U3
 U 1 1 600073BD
 P 1825 6800
 F 0 "U3" H 1825 6941 39  0000 C CNN
@@ -1661,7 +1661,7 @@ Connection ~ 1300 6950
 Wire Wire Line
 	1300 6950 1375 6950
 $Comp
-L hiltop_backplane_brd-rescue:C-device C20
+L hiltop_backplane_brd-rescue:C-device-hiltop_backplane_brd-rescue C20
 U 1 1 600073CA
 P 1125 7175
 F 0 "C20" H 1240 7221 50  0000 L CNN
@@ -1708,7 +1708,7 @@ I2C0_SDA
 Text HLabel 2475 7250 2    39   Input ~ 0
 I2C0_SCL
 $Comp
-L hiltop_backplane_brd-rescue:LTC4311-gti_Lattice U4
+L hiltop_backplane_brd-rescue:LTC4311-gti_Lattice-hiltop_backplane_brd-rescue U4
 U 1 1 600073E4
 P 4400 6875
 F 0 "U4" H 4400 7016 39  0000 C CNN
@@ -1729,7 +1729,7 @@ Connection ~ 3875 7025
 Wire Wire Line
 	3875 7025 3950 7025
 $Comp
-L hiltop_backplane_brd-rescue:C-device C21
+L hiltop_backplane_brd-rescue:C-device-hiltop_backplane_brd-rescue C21
 U 1 1 600073F1
 P 3700 7250
 F 0 "C21" H 3815 7296 50  0000 L CNN
@@ -1776,7 +1776,7 @@ I2C1_SDA
 Text HLabel 5050 7325 2    39   Input ~ 0
 I2C1_SCL
 $Comp
-L hiltop_backplane_brd-rescue:R-device R27
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R27
 U 1 1 602A6030
 P 4425 5300
 F 0 "R27" V 4375 5125 50  0000 C CNN
@@ -1788,7 +1788,7 @@ F 4 "101-510" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R29
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R29
 U 1 1 602A6037
 P 4525 5300
 F 0 "R29" V 4475 5125 50  0000 C CNN
@@ -1800,7 +1800,7 @@ F 4 "101-510" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R28
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R28
 U 1 1 602A603E
 P 4425 5750
 F 0 "R28" V 4500 5725 39  0000 C CNN
@@ -1834,7 +1834,7 @@ Wire Wire Line
 Wire Wire Line
 	4425 5550 4425 5450
 $Comp
-L hiltop_backplane_brd-rescue:R-device R36
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R36
 U 1 1 602F37B2
 P 7950 5300
 F 0 "R36" V 7900 5125 50  0000 C CNN
@@ -1846,7 +1846,7 @@ F 4 "101-510" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R38
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R38
 U 1 1 602F37B9
 P 8050 5300
 F 0 "R38" V 8000 5125 50  0000 C CNN
@@ -1858,7 +1858,7 @@ F 4 "101-510" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:R-device R37
+L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R37
 U 1 1 602F37C0
 P 7950 5750
 F 0 "R37" V 8025 5725 39  0000 C CNN
@@ -1883,7 +1883,7 @@ LVPSCLK-
 Wire Wire Line
 	7950 5950 7950 5900
 $Comp
-L hiltop_backplane_brd-rescue:Polyfuse-device F1
+L hiltop_backplane_brd-rescue:Polyfuse-device-hiltop_backplane_brd-rescue F1
 U 1 1 60455C00
 P 775 1625
 F 0 "F1" V 725 1750 50  0000 L CNN
@@ -1897,7 +1897,7 @@ $EndComp
 Wire Wire Line
 	775  1925 775  1775
 $Comp
-L hiltop_backplane_brd-rescue:Polyfuse-device F2
+L hiltop_backplane_brd-rescue:Polyfuse-device-hiltop_backplane_brd-rescue F2
 U 1 1 604A6423
 P 975 1625
 F 0 "F2" V 925 1750 50  0000 L CNN
@@ -1909,7 +1909,7 @@ F 4 "190-002" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:Polyfuse-device F3
+L hiltop_backplane_brd-rescue:Polyfuse-device-hiltop_backplane_brd-rescue F3
 U 1 1 604A6497
 P 1175 1625
 F 0 "F3" V 1125 1750 50  0000 L CNN
@@ -1921,7 +1921,7 @@ F 4 "190-002" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:Polyfuse-device F4
+L hiltop_backplane_brd-rescue:Polyfuse-device-hiltop_backplane_brd-rescue F4
 U 1 1 604A664B
 P 1375 1625
 F 0 "F4" V 1325 1750 50  0000 L CNN
@@ -1933,7 +1933,7 @@ F 4 "190-003" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:Polyfuse-device F5
+L hiltop_backplane_brd-rescue:Polyfuse-device-hiltop_backplane_brd-rescue F5
 U 1 1 604A66C3
 P 1575 1625
 F 0 "F5" V 1525 1750 50  0000 L CNN
@@ -1963,7 +1963,7 @@ Text HLabel 4700 1925 3    60   Input ~ 0
 Text HLabel 5100 1925 3    60   Input ~ 0
 V_ADJ
 $Comp
-L hiltop_backplane_brd-rescue:Polyfuse-device F6
+L hiltop_backplane_brd-rescue:Polyfuse-device-hiltop_backplane_brd-rescue F6
 U 1 1 6073C287
 P 4300 1625
 F 0 "F6" V 4250 1750 50  0000 L CNN
@@ -1977,7 +1977,7 @@ $EndComp
 Wire Wire Line
 	4300 1925 4300 1775
 $Comp
-L hiltop_backplane_brd-rescue:Polyfuse-device F7
+L hiltop_backplane_brd-rescue:Polyfuse-device-hiltop_backplane_brd-rescue F7
 U 1 1 6073C28F
 P 4500 1625
 F 0 "F7" V 4450 1750 50  0000 L CNN
@@ -1989,7 +1989,7 @@ F 4 "190-002" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:Polyfuse-device F8
+L hiltop_backplane_brd-rescue:Polyfuse-device-hiltop_backplane_brd-rescue F8
 U 1 1 6073C296
 P 4700 1625
 F 0 "F8" V 4650 1750 50  0000 L CNN
@@ -2001,7 +2001,7 @@ F 4 "190-002" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:Polyfuse-device F9
+L hiltop_backplane_brd-rescue:Polyfuse-device-hiltop_backplane_brd-rescue F9
 U 1 1 6073C29D
 P 4900 1625
 F 0 "F9" V 4850 1750 50  0000 L CNN
@@ -2013,7 +2013,7 @@ F 4 "190-003" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:Polyfuse-device F10
+L hiltop_backplane_brd-rescue:Polyfuse-device-hiltop_backplane_brd-rescue F10
 U 1 1 6073C2A4
 P 5100 1625
 F 0 "F10" V 5050 1750 50  0000 L CNN
@@ -2043,7 +2043,7 @@ Text HLabel 8225 1925 3    60   Input ~ 0
 Text HLabel 8625 1925 3    60   Input ~ 0
 V_ADJ
 $Comp
-L hiltop_backplane_brd-rescue:Polyfuse-device F11
+L hiltop_backplane_brd-rescue:Polyfuse-device-hiltop_backplane_brd-rescue F11
 U 1 1 60790ED9
 P 7825 1625
 F 0 "F11" V 7775 1750 50  0000 L CNN
@@ -2057,7 +2057,7 @@ $EndComp
 Wire Wire Line
 	7825 1925 7825 1775
 $Comp
-L hiltop_backplane_brd-rescue:Polyfuse-device F12
+L hiltop_backplane_brd-rescue:Polyfuse-device-hiltop_backplane_brd-rescue F12
 U 1 1 60790EE1
 P 8025 1625
 F 0 "F12" V 7975 1750 50  0000 L CNN
@@ -2069,7 +2069,7 @@ F 4 "190-002" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:Polyfuse-device F13
+L hiltop_backplane_brd-rescue:Polyfuse-device-hiltop_backplane_brd-rescue F13
 U 1 1 60790EE8
 P 8225 1625
 F 0 "F13" V 8175 1750 50  0000 L CNN
@@ -2081,7 +2081,7 @@ F 4 "190-002" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:Polyfuse-device F14
+L hiltop_backplane_brd-rescue:Polyfuse-device-hiltop_backplane_brd-rescue F14
 U 1 1 60790EEF
 P 8425 1625
 F 0 "F14" V 8375 1750 50  0000 L CNN
@@ -2093,7 +2093,7 @@ F 4 "190-003" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:Polyfuse-device F15
+L hiltop_backplane_brd-rescue:Polyfuse-device-hiltop_backplane_brd-rescue F15
 U 1 1 60790EF6
 P 8625 1625
 F 0 "F15" V 8575 1750 50  0000 L CNN
@@ -2208,7 +2208,7 @@ Wire Wire Line
 Wire Wire Line
 	10750 2975 10750 3275
 $Comp
-L hiltop_backplane_brd-rescue:CONN_DIN_HDR_96POS-gti_Lattice J4
+L hiltop_backplane_brd-rescue:CONN_DIN_HDR_96POS-gti_Lattice-hiltop_backplane_brd-rescue J4
 U 1 1 5C446251
 P 650 4275
 F 0 "J4" V 837 2575 60  0000 C CNN
@@ -2220,7 +2220,7 @@ F 4 "717-001" H 0   0   50  0001 C CNN "Devtank"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:CONN_DIN_HDR_96POS-gti_Lattice J5
+L hiltop_backplane_brd-rescue:CONN_DIN_HDR_96POS-gti_Lattice-hiltop_backplane_brd-rescue J5
 U 1 1 5C4466C1
 P 4175 4275
 F 0 "J5" V 4362 2575 60  0000 C CNN
@@ -2232,7 +2232,7 @@ F 4 "717-001" H 0   0   50  0001 C CNN "Devtank"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:CONN_DIN_HDR_96POS-gti_Lattice J6
+L hiltop_backplane_brd-rescue:CONN_DIN_HDR_96POS-gti_Lattice-hiltop_backplane_brd-rescue J6
 U 1 1 5C446ABA
 P 7700 4275
 F 0 "J6" V 7887 2575 60  0000 C CNN
@@ -2244,7 +2244,7 @@ F 4 "717-001" H 0   0   50  0001 C CNN "Devtank"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:CONN_DIN_HDR_96POS-gti_Lattice J4
+L hiltop_backplane_brd-rescue:CONN_DIN_HDR_96POS-gti_Lattice-hiltop_backplane_brd-rescue J4
 U 2 1 5C446E37
 P 650 2425
 F 0 "J4" V 837 725 60  0000 C CNN
@@ -2256,7 +2256,7 @@ F 4 "717-001" H 0   0   50  0001 C CNN "Devtank"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:CONN_DIN_HDR_96POS-gti_Lattice J5
+L hiltop_backplane_brd-rescue:CONN_DIN_HDR_96POS-gti_Lattice-hiltop_backplane_brd-rescue J5
 U 2 1 5C4471B0
 P 4175 2425
 F 0 "J5" V 4362 725 60  0000 C CNN
@@ -2268,7 +2268,7 @@ F 4 "717-001" H 0   0   50  0001 C CNN "Devtank"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:CONN_DIN_HDR_96POS-gti_Lattice J6
+L hiltop_backplane_brd-rescue:CONN_DIN_HDR_96POS-gti_Lattice-hiltop_backplane_brd-rescue J6
 U 2 1 5C44765E
 P 7700 2425
 F 0 "J6" V 7887 725 60  0000 C CNN
@@ -2280,7 +2280,7 @@ F 4 "717-001" H 0   0   50  0001 C CNN "Devtank"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:CONN_DIN_HDR_96POS-gti_Lattice J4
+L hiltop_backplane_brd-rescue:CONN_DIN_HDR_96POS-gti_Lattice-hiltop_backplane_brd-rescue J4
 U 3 1 5C447924
 P 625 625
 F 0 "J4" V 812 -1075 60  0000 C CNN
@@ -2292,7 +2292,7 @@ F 4 "717-001" H 0   0   50  0001 C CNN "Devtank"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:CONN_DIN_HDR_96POS-gti_Lattice J5
+L hiltop_backplane_brd-rescue:CONN_DIN_HDR_96POS-gti_Lattice-hiltop_backplane_brd-rescue J5
 U 3 1 5C447CEB
 P 4150 625
 F 0 "J5" V 4337 -1075 60  0000 C CNN
@@ -2304,7 +2304,7 @@ F 4 "717-001" H 0   0   50  0001 C CNN "Devtank"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L hiltop_backplane_brd-rescue:CONN_DIN_HDR_96POS-gti_Lattice J6
+L hiltop_backplane_brd-rescue:CONN_DIN_HDR_96POS-gti_Lattice-hiltop_backplane_brd-rescue J6
 U 3 1 5C447F84
 P 7675 625
 F 0 "J6" V 7862 -1075 60  0000 C CNN
