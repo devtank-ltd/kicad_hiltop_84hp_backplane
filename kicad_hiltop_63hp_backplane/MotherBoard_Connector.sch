@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 6
 Title "63HP HILTOP Backplane"
-Date "2020-02-29"
-Rev "B"
+Date "2021-02-04"
+Rev "C"
 Comp "Devtank Ltd"
 Comment1 ""
 Comment2 ""
@@ -163,14 +163,6 @@ F 3 "" H 2500 4575 50  0001 C CNN
 $EndComp
 Text HLabel 2350 4175 0    60   Input ~ 0
 MBRD_SPI1_CS2
-Text HLabel 2350 4275 0    60   Input ~ 0
-MBRD_GPIO12
-Text HLabel 2350 4375 0    60   Input ~ 0
-MBRD_GPIO13
-Text HLabel 4850 4275 2    60   Input ~ 0
-MBRD_GPIO15
-Text HLabel 4850 4375 2    60   Input ~ 0
-MBRD_GPIO16
 Wire Wire Line
 	4650 1175 4650 1475
 Connection ~ 4650 1475
@@ -255,14 +247,6 @@ Text HLabel 4850 3275 2    60   Input ~ 0
 MBRD_SPI0_CS0
 Text HLabel 4850 3375 2    60   Input ~ 0
 MBRD_SPI0_CS1
-Text HLabel 4850 2475 2    60   Input ~ 0
-MBRD_RESERVED_0
-Text HLabel 4850 2575 2    60   Input ~ 0
-MBRD_RESERVED_1
-Text HLabel 4850 2675 2    60   Input ~ 0
-MBRD_RESERVED_2+
-Text HLabel 4850 2775 2    60   Input ~ 0
-MBRD_RESERVED_2-
 Text HLabel 4850 1575 2    60   Input ~ 0
 MBRD_PSEL_0
 Text HLabel 4850 1675 2    60   Input ~ 0
@@ -484,6 +468,13 @@ Wire Wire Line
 	2625 2975 2350 2975
 Wire Wire Line
 	2625 3075 2350 3075
-Text HLabel 4850 4175 2    59   Input ~ 0
-MBRD_GPIO14
+NoConn ~ 4850 4175
+NoConn ~ 4850 4275
+NoConn ~ 4850 4375
+NoConn ~ 2350 4275
+NoConn ~ 2350 4375
+NoConn ~ 4850 2475
+NoConn ~ 4850 2575
+NoConn ~ 4850 2675
+NoConn ~ 4850 2775
 $EndSCHEMATC

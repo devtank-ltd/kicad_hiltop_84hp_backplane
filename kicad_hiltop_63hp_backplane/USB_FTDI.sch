@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
 Title "63HP HILTOP Backplane"
-Date "2020-02-29"
-Rev "B"
+Date "2021-02-04"
+Rev "C"
 Comp "Devtank Ltd"
 Comment1 ""
 Comment2 ""
