@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:hiltop_backplane_brd-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -234,110 +233,6 @@ Wire Wire Line
 	5625 7050 5425 7050
 Wire Wire Line
 	5625 7250 5425 7250
-$Comp
-L hiltop_backplane_brd-rescue:4POS_JUMPER-gti_Lattice-hiltop_backplane_brd-rescue J12
-U 1 1 5A304A10
-P 3100 5800
-F 0 "J12" H 3100 5800 39  0000 C CNN
-F 1 "4POS_JUMPER" H 3100 5750 39  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical" H 3100 5800 39  0001 C CNN
-F 3 "" H 3100 5800 39  0001 C CNN
-F 4 "711-003" H 0   0   50  0001 C CNN "Devtank"
-	1    3100 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L hiltop_backplane_brd-rescue:4POS_JUMPER-gti_Lattice-hiltop_backplane_brd-rescue J13
-U 1 1 5A304A17
-P 3100 6150
-F 0 "J13" H 3100 6150 39  0000 C CNN
-F 1 "4POS_JUMPER" H 3100 6100 39  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical" H 3100 6150 39  0001 C CNN
-F 3 "" H 3100 6150 39  0001 C CNN
-F 4 "711-003" H 0   0   50  0001 C CNN "Devtank"
-	1    3100 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L hiltop_backplane_brd-rescue:4POS_JUMPER-gti_Lattice-hiltop_backplane_brd-rescue J14
-U 1 1 5A304A1E
-P 3100 6550
-F 0 "J14" H 3100 6550 39  0000 C CNN
-F 1 "4POS_JUMPER" H 3100 6500 39  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical" H 3100 6550 39  0001 C CNN
-F 3 "" H 3100 6550 39  0001 C CNN
-F 4 "711-003" H 0   0   50  0001 C CNN "Devtank"
-	1    3100 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L hiltop_backplane_brd-rescue:4POS_JUMPER-gti_Lattice-hiltop_backplane_brd-rescue J15
-U 1 1 5A304A25
-P 3100 6950
-F 0 "J15" H 3100 6950 39  0000 C CNN
-F 1 "4POS_JUMPER" H 3100 6900 39  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical" H 3100 6950 39  0001 C CNN
-F 3 "" H 3100 6950 39  0001 C CNN
-F 4 "711-003" H 0   0   50  0001 C CNN "Devtank"
-	1    3100 6950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2700 7100 2850 7100
-Wire Wire Line
-	2700 6700 2850 6700
-Wire Wire Line
-	2700 5950 2850 5950
-Wire Wire Line
-	2700 6300 2850 6300
-Wire Wire Line
-	3350 5950 3500 5950
-Wire Wire Line
-	3350 6300 3500 6300
-Wire Wire Line
-	3350 6700 3500 6700
-Wire Wire Line
-	3350 7100 3500 7100
-Wire Wire Line
-	2700 6050 2850 6050
-Wire Wire Line
-	3350 6050 3950 6050
-Wire Wire Line
-	2700 6400 2850 6400
-Wire Wire Line
-	3350 6400 3950 6400
-Wire Wire Line
-	2700 6800 2850 6800
-Wire Wire Line
-	3350 6800 3500 6800
-Wire Wire Line
-	2700 7200 2850 7200
-Wire Wire Line
-	3350 7200 3500 7200
-$Comp
-L hiltop_backplane_brd-rescue:4POS_JUMPER-gti_Lattice-hiltop_backplane_brd-rescue J16
-U 1 1 5A304A44
-P 3100 7450
-F 0 "J16" H 3100 7450 39  0000 C CNN
-F 1 "4POS_JUMPER" H 3100 7400 39  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical" H 3100 7450 39  0001 C CNN
-F 3 "" H 3100 7450 39  0001 C CNN
-F 4 "711-003" H 0   0   50  0001 C CNN "Devtank"
-	1    3100 7450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2850 7600 2700 7600
-Wire Wire Line
-	3350 7600 3950 7600
-Wire Wire Line
-	3350 7700 3500 7700
-Wire Wire Line
-	2850 7700 2225 7700
-Text Notes 3750 7400 2    39   ~ 0
-Switch (FPGA) Master to Slave (M/M)\n
-Text Notes 875  7000 0    60   ~ 0
-Config 1 "="\nFTDI SPI --->FLASH SPI\nEXT SPI ---> FPGA SPI\n\nConfig 2 "||"\nFTDI SPI ---> EXT SPI\nFLASH SPI ---> FPGA SPI
 Text HLabel 5425 6050 0    39   Input Italic 8
 LED1
 Text HLabel 5425 6250 0    39   Input Italic 8
@@ -352,40 +247,8 @@ Text HLabel 5425 7050 0    39   Input Italic 8
 LED6
 Text HLabel 5425 7250 0    39   Input Italic 8
 LED7
-Text HLabel 2700 5950 0    39   Input ~ 0
-FTDI_AD2_MISO
-Text HLabel 2700 6050 0    39   Input ~ 0
-EXT_SPI_MISO
-Text HLabel 2700 6300 0    39   Input ~ 0
-FTDI_AD1_MOSI
-Text HLabel 2700 6400 0    39   Input ~ 0
-EXT_SPI_MOSI
-Text HLabel 2700 6700 0    39   Input ~ 0
-FTDI_AD0_SCK
-Text HLabel 2700 6800 0    39   Input ~ 0
-EXT_SPI_SCK
-Text HLabel 2700 7100 0    39   Input ~ 0
-FTDI_AD3_SS
-Text HLabel 2700 7200 0    39   Input ~ 0
-EXT_SPI_SS
-Text HLabel 2700 7600 0    39   Input ~ 0
-FPGA_SPI_SDO
-Text HLabel 3500 5950 2    39   Input ~ 0
-s_FLASH_MOSI
-Text HLabel 3500 6300 2    39   Input ~ 0
-s_FLASH_MISO
-Text HLabel 3500 6700 2    39   Input ~ 0
-s_FLASH_SCK
-Text HLabel 3500 6800 2    39   Input ~ 0
-FPGA_SPI_SCK
-Text HLabel 3500 7200 2    39   Input ~ 0
-FPGA_SPI_SS
-Text HLabel 3500 7700 2    39   Input ~ 0
-FPGA_SPI_SDI
 Text Notes 6225 5750 2    39   Italic 8
 LED 1-7 PULL DOWN
-Text HLabel 3500 7100 2    39   Input ~ 0
-s_FLASH_SS
 $Comp
 L hiltop_backplane_brd-rescue:LED-device-hiltop_backplane_brd-rescue D13
 U 1 1 5A5D84B9
@@ -1869,14 +1732,6 @@ Text HLabel 1325 1250 0    60   Input ~ 0
 USB_D+
 Text HLabel 1325 1350 0    60   Input ~ 0
 USB_D-
-Text Label 3950 6050 2    28   ~ 0
-FPGA_SPI_DATA1
-Text Label 3950 7600 2    28   ~ 0
-FPGA_SPI_DATA1
-Text Label 2225 7700 0    28   ~ 0
-FPGA_SPI_DATA2
-Text Label 3950 6400 2    28   ~ 0
-FPGA_SPI_DATA2
 Text HLabel 1100 2075 0    60   Input ~ 0
 GND
 Wire Wire Line

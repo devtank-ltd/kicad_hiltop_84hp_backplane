@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:hiltop_backplane_brd-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -306,7 +305,7 @@ Wire Wire Line
 	4650 2175 4650 2875
 Connection ~ 4650 2175
 $Comp
-L Connector:Conn_02x04_Top_Bottom J8
+L hiltop_backplane_brd-rescue:Conn_02x04_Top_Bottom-Connector J8
 U 1 1 5C155D60
 P 8400 1825
 F 0 "J8" H 8450 2142 50  0000 C CNN
@@ -318,7 +317,7 @@ F 4 "709-005" H 0   0   50  0001 C CNN "Devtank"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_02x02_Top_Bottom J9
+L hiltop_backplane_brd-rescue:Conn_02x02_Top_Bottom-Connector J9
 U 1 1 5C155E73
 P 8425 2700
 F 0 "J9" H 8425 2800 50  0000 C CNN
