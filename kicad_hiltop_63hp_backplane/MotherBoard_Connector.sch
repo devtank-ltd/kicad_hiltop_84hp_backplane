@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 5 6
 Title "63HP HILTOP Backplane"
 Date "2021-02-04"
 Rev "C"
@@ -127,9 +127,9 @@ Wire Wire Line
 	4525 4375 4850 4375
 Wire Wire Line
 	4525 4475 4650 4475
-Text HLabel 2350 1175 0    60   Input ~ 0
+Text HLabel 2350 1175 0    60   BiDi ~ 0
 MBRD_USB_P
-Text HLabel 2350 1275 0    60   Input ~ 0
+Text HLabel 2350 1275 0    60   BiDi ~ 0
 MBRD_USB_N
 Wire Wire Line
 	2500 1375 2500 1675
@@ -199,78 +199,70 @@ Text HLabel 2350 3675 0    60   Input ~ 0
 MBRD_I2C0_SCL
 Text HLabel 2350 3975 0    60   Input ~ 0
 MBRD_I2C1_SCL
-Text HLabel 2350 1475 0    60   Input ~ 0
+Text HLabel 2350 1475 0    60   Output ~ 0
 MBRD_RST
-Text HLabel 2350 1575 0    60   Input ~ 0
+Text HLabel 2350 1575 0    60   Output ~ 0
 MBRD_SHUTDOWN
-Text HLabel 2350 1775 0    60   Input ~ 0
+Text HLabel 2350 1775 0    60   Output ~ 0
 MBRD_PWM0
-Text HLabel 2350 1875 0    60   Input ~ 0
+Text HLabel 2350 1875 0    60   Output ~ 0
 MBRD_PWM1
-Text HLabel 2350 2075 0    60   Input ~ 0
+Text HLabel 2350 2075 0    60   BiDi ~ 0
 MBRD_GPIO1
-Text HLabel 2350 2175 0    60   Input ~ 0
+Text HLabel 2350 2175 0    60   BiDi ~ 0
 MBRD_GPIO2
-Text HLabel 2350 2475 0    60   Input ~ 0
+Text HLabel 2350 2475 0    60   BiDi ~ 0
 MBRD_GPIO3
-Text HLabel 2350 2575 0    60   Input ~ 0
+Text HLabel 2350 2575 0    60   BiDi ~ 0
 MBRD_GPIO4
-Text HLabel 2350 2675 0    60   Input ~ 0
+Text HLabel 2350 2675 0    60   BiDi ~ 0
 MBRD_GPIO5
-Text HLabel 2350 2875 0    60   Input ~ 0
+Text HLabel 2350 2875 0    60   BiDi ~ 0
 MBRD_GPIO6
-Text HLabel 2350 2975 0    60   Input ~ 0
+Text HLabel 2350 2975 0    60   BiDi ~ 0
 MBRD_GPIO7
-Text HLabel 2350 3075 0    60   Input ~ 0
+Text HLabel 2350 3075 0    60   BiDi ~ 0
 MBRD_GPIO8
-Text HLabel 2350 3275 0    60   Input ~ 0
+Text HLabel 2350 3275 0    60   BiDi ~ 0
 MBRD_GPIO9
-Text HLabel 2350 3375 0    60   Input ~ 0
+Text HLabel 2350 3375 0    60   BiDi ~ 0
 MBRD_GPIO10
-Text HLabel 4850 3575 2    60   Input ~ 0
+Text HLabel 4850 3575 2    60   Output ~ 0
 MBRD_SPI1_MOSI
 Text HLabel 4850 3675 2    60   Input ~ 0
 MBRD_SPI1_MISO
-Text HLabel 4850 3775 2    60   Input ~ 0
+Text HLabel 4850 3775 2    60   Output ~ 0
 MBRD_SPI1_SCK
-Text HLabel 4850 3875 2    60   Input ~ 0
+Text HLabel 4850 3875 2    60   Output ~ 0
 MBRD_SPI1_CS0
-Text HLabel 4850 3975 2    60   Input ~ 0
+Text HLabel 4850 3975 2    60   Output ~ 0
 MBRD_SPI1_CS1
-Text HLabel 4850 2975 2    60   Input ~ 0
+Text HLabel 4850 2975 2    60   Output ~ 0
 MBRD_SPI0_MOSI
 Text HLabel 4850 3075 2    60   Input ~ 0
 MBRD_SPI0_MISO
-Text HLabel 4850 3175 2    60   Input ~ 0
+Text HLabel 4850 3175 2    60   Output ~ 0
 MBRD_SPI0_SCK
-Text HLabel 4850 3275 2    60   Input ~ 0
+Text HLabel 4850 3275 2    60   Output ~ 0
 MBRD_SPI0_CS0
-Text HLabel 4850 3375 2    60   Input ~ 0
+Text HLabel 4850 3375 2    60   Output ~ 0
 MBRD_SPI0_CS1
-Text HLabel 4850 1575 2    60   Input ~ 0
+Text HLabel 4850 1575 2    60   Output ~ 0
 MBRD_PSEL_0
-Text HLabel 4850 1675 2    60   Input ~ 0
+Text HLabel 4850 1675 2    60   Output ~ 0
 MBRD_PSEL_1
-Text HLabel 4850 1775 2    60   Input ~ 0
+Text HLabel 4850 1775 2    60   Output ~ 0
 MBRD_PSEL_2
-Text HLabel 4850 1875 2    60   Input ~ 0
+Text HLabel 4850 1875 2    60   Output ~ 0
 MBRD_PSEL_3
-Text HLabel 4850 1975 2    60   Input ~ 0
+Text HLabel 4850 1975 2    60   Output ~ 0
 MBRD_PSEL_4
-Text HLabel 4850 2075 2    60   Input ~ 0
+Text HLabel 4850 2075 2    60   Output ~ 0
 MBRD_PSEL_5
-Text HLabel 4850 1275 2    60   Input ~ 0
+Text HLabel 4850 1275 2    60   Output ~ 0
 MBRD_SYC_CLK
-Text HLabel 4850 1375 2    60   Input ~ 0
+Text HLabel 4850 1375 2    60   Output ~ 0
 MBRD_SYS_TRIG
-Text HLabel 8925 1725 2    60   Input ~ 0
-+12V
-Text HLabel 8925 1825 2    60   Input ~ 0
-+5V
-Text HLabel 8925 2025 2    60   Input ~ 0
-+3V3
-Text HLabel 8925 1925 2    60   Input ~ 0
--5V
 $Comp
 L hiltop_backplane_brd-rescue:HILTOP_PCIE-64_CONN-gti_Lattice-hiltop_backplane_brd-rescue J7
 U 1 1 5C13457D
@@ -292,8 +284,8 @@ $Comp
 L hiltop_backplane_brd-rescue:Conn_02x04_Top_Bottom-Connector J8
 U 1 1 5C155D60
 P 8400 1825
-F 0 "J8" H 8450 2142 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 8450 2051 50  0000 C CNN
+F 0 "J8" H 8450 2025 50  0000 C CNN
+F 1 "PSU1" H 8450 1525 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A_2x04_P4.20mm_Vertical" H 8400 1825 50  0001 C CNN
 F 3 "~" H 8400 1825 50  0001 C CNN
 F 4 "709-005" H 0   0   50  0001 C CNN "Devtank"
@@ -304,8 +296,8 @@ $Comp
 L hiltop_backplane_brd-rescue:Conn_02x02_Top_Bottom-Connector J9
 U 1 1 5C155E73
 P 8425 2700
-F 0 "J9" H 8425 2800 50  0000 C CNN
-F 1 "Conn_02x02_Counter_Clockwise" H 8425 2925 50  0000 C CNN
+F 0 "J9" H 8475 2800 50  0000 C CNN
+F 1 "PSU2" H 8475 2500 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 8425 2700 50  0001 C CNN
 F 3 "~" H 8425 2700 50  0001 C CNN
 F 4 "709-006" H 0   0   50  0001 C CNN "Devtank"
@@ -316,8 +308,8 @@ $Comp
 L hiltop_backplane_brd-rescue:Conn_01x02-Connector1-hiltop_backplane_brd-rescue J10
 U 1 1 5C155F47
 P 8475 3425
-F 0 "J10" H 8450 3600 50  0000 L CNN
-F 1 "Conn_01x02" H 8275 3525 50  0000 L CNN
+F 0 "J10" H 8400 3525 50  0000 L CNN
+F 1 "PSU3" H 8375 3225 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A2_2x01_P4.20mm_Vertical" H 8475 3425 50  0001 C CNN
 F 3 "~" H 8475 3425 50  0001 C CNN
 F 4 "709-002" H 0   0   50  0001 C CNN "Devtank"
@@ -360,12 +352,6 @@ Wire Wire Line
 	8725 2800 8825 2800
 Wire Wire Line
 	8825 2800 8825 2875
-Text HLabel 7500 2700 0    60   Input ~ 0
-+2V5
-Text HLabel 7500 2800 0    60   Input ~ 0
-+1V8
-Text HLabel 9625 2700 2    60   Input ~ 0
-+1V2
 $Comp
 L power:GND #PWR034
 U 1 1 5C1EE135
@@ -377,8 +363,6 @@ F 3 "" H 8825 2875 50  0001 C CNN
 	1    8825 2875
 	1    0    0    -1  
 $EndComp
-Text HLabel 7900 3425 0    60   Input ~ 0
-VADJ_DC
 $Comp
 L power:GND #PWR033
 U 1 1 5C1F5843
@@ -397,15 +381,7 @@ Wire Wire Line
 Wire Wire Line
 	8725 2700 8950 2700
 Wire Wire Line
-	7900 3425 8275 3425
-Wire Wire Line
-	8700 1725 8925 1725
-Wire Wire Line
-	8700 1825 8925 1825
-Wire Wire Line
-	8700 1925 8925 1925
-Wire Wire Line
-	8700 2025 8925 2025
+	8150 3425 8275 3425
 $Comp
 L hiltop_backplane_brd-rescue:Polyfuse-device-hiltop_backplane_brd-rescue R47
 U 1 1 5C36D98A
@@ -449,8 +425,6 @@ Wire Wire Line
 Wire Wire Line
 	7500 2700 7800 2700
 Wire Wire Line
-	7500 2800 7800 2800
-Wire Wire Line
 	2500 1975 2500 2775
 Wire Wire Line
 	2625 2775 2500 2775
@@ -477,4 +451,126 @@ NoConn ~ 4850 2475
 NoConn ~ 4850 2575
 NoConn ~ 4850 2675
 NoConn ~ 4850 2775
+$Comp
+L power:+2V5 #PWR?
+U 1 1 60E655E6
+P 7500 2600
+AR Path="/5A077BA2/60E655E6" Ref="#PWR?"  Part="1" 
+AR Path="/5C074E5E/60E655E6" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0130" H 7500 2450 50  0001 C CNN
+F 1 "+2V5" H 7515 2773 50  0000 C CNN
+F 2 "" H 7500 2600 50  0001 C CNN
+F 3 "" H 7500 2600 50  0001 C CNN
+	1    7500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60E655EC
+P 9350 1875
+AR Path="/5A077BA2/60E655EC" Ref="#PWR?"  Part="1" 
+AR Path="/5C074E5E/60E655EC" Ref="#PWR0131"  Part="1" 
+F 0 "#PWR0131" H 9350 1725 50  0001 C CNN
+F 1 "+3V3" H 9365 2048 50  0000 C CNN
+F 2 "" H 9350 1875 50  0001 C CNN
+F 3 "" H 9350 1875 50  0001 C CNN
+	1    9350 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V2 #PWR?
+U 1 1 60E655F2
+P 9625 2625
+AR Path="/5A077BA2/60E655F2" Ref="#PWR?"  Part="1" 
+AR Path="/5C074E5E/60E655F2" Ref="#PWR0132"  Part="1" 
+F 0 "#PWR0132" H 9625 2475 50  0001 C CNN
+F 1 "+1V2" H 9640 2798 50  0000 C CNN
+F 2 "" H 9625 2625 50  0001 C CNN
+F 3 "" H 9625 2625 50  0001 C CNN
+	1    9625 2625
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V8 #PWR?
+U 1 1 60E655F8
+P 7200 2600
+AR Path="/5A077BA2/60E655F8" Ref="#PWR?"  Part="1" 
+AR Path="/5C074E5E/60E655F8" Ref="#PWR0133"  Part="1" 
+F 0 "#PWR0133" H 7200 2450 50  0001 C CNN
+F 1 "+1V8" H 7215 2773 50  0000 C CNN
+F 2 "" H 7200 2600 50  0001 C CNN
+F 3 "" H 7200 2600 50  0001 C CNN
+	1    7200 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9625 2625 9625 2700
+Wire Wire Line
+	7500 2600 7500 2700
+Wire Wire Line
+	7200 2600 7200 2800
+Wire Wire Line
+	7200 2800 7800 2800
+$Comp
+L power:+5V #PWR0134
+U 1 1 62F4211C
+P 9225 1725
+F 0 "#PWR0134" H 9225 1575 50  0001 C CNN
+F 1 "+5V" H 9240 1898 50  0000 C CNN
+F 2 "" H 9225 1725 50  0001 C CNN
+F 3 "" H 9225 1725 50  0001 C CNN
+	1    9225 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Devtank:-5V #PWR0135
+U 1 1 62F42915
+P 9225 2150
+F 0 "#PWR0135" H 9225 2000 50  0001 C CNN
+F 1 "-5V" H 9240 2323 50  0000 C CNN
+F 2 "" H 9225 2150 50  0000 C CNN
+F 3 "" H 9225 2150 50  0000 C CNN
+	1    9225 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR0136
+U 1 1 62F432BB
+P 9100 1575
+F 0 "#PWR0136" H 9100 1425 50  0001 C CNN
+F 1 "+12V" H 9115 1748 50  0000 C CNN
+F 2 "" H 9100 1575 50  0001 C CNN
+F 3 "" H 9100 1575 50  0001 C CNN
+	1    9100 1575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 1725 9100 1575
+Wire Wire Line
+	8700 1725 9100 1725
+Wire Wire Line
+	9225 1825 9225 1725
+Wire Wire Line
+	8700 1825 9225 1825
+Wire Wire Line
+	9350 1875 9350 2025
+Wire Wire Line
+	8700 2025 9350 2025
+Wire Wire Line
+	9225 1925 9225 2150
+Wire Wire Line
+	8700 1925 9225 1925
+$Comp
+L Devtank:+V_ADJ #PWR0137
+U 1 1 62F6F17A
+P 8150 3325
+F 0 "#PWR0137" H 8150 3175 50  0001 C CNN
+F 1 "+V_ADJ" H 8165 3498 50  0000 C CNN
+F 2 "" H 8150 3325 50  0000 C CNN
+F 3 "" H 8150 3325 50  0000 C CNN
+	1    8150 3325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 3425 8150 3325
 $EndSCHEMATC

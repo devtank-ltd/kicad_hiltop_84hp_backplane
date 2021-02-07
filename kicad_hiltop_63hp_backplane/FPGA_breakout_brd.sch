@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
-Sheet 5 6
+Sheet 6 6
 Title "63HP HILTOP Backplane"
 Date "2021-02-04"
 Rev "C"
