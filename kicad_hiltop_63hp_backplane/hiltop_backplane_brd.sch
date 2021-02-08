@@ -1088,8 +1088,6 @@ F 3 "~" H 13025 9275 50  0001 C CNN
 	1    12825 9275
 	1    0    0    -1  
 $EndComp
-Text Label 10075 3850 2    60   ~ 0
-FPGA_GPIO1
 Text Label 10075 3950 2    60   ~ 0
 FPGA_GPIO2
 Text Label 10075 4050 2    60   ~ 0
@@ -1436,8 +1434,6 @@ Wire Wire Line
 	13750 5600 14525 5600
 Wire Wire Line
 	13750 5700 14525 5700
-Text Label 11225 3000 0    60   ~ 0
-FPGA_GPIO1
 Text Label 11225 3100 0    60   ~ 0
 FPGA_GPIO2
 Text Label 11225 3200 0    60   ~ 0
@@ -1909,4 +1905,8 @@ Text Notes 10425 2300 1    60   ~ 0
 LVDS - Track as 100ohm \ndifferential pairs
 Text Notes 14675 5375 0    60   ~ 0
 USB2.0 - Track as 90ohm \ndifferential pairs
+Text Label 10075 3850 2    60   ~ 0
+FPGA_GPIO1
+Text Label 11225 3000 0    60   ~ 0
+FPGA_GPIO1
 $EndSCHEMATC
