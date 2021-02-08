@@ -1098,7 +1098,7 @@ AR Path="/5D0D4D61" Ref="TP?"  Part="1"
 AR Path="/5A077B59/5D0D4D61" Ref="TP15"  Part="1" 
 F 0 "TP15" V 5425 4525 50  0000 C CNN
 F 1 "+1V8_REG_OUT" V 5350 4750 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5600 4275 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 5600 4275 50  0001 C CNN
 F 3 "~" H 5600 4275 50  0001 C CNN
 	1    5400 4275
 	0    -1   -1   0   
