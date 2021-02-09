@@ -986,7 +986,7 @@ Wire Wire Line
 Wire Wire Line
 	13075 9275 13075 9300
 $Comp
-L Devtank:+V_ADJ #PWR?
+L hiltop_backplane_brd-rescue:+V_ADJ-Devtank #PWR?
 U 1 1 642E558C
 P 13325 9000
 AR Path="/5C074E5E/642E558C" Ref="#PWR?"  Part="1" 

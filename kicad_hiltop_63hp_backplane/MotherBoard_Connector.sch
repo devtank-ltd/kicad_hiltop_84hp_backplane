@@ -561,7 +561,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 1925 9225 1925
 $Comp
-L Devtank:+V_ADJ #PWR0137
+L hiltop_backplane_brd-rescue:+V_ADJ-Devtank #PWR0137
 U 1 1 62F6F17A
 P 8150 3325
 F 0 "#PWR0137" H 8150 3175 50  0001 C CNN

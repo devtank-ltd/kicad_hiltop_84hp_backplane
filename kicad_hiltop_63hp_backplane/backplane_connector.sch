@@ -1830,7 +1830,7 @@ F 3 "" H 7275 1175 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Devtank:+V_ADJ #PWR?
+L hiltop_backplane_brd-rescue:+V_ADJ-Devtank #PWR?
 U 1 1 66AADB84
 P 7275 1975
 AR Path="/5C074E5E/66AADB84" Ref="#PWR?"  Part="1" 
@@ -1901,7 +1901,7 @@ F 3 "" H 7275 5225 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Devtank:+V_ADJ #PWR?
+L hiltop_backplane_brd-rescue:+V_ADJ-Devtank #PWR?
 U 1 1 66B7D0F9
 P 7275 6025
 AR Path="/5C074E5E/66B7D0F9" Ref="#PWR?"  Part="1" 
@@ -1972,7 +1972,7 @@ F 3 "" H 7275 9275 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Devtank:+V_ADJ #PWR?
+L hiltop_backplane_brd-rescue:+V_ADJ-Devtank #PWR?
 U 1 1 66C3A67A
 P 7275 10075
 AR Path="/5C074E5E/66C3A67A" Ref="#PWR?"  Part="1" 
