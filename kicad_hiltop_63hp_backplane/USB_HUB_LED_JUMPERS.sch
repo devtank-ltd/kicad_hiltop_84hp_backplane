@@ -1119,18 +1119,16 @@ USB_~RESET
 $Comp
 L power:GND #PWR?
 U 1 1 5CAD1D3C
-P 1600 2900
+P 1600 2850
 AR Path="/5A077B59/5CAD1D3C" Ref="#PWR?"  Part="1" 
 AR Path="/5A077C30/5CAD1D3C" Ref="#PWR041"  Part="1" 
-F 0 "#PWR041" H 1600 2650 50  0001 C CNN
-F 1 "GND" H 1600 2750 50  0000 C CNN
-F 2 "" H 1600 2900 50  0001 C CNN
-F 3 "" H 1600 2900 50  0001 C CNN
-	1    1600 2900
+F 0 "#PWR041" H 1600 2600 50  0001 C CNN
+F 1 "GND" H 1600 2700 50  0000 C CNN
+F 2 "" H 1600 2850 50  0001 C CNN
+F 3 "" H 1600 2850 50  0001 C CNN
+	1    1600 2850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1600 2900 1600 2850
 $Comp
 L hiltop_backplane_brd-rescue:R-device-hiltop_backplane_brd-rescue R51
 U 1 1 5CAE6BDA
@@ -1144,95 +1142,26 @@ F 3 "" H 2325 3250 50  0001 C CNN
 $EndComp
 $Comp
 L hiltop_backplane_brd-rescue:C-device-hiltop_backplane_brd-rescue C?
-U 1 1 5CAE6D14
-P 1825 3650
-AR Path="/5A077B59/5CAE6D14" Ref="C?"  Part="1" 
-AR Path="/5A077C30/5CAE6D14" Ref="C39"  Part="1" 
-F 0 "C39" H 2000 3600 50  0000 L CNN
-F 1 "18pF" H 1950 3675 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1863 3500 50  0001 C CNN
-F 3 "" H 1825 3650 50  0001 C CNN
-	1    1825 3650
-	-1   0    0    1   
-$EndComp
-$Comp
-L hiltop_backplane_brd-rescue:C-device-hiltop_backplane_brd-rescue C?
 U 1 1 5CAE7273
-P 2100 3650
+P 1800 3650
 AR Path="/5A077B59/5CAE7273" Ref="C?"  Part="1" 
 AR Path="/5A077C30/5CAE7273" Ref="C42"  Part="1" 
-F 0 "C42" H 1850 3600 50  0000 L CNN
-F 1 "18pF" H 1800 3675 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2138 3500 50  0001 C CNN
-F 3 "" H 2100 3650 50  0001 C CNN
-F 4 "105-002" H 0   0   50  0001 C CNN "Devtank"
-	1    2100 3650
+F 0 "C42" H 1550 3600 50  0000 L CNN
+F 1 "18pF" H 1500 3675 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1838 3500 50  0001 C CNN
+F 3 "" H 1800 3650 50  0001 C CNN
+F 4 "105-002" H -300 0   50  0001 C CNN "Devtank"
+	1    1800 3650
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	2400 3550 2325 3550
 Wire Wire Line
-	2325 3550 2325 3450
-Wire Wire Line
-	2100 3500 2100 3450
-Wire Wire Line
-	2100 3450 2325 3450
-Connection ~ 2325 3450
-Wire Wire Line
-	2325 3450 2325 3400
+	1800 3500 1800 3450
 Wire Wire Line
 	2400 3000 2325 3000
 Wire Wire Line
-	2325 3000 2325 3050
-Wire Wire Line
-	2325 3050 2100 3050
-Wire Wire Line
-	1825 3050 1825 3500
-Connection ~ 2325 3050
-Wire Wire Line
-	2325 3050 2325 3100
-$Comp
-L hiltop_backplane_brd-rescue:Crystal-device-hiltop_backplane_brd-rescue Y2
-U 1 1 5CB3EC9D
-P 2100 3250
-F 0 "Y2" V 2000 3075 50  0000 L CNN
-F 1 "24Mhz Xtal" V 2225 3000 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_7050-2Pin_7.0x5.0mm" H 2100 3250 50  0001 C CNN
-F 3 "" H 2100 3250 50  0001 C CNN
-F 4 "181-003" H 0   0   50  0001 C CNN "Devtank"
-	1    2100 3250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2100 3100 2100 3050
-Connection ~ 2100 3050
-Wire Wire Line
-	2100 3050 1825 3050
-Wire Wire Line
-	2100 3400 2100 3450
-Connection ~ 2100 3450
-Wire Wire Line
-	2100 3800 2100 3850
-Wire Wire Line
-	2100 3850 1825 3850
-Wire Wire Line
-	1825 3850 1825 3800
-$Comp
-L power:GND #PWR?
-U 1 1 5CBE038A
-P 1825 3900
-AR Path="/5A077B59/5CBE038A" Ref="#PWR?"  Part="1" 
-AR Path="/5A077C30/5CBE038A" Ref="#PWR042"  Part="1" 
-F 0 "#PWR042" H 1825 3650 50  0001 C CNN
-F 1 "GND" H 1825 3750 50  0000 C CNN
-F 2 "" H 1825 3900 50  0001 C CNN
-F 3 "" H 1825 3900 50  0001 C CNN
-	1    1825 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1825 3900 1825 3850
-Connection ~ 1825 3850
+	1800 3800 1800 3850
 $Comp
 L hiltop_backplane_brd-rescue:C-device-hiltop_backplane_brd-rescue C?
 U 1 1 5CBF7F97
@@ -1514,4 +1443,105 @@ F 3 "" H 2400 700 50  0001 C CNN
 	1    2400 700 
 	1    0    0    -1  
 $EndComp
+Connection ~ 1525 3850
+Wire Wire Line
+	1525 3900 1525 3850
+$Comp
+L power:GND #PWR?
+U 1 1 5CBE038A
+P 1525 3900
+AR Path="/5A077B59/5CBE038A" Ref="#PWR?"  Part="1" 
+AR Path="/5A077C30/5CBE038A" Ref="#PWR042"  Part="1" 
+F 0 "#PWR042" H 1525 3650 50  0001 C CNN
+F 1 "GND" H 1525 3750 50  0000 C CNN
+F 2 "" H 1525 3900 50  0001 C CNN
+F 3 "" H 1525 3900 50  0001 C CNN
+	1    1525 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1525 3850 1525 3800
+Wire Wire Line
+	1800 3850 1525 3850
+Wire Wire Line
+	1525 3050 1525 3500
+$Comp
+L hiltop_backplane_brd-rescue:C-device-hiltop_backplane_brd-rescue C?
+U 1 1 5CAE6D14
+P 1525 3650
+AR Path="/5A077B59/5CAE6D14" Ref="C?"  Part="1" 
+AR Path="/5A077C30/5CAE6D14" Ref="C39"  Part="1" 
+F 0 "C39" H 1700 3600 50  0000 L CNN
+F 1 "18pF" H 1650 3675 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1563 3500 50  0001 C CNN
+F 3 "" H 1525 3650 50  0001 C CNN
+	1    1525 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2325 3400 2325 3450
+Wire Wire Line
+	2325 3000 2325 3050
+Connection ~ 2325 3050
+Wire Wire Line
+	2325 3050 2325 3100
+Wire Wire Line
+	1800 3450 1900 3450
+Connection ~ 2325 3450
+Wire Wire Line
+	2325 3450 2325 3550
+Wire Wire Line
+	1525 3050 1900 3050
+Wire Wire Line
+	1900 3100 1900 3050
+Connection ~ 1900 3050
+Wire Wire Line
+	1900 3050 2325 3050
+Wire Wire Line
+	1900 3400 1900 3450
+Connection ~ 1900 3450
+Wire Wire Line
+	1900 3450 2325 3450
+$Comp
+L power:GND #PWR?
+U 1 1 603C014A
+P 2175 3250
+AR Path="/5A077B59/603C014A" Ref="#PWR?"  Part="1" 
+AR Path="/5A077C30/603C014A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2175 3000 50  0001 C CNN
+F 1 "GND" H 2175 3100 50  0000 C CNN
+F 2 "" H 2175 3250 50  0001 C CNN
+F 3 "" H 2175 3250 50  0001 C CNN
+	1    2175 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 603C09B2
+P 1625 3250
+AR Path="/5A077B59/603C09B2" Ref="#PWR?"  Part="1" 
+AR Path="/5A077C30/603C09B2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1625 3000 50  0001 C CNN
+F 1 "GND" H 1625 3100 50  0000 C CNN
+F 2 "" H 1625 3250 50  0001 C CNN
+F 3 "" H 1625 3250 50  0001 C CNN
+	1    1625 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal_GND24 Y2
+U 1 1 5CB3EC9D
+P 1900 3250
+F 0 "Y2" V 1750 3075 50  0000 L CNN
+F 1 "24Mhz Xtal" V 2150 3025 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm" H 1900 3250 50  0001 C CNN
+F 3 "" H 1900 3250 50  0001 C CNN
+F 4 "181-003" H -200 0   50  0001 C CNN "Devtank"
+	1    1900 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1625 3250 1700 3250
+Wire Wire Line
+	2100 3250 2175 3250
 $EndSCHEMATC
