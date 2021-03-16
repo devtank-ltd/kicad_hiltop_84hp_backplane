@@ -1,0 +1,16 @@
+*********************************
+Changes incorporated in Rev B:
+*********************************
+1. Updated PSU pin mapping to connectors J8, J10 and J9
+2. Add 0R links route I/O through unused SoC module.
+
+*********************************
+Changes incorporated in Rev C:
+*********************************
+1. Moved to 6 layer board to improve tracking/isolation
+2. Updated signal names to add clarity.
+3. Removed jumpers for programming SoC (too vendor specific)
+4. Updated license details
+
+
+
