@@ -6230,25 +6230,25 @@
       (reference "R8") (unit 1) (value "12K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005a077b59/00000000-0000-0000-0000-00005a286a3d"
-      (reference "R9") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R9") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005a077b59/00000000-0000-0000-0000-00005a286c57"
-      (reference "R10") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R10") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005a077b59/00000000-0000-0000-0000-00005a286cd9"
-      (reference "R11") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R11") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005a077b59/00000000-0000-0000-0000-00005a286d5e"
-      (reference "R12") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R12") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005a077b59/00000000-0000-0000-0000-00005a28a99d"
       (reference "R13") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005a077b59/00000000-0000-0000-0000-00005a286f0c"
-      (reference "R14") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R14") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005a077b59/00000000-0000-0000-0000-00005a286f9b"
-      (reference "R15") (unit 1) (value "0") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R15") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005a077b59/00000000-0000-0000-0000-00005a432905"
       (reference "R16") (unit 1) (value "330") (footprint "Resistor_SMD:R_0402_1005Metric")

@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name hiltop_backplane_brd-cache)(type Legacy)(uri ${KIPRJMOD}/hiltop_backplane_brd-cache.lib)(options "")(descr ""))
-  (lib (name hiltop_backplane_brd-rescue)(type Legacy)(uri ${KIPRJMOD}/hiltop_backplane_brd-rescue.lib)(options "")(descr ""))
-  (lib (name ice40-hx8K_breakout_brd-rescue)(type Legacy)(uri ${KIPRJMOD}/ice40-hx8K_breakout_brd-rescue.lib)(options "")(descr ""))
+  (lib (name "hiltop_backplane_brd-cache")(type "Legacy")(uri "${KIPRJMOD}/hiltop_backplane_brd-cache.lib")(options "")(descr ""))
+  (lib (name "hiltop_backplane_brd-rescue")(type "Legacy")(uri "${KIPRJMOD}/hiltop_backplane_brd-rescue.lib")(options "")(descr ""))
+  (lib (name "Devtank")(type "KiCad")(uri "${KIPRJMOD}/../common/Devtank_Schema_Lib/Devtank.kicad_sym")(options "")(descr ""))
 )
