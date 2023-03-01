@@ -6092,7 +6092,7 @@
       (reference "F23") (unit 1) (value "1206L050") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/1bb82b03-7499-4f5f-aa2e-ef094395bdb5"
-      (reference "F24") (unit 1) (value "1206L050") (footprint "Fuse:Fuse_1206_3216Metric")
+      (reference "F24") (unit 1) (value "2920L100PR") (footprint "Fuse:Fuse_2920_7451Metric")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/92f31885-1a7c-4c6d-8c06-15ecd9413d35"
       (reference "F25") (unit 1) (value "1206L050") (footprint "Fuse:Fuse_1206_3216Metric")
@@ -6107,7 +6107,7 @@
       (reference "F28") (unit 1) (value "1206L050") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/0d371705-60fc-4ff1-b442-5d28132e4f97"
-      (reference "F29") (unit 1) (value "1206L050") (footprint "Fuse:Fuse_1206_3216Metric")
+      (reference "F29") (unit 1) (value "2920L100PR") (footprint "Fuse:Fuse_2920_7451Metric")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/3a0638d0-b05f-483b-8822-e337e2966a13"
       (reference "F30") (unit 1) (value "1206L050") (footprint "Fuse:Fuse_1206_3216Metric")
@@ -6122,73 +6122,73 @@
       (reference "F33") (unit 1) (value "1206L050") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/dff03160-e67f-41e2-98e7-a443dc94a029"
-      (reference "F34") (unit 1) (value "1206L050") (footprint "Fuse:Fuse_1206_3216Metric")
+      (reference "F34") (unit 1) (value "2920L100PR") (footprint "Fuse:Fuse_2920_7451Metric")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/910eb48a-2d16-415e-b136-e272f98b6cf7"
-      (reference "J1") (unit 1) (value "CONN_DIN_HDR_96POS") (footprint "Connectors_IEC_DIN:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
+      (reference "J1") (unit 1) (value "CONN_DIN_HDR_96POS") (footprint "Devtank_PCB_Lib:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/93c1bc77-c13d-4224-86d7-84cbc4aeafd2"
-      (reference "J1") (unit 2) (value "CONN_DIN_HDR_96POS") (footprint "Connectors_IEC_DIN:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
+      (reference "J1") (unit 2) (value "CONN_DIN_HDR_96POS") (footprint "Devtank_PCB_Lib:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/81c8e1e3-6389-4137-b272-ae24632ee320"
-      (reference "J1") (unit 3) (value "CONN_DIN_HDR_96POS") (footprint "Connectors_IEC_DIN:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
+      (reference "J1") (unit 3) (value "CONN_DIN_HDR_96POS") (footprint "Devtank_PCB_Lib:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/afdd6367-88bd-4c40-8178-7cd7696e400a"
-      (reference "J2") (unit 1) (value "CONN_DIN_HDR_96POS") (footprint "Connectors_IEC_DIN:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
+      (reference "J2") (unit 1) (value "CONN_DIN_HDR_96POS") (footprint "Devtank_PCB_Lib:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/cb1b25d8-c523-4dc4-b8ae-a18ea89ffc46"
-      (reference "J2") (unit 2) (value "CONN_DIN_HDR_96POS") (footprint "Connectors_IEC_DIN:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
+      (reference "J2") (unit 2) (value "CONN_DIN_HDR_96POS") (footprint "Devtank_PCB_Lib:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/471529ba-55b5-4bb4-bf33-b37ecb73fb31"
-      (reference "J2") (unit 3) (value "CONN_DIN_HDR_96POS") (footprint "Connectors_IEC_DIN:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
+      (reference "J2") (unit 3) (value "CONN_DIN_HDR_96POS") (footprint "Devtank_PCB_Lib:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/99f26778-b58e-42c0-aa63-1779930942cb"
-      (reference "J3") (unit 1) (value "CONN_DIN_HDR_96POS") (footprint "Connectors_IEC_DIN:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
+      (reference "J3") (unit 1) (value "CONN_DIN_HDR_96POS") (footprint "Devtank_PCB_Lib:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/5e8880d8-c200-43d5-b295-7ff799977fa7"
-      (reference "J3") (unit 2) (value "CONN_DIN_HDR_96POS") (footprint "Connectors_IEC_DIN:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
+      (reference "J3") (unit 2) (value "CONN_DIN_HDR_96POS") (footprint "Devtank_PCB_Lib:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/b787fe53-bf4a-47b4-a78f-bdeb5a0e6bc1"
-      (reference "J3") (unit 3) (value "CONN_DIN_HDR_96POS") (footprint "Connectors_IEC_DIN:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
+      (reference "J3") (unit 3) (value "CONN_DIN_HDR_96POS") (footprint "Devtank_PCB_Lib:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/00000000-0000-0000-0000-00005c446251"
-      (reference "J4") (unit 1) (value "CONN_DIN_HDR_96POS") (footprint "Connectors_IEC_DIN:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
+      (reference "J4") (unit 1) (value "CONN_DIN_HDR_96POS") (footprint "Devtank_PCB_Lib:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/00000000-0000-0000-0000-00005c446e37"
-      (reference "J4") (unit 2) (value "CONN_DIN_HDR_96POS") (footprint "Connectors_IEC_DIN:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
+      (reference "J4") (unit 2) (value "CONN_DIN_HDR_96POS") (footprint "Devtank_PCB_Lib:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/00000000-0000-0000-0000-00005c447924"
-      (reference "J4") (unit 3) (value "CONN_DIN_HDR_96POS") (footprint "Connectors_IEC_DIN:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
+      (reference "J4") (unit 3) (value "CONN_DIN_HDR_96POS") (footprint "Devtank_PCB_Lib:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/00000000-0000-0000-0000-00005c4466c1"
-      (reference "J5") (unit 1) (value "CONN_DIN_HDR_96POS") (footprint "Connectors_IEC_DIN:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
+      (reference "J5") (unit 1) (value "CONN_DIN_HDR_96POS") (footprint "Devtank_PCB_Lib:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/00000000-0000-0000-0000-00005c4471b0"
-      (reference "J5") (unit 2) (value "CONN_DIN_HDR_96POS") (footprint "Connectors_IEC_DIN:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
+      (reference "J5") (unit 2) (value "CONN_DIN_HDR_96POS") (footprint "Devtank_PCB_Lib:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/00000000-0000-0000-0000-00005c447ceb"
-      (reference "J5") (unit 3) (value "CONN_DIN_HDR_96POS") (footprint "Connectors_IEC_DIN:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
+      (reference "J5") (unit 3) (value "CONN_DIN_HDR_96POS") (footprint "Devtank_PCB_Lib:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/00000000-0000-0000-0000-00005c446aba"
-      (reference "J6") (unit 1) (value "CONN_DIN_HDR_96POS") (footprint "Connectors_IEC_DIN:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
+      (reference "J6") (unit 1) (value "CONN_DIN_HDR_96POS") (footprint "Devtank_PCB_Lib:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/00000000-0000-0000-0000-00005c44765e"
-      (reference "J6") (unit 2) (value "CONN_DIN_HDR_96POS") (footprint "Connectors_IEC_DIN:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
+      (reference "J6") (unit 2) (value "CONN_DIN_HDR_96POS") (footprint "Devtank_PCB_Lib:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/00000000-0000-0000-0000-00005c447f84"
-      (reference "J6") (unit 3) (value "CONN_DIN_HDR_96POS") (footprint "Connectors_IEC_DIN:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
+      (reference "J6") (unit 3) (value "CONN_DIN_HDR_96POS") (footprint "Devtank_PCB_Lib:Socket_DIN41612-CaseC1-full-Female-96Pin-3rows")
     )
     (path "/00000000-0000-0000-0000-00005c074e5e/00000000-0000-0000-0000-00005c13457d"
       (reference "J7") (unit 1) (value "HILTOP_PCIE-64_CONN") (footprint "Devtank_PCB_Lib:CONN PCI EXP FEMALE 64POS 0.039")
     )
     (path "/00000000-0000-0000-0000-00005c074e5e/00000000-0000-0000-0000-00005c155d60"
-      (reference "J8") (unit 1) (value "PSU1") (footprint "Connector_Molex:Molex_Mini-Fit_Jr_5566-08A_2x04_P4.20mm_Vertical")
+      (reference "J8") (unit 1) (value "PSU1") (footprint "Devtank_PCB_Lib:Molex_Mini-Fit_Jr_5566-08A_2x04_P4.20mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005c074e5e/00000000-0000-0000-0000-00005c155e73"
-      (reference "J9") (unit 1) (value "PSU2") (footprint "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical")
+      (reference "J9") (unit 1) (value "PSU2") (footprint "Devtank_PCB_Lib:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005c074e5e/00000000-0000-0000-0000-00005c155f47"
-      (reference "J10") (unit 1) (value "PSU3") (footprint "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A2_2x01_P4.20mm_Vertical")
+      (reference "J10") (unit 1) (value "PSU3") (footprint "Devtank_PCB_Lib:Molex_Mini-Fit_Jr_5566-02A_2x01_P4.20mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005a077ba2/00000000-0000-0000-0000-00005a3a8985"
       (reference "J11") (unit 1) (value "SO-DIMM") (footprint "Devtank_PCB_Lib:Conn_TE-DDR2-SODIMM-0.6-200P-ComputeModule")
