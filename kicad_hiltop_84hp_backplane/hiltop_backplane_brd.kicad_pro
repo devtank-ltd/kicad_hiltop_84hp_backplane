@@ -48,7 +48,13 @@
           "min_clearance": 0.127
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -116,6 +122,7 @@
       "track_widths": [
         0.0,
         0.15,
+        0.2,
         0.25,
         0.36,
         0.5,
@@ -394,6 +401,41 @@
       },
       {
         "bus_width": 12.0,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.1,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "90R",
+        "nets": [
+          "/FTDI_USB_DN",
+          "/FTDI_USB_DP",
+          "/MB_USB_DN",
+          "/MB_USB_DP",
+          "/USB1_N",
+          "/USB1_P",
+          "/USB2_N",
+          "/USB2_P",
+          "/USB3_N",
+          "/USB3_P",
+          "/USB4_N",
+          "/USB4_P",
+          "/USB5_N",
+          "/USB5_P",
+          "/USB7_N",
+          "/USB7_P"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
         "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -423,6 +465,12 @@
         "nets": [
           "/DP1+",
           "/DP1-",
+          "/DP10+",
+          "/DP10-",
+          "/DP11+",
+          "/DP11-",
+          "/DP12+",
+          "/DP12-",
           "/DP2+",
           "/DP2-",
           "/DP3+",
@@ -433,6 +481,12 @@
           "/DP5-",
           "/DP6+",
           "/DP6-",
+          "/DP7+",
+          "/DP7-",
+          "/DP8+",
+          "/DP8-",
+          "/DP9+",
+          "/DP9-",
           "/LVPECLK+",
           "/LVPECLK-"
         ],
