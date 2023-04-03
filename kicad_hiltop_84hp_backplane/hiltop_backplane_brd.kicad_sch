@@ -6368,10 +6368,10 @@
       (reference "R57") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005a077c30/00000000-0000-0000-0000-00005c5c7700"
-      (reference "R58") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R58") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005a077c30/00000000-0000-0000-0000-00005c5972df"
-      (reference "R59") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R59") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005a077c30/00000000-0000-0000-0000-00005c0ff881"
       (reference "R68") (unit 1) (value "330R") (footprint "Resistor_SMD:R_0402_1005Metric")
