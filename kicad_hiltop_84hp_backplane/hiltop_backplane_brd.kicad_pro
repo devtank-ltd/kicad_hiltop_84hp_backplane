@@ -87,7 +87,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "error",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -545,7 +545,7 @@
       "idf": "",
       "netlist": "hiltop_backplane_brd.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "hiltop_backplane_brd_84hp.step",
       "vrml": ""
     },
     "page_layout_descr_file": "../common/Devtank_KiCAD_Setup/Devtank_Dwg_Template.kicad_wks"
