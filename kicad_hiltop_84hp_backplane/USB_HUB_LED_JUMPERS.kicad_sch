@@ -5,10 +5,11 @@
   (paper "A4")
 
   (title_block
-    (title "63HP HILTOP Backplane")
-    (date "2021-02-04")
-    (rev "C")
+    (title "84HP HILTOP Backplane")
+    (date "2023-04-06")
+    (rev "A")
     (company "Devtank Ltd")
+    (comment 1 "Part No: 304-020")
   )
 
   (lib_symbols

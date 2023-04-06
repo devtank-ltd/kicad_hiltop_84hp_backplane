@@ -5,10 +5,11 @@
   (paper "A3")
 
   (title_block
-    (title "63HP HILTOP Backplane")
-    (date "2021-02-04")
-    (rev "C")
+    (title "84HP HILTOP Backplane")
+    (date "2023-04-06")
+    (rev "A")
     (company "Devtank Ltd")
+    (comment 1 "Part No: 304-020")
   )
 
   (lib_symbols
@@ -6058,6 +6059,9 @@
     (path "/00000000-0000-0000-0000-00005a077c30/00000000-0000-0000-0000-00005c0fecfe"
       (reference "D27") (unit 1) (value "LED YEL") (footprint "LED_SMD:LED_0402_1005Metric")
     )
+    (path "/00000000-0000-0000-0000-00005a0778ed/cc27150e-5ad7-4abd-8dc3-ec6b94fa55a5"
+      (reference "DNF1") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
     (path "/00000000-0000-0000-0000-00005a0778ed/00000000-0000-0000-0000-000060455c00"
       (reference "F1") (unit 1) (value "1206L075") (footprint "Fuse:Fuse_1206_3216Metric")
     )
@@ -6293,13 +6297,10 @@
       (reference "R17") (unit 1) (value "330R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/6df3799a-fe1c-4659-871e-5c4af289ab1b"
-      (reference "R18") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R18") (unit 1) (value "DNF") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/01f46a0a-05eb-4ab0-baeb-e9ee53c9f507"
-      (reference "R19") (unit 1) (value "DNF") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-00005a0778ed/cc27150e-5ad7-4abd-8dc3-ec6b94fa55a5"
-      (reference "R20") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R19") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/3249e85c-84d0-45cd-8916-8f20fa49b399"
       (reference "R21") (unit 1) (value "DNF") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -6317,10 +6318,10 @@
       (reference "R25") (unit 1) (value "DNF") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/51b35572-4799-4b23-8303-70cdac3b2085"
-      (reference "R26") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R26") (unit 1) (value "DNF") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/89c8f2eb-aa54-4bbf-89fc-e49f08b0d288"
-      (reference "R27") (unit 1) (value "DNF") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R27") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/df3e6154-2b4e-4234-8b0b-abcf8ccdf7d2"
       (reference "R28") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")

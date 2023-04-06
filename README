@@ -1,14 +1,14 @@
-Copyright Devtank Ltd 2021.
+Copyright Devtank Ltd 2023.
 
 This documentation describes Open Hardware and is Licensed under CERN-OHL-W v2.
 
 You may redistribute and modify this documentation under the terms of the CERN-OHL-W v2 (https://cern.ch/cern-ohl). This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-W v2 for applicable conditions
 
-Source location: git@github.com:devtank-ltd/kicad_hiltop_63hp_backplane.git
+Source location: ssh://git@git.devtank.co.uk:2222/Devtank/kicad_hiltop_84hp_backplane.git
 
 As per CERN-OHL-W v2 section 4.1, should You produce hardware based on these sources, You must maintain the   Source Location visible on the external case of the HILTOP or other product you make using this documentation.
 
-This folder contains HILTOP Backplane (63HP) hardware schematics, PCB layout and BOM files. 
+This folder contains HILTOP Backplane (84HP) hardware schematics, PCB layout and BOM files. 
 
 You will need Kicad to open hardware design files.
 
