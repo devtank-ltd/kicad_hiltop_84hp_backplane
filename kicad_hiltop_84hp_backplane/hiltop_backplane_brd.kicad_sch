@@ -6059,9 +6059,6 @@
     (path "/00000000-0000-0000-0000-00005a077c30/00000000-0000-0000-0000-00005c0fecfe"
       (reference "D27") (unit 1) (value "LED YEL") (footprint "LED_SMD:LED_0402_1005Metric")
     )
-    (path "/00000000-0000-0000-0000-00005a0778ed/cc27150e-5ad7-4abd-8dc3-ec6b94fa55a5"
-      (reference "DNF1") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
     (path "/00000000-0000-0000-0000-00005a0778ed/00000000-0000-0000-0000-000060455c00"
       (reference "F1") (unit 1) (value "1206L075") (footprint "Fuse:Fuse_1206_3216Metric")
     )
@@ -6282,7 +6279,7 @@
       (reference "R12") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005a077b59/00000000-0000-0000-0000-00005a28a99d"
-      (reference "R13") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R13") (unit 1) (value "DNF") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005a077b59/00000000-0000-0000-0000-00005a286f0c"
       (reference "R14") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -6301,6 +6298,9 @@
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/01f46a0a-05eb-4ab0-baeb-e9ee53c9f507"
       (reference "R19") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-00005a0778ed/cc27150e-5ad7-4abd-8dc3-ec6b94fa55a5"
+      (reference "R20") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005a0778ed/3249e85c-84d0-45cd-8916-8f20fa49b399"
       (reference "R21") (unit 1) (value "DNF") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -6360,10 +6360,10 @@
       (reference "R54") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005a077c30/00000000-0000-0000-0000-00005c597163"
-      (reference "R55") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R55") (unit 1) (value "DNF") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005a077c30/00000000-0000-0000-0000-00005c5c7660"
-      (reference "R56") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R56") (unit 1) (value "DNF") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005a077c30/00000000-0000-0000-0000-00005c59723f"
       (reference "R57") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -6372,7 +6372,7 @@
       (reference "R58") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005a077c30/00000000-0000-0000-0000-00005c5972df"
-      (reference "R59") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R59") (unit 1) (value "DNF") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005a077c30/00000000-0000-0000-0000-00005c0ff881"
       (reference "R68") (unit 1) (value "330R") (footprint "Resistor_SMD:R_0402_1005Metric")
