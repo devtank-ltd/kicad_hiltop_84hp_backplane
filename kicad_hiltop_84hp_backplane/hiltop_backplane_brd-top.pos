@@ -1,4 +1,4 @@
-### Module positions - created on Tue 11 Apr 2023 14:41:09 BST ###
+### Module positions - created on Wed 03 May 2023 15:06:57 BST ###
 ### Printed by Pcbnew version 6.0.7-f9a2dced07~116~ubuntu22.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -108,6 +108,8 @@ F31       1206L050                   Fuse_1206_3216Metric                       
 F32       1206L050                   Fuse_1206_3216Metric                               319.0000   -66.0000   90.0000  top
 F33       1206L050                   Fuse_1206_3216Metric                               319.0000   -70.7500   90.0000  top
 F34       2920L100PR                 Fuse_2920_7451Metric                               325.6460   -82.1055    0.0000  top
+F35       Fiducial                   Fiducial_1mm_Mask2mm                                55.9000   -33.7000    0.0000  top
+F38       Fiducial                   Fiducial_1mm_Mask2mm                               325.3000  -149.9000    0.0000  top
 G***      LOGO                       Devtank_Rev2_Logo_Small                            137.4200  -140.3800    0.0000  top
 J1        CONN_DIN_HDR_96POS         Socket_DIN41612-CaseC1-full-Female-96Pin-3rows     251.0400   -93.7000   90.0000  top
 J2        CONN_DIN_HDR_96POS         Socket_DIN41612-CaseC1-full-Female-96Pin-3rows     281.5200   -93.7000   90.0000  top
